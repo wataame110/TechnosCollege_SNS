@@ -1,0 +1,1562 @@
+@charset "UTF-8";
+/*============================
+
+Mixin
+
+============================*/
+/*--------------------------
+基本フォント14px
+フォントサイズ呼び出し用
+---------------------------*/
+/*============================
+
+SP
+
+============================*/
+@media screen and (max-width: 640px) {
+  /* line 14, ../../scss/access/sp_style.scss */
+  div.campus_wrap {
+    /*============================
+#access
+============================*/ }
+
+  /* line 15, ../../scss/access/sp_style.scss */
+  div.campus_wrap .h2_box {
+    background: url(../../img/access/h1_bg.png);
+    height: 100px; }
+
+  /* line 18, ../../scss/access/sp_style.scss */
+  div.campus_wrap .h2_box h2 {
+    padding: 30px;
+    text-align: center; }
+
+  /* line 21, ../../scss/access/sp_style.scss */
+  div.campus_wrap .h2_box h2 img {
+    width: 85px; }
+
+  /* line 30, ../../scss/access/sp_style.scss */
+  div.campus_wrap div#campus {
+    padding-bottom: 10px; }
+
+  /* line 35, ../../scss/access/sp_style.scss */
+  div.campus_wrap div#campus h2 {
+    padding-top: 15px;
+    margin-bottom: 40px; }
+
+  /* line 41, ../../scss/access/sp_style.scss */
+  div.campus_wrap div#campus div.inner {
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0 auto; }
+
+  div.campus_wrap div#campus div.innerB {
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0 auto 0; }
+
+  /*----下層およびボトムリンク共通-----*/
+  .cont_bs01 {
+    padding: 15px 0 30px 0;
+    margin: 0px 5% 0 5%; }
+
+  .cont_bs02 {
+    padding: 15px 0 0px 0;
+    margin: 0px 5% 0 5%; }
+
+  .cont_bs03 {
+    padding: 0px 0 0px 0;
+    margin: 0px 5% 0 5%; }
+
+  .campus_B {
+    padding: 30px 0% 0 0%;
+    color: #646464; }
+
+  .campus_B h3 {
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #8f82bc;
+    border-left: 6px solid #c7c1de;
+    font-size: 17px;
+    margin: 40px 5% 0 5%; }
+
+  .campus_B h3:first-child {
+    margin: 0px 5% 0 5%; }
+
+  .campus_C {
+    padding: 30px 0% 0 0%;
+    color: #646464; }
+
+  .campus_C h3 {
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #449dd6;
+    border-left: 6px solid #a2ceeb;
+    font-size: 17px;
+    margin: 40px 5% 0 5%; }
+
+  .campus_C h3:first-child {
+    margin: 0px 5% 0 5%; }
+
+  .campus_D {
+    padding: 30px 0% 0 0%;
+    color: #646464; }
+
+  .camp_block_001 ul,
+  .camp_block_002 ul,
+  .camp_block_001k ul,
+  .camp_block_002k ul {
+    margin: 0 0 15px 0; }
+
+  /*追加*/
+  .cal_wrap {
+    margin-top: -67px;
+    padding-top: 67px; }
+
+  .campus_D h3 {
+    /*
+    color:#FFF;
+    font-weight:bold;
+    padding:10px 20px;
+    background:#e97bb8;
+    border-left:6px solid #f4bddc;
+    font-size:17px;
+    margin:40px 5% 0 5% ; 
+    */ }
+
+  .campus_D h3:first-child {
+    /*
+    margin:0px 5% 0 5% ;
+    */ }
+
+  .campus_block03 {
+    /*
+    width:1200px;	
+    margin:0 auto 0;
+    padding:70px 0
+    */
+    width: 100%;
+    padding: 40px 0; }
+
+  .campus_block03_list {
+    border-left: none;
+    border-top: 6px solid #beb7d8;
+    background: #eeecf5;
+    padding: 20px;
+    width: 49%;
+    float: left;
+    margin: 0 2% 2% 0px; }
+
+  .campus_block03_list:nth-child(2),
+  .campus_block03_list:nth-child(4) {
+    margin: 0 0 2% 0; }
+
+  .campus_block03_ttl01 {
+    padding: 0px 0px 0px 0px; }
+
+  .campus_block03_ttl02 {
+    padding: 0px 0px 0px 0px; }
+
+  .campus_block03_ttl03 {
+    padding: 0px 0px 0px 0px; }
+
+  .campus_block03_ttl04 {
+    padding: 0px 0px 0px 0px; }
+
+  .campus_block03_ttl01 h3,
+  .campus_block03_ttl02 h3,
+  .campus_block03_ttl03 h3,
+  .campus_block03_ttl04 h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #646464; }
+
+  .campus_block03_list ul {
+    margin: 0px 0px;
+    font-size: 14px;
+    padding: 3px 0 0 0; }
+
+  .campus_block03_list li {
+    margin: 6px 0 0 0;
+    font-size: 12px;
+    line-height: 15pt;
+    text-align: left; }
+
+  .campus_block03_list li a {
+    background: url(../../img/campus/icon_img_05.png) left 6px no-repeat;
+    background-size: 6px 6px;
+    padding: 0 0 0 10px;
+    display: block; }
+
+  .campus_block03_list li a:hover {
+    text-decoration: underline; }
+
+  /*-----キャンパスライフ-----*/
+  div.campus_wrap .h2_box2 {
+    background: url(../../img/campus/h1_bg.png);
+    height: 100px; }
+
+  div.campus_wrap .h2_box2 h2 {
+    padding: 30px 0 0 0px;
+    text-align: center; }
+
+  div.campus_wrap .h2_box2 h2 img {
+    width: 145px; }
+
+  .h2_area2 {
+    width: 100%;
+    margin: 0 auto 0;
+    position: relative;
+    height: 260px; }
+
+  .h2_area_photo {
+    display: none; }
+
+  .h2_area_photoSP {
+    display: block; }
+
+  .campus_block01 {
+    padding: 30px 0% 80px 0%;
+    background: none;
+    background-size: cover; }
+
+  .cam_ttl01 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 20px 0;
+    color: #FFF; }
+
+  .cam_ttl01 img {
+    margin: 0 auto 0;
+    width: 191px; }
+
+  .campus_block01 p {
+    text-align: left;
+    font-size: 86%;
+    line-height: 20px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #464646; }
+
+  .campus_block02 {
+    width: 90%;
+    margin: 0 auto 0;
+    padding: 20px 0; }
+
+  .campus_block02_list {
+    border-left: 6px solid #beb7d8;
+    background: #eeecf5;
+    padding: 25px;
+    margin: 0 0px 10px 0px;
+    width: 100%; }
+
+  .campus_block02_list:nth-child(2),
+  .campus_block02_list:nth-child(4) {
+    margin: 0 0 10px 0; }
+
+  .campus_block02_ttl01 {
+    padding: 0 0px 0px 0px;
+    height: auto; }
+
+  .campus_block02_ttl02 {
+    padding: 0 0px 0px 0px;
+    height: auto; }
+
+  .campus_block02_ttl03 {
+    padding: 0 0px 0px 0px;
+    height: auto; }
+
+  .campus_block02_ttl04 {
+    padding: 0 0px 0px 0px; }
+
+  .campus_block02_list li {
+    margin: 6px 0 0 0;
+    font-size: 12px;
+    line-height: 15pt; }
+
+  .campus_block02_list li a {
+    display: block;
+    background: url(../../img/school/icon_img_05.png) left 6px no-repeat;
+    background-size: 6px 6px;
+    padding: 0 0 0 10px; }
+
+  .campus_block02_list ul {
+    margin: 0px 0px;
+    padding: 10px 0 0 0; }
+
+  .campus_block02_ttl01 h3,
+  .campus_block02_ttl02 h3,
+  .campus_block02_ttl03 h3,
+  .campus_block02_ttl04 h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #646464; }
+
+  /*-----エアトラ-----*/
+  div.campus_wrap .h2_box3 {
+    background: url(../../img/campus/h1_bg.png);
+    height: 135px; }
+
+  div.campus_wrap .h2_box3 h2 {
+    padding: 25px 0 0 0px;
+    text-align: center; }
+
+  div.campus_wrap .h2_box3 h2 img {
+    width: 216px;
+    margin: 0 auto 0; }
+
+  .campus_left01 {
+    float: none;
+    width: 90%;
+    margin: 0 auto 0; }
+
+  .campus_right01 {
+    float: none;
+    width: 90%;
+    margin: 0 auto 0; }
+
+  .cmp_pt0 {
+    padding: 0 0 0 0; }
+
+  .bgnone {
+    background: #fffcdb !important; }
+
+  .camp_month {
+    position: absolute;
+    top: 30px;
+    left: 0px; }
+
+  .camp_block_001, .camp_block_001k {
+    background: #fffcdb url(../../img/campus/air-year-event/bg_img_01.png) left top no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 25px 35px 25px 90px; }
+
+  .camp_block_002, .camp_block_002k {
+    background: #FFFFFF url(../../img/campus/air-year-event/bg_img_01.png) left top no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 25px 35px 25px 90px; }
+
+  .camp_block_002 {
+    background: #FFFFFF url(../../img/campus/air-year-event/bg_img_01.png) left top no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 25px 35px 25px 90px; }
+
+  .camp_month img {
+    width: 80px; }
+
+  .camp_block_001 h3,
+  .camp_block_002 h3 {
+    font-weight: bold;
+    background: none;
+    border: none;
+    font-size: 15px;
+    margin: 10px 0 5px 0;
+    color: #e97bb8;
+    padding: 0; }
+
+  .camp_block_001k h3,
+  .camp_block_002k h3 {
+    font-weight: bold;
+    background: none;
+    border: none;
+    font-size: 15px;
+    margin: 10px 0 5px 0;
+    color: #1584cc;
+    padding: 0; }
+
+  .camp_block_001 p,
+  .camp_block_002 p {
+    font-size: 86%; }
+
+  .ht01 {
+    height: 140px; }
+
+  .sparea01 {
+    padding: 25px 55px 25px 55px !important;
+    margin: auto; }
+
+  .camp_photo_02 {
+    margin: 15px 0 0 0; }
+
+  .lstbg {
+    background: url(../../img/campus/air-year-event/bg_img_01.png) left top no-repeat, url(../../img/campus/air-year-event/bg_img_01.png) left bottom no-repeat;
+    background-size: contain , contain; }
+
+  /*-----施設-----*/
+  div.campus_wrap .h2_box4 {
+    background: url(../../img/campus/h1_bg.png);
+    height: 120px; }
+
+  div.campus_wrap .h2_box4 h2 {
+    padding: 25px 0 0 0px;
+    text-align: center; }
+
+  div.campus_wrap .h2_box4 h2 img {
+    width: 85px; }
+
+  .campus_block04 {
+    padding: 20px 0 20px 0;
+    background: url(../../img/campus/facilities/bg_img_03sp.png) center top repeat-x;
+    /*
+    background-size:contain;
+    */ }
+
+  .campus_area04 {
+    width: 100%;
+    margin: 0 auto 0; }
+
+  .area04_left {
+    float: none;
+    width: 100%;
+    padding: 0 5%; }
+
+  .area04_right {
+    float: none;
+    width: 100%;
+    padding: 3% 15% 0 15%; }
+
+  .area04_right img {
+    width: 100%; }
+
+  .cam_ttl02 {
+    text-align: center; }
+
+  .cam_ttl02 img {
+    width: 220px; }
+
+  .area04_left p {
+    text-align: left;
+    font-size: 86%;
+    line-height: 20px;
+    margin: 20px 0 0 0; }
+
+  .fac_block01 {
+    width: 100%;
+    margin: 30px auto 0; }
+
+  .fac_block01 h3 {
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #8f82bc;
+    border-left: 6px solid #c7c1de;
+    font-size: 17px;
+    margin: 0 0 15px 0; }
+
+  .fac_block02 {
+    width: 100%;
+    margin: 80px auto 0; }
+
+  .fac_block02 h3 {
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #8f82bc;
+    border-left: 6px solid #c7c1de;
+    font-size: 17px;
+    margin: 0 0 15px 0; }
+
+  h3.h3bg01 {
+    background: #8f82bc;
+    border-left: 6px solid #c7c1de;
+    margin: 0 5% 15px 5%; }
+
+  h3.h3bg02 {
+    background: #449dd6;
+    border-left: 6px solid #a2ceeb;
+    margin: 0 5% 15px 5%; }
+
+  h3.h3bg03 {
+    background: #e97bb8;
+    border-left: 6px solid #f4bddc;
+    margin: 0 5% 15px 5%; }
+
+  h3.h3bg04 {
+    background: #004bb4;
+    border-left: 6px solid #80a5da;
+    margin: 0 5% 15px 5%; }
+
+  h3.h3bg05 {
+    background: #23af37;
+    border-left: 6px solid #91d79b;
+    margin: 0 5% 15px 5%; }
+    
+
+  .sd_ttl01 {
+    text-align: center;
+    font-weight: bold;
+    color: #8f82bc;
+    font-size: 14px;
+    margin: 20px 0 10px 0; }
+
+  .sd_ttl02 {
+    text-align: center;
+    font-weight: bold;
+    color: #1584cc;
+    font-size: 14px;
+    margin: 20px 0 10px 0; }
+
+  .sd_ttl03 {
+    text-align: center;
+    font-weight: bold;
+    color: #e97bb8;
+    font-size: 14px;
+    margin: 20px 0 10px 0; }
+
+  .sd_ttl04 {
+    text-align: center;
+    font-weight: bold;
+    color: #004bb4;
+    font-size: 14px;
+    margin: 20px 0 10px 0; }
+
+  .sd_ttl05 {
+    text-align: center;
+    font-weight: bold;
+    color: #23af37;
+    font-size: 14px;
+    margin: 20px 0 10px 0; }
+
+  .bxslider01PC p,
+  .bxslider02PC p,
+  .bxslider03PC p,
+  .bxslider04PC p,
+  .bxslider05PC p {
+    font-size: 86%;
+    line-height: 20px;
+    color: #464646;
+    padding: 0 12%; }
+
+  .slider .bx-wrapper {
+    box-shadow: none;
+    border: none;
+    margin: 0 auto 60px; }
+
+  .controlWrap .bx-controls {
+    display: none; }
+
+  .item_btn img {
+    box-shadow: 0px 3px 0px #a2a82e; }
+
+  .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #023e92 !important; }
+
+  .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #023e92 !important; }
+
+  .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #a6bad5 !important;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+
+  .bx-wrapper .bx-pager,
+  .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 10px;
+    width: 100%; }
+
+  .bx-wrapper .bx-prev {
+    left: 3% !important;
+    background: url(../../img/campus/facilities/controls_spleft.png) no-repeat 0 0 !important;
+    background-size: 12px 42px !important; }
+
+  .bx-wrapper .bx-next {
+    right: 3% !important;
+    background: url(../../img/campus/facilities/controls_spright.png) no-repeat 0 0 !important;
+    background-size: 12px 42px !important; }
+
+  .bx-wrapper .bx-controls-direction a {
+    margin-top: 0px;
+    top: 80%; }
+
+  .cmp_exblock a {
+    width: 55%;
+    display: block; }
+
+  .cmp_exblock div {
+    left: 60%;
+    top: 3px;
+    font-size: 10px;
+    padding: 2px 4px;
+    text-align: center;
+    max-width: 100px; }
+
+  	/*============================
+  #club
+  ============================*/
+  div.campus_wrap .h2_box5 {
+    background: url(../../img/campus/h1_bg.png);
+    height: 130px; }
+
+  div.campus_wrap .h2_box5 h2 {
+    padding: 30px 0 0 0px; }
+
+  div.campus_wrap .h2_box5 h2 img {
+    height: 70px; }
+
+  div#club div.block01 {
+    height: auto;
+    background: none;
+    padding: 0;
+    margin-bottom: 60px; }
+    div#club div.block01 .inner {
+      max-width: 90%;
+      min-width: 90%; }
+    div#club div.block01 h3 {
+      margin: 30px auto;
+      width: 80%; }
+    div#club div.block01 p {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 15px;
+      line-height: 25px; }
+    div#club div.block01 div.cf div {
+      width: 32%;
+      margin-bottom: 10px;
+      margin-right: 2%; }
+      div#club div.block01 div.cf div:nth-child(5n) {
+        margin-right: 2%; }
+      div#club div.block01 div.cf div:nth-child(3n) {
+        margin-right: 0; }
+      div#club div.block01 div.cf div a p {
+        padding: 11px 15px 11px 5px;
+        margin: 0;
+        font-size: 3vw; }
+        div#club div.block01 div.cf div a p:after {
+          right: 5px;
+          top: 15px;
+          width: 5px;
+          height: 5px;
+          border-left: 1px solid #fff;
+          border-bottom: 1px solid #fff; }
+      div#club div.block01 div.cf div a p.two {
+        line-height: 1.3;
+        padding-right: 15px; }
+  div#club div.block02 {
+    max-width: 90%;
+    min-width: 90%; }
+    div#club div.block02 div.box {
+      margin-bottom: 50px; }
+      div#club div.block02 div.box div.h3_box {
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 30px; }
+        div#club div.block02 div.box div.h3_box img {
+          height: 50px;
+          width: auto;
+          top: -6px; }
+        div#club div.block02 div.box div.h3_box h3 {
+          font-size: 17px;
+          padding: 13px 10px 13px 25px; }
+          div#club div.block02 div.box div.h3_box h3 span {
+            font-size: 13px; }
+      div#club div.block02 div.box div.cf img {
+        width: 100%; }
+      div#club div.block02 div.box div.cf div {
+        margin-top: 20px;
+        width: 100%; }
+        div#club div.block02 div.box div.cf div dl + dl {
+          margin-top: 20px; }
+        div#club div.block02 div.box div.cf div dl dt {
+          font-size: 16px;
+          margin-bottom: 5px; }
+        div#club div.block02 div.box div.cf div dl dd {
+          font-size: 14px;
+          line-height: 22px; }
+          div#club div.block02 div.box div.cf div dl dd table tr th {
+            width: 80px; }
+          div#club div.block02 div.box div.cf div dl dd table tr td {
+            vertical-align: top; }
+    div#club div.block02 div#badminton div.cf div dl dd table tr th {
+      width: 110px; }
+    div#club div.block02 div#motoburyuudunbujutsu div.h3_box,
+    div#club div.block02 div#trainer div.h3_box {
+      padding-left: 0px; }
+      div#club div.block02 div#motoburyuudunbujutsu div.h3_box img,
+      div#club div.block02 div#trainer div.h3_box img {
+        left: -8px; }
+      div#club div.block02 div#motoburyuudunbujutsu div.h3_box h3,
+      div#club div.block02 div#trainer div.h3_box h3 {
+        padding-left: 50px; }
+
+  /*============================
+  #international
+  ============================*/
+  div.campus_wrap .h2_box6 {
+    background: url(../../img/campus/h1_bg.png);
+    height: 120px; }
+
+  div.campus_wrap .h2_box6 h2 {
+    padding: 25px 0 0 0px; }
+
+  div.campus_wrap .h2_box6 h2 img {
+    height: 70px; }
+
+  div#international div.block01 {
+    background: none;
+    height: auto;
+    position: relative; }
+    div#international div.block01 p.obi {
+      width: 80%;
+      position: absolute;
+      left: 0;
+      bottom: -45px; }
+  div#international div.block02 {
+    background: none;
+    padding-top: 50px; }
+    div#international div.block02 div.inner {
+      max-width: 90%;
+      min-width: 90%; }
+      div#international div.block02 div.inner p.ttl {
+        width: 70%;
+        margin: 0 auto 30px; }
+      div#international div.block02 div.inner p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: left; }
+      div#international div.block02 div.inner div.block02_inner {
+        margin-top: 50px;
+        background: url(../../img/campus/international/sec02_bg02_top_sp.png) no-repeat center top, url(../../img/campus/international/sec02_bg02_btm_sp.png) no-repeat center bottom, url(../../img/campus/international/sec02_bg02_sp.png) repeat-y;
+        background-size: contain;
+        height: auto;
+        padding: 20px 20px 20px 20px; }
+        div#international div.block02 div.inner div.block02_inner p.ttl {
+          width: 60%;
+          margin: 0 auto 20px; }
+        div#international div.block02 div.inner div.block02_inner div.cf img {
+          width: 50px; }
+        div#international div.block02 div.inner div.block02_inner div.cf div.box {
+          border-bottom: 1px solid  #fff;
+          padding: 5px 0; }
+          div#international div.block02 div.inner div.block02_inner div.cf div.box p {
+            margin-left: 5px;
+            font-size: 12px;
+            max-width: inherit;
+            width: 70%; }
+            div#international div.block02 div.inner div.block02_inner div.cf div.box p span {
+              font-size: 11px; }
+        div#international div.block02 div.inner div.block02_inner div.cf div.fl {
+          width: 100%;
+          float: none;
+          border-top: 1px solid  #fff; }
+        div#international div.block02 div.inner div.block02_inner div.cf div.fr {
+          border-top: none;
+          width: 100%;
+          float: none; }
+  div#international div.block03.cf {
+    margin-bottom: 50px; }
+    div#international div.block03.cf div.box {
+      width: 100%;
+      float: none; }
+      div#international div.block03.cf div.box:nth-child(3n) {
+        width: 100%; }
+      div#international div.block03.cf div.box img {
+        width: 100%; }
+      div#international div.block03.cf div.box div.cf img {
+        width: 20%; }
+      div#international div.block03.cf div.box div.cf p {
+        width: 75%; }
+  div#international div.block04 {
+    margin-bottom: 60px; }
+    div#international div.block04 h3 {
+      width: 90%;
+      margin: 0 auto 15px; }
+    div#international div.block04 div.box div.cf.inner {
+      max-width: 90%;
+      min-width: 90%;
+      padding: 30px 0; }
+      div#international div.block04 div.box div.cf.inner img.fl {
+        display: block;
+        float: none;
+        margin: 0 auto 20px;
+        width: 60%; }
+      div#international div.block04 div.box div.cf.inner div.txt {
+        float: none;
+        width: auto; }
+        div#international div.block04 div.box div.cf.inner div.txt dl dt {
+          margin-bottom: 5px; }
+  div#international div.block05.inner {
+    max-width: 90%;
+    min-width: 90%; }
+    div#international div.block05.inner div.head_area {
+      background: url(../../img/campus/international/box05_bg.png);
+      background-size: 35px;
+      padding: 15px;
+      position: relative; }
+      div#international div.block05.inner div.head_area div.h3_box.cf {
+        width: 100%; }
+        div#international div.block05.inner div.head_area div.h3_box.cf img.fl {
+          width: 30%; }
+        div#international div.block05.inner div.head_area div.h3_box.cf div.fr {
+          width: 100%; }
+          div#international div.block05.inner div.head_area div.h3_box.cf div.fr p {
+            position: absolute;
+            left: 37%;
+            top: 15px;
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.3; }
+          div#international div.block05.inner div.head_area div.h3_box.cf div.fr h3 {
+            font-size: 18px;
+            text-align: center;
+            padding: 10px; }
+      div#international div.block05.inner div.head_area div.ph_box {
+        margin-top: 5px;
+        max-width: inherit;
+        position: static; }
+        div#international div.block05.inner div.head_area div.ph_box p {
+          font-size: 11px;
+          line-height: 15px;
+          margin-left: 5px;
+          margin-top: -15px; }
+      div#international div.block05.inner div.head_area p.txt {
+        margin-top: 15px;
+        width: auto;
+        line-height: 1.5;
+        font-size: 13px; }
+    div#international div.block05.inner div.cont {
+      padding: 15px 15px 30px; }
+      div#international div.block05.inner div.cont h4 {
+        margin-bottom: 25px; }
+      div#international div.block05.inner div.cont div.cf div.box.cf {
+        margin-bottom: 30px;
+        width: 100%; }
+        div#international div.block05.inner div.cont div.cf div.box.cf img {
+          width: 40%; }
+        div#international div.block05.inner div.cont div.cf div.box.cf div.fr {
+          width: 55%; }
+          div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dt {
+            font-size: 11px; }
+            div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dt span {
+              font-weight: bold;
+              font-size: 16px; }
+          div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dd ul {
+            margin-bottom: 10px; }
+            div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dd ul li {
+              font-size: 11px; }
+          div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dd p {
+            font-size: 14px;
+            line-height: 20px; }
+      div#international div.block05.inner div.cont div.sns {
+        margin-top: 0px; }
+        div#international div.block05.inner div.cont div.sns p.ttl {
+          display: block;
+          width: 50%;
+          margin: 0 auto 20px; }
+        div#international div.block05.inner div.cont div.sns ul {
+          display: block;
+          margin-left: 0;
+          text-align: center; }
+          div#international div.block05.inner div.cont div.sns ul li {
+            display: inline-block;
+            vertical-align: middle; }
+            div#international div.block05.inner div.cont div.sns ul li + li {
+              margin-left: 10%; }
+
+  /*============================
+  #sandwich
+  ============================*/
+  div.campus_wrap .h2_box7 {
+    background: url(../../img/campus/h1_bg.png);
+    height: 120px; }
+
+  div.campus_wrap .h2_box7 h2 {
+    padding: 25px 0 0 0px; }
+
+  div.campus_wrap .h2_box7 h2 img {
+    height: 70px; }
+
+  div#sandwich .inner {
+    max-width: 90%;
+    min-width: 90%; }
+  div#sandwich div.block01 {
+    margin-bottom: 60px;
+    padding-top: 0;
+    background: none;
+    height: auto; }
+    div#sandwich div.block01 p.ttl {
+      margin: 0 0 30px;
+      padding: 0; }
+    div#sandwich div.block01 div.inner p.lead {
+      margin-bottom: 40px; }
+    div#sandwich div.block01 div.inner p {
+      text-align: justify;
+      color: #464646;
+      font-size: 14px;
+      line-height: 22px; }
+  div#sandwich div.block02.inner {
+    margin-bottom: 40px; }
+    div#sandwich div.block02.inner h3 {
+      font-size: 16px; }
+      div#sandwich div.block02.inner h3 span {
+        font-size: 24px; }
+    div#sandwich div.block02.inner div.cf div.box {
+      float: none;
+      width: 100%;
+      padding: 0 5%;
+      text-align: center; }
+      div#sandwich div.block02.inner div.cf div.box + div.box {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-left: none;
+        border-top: 1px dotted #e97bb8; }
+      div#sandwich div.block02.inner div.cf div.box:nth-child(1) {
+        padding-left: 5%; }
+      div#sandwich div.block02.inner div.cf div.box:nth-child(3) {
+        padding-right: 5%; }
+      div#sandwich div.block02.inner div.cf div.box h4 {
+        width: 70%;
+        margin: 0 auto; }
+      div#sandwich div.block02.inner div.cf div.box p {
+        margin: 15px auto 0;
+        max-width: inherit;
+        text-align: justify;
+        line-height: 22px; }
+  div#sandwich div.block03.inner {
+    margin-bottom: 100px; }
+    div#sandwich div.block03.inner h3 {
+      font-size: 16px; }
+      div#sandwich div.block03.inner h3 span {
+        font-size: 24px; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.year {
+      padding-top: 15px; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.txt {
+      padding-top: 0; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.txt div.schedule div.cf div {
+        width: 100%; }
+        div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.txt div.schedule div.cf div dl dd {
+          width: 50vw; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(2) div.year {
+      padding-top: 25px;
+      background: url(../../img/campus/sandwich/box03_bg01.jpg) no-repeat center top #ef9cca;
+      background-size: contain; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(3) div.year {
+      padding-top: 25px;
+      background: url(../../img/campus/sandwich/box03_bg02.jpg) no-repeat center top #e97bb8;
+      background-size: contain; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(3) div.txt {
+      border-bottom: none; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf div.year {
+      font-size: 14px;
+      width: 12%;
+      padding: 10px; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt {
+      border-bottom: 1px dotted  #646464;
+      width: 83%;
+      padding: 20px 0; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt h4 {
+        font-size: 16px; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.img_box.cf {
+        margin: 30px 0; }
+        div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.img_box.cf img.fl {
+          float: none;
+          margin: 0 0 10px;
+          width: 100%; }
+        div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.img_box.cf p.fr {
+          float: none;
+          width: 100%; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule {
+        margin-top: 20px; }
+        div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule p.ttl {
+          font-size: 16px; }
+        div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div {
+          width: 100%; }
+          div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl {
+            height: auto;
+            min-height: 42px; }
+            div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dt {
+              font-size: 15px;
+              width: 24vw; }
+              div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dt:after {
+                border-width: 15px 12vw 0 12vw; }
+            div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dd {
+              width: 50vw;
+              padding: 10px;
+              font-size: 13px;
+              line-height: 1.3; }
+  div#sandwich div.block04.inner {
+    margin-bottom: 40px; }
+    div#sandwich div.block04.inner h3 {
+      font-size: 18px; }
+    div#sandwich div.block04.inner ul {
+      margin: 0 5%; }
+      div#sandwich div.block04.inner ul li {
+        float: left;
+        width: 32%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+        padding: 0 5%; }
+        div#sandwich div.block04.inner ul li:nth-child(3n) {
+          margin-right: 0; }
+  div#sandwich div.block05 {
+    margin-bottom: 50px; }
+    div#sandwich div.block05 h3 {
+      width: 90%;
+      margin: 0 auto 20px; }
+    div#sandwich div.block05 div.box {
+      padding: 25px 0;
+      background: #fffcdb;
+      margin-bottom: 30px; }
+      div#sandwich div.block05 div.box div.cf.inner img.fr,
+      div#sandwich div.block05 div.box div.cf.inner img.fl {
+        float: none;
+        margin-left: -5%;
+        max-width: 105%; }
+      div#sandwich div.block05 div.box div.cf.inner div.txt {
+        width: 100%; }
+        div#sandwich div.block05 div.box div.cf.inner div.txt h4 {
+          font-size: 17px; }
+        div#sandwich div.block05 div.box div.cf.inner div.txt div.profile {
+          width: 90%;
+          margin: 0 auto;
+          margin-top: 30px; }
+          div#sandwich div.block05 div.box div.cf.inner div.txt div.profile img {
+            width: 38%; }
+          div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl {
+            margin-left: 15px;
+            width: 56%; }
+            div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl dd div p.name span {
+              font-size: 18px; }
+            div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl dt span {
+              font-size: 16px; }
+  div#sandwich div.block06.inner h3 {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+        display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    div#sandwich div.block06.inner h3 span {
+      font-size: 12px;
+      line-height: 1.2;
+      position: static;
+      width: 45%;
+      text-align: right;
+      
+      }
+  div#sandwich div.block06.inner div.cf div.box {
+    width: 100%;
+    float: none;
+    margin: 0 0px 20px 0; }
+    div#sandwich div.block06.inner div.cf div.box img {
+      width: 15%; }
+    div#sandwich div.block06.inner div.cf div.box div.fr {
+      width: 80%; }
+      div#sandwich div.block06.inner div.cf div.box div.fr h4 {
+        padding: 7px;
+        font-size: 17px;
+        margin-bottom: 5px; }
+        div#sandwich div.block06.inner div.cf div.box div.fr h4 span {
+          font-size: 13px; }
+      div#sandwich div.block06.inner div.cf div.box div.fr p {
+        font-size: 15px; }
+        div#sandwich div.block06.inner div.cf div.box div.fr p span.pink span {
+          font-size: 20px; }
+div#sandwich div.block06.inner > dl dt{
+    
+    font-size: 13px;
+  }
+  div#sandwich div.block06.inner > dl dd{
+    font-size: 13px;
+    line-height: 19px;
+  }
+  div#sandwich div.block06.inner > dl dd span{
+    font-size: 11px;
+  }
+  /*============================
+  #sister
+  ============================*/
+  div.campus_wrap .h2_box8 {
+    background: url(../../img/campus/h1_bg.png);
+    height: 120px; }
+
+  div.campus_wrap .h2_box8 h2 {
+    padding: 25px 0 0 0px; }
+
+  div.campus_wrap .h2_box8 h2 img {
+    height: 70px; }
+
+  div#sister .inner {
+    max-width: 90%;
+    min-width: 90%; }
+  div#sister div.block01.cf {
+    min-height: inherit;
+    margin-bottom: 50px; }
+    div#sister div.block01.cf div.fl {
+      display: none; }
+    div#sister div.block01.cf div.fr {
+      padding-top: 0;
+      height: auto;
+      width: 100%; }
+      div#sister div.block01.cf div.fr div.box01 {
+        margin-left: 0;
+        height: auto;
+        max-width: inherit;
+        text-align: center;
+        background: url(../../img/campus/sister/box01_bg02.png) no-repeat;
+        background-size: contain;
+        padding: 30px 5%; }
+        div#sister div.block01.cf div.fr div.box01 h3 {
+          width: 90%;
+          margin: 0 auto 30px; }
+        div#sister div.block01.cf div.fr div.box01 p {
+          font-size: 14px;
+          line-height: 22px;
+          width: 100%;
+          margin: 0 auto; }
+      div#sister div.block01.cf div.fr div.box03 {
+        padding: 20px 15px; }
+        div#sister div.block01.cf div.fr div.box03 dl dt {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 10px; }
+        div#sister div.block01.cf div.fr div.box03 dl dd {
+          font-size: 13px;
+          line-height: 22px; }
+  div#sister div.block02 {
+    margin-bottom: 50px; }
+    div#sister div.block02 h3 {
+      width: 90%;
+      margin: 0 auto 20px; }
+    div#sister div.block02 div.box01 {
+      background: #fceef6; }
+      div#sister div.block02 div.box01 h4 {
+        background: #e97bb8; }
+    div#sister div.block02 div.box02 {
+      background: #e7f2fa; }
+      div#sister div.block02 div.box02 h4 {
+        background: #449dd6; }
+    div#sister div.block02 div.box01,
+    div#sister div.block02 div.box02 {
+      padding: 30px 0;
+      margin-bottom: 25px; }
+      div#sister div.block02 div.box01 h4,
+      div#sister div.block02 div.box02 h4 {
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px; }
+      div#sister div.block02 div.box01 img,
+      div#sister div.block02 div.box02 img {
+        max-width: 103%;
+        height: auto;
+        margin-left: 0; }
+      div#sister div.block02 div.box01 div.member,
+      div#sister div.block02 div.box02 div.member {
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 30px; }
+        div#sister div.block02 div.box01 div.member p.onlySP,
+        div#sister div.block02 div.box02 div.member p.onlySP {
+          font-size: 12px;
+          margin-bottom: 10px; }
+        div#sister div.block02 div.box01 div.member div,
+        div#sister div.block02 div.box02 div.member div {
+          display: block;
+          margin-bottom: 20px; }
+          div#sister div.block02 div.box01 div.member div + div,
+          div#sister div.block02 div.box02 div.member div + div {
+            margin-left: 0px; }
+          div#sister div.block02 div.box01 div.member div p,
+          div#sister div.block02 div.box02 div.member div p {
+            font-size: 11px;
+            line-height: 1;
+            margin-bottom: 5px;
+            display: inline-block;
+            vertical-align: middle; }
+            div#sister div.block02 div.box01 div.member div p br,
+            div#sister div.block02 div.box02 div.member div p br {
+              display: none; }
+            div#sister div.block02 div.box01 div.member div p:nth-child(1),
+            div#sister div.block02 div.box02 div.member div p:nth-child(1) {
+              display: block; }
+          div#sister div.block02 div.box01 div.member div p.name,
+          div#sister div.block02 div.box02 div.member div p.name {
+            font-size: 12px;
+            display: inline-block;
+            vertical-align: middle; }
+            div#sister div.block02 div.box01 div.member div p.name span,
+            div#sister div.block02 div.box02 div.member div p.name span {
+              font-size: 15px; }
+      div#sister div.block02 div.box01 p.comment,
+      div#sister div.block02 div.box02 p.comment {
+        width: 100%;
+        line-height: 22px; }
+  div#sister div.block03.inner h3 {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px; }
+  div#sister div.block03.inner div.cf.box {
+    margin-bottom: 40px; }
+    div#sister div.block03.inner div.cf.box div.img_box01 {
+      width: 100%;
+      float: none; }
+      div#sister div.block03.inner div.cf.box div.img_box01 img:first-child {
+        width: 65%; }
+      div#sister div.block03.inner div.cf.box div.img_box01 .fr {
+        display: block;
+        width: 30%; }
+        div#sister div.block03.inner div.cf.box div.img_box01 .fr img {
+          width: 100%; }
+        div#sister div.block03.inner div.cf.box div.img_box01 .fr p {
+          margin-top: 10px;
+          font-size: 11px;
+          line-height: 14px; }
+          div#sister div.block03.inner div.cf.box div.img_box01 .fr p br {
+            display: none; }
+    div#sister div.block03.inner div.cf.box div.txt {
+      margin-left: 0px;
+      width: 100%;
+      float: none;
+      margin-top: 10px; }
+      div#sister div.block03.inner div.cf.box div.txt div.h4_box {
+        margin-bottom: 15px; }
+        div#sister div.block03.inner div.cf.box div.txt div.h4_box h4 {
+          font-size: 16px;
+          line-height: 1.2;
+          margin-bottom: 10px; }
+        div#sister div.block03.inner div.cf.box div.txt div.h4_box p {
+          font-size: 11px;
+          margin-bottom: 15px; }
+      div#sister div.block03.inner div.cf.box div.txt p {
+        font-size: 14px;
+        line-height: 22px; }
+    div#sister div.block03.inner div.cf.box div.img_box02 {
+      display: none; }
+    div#sister div.block03.inner div.cf.box a {
+      margin: 0 auto;
+      width: 60%;
+      text-align: center;
+      margin-top: 15px;
+      background: #8f82bc;
+      padding: 10px;
+      padding-right: 20px;
+      line-height: 1;
+      color: #fff;
+      position: relative;
+      font-weight: bold;
+      font-size: 14px; }
+      div#sister div.block03.inner div.cf.box a:after {
+        content: "";
+        display: inline-block;
+        border-bottom: 1px solid  #fff;
+        border-right: 1px solid  #fff;
+        width: 7px;
+        height: 7px;
+        position: absolute;
+        right: 10px;
+        top: 13px;
+        transform: rotate(-45deg); } }
+@media screen and (max-width: 470px) {
+  .bx-wrapper .bx-controls-direction a {
+    margin-top: 0px;
+    top: 70%; } }
+
+@media screen and (max-width: 374px) {
+  div#sandwich div.block06.inner h3 span{
+    width: 36%;
+  }
+}
+/*----------------------
+  Tablet
+----------------------*/
+@media screen and (min-width: 641px) and (max-width: 899px) {
+  div#club div.block01 {
+    height: auto; }
+    div#club div.block01 .inner {
+      max-width: 90%;
+      min-width: 90%; }
+    div#club div.block01 div.cf div {
+      width: 22%;
+      margin-bottom: 10px;
+      margin-right: 4%; }
+      div#club div.block01 div.cf div:nth-child(5n) {
+        margin-right: 4%; }
+      div#club div.block01 div.cf div:nth-child(4n) {
+        margin-right: 0; }
+  div#club div.block02 {
+    max-width: 90%;
+    min-width: 90%; }
+    div#club div.block02 div.box {
+      margin-bottom: 100px; }
+      div#club div.block02 div.box div.cf img {
+        width: 45%; }
+      div#club div.block02 div.box div.cf div {
+        width: 50%; }
+    div#club div.block02 div#badminton div.cf div dl dd table tr th {
+      width: auto;
+      padding-right: 10px; }
+
+  div#international div.block01 p.ttl.onlyPC {
+    width: 90%; }
+  div#international div.block02 div.inner {
+    max-width: 90%;
+    min-width: 90%; }
+    div#international div.block02 div.inner div.block02_inner {
+      margin-top: 50px;
+      background: url(../../img/campus/international/sec02_bg02_top_sp.png) no-repeat center top, url(../../img/campus/international/sec02_bg02_btm_sp.png) no-repeat center bottom, url(../../img/campus/international/sec02_bg02_sp.png) repeat-y;
+      background-size: contain;
+      height: auto;
+      padding: 20px 30px 30px 40px; }
+      div#international div.block02 div.inner div.block02_inner p.ttl {
+        width: 60%;
+        margin: 0 auto 20px; }
+      div#international div.block02 div.inner div.block02_inner div.cf img {
+        width: 50px; }
+      div#international div.block02 div.inner div.block02_inner div.cf div.box {
+        border-bottom: 1px solid  #fff;
+        padding: 5px 0; }
+        div#international div.block02 div.inner div.block02_inner div.cf div.box p {
+          margin-left: 5px;
+          font-size: 12px;
+          max-width: inherit;
+          width: 70%; }
+          div#international div.block02 div.inner div.block02_inner div.cf div.box p span {
+            font-size: 11px; }
+      div#international div.block02 div.inner div.block02_inner div.cf div.fl {
+        width: 100%;
+        float: none;
+        border-top: 1px solid  #fff; }
+      div#international div.block02 div.inner div.block02_inner div.cf div.fr {
+        border-top: none;
+        width: 100%;
+        float: none; }
+  div#international div.block03.cf {
+    margin-bottom: 50px; }
+    div#international div.block03.cf div.box div.cf img {
+      width: 20%; }
+    div#international div.block03.cf div.box div.cf p {
+      width: 75%; }
+  div#international div.block04 h3 {
+    width: 100%;
+    text-align: center; }
+  div#international div.block04 div.box div.cf.inner {
+    max-width: 90%;
+    min-width: 90%; }
+    div#international div.block04 div.box div.cf.inner img.fl {
+      width: 30%; }
+    div#international div.block04 div.box div.cf.inner div.txt {
+      width: 65%; }
+  div#international div.block05.inner {
+    max-width: 90%;
+    min-width: 90%; }
+    div#international div.block05.inner div.head_area {
+      position: relative;
+      padding: 20px; }
+      div#international div.block05.inner div.head_area div.h3_box.cf {
+        width: 75%; }
+        div#international div.block05.inner div.head_area div.h3_box.cf img.fl {
+          width: 30%; }
+        div#international div.block05.inner div.head_area div.h3_box.cf div.fr {
+          width: 70%; }
+          div#international div.block05.inner div.head_area div.h3_box.cf div.fr p {
+            font-size: 16px;
+            margin-bottom: 14px;
+            margin-left: 25px; }
+          div#international div.block05.inner div.head_area div.h3_box.cf div.fr h3 {
+            font-size: 20px; }
+      div#international div.block05.inner div.head_area div.ph_box {
+        width: 30%;
+        top: 20px; }
+      div#international div.block05.inner div.head_area p.txt {
+        width: 65%; }
+    div#international div.block05.inner div.cont {
+      padding: 25px; }
+      div#international div.block05.inner div.cont h4 {
+        text-align: center; }
+      div#international div.block05.inner div.cont div.cf div.box.cf {
+        width: 49%; }
+        div#international div.block05.inner div.cont div.cf div.box.cf img {
+          width: 40%; }
+        div#international div.block05.inner div.cont div.cf div.box.cf div.fr {
+          width: 55%; }
+          div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dt {
+            font-size: 11px; }
+            div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dt span {
+              font-weight: bold;
+              font-size: 16px; }
+          div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dd ul {
+            margin-bottom: 10px; }
+            div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dd ul li {
+              font-size: 11px; }
+          div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dd p {
+            font-size: 14px;
+            line-height: 20px; }
+      div#international div.block05.inner div.cont div.sns {
+        margin-top: 0px; }
+
+  div#sandwich .inner {
+    max-width: 90%;
+    min-width: 90%; }
+  div#sandwich div.block01 {
+    height: auto;
+    padding-bottom: 60px; }
+  div#sandwich div.block02.inner div.cf div.box {
+    width: 31.5%;
+    padding: 0 5%; }
+    div#sandwich div.block02.inner div.cf div.box:nth-child(2) {
+      width: 36.5%; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.year {
+    padding-top: 15px; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.txt {
+    padding-top: 0; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.txt div.schedule div.cf div {
+      width: 100%; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(2) div.year {
+    padding-top: 45px; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(3) div.year {
+    padding-top: 45px; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt {
+    width: 85%; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.img_box.cf img.fl {
+      width: 33%;
+      margin-right: 2%; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.img_box.cf p.fr {
+      width: 30%; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div {
+      width: 100%; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl {
+        height: auto;
+        min-height: 42px; }
+        div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dt {
+          width: 24vw; }
+          div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dt:after {
+            border-width: 15px 12vw 0 12vw; }
+        div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dd {
+          width: 50vw;
+          line-height: 1.3; }
+  div#sandwich div.block04.inner ul {
+    margin: 0 5%; }
+    div#sandwich div.block04.inner ul li {
+      float: left;
+      width: 32%;
+      margin-right: 2%;
+      margin-bottom: 20px;
+      padding: 0 5%; }
+      div#sandwich div.block04.inner ul li:nth-child(3n) {
+        margin-right: 0; }
+  div#sandwich div.block05 div.box {
+    padding: 25px 0; }
+    div#sandwich div.block05 div.box div.cf.inner img.fr,
+    div#sandwich div.block05 div.box div.cf.inner img.fl {
+      width: 48%; }
+    div#sandwich div.block05 div.box div.cf.inner div.txt {
+      width: 50%; }
+      div#sandwich div.block05 div.box div.cf.inner div.txt div.profile {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px; }
+        div#sandwich div.block05 div.box div.cf.inner div.txt div.profile img {
+          width: 38%; }
+        div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl {
+          width: 55%; }
+          div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl dd div p.name span {
+            font-size: 18px; }
+          div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl dt span {
+            font-size: 16px; }
+  div#sandwich div.block06.inner h3 {
+    text-align: left;
+    padding-left: 10%; }
+  div#sandwich div.block06.inner div.cf div.box {
+    width: 49%;
+    margin: 0 2% 20px 0; }
+    div#sandwich div.block06.inner div.cf div.box img {
+      width: 15%; }
+    div#sandwich div.block06.inner div.cf div.box div.fr {
+      width: 80%; }
+      div#sandwich div.block06.inner div.cf div.box div.fr h4 {
+        padding: 7px;
+        font-size: 17px;
+        margin-bottom: 5px; }
+        div#sandwich div.block06.inner div.cf div.box div.fr h4 span {
+          font-size: 13px; }
+      div#sandwich div.block06.inner div.cf div.box div.fr p {
+        font-size: 15px; }
+        div#sandwich div.block06.inner div.cf div.box div.fr p span.pink span {
+          font-size: 20px; }
+
+  /*============================
+  #sister
+  ============================*/
+  div#sister .inner {
+    max-width: 90%;
+    min-width: 90%; }
+  div#sister div.block01.cf {
+    min-height: inherit; }
+    div#sister div.block01.cf div.fr div.box01 {
+      margin-left: 0;
+      height: auto;
+      max-width: inherit;
+      text-align: center;
+      background: url(../../img/campus/sister/box01_bg02.png) no-repeat;
+      background-size: contain;
+      padding: 30px 5%; }
+      div#sister div.block01.cf div.fr div.box01 h3 {
+        width: 90%;
+        margin: 0 auto 30px; }
+      div#sister div.block01.cf div.fr div.box01 p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+        margin: 0 auto; }
+    div#sister div.block01.cf div.fr div.box03 {
+      padding: 20px 15px; }
+      div#sister div.block01.cf div.fr div.box03 dl dt {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 10px; }
+      div#sister div.block01.cf div.fr div.box03 dl dd {
+        font-size: 13px;
+        line-height: 22px; }
+  div#sister div.block02 div.box01 img,
+  div#sister div.block02 div.box02 img {
+    max-width: 103%;
+    height: auto;
+    margin-left: 0; }
+  div#sister div.block02 div.box01 div.member div,
+  div#sister div.block02 div.box02 div.member div {
+    width: 30%;
+    margin-bottom: 20px; }
+    div#sister div.block02 div.box01 div.member div + div,
+    div#sister div.block02 div.box02 div.member div + div {
+      margin-left: 4%; }
+  div#sister div.block02 div.box01 p.comment,
+  div#sister div.block02 div.box02 p.comment {
+    width: 100%; }
+  div#sister div.block03.inner div.cf.box div.img_box01 {
+    width: 30%; }
+    div#sister div.block03.inner div.cf.box div.img_box01 a {
+      text-align: center;
+      display: block;
+      width: 100%; }
+  div#sister div.block03.inner div.cf.box div.txt {
+    margin-left: 2.5%;
+    width: 50%; }
+  div#sister div.block03.inner div.cf.box div.img_box02 {
+    width: 15%;
+    margin-left: 2.5%; }
+    div#sister div.block03.inner div.cf.box div.img_box02 br {
+      display: none; } 
+
+
+    .campus_block04 .bx-wrapper .bx-controls-direction a {
+      top: 50%;
+  }
+}

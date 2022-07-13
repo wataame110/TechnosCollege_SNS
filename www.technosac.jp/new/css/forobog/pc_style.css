@@ -1,0 +1,369 @@
+@charset "UTF-8";
+
+/*============================
+
+Mixin
+
+============================*/
+
+
+/*--------------------------
+基本フォント14px
+フォントサイズ呼び出し用
+---------------------------*/
+
+
+/*============================
+
+PC -top
+
+============================*/
+
+
+/* line 10, ../../scss/access/pc_style.scss */
+
+div.forobog_wrap {
+    margin-bottom: 30px;
+    /*============================
+  #access
+  ============================*/
+}
+
+
+/* line 18, ../../scss/access/pc_style.scss */
+
+div.forobog_wrap .h2_box {
+    background: url(../../img/access/h1_bg.png);
+    height: 200px;
+}
+
+
+/* line 21, ../../scss/access/pc_style.scss */
+
+div.forobog_wrap .h2_box h2 {
+    padding: 60px;
+    text-align: center;
+}
+
+
+/* line 27, ../../scss/access/pc_style.scss */
+
+
+
+
+/* line 30, ../../scss/access/pc_style.scss */
+
+
+
+
+/* line 36, ../../scss/access/pc_style.scss */
+
+div.forobog_wrap div#forobog div.inner {
+    min-width: 900px;
+    max-width: 900px;
+}
+div.forobog_wrap div#forobog div.innerB {
+    min-width: 1024px;
+    max-width: 1024px;
+	margin:0 auto 0;
+}
+
+
+
+
+
+
+/*-----キャンパスライフ-----*/
+div.forobog_wrap .h2_box2 {
+    background: url(../../img/forobog/h1_bg.png);
+    height: 260px;
+}
+div.forobog_wrap .h2_box2 h2 {
+    padding: 90px 0 0 190px;
+}
+
+.h2_area2{
+	width:1200px;
+	margin:0 auto 0;
+	position:relative;
+	height:260px;
+}
+.h2_area_photo{
+	position:absolute;
+	bottom:0px;
+	right:0;
+	width:500px;
+}
+.h2_area_photoSP{
+	display:none;
+}
+div.forobog_wrap div#forobog {
+    padding: 0px 0 70px 0;
+}
+
+.forobog_B{
+	padding:60px 0 0 0;
+	color:#646464;
+}
+.forobog_B h3{
+	color:#FFF;
+	font-weight:bold;
+	padding:10px 20px;
+	background:#8f82bc;
+	border-left:6px solid #c7c1de;
+	font-size:24px;
+	margin:70px 0 0 0 ; 
+}
+.forobog_B h3:first-child{
+	margin:0px 0 0 0 ; 
+}
+	
+
+.cont_bs02 {
+    padding: 30px 0 0px 0;
+}
+.cont_bs02 p{
+	margin:0 0 20px 0;
+}
+.cont_bs02 p:last-child{
+	margin:0 0 0 0;
+}
+
+
+
+
+
+.foro_ttl01{
+	font-weight:bold;
+	font-size:20px;
+	color:#8f82bc;
+	margin:40px 0 10px 0;
+	position:relative;
+}
+.foro_ttl01 span{
+	font-size: 15px;
+	color:#646464;
+}
+
+.sub_txt{
+	position:absolute;
+	right:0;
+	top:10px;
+	font-weight:normal;
+	font-size:14px;
+	color:#646464;
+}
+
+.btmtxt{
+	margin-top: 20px!important;
+	font-size: 20px;
+}
+.tbl_block01{
+
+}
+.tbl_block01 table{
+	width:100%;
+	border-top:1px solid #646464;
+
+}
+.tbl_block01 table{
+	width:100%;
+	border-top:1px solid #646464;
+}
+.tbl_block01 th{
+	background:#fffcdb;
+	text-align:center;
+	font-weight:bold;
+	padding:8px 5px;
+	border-left:1px solid #646464;
+	border-bottom:1px solid #646464;
+}
+.tbl_block01 td{
+	text-align:center;
+	padding:8px 5px;
+	border-left:1px solid #646464;
+	border-bottom:1px solid #646464;
+}
+.tbl_block01 th:first-child,
+.tbl_block01 td:first-child{
+	border-left:none;
+}
+.mg01{
+	display:inline-block;
+	margin:0 24px 0 0;
+}
+.mg02{
+	display:inline-block;
+	margin:0 0px 0 131px;
+}
+a.pdf_link{
+	background:url(../../img/forobog/icon_img_11.png) left center no-repeat;
+	padding:2px 0px 0 26px;
+	background-size:21px 26px;
+	height:26px;
+	display:inline-block;
+}
+a.pdf_link:hover{
+	text-decoration:underline;
+}
+.tl01{
+	text-align:left !important;
+}
+.foro_left01{
+	float:left;
+	width:515px;
+}
+
+.foro_right01{
+	float:right;
+	width:310px;
+}
+
+.foro_left02{
+	float:left;
+	width:240px;
+}
+
+.foro_right02{
+	float:right;
+	width:240px;
+}
+
+.foro_right01 table,
+.foro_left02 table,
+.foro_right02 table{
+	width:100%;
+	border-top:1px solid #646464;
+}
+
+
+.foro_right01 td,
+.foro_left01 td,
+.foro_right02 td{
+	text-align:left;
+	padding:8px 10px;
+	border-left:1px solid #646464;
+	border-bottom:1px solid #646464;
+}
+.foro_right01 td:first-child,
+.foro_left01 td:first-child,
+.foro_right02 td:first-child{
+	border-left:none;
+}
+.foro_right01 tr:nth-child(odd),
+.foro_right02 tr:nth-child(odd),
+.foro_left01 tr:nth-child(odd){
+	background:#fffcdb;
+}
+.smtxt{
+	margin:20px 0 0 0 !important;
+}
+
+.foro_ttl02{
+	font-weight:bold;
+	font-size:20px;
+	color:#1584cc;
+	margin:0px 0 10px 0;
+	position:relative;
+}
+
+.foro_ttl03{
+	font-weight:bold;
+	font-size:20px;
+	color:#e45aa6;
+	margin:0px 0 10px 0;
+	position:relative;
+}
+
+
+
+
+.link_01 a{
+	display:inline-block;
+	background:#d0e6f5 url(../../img/forobog/icon_img_10.png) 95% center no-repeat;
+	background-size:14px 28px;
+	border:1px solid #464646;
+	padding:10px 30px;
+	text-align:center;
+	font-size:20px;
+	margin:0px 0px 40px 0px;
+	width:480px;
+}
+.link_01 a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+.link_02 a{
+	display:inline-block;
+	background:#fadeed url(../../img/forobog/icon_img_10.png) 95% center no-repeat;
+	background-size:14px 28px;
+	border:1px solid #464646;
+	padding:10px 30px;
+	text-align:center;
+	font-size:20px;
+	margin:0px 0px 0 0px;
+	width:480px;
+}
+.link_02 a:hover{
+	text-decoration:underline;
+}
+
+
+p.indent_t{
+	margin:0 !important;
+	text-indent:-2.1em;
+	padding:0 0 0 2.1em;
+}
+
+
+/*recruit*/
+.recruitBlock{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.recruitBlock__inner{
+width: 420px;
+}
+p.recruitBlock__txt{
+	margin-bottom: 15px;
+}
+
+.recruitBlock dl{
+	margin-bottom: 15px;
+}
+.recruitBlock dt{
+	color: #8f82bc;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+.recruitBlock dt:before{
+	content: '■';
+	margin-right: 5px;
+}
+p.recruitBlock__tel{
+	font-weight: bold;
+	margin-bottom: 0;
+	font-size: 25px;
+}
+p.recruitBlock__mail{
+	font-size: 20px;
+	font-weight: bold;
+}
+.recruitBlock__mail a{
+	color: #007dff;
+}
+.recruitBlock__mail a:hover{
+text-decoration: underline;}

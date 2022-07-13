@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*============================
+  SP
+============================*/
+@media screen and (max-width: 640px) {
+.privacy_wrap .h2_box{
+  height: 90px;
+}
+
+.privacy_wrap .h2_box h2{
+  padding: 25px;
+}
+
+.privacy_wrap .h2_box h2 img.onlySP{
+  display: inline-block !important;
+  max-width: 230px;
+}
+
+.privacy_wrap .inner{
+  width: 90%;
+  min-width: unset;
+  margin: 0 5%;
+  padding: 25px 0 40px;
+}
+
+.privacy_wrap .inner .intro{
+  margin-bottom: 30px;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.privacy_wrap .inner .sec{
+  margin-bottom: 15px;
+}
+
+.privacy_wrap .inner .sec:last-of-type{
+  margin-bottom: 0;
+}
+
+.privacy_wrap .inner .sec h3{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.privacy_wrap .inner .sec h3::before{
+  margin-right: 5px;
+}
+
+.privacy_wrap .inner .sec p{
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.privacy_wrap .inner .sec a:hover{
+  text-decoration: none;
+}
+
+}/* end */

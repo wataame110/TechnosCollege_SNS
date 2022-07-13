@@ -1,0 +1,927 @@
+@charset "UTF-8";
+
+/*============================
+
+Mixin
+
+============================*/
+
+
+/*--------------------------
+基本フォント14px
+フォントサイズ呼び出し用
+---------------------------*/
+
+
+/*============================
+
+PC -top
+
+============================*/
+
+
+/* line 10, ../../scss/access/pc_style.scss */
+
+div.admission_wrap {
+    margin-bottom: 30px;
+    /*============================
+  #access
+  ============================*/
+}
+
+
+.admission_wrap  .pagetopMargin{
+	margin-top: -100px;
+	padding-top: 100px;
+	height: auto;
+	background: none;
+	
+}
+.admission_wrap  .pagetopMargin h2{
+	 height: 140px;
+	 background: url(../../img/school/h1_bg.png);
+
+}
+/* line 18, ../../scss/access/pc_style.scss */
+
+div.admission_wrap .h2_box {
+    background: url(../../img/access/h1_bg.png);
+    height: 200px;
+
+}
+
+
+/* line 21, ../../scss/access/pc_style.scss */
+
+div.admission_wrap .h2_box h2 {
+    padding: 60px;
+    text-align: center;
+}
+
+
+/* line 27, ../../scss/access/pc_style.scss */
+
+
+
+
+/* line 30, ../../scss/access/pc_style.scss */
+
+
+
+
+/* line 36, ../../scss/access/pc_style.scss */
+
+div.admission_wrap div#admission div.inner {
+    min-width: 900px;
+    max-width: 900px;
+}
+div.admission_wrap div#admission div.inner2 {
+    min-width: 1200px;
+    max-width: 1200px;
+	margin:0 auto 0;
+}
+
+
+/*-----下層およびボトムリンク共通-----*/
+.cont_bs01{
+	padding:30px 0 50px 0;
+}
+.cont_bs02{
+	padding:30px 0 0px 0;
+}
+.cont_bs03{
+	padding:0px 0 0px 0;
+}
+.admission_B{
+	padding:60px 0 0 0;
+	color:#646464;
+}
+.admission_E{
+	padding:0px 0 0 0;
+	color:#646464;
+}
+.admission_B h3,
+.admission_E h3{
+	color:#FFF;
+	font-weight:bold;
+	padding:10px 20px;
+	background:#8f82bc;
+	border-left:6px solid #c7c1de;
+	font-size:24px;
+	margin:70px 0 0 0 ; 
+}
+.admission_B h3:first-child{
+	margin:0px 0 0 0 ; 
+}
+.admission_C{
+	padding:60px 0 0 0;
+	color:#646464;
+}
+.admission_C h3{
+	color:#FFF;
+	font-weight:bold;
+	padding:10px 20px;
+	background:#449dd6;
+	border-left:6px solid #a2ceeb;
+	font-size:24px;
+	margin:70px 0 0 0 ; 
+}
+.admission_C h3:first-child{
+	margin:0px 0 0 0 ; 
+}
+.admission_D{
+	padding:60px 0 0 0;
+	color:#646464;
+}
+.admission_D h3{
+	color:#FFF;
+	font-weight:bold;
+	padding:10px 20px;
+	background:#e97bb8;
+	border-left:6px solid #f4bddc;
+	font-size:24px;
+	margin:70px 0 0 0 ; 
+}
+.admission_D h3:first-child{
+	margin:0px 0 0 0 ; 
+}
+.greeting_block03{
+	width:900px;	
+	margin:0 auto 0;
+	padding:70px 0;
+}
+.greeting_block03_list{
+	border-left: 6px solid #beb7d8;
+    background: #eeecf5;
+    padding: 35px;
+    width: 275px;
+    float: left;
+    margin: 0 0px 40px 0px;
+}
+.greeting_block03_list:nth-child(2){
+	margin: 0 38px 40px 37px;
+}
+.greeting_block03_ttl01{
+
+}
+.greeting_block03_ttl02{
+
+}
+.greeting_block03_ttl03{
+
+}
+.greeting_block03_ttl01 h3,
+.greeting_block03_ttl02 h3,
+.greeting_block03_ttl03 h3{
+	font-weight:bold;
+	font-size:25px;
+	margin:0 0 10px 0;
+	color:#646464;
+}
+
+.greeting_block03_list ul{
+	border-top: 1px solid #8f82bc;
+    margin: 20px 0px;
+    font-size: 18px;
+    padding: 10px 0 0 0;
+
+}
+.greeting_block03_list li{
+	margin:12px 0 0 0;
+
+	text-align:left;
+}
+.greeting_block03_list li a{
+    background: url(../../img/school/icon_img_05.png) left 4px no-repeat;
+    background-size: 10px 10px;
+    padding: 0 0 0 18px;
+}
+.greeting_block03_list li a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+/*-----学院案内・教育理念-----*/
+div.school_wrap .h2_box2 {
+    background: url(../../img/school/h1_bg.png);
+    height: 260px;
+}
+div.school_wrap .h2_box2 h2 {
+    padding: 90px 0 0 160px;
+}
+.h2_area2{
+	width:1200px;
+	margin:0 auto 0;
+	position:relative;
+	height:260px;
+}
+.h2_area_photo{
+	position:absolute;
+	bottom:0px;
+	right:0;
+	width:500px;
+}
+.h2_area_photoSP{
+	display:none;
+}
+div.school_wrap div#school {
+    padding: 0px 0;
+}
+.school_block01{
+	padding:80px 0 30px 0;
+    background: url(../../img/school/bg_img_01.jpg) center bottom no-repeat;
+	background-size:cover;
+}
+.school_block01 p{
+	text-align:left;
+	font-size:17px;
+    line-height: 28px;
+	margin-bottom:25px;
+	width:550px;
+}
+.school_block02{
+	width:900px;	
+	margin:0 auto 0;
+	padding:70px 0;
+}
+.school_block02_list{
+	border-left:6px solid #beb7d8;
+	background:#eeecf5;
+	padding:35px;
+	width:275px;
+	float:left;
+	margin:0 0px 40px 0px;
+}
+.school_block02_list:nth-child(2){
+	margin:0 38px 40px 37px; 
+}
+.school_block02_ttl01{
+	padding:0 0px 0px 0px;
+}
+.school_block02_ttl02{
+	padding:0 0px 0px 0px;
+}
+.school_block02_ttl03{
+	padding:0 0px 0px 0px;
+}
+
+.school_block02_ttl01 h3,
+.school_block02_ttl02 h3,
+.school_block02_ttl03 h3{
+	font-weight:bold;
+	font-size:25px;
+	margin:0 0 10px 0;
+	color:#646464;
+}
+.school_block02_ttl01 p,
+.school_block02_ttl02 p,
+.school_block02_ttl03 p{
+	font-size:12px;
+	color:#464646;
+	line-height:16pt;
+}
+.school_block02_list ul{
+	border-top:1px solid #8f82bc;
+	margin:20px 0px;
+	font-size:18px;
+	line-height:20pt;
+	padding:10px 0 0 0;
+}
+.school_block02_list li{
+	margin:12px 0 0 0;
+}
+.school_block02_list li a{
+    background: url(../../img/school/icon_img_05.png) left 7px no-repeat;
+	background-size:10px 10px;
+	padding:0 0 0 18px;
+	display:block;
+}
+.school_block02_list li a:hover{
+	text-decoration:underline;
+}
+.school_area01{
+	width:1200px;
+	margin:0 auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----建学の精神-----*/
+div.admission_wrap .h2_box9{
+    background: url(../../img/school/h1_bg.png);
+    height:250px;
+}
+div.admission_wrap .h2_box9 h2 {
+    padding: 60px 0 0 0px;
+	text-align:center;
+}
+
+.greeting_navi{
+	width:900px;
+	margin:60px auto 60px;
+}
+.greeting_navi ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.greeting_navi li{
+	width:19.5%;
+}
+.greeting_navi li a{
+	display:block;
+	text-align:center;
+	border:1px solid #464646;
+	padding:15px 50px;
+	background:url(../../img/school/greetings/icon_img_01.png) 92% center no-repeat;
+	background-size:23px 14px;
+	
+}
+
+.greeting_navi li a:hover{
+	background:url(../../img/school/greetings/icon_img_01.png) 92% 25px no-repeat;
+	background-size:23px 14px;
+	text-decoration:underline;
+}
+
+.greeting_ttl01{
+	margin:60px auto 0;
+	background: url(../../img/school/h1_bg.png);
+    height:140px;
+}
+.greeting_ttl01 h2{
+	padding:40px 0 0 0px;
+	text-align:center;
+}
+.greeting_txt_01{
+	text-align:center;
+	margin:30px auto 0;
+}
+.greeting_block001{
+	width:750px;
+	margin:60px auto 100px;
+}
+.greeting_left01{
+	float:left;
+	width:139px;
+}
+.greeting_right01{
+	float:right;
+	width:570px;
+}
+.greeting_right01 div{
+	margin:10px 0 20px 0;
+}
+.greeting_right01 div span{
+	font-size:24px;
+	display:inline-block;
+	margin:0 0 0 10px;
+}
+.greeting_left02{
+	float:left;
+	width:480px;
+}
+.greeting_left02 div{
+	width:339px;
+	margin:5px 0 50px 0;
+}
+.greeting_left02 p{
+	text-align: left;
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.greeting_right02{
+	float:right;
+	width:350px;
+}
+.greeting_right02 p{
+	margin:20px 0;
+	text-align:center;
+}
+.greeting_right02 div{
+	text-align:center;
+}
+.greeting_right02 div span{
+	font-size:24px;
+	display:inline-block;
+	margin:0 0 0 10px;
+}
+
+
+.greeting_ttl03{
+	margin:60px auto 0;
+	background: url(../../img/school/h1_bg.png);
+    height:140px;
+}
+.greeting_ttl03 h2{
+	padding:40px 0 0 0px;
+	text-align:center;
+}
+.greeting_txt_03{
+	text-align:center;
+	margin:30px auto 0;
+}
+
+.greeting_txt_02{
+	margin:25px 0 100px 0;
+}
+.greeting_txt_02 p{
+	text-align: left;
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+
+
+.greeting_ttl04{
+	margin:60px auto 0;
+	background: url(../../img/school/h1_bg.png);
+    height:140px;
+}
+.greeting_ttl04 h2{
+	padding:40px 0 0 0px;
+	text-align:center;
+}
+
+
+.greeting_block003{
+	width:1200px;
+	margin:0 auto 0;
+}
+.greeting_left03{
+	float:left;
+	width:650px;
+	padding:0 0 0 150px;
+}
+.greeting_left03 div{
+	width:447px;
+	margin:70px 0 50px 0;
+}
+.greeting_left03 p{
+	text-align: left;
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.greeting_right03{
+	float:right;
+	width:500px;
+}
+.greeting_right03 p{
+	margin:20px 0;
+	text-align:center;
+}
+
+p.greeting_txt_03{
+	text-align:right;
+}
+.greeting_txt_03 span{
+	font-size:24px;
+	display:inline-block;
+	margin:0 0 0 10px;
+}
+
+.greeting_txt_04{
+	text-align: center;
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+
+.greeting_block004{
+	margin:50px auto 0;
+}
+.greeting_block004 .greeting_three{
+	width:300px;
+	float:left;
+	padding:0 40px;
+}
+.greeting_block004 .greeting_three div{
+	width:183px;
+	height:182px;
+	color:#FFF;
+	font-size:27px;
+	margin:0 0 0 30px;
+	padding:60px 0 0 40px;
+}
+
+.greeting_block004 .greeting_three:nth-child(1) div{
+	background: url(../../img/school/greetings/bg_img_01.png) left top no-repeat;
+	background-size:183px 182px;
+	
+}
+.greeting_block004 .greeting_three:nth-child(2) div{
+	background: url(../../img/school/greetings/bg_img_02.png) left top no-repeat;
+	background-size:183px 182px;
+}
+.greeting_block004 .greeting_three:nth-child(3) div{
+	background: url(../../img/school/greetings/bg_img_03.png) left top no-repeat;
+	background-size:183px 182px;
+}
+.greeting_block005{
+	margin:30px 0 60px 0;
+}
+
+.greeting_block005 p{
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 40px;
+}
+
+.greeting_block005 img{
+	margin-bottom: 70px;
+}
+
+.selection_link a {
+    display: block;
+    background: #FFF9B1 url(../../img/admission/selection/icon_img_01.png) 95% center no-repeat;
+    background-size: 14px 28px;
+    border: 1px solid #464646;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    max-width: 400px;
+    margin: 40px auto 150px;
+}
+
+/*
+.step_a{
+	border-left:6px solid #beb7d8;
+	background:#eeecf5;
+	padding:30px;
+	margin:0 0 15px 0;
+}
+.step_b{
+	border-left:6px solid #fad07f;
+	background:#fff3c2;
+	padding:30px;
+	margin:0 0 15px 0;
+}
+.step_a h4,
+.step_b h4{
+	font-weight:bold;
+	font-size:24px;
+	color:#8f82bc;
+	padding:0 0 10px 0;
+	width:280px;
+	float:left;
+	display:block;
+}
+.step_a p,
+.step_b p{
+	float:right;
+	width:450px;
+	display:block;
+}
+.step01{
+	background: url(../../img/school/greetings/icon_img_001.png) left top no-repeat;
+	background-size:55px 45px; 
+	padding:0 0 0 80px;
+}
+.step02{
+	background: url(../../img/school/greetings/icon_img_002.png) left top no-repeat;
+	background-size:55px 45px; 
+	padding:0 0 0 80px;
+}
+.step03{
+	background: url(../../img/school/greetings/icon_img_003.png) left top no-repeat;
+	background-size:55px 45px; 
+	padding:0 0 0 80px;
+}
+.step04{
+	background: url(../../img/school/greetings/icon_img_004.png) left top no-repeat;
+	background-size:55px 45px; 
+	padding:0 0 0 80px;
+}
+.step05{
+	background: url(../../img/school/greetings/icon_img_005.png) left top no-repeat;
+	background-size:55px 45px; 
+	padding:0 0 0 80px;
+}*/
+
+.greetng_block006{
+	margin:50px auto 0;
+}
+.greetng_block006 div:nth-child(1){
+	float:left;
+	width:48%;
+}
+.greetng_block006 div:nth-child(2){
+	float:right;
+	width:48%;
+}
+.greetng_block006 h4 , .cont_bs02 h4{
+	background: url(../../img/school/greetings/icon_img_02.png) left center no-repeat;
+    background-size: 15px 15px;
+    padding: 0 0 0 25px;
+    font-weight: bold;
+    color: #8f82bc;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+.greetng_block006 div:nth-child(2) p:last-child{
+	text-align:right;
+}
+.greetng_block006 div:nth-child(2)  p:last-child span{
+	font-size:18px;
+	display:inline-block;
+	margin:0 0 0 10px;
+}
+
+
+.greeting_ttl05{
+	margin:60px auto 0;
+	background: url(../../img/school/h1_bg.png);
+    height:140px;
+}
+.greeting_ttl05 h2{
+	padding:40px 0 0 0px;
+	text-align:center;
+}
+
+
+
+.greeting_table table{
+	width:100%;
+	margin:0 0 60px 0;
+	border-bottom:1px solid #646464;
+}
+.greeting_table th{
+	background:#fffcdb;
+	font-weight:bold;
+	border-top:1px solid #646464;
+	padding:15px;
+	text-align:center;
+	width:10%;
+}
+.greeting_table .bdr{
+	border-right:1px solid #646464;
+}
+.greeting_table td{
+	padding:15px;
+	border-top:1px solid #646464;
+}
+
+
+
+/*情報公開*/
+.greeting_ttl06{
+	margin:60px auto 0;
+	background: url(../../img/school/h1_bg.png);
+    height:140px;
+}
+.greeting_ttl06 h2{
+	  padding: 40px 0 0 0px;
+    text-align: center;
+}
+.greeting .information{
+	margin-bottom: 75px;
+}
+.greeting .information h3{
+	margin-bottom: 25px;
+}
+.greeting .information--eng h3{
+	background: #449dd6;
+  border-left: 6px solid #a2ceeb;
+}
+.greeting .information--air h3{
+	background: #E97BB8;
+  border-left: 6px solid #f4bddc;
+}
+.greeting .information h4{
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 25px;
+}
+.greeting .information--eng h4{
+	background: #D0E6F5;
+}
+.greeting .information--air h4{
+	background: #FADEED;
+}
+
+.greeting .information__list{
+	margin-bottom: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.greeting .information__list::before,
+.greeting .information__list::after{
+	content: '';
+	display: block;
+	width:280px;
+	height: 0;
+}
+.greeting .information__list::before{
+	order: 1;
+}
+.greeting .information__list li{
+	width:280px;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+.greeting .information__list li a{
+	padding-left: 36px;
+	display: inline-block;
+	min-height: 26px;
+}
+.greeting .information__list li a:hover{
+	text-decoration: underline;
+	
+}
+.greeting .information--eng .information__list li a{
+	background: url(../../img/school/greetings/pdfIcon_eng.png) 0 0 no-repeat;
+}
+
+.greeting .information--air .information__list li a{
+	background: url(../../img/school/greetings/pdfIcon_air.png) 0 0 no-repeat;
+}
+
+/*高等教育無償化対象校*/
+.greeting .information__list li.information__list--application{
+	width: 100%;
+}
+
+/*-----保護者-----*/
+div.school_wrap .h2_box2h {
+    background: url(../../img/school/h1_bg.png);
+    height: 260px;
+}
+div.school_wrap .h2_box2h h2 {
+    padding: 60px 0 0 180px;
+}
+.h2_area2h{
+	width:1200px;
+	margin:0 auto 0;
+	position:relative;
+	height:260px;
+}
+.school_area02{
+	width:1200px;
+	margin:0 auto 0;
+}
+.school_block03{
+	padding:80px 0 30px 0;
+	/*
+    background: url(../../img/school/bg_img_01.jpg) center bottom no-repeat;
+	*/
+	background-size:cover;
+}
+.school_block03 p{
+	text-align:center;
+	font-size:17px;
+    line-height: 28px;
+	margin-bottom:25px;
+}
+
+
+
+.parent_block02{
+	width:900px;	
+	margin:0 auto 0;
+	padding:70px 0;
+}
+.parent_block02_list{
+	border-left:6px solid #beb7d8;
+	background:#eeecf5;
+	padding:35px 30px 35px 35px;
+	width:430px;
+	float:left;
+	margin:0 40px 40px 0px;
+}
+.parent_block02_list:nth-child(2),
+.parent_block02_list:nth-child(4){
+	margin:0 0 40px 0; 
+}
+.parent_block02_ttl01{
+    background: url(../../img/school/parent/icon_img_01.png) left top no-repeat;
+	background-size:85px 85px;
+	padding:0 0px 0px 100px;
+	height:auto;
+}
+.parent_block02_ttl02{
+    background: url(../../img/school/parent/icon_img_02.png) left top no-repeat;
+	background-size:85px 85px;
+	padding:0 0px 0px 100px;
+	height:auto;
+}
+.parent_block02_ttl03{
+    background: url(../../img/school/parent/icon_img_03.png) left top no-repeat;
+	background-size:85px 85px;
+	padding:0 0px 21px 100px;
+	height:auto;
+}
+.parent_block02_ttl04{
+    background: url(../../img/school/parent/icon_img_04.png) left top no-repeat;
+	background-size:85px 85px;
+	padding:0 0px 0px 100px;
+	height:auto;
+}
+
+.parent_block02_ttl05{
+    background: url(../../img/school/parent/icon_img_06.png) left top no-repeat;
+	background-size:85px 85px;
+	padding:0 0px 0px 100px;
+	height:auto;
+}
+.parent_block02_ttl01 h3,
+.parent_block02_ttl02 h3,
+.parent_block02_ttl03 h3,
+.parent_block02_ttl04 h3,
+.parent_block02_ttl05 h3{
+	font-weight:bold;
+	font-size:25px;
+	margin:0 0 10px 0;
+	color:#646464;
+}
+.parent_block02_ttl01 p,
+.parent_block02_ttl02 p,
+.parent_block02_ttl03 p,
+.parent_block02_ttl04 p,
+.parent_block02_ttl05 p{
+	font-size:12px;
+	color:#464646;
+	line-height:16pt;
+}
+.parent_block02_list ul{
+	border-top:1px solid #8f82bc;
+	margin:20px 0px;
+	font-size:18px;
+	line-height:20pt;
+	padding:10px 0 0 0;
+}
+.parent_block02_list li{
+	margin:12px 0 0 0;
+}
+.parent_block02_list li a{
+    background: url(../../img/school/parent/icon_img_05.png) left 7px no-repeat;
+	 background-size:10px 10px;
+	padding:0 0 0 18px;
+	display:block;
+}
+.parent_block02_list li a:hover{
+	text-decoration:underline;
+}

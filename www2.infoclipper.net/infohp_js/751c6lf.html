@@ -1,0 +1,15 @@
+var nittosys_fp_id = "751c6lf";
+
+window.addEventListener('load', function (event) {
+	if(typeof jQuery != "undefined"){
+		$(function() {
+
+		var f = new Function("nsdlink(this);");
+		$('a[href^="https://www2.infoclipper.net/form/"]').attr('name', 'nsdlinker');
+		$('a[href^="https://www2.infoclipper.net/form/"]').attr('id', 'nsdlinker');
+		$('a[href^="https://www.school-go.info/"]').attr('name', 'nsdlinker');
+		$('a[href^="https://www.school-go.info/"]').attr('id', 'nsdlinker');
+		$('[name="nsdlinker"]').attr('onclick', 'nsdlink(this);');
+		});
+	}
+});

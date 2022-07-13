@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+/*============================
+
+Mixin
+
+============================*/
+
+
+/*--------------------------
+基本フォント14px
+フォントサイズ呼び出し用
+---------------------------*/
+
+
+/*============================
+
+SP
+
+============================*/
+
+
+@media screen and (max-width: 640px) {
+    /* line 14, ../../scss/access/sp_style.scss */
+    div.faq_wrap {
+        /*============================
+    #access
+    ============================*/
+    }
+    /* line 15, ../../scss/access/sp_style.scss */
+    div.faq_wrap .h2_box {
+        background: url(../../img/access/h1_bg.png);
+        height: 100px;
+    }
+    /* line 18, ../../scss/access/sp_style.scss */
+    div.faq_wrap .h2_box h2 {
+        padding: 30px;
+        text-align: center;
+    }
+    /* line 21, ../../scss/access/sp_style.scss */
+    div.faq_wrap .h2_box h2 img {
+        width: 85px;
+    }
+    /* line 30, ../../scss/access/sp_style.scss */
+    div.faq_wrap div#faq {
+        padding-bottom: 10px;
+    }
+    /* line 35, ../../scss/access/sp_style.scss */
+    div.faq_wrap div#faq h2 {
+        padding-top: 15px;
+        margin-bottom: 40px;
+    }
+    /* line 41, ../../scss/access/sp_style.scss */
+    div.faq_wrap div#faq div.inner {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+	div.faq_wrap div#faq div.innerB {
+        min-width: 100%;
+        max-width: 100%;
+		margin:0 auto 0;
+	}
+
+
+	
+	
+	
+	
+	/*-----キャンパスライフ-----*/
+	div.faq_wrap .h2_box2 {
+    	background: url(../../img/faq/h1_bg.png);
+    	height: 100px;
+	}
+	div.faq_wrap .h2_box2 h2 {
+   	 	padding: 30px 0 0 0px;
+		text-align:center;
+	}
+	div.faq_wrap .h2_box2 h2 img {
+        width:158px;
+    }
+	.h2_area2{
+		width:100%;
+		margin:0 auto 0;
+		position:relative;
+		height:260px;
+	}
+	.h2_area_photo{
+		display:none;
+	}
+	.h2_area_photoSP{
+		display:block;
+	}
+	div.faq_wrap div#faq {
+    	padding: 0px 0 40px 0;
+	}
+	.faq_B{
+		padding:30px 0% 0 0%;
+		/*
+		color:#646464;
+		*/
+	}
+	.faq_B h3{
+		color:#FFF;
+		font-weight:bold;
+		padding:10px 20px;
+		background:#8f82bc;
+		border-left:6px solid #c7c1de;
+		font-size:17px;
+		margin:40px 5% 0 5% ; 
+	}
+	.faq_B h3:first-child{
+		margin:0px 5% 0 5% ;
+	}
+
+	
+	.cont_bs02 {
+    	padding: 15px 0 0px 0;
+    	margin: 0px 5% 0 5%;
+	}
+
+	.faq_ttl{
+		width:230px;
+		margin:0 auto 0;
+	}
+	
+	.anker_list li{
+		display:table;
+		border:1px solid #464646;
+		float:none;
+		width:100%;
+		margin:0 0 2% 0;
+		background:url(../../img/faq/q_icon_01.png) 3% center no-repeat , url(../../img/faq/icon_img_01.png) 97% center no-repeat;
+		background-size: 30px 35px , 22px 13px;
+	}
+	.anker_list li a {
+		padding:20px 45px 20px 50px;
+	}
+
+	.anker_list li:nth-child(even){
+		margin:0 0 2% 0;
+	}
+	
+	.anker_list li:nth-child(1){
+		background-color:#FFF;
+	}
+	.anker_list li:nth-child(2){
+		background-color:#fffcdb;
+	}
+	.anker_list li:nth-child(3){
+		background-color:#FFF;
+	}
+	.anker_list li:nth-child(4){
+		background-color:#fffcdb;
+	}
+	.anker_list li:nth-child(5){
+		background-color:#FFF;
+	}
+	.anker_list li:nth-child(6){
+		background-color:#fffcdb;
+	}
+	.anker_list li:nth-child(7){
+		background-color:#FFF;
+	}
+	.anker_list li:nth-child(8){
+		background-color:#fffcdb;
+	}
+	.anker_list li:nth-child(9){
+		background-color:#FFF;
+	}
+	.anker_list li:nth-child(10){
+		background-color:#fffcdb;
+	}
+	.anker_list li:nth-child(11){
+		background-color:#FFF;
+	}
+	.anker_list li:nth-child(12){
+		background-color:#fffcdb;
+	}
+	.anker_list li:nth-child(13){
+		background-color:#FFF;
+	}
+	.anker_list li:nth-child(14){
+		background-color:#fffcdb;
+	}
+	.anker_list li:nth-child(15){
+		background-color:#FFF;
+	}
+	.anker_list{
+		margin:30px 0;
+	}
+	.faq_B_dl1{
+		padding:20px 0%;
+		border-bottom:1px solid #464646;
+	}
+	.faq_B_dl2{
+		padding:20px 5%;
+		background:#fffcdb;
+		border-bottom:1px solid #464646;
+	}
+	.faq_B_dl1 dt,
+	.faq_B_dl2 dt{
+		background: url(../../img/faq/q_icon_02.png) left 4px no-repeat;
+		background-size:30px 26px; 
+		padding:6px 0 6px 40px;
+		font-weight:bold;
+		color:#e45aa6;
+		font-size:16px;
+		margin:0 0 10px 0;
+	}
+	.faq_B_dl1 dd,
+	.faq_B_dl2 dd{
+		background: url(../../img/faq/q_icon_03.png) left 4px no-repeat;
+		background-size:30px 26px; 
+		padding:6px 0 6px 40px;
+
+	}
+	
+	.faq_left01{
+		width:100%;
+		float:none;
+	}
+	.faq_right01{
+		width:100%;
+		float:none;
+	}
+	
+	
+	.sptel{
+		display:inline-block;
+	}
+	.sptel a{
+		color: #1584cc;
+	}
+	.pctel{
+		display:none;
+	}
+	
+	
+}
+
+
+
+/*----------------------
+  Tablet
+----------------------*/

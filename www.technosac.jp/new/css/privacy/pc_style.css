@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*============================
+  PC
+============================*/
+.privacy_wrap .h2_box{
+  background: url(../../img/school/h1_bg.png);
+  height: 200px;
+}
+
+.privacy_wrap .h2_box h2{
+  padding: 60px;
+  text-align: center;
+}
+
+.privacy_wrap .inner{
+  width: 100%;
+  max-width: 900px;
+  min-width: 900px;
+  margin: 0 auto;
+  padding: 75px 0 90px;
+}
+
+.privacy_wrap .inner .intro{
+  margin-bottom: 50px;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.privacy_wrap .inner .sec{
+  margin-bottom: 30px;
+}
+
+.privacy_wrap .inner .sec:last-of-type{
+  margin-bottom: 0;
+}
+
+.privacy_wrap .inner .sec h3{
+  margin-bottom: 10px;
+  color: #8f82bc;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.privacy_wrap .inner .sec h3::before{
+  content: '\25A0';
+  margin-right: 5px;
+}
+
+.privacy_wrap .inner .sec p{
+  font-size: 15px;
+  line-height: 2;  
+}
+
+.privacy_wrap .inner .sec a{
+  color: #007dff;
+}
+.privacy_wrap .inner .sec a:hover{
+  text-decoration: underline;
+}

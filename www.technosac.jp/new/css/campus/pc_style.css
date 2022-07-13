@@ -1,0 +1,1367 @@
+@charset "UTF-8";
+/*============================
+
+Mixin
+
+============================*/
+/*--------------------------
+基本フォント14px
+フォントサイズ呼び出し用
+---------------------------*/
+/*============================
+
+PC -top
+
+============================*/
+/* line 10, ../../scss/access/pc_style.scss */
+div.campus_wrap {
+  margin-bottom: 30px;
+  /*============================
+#access
+============================*/ }
+
+/* line 18, ../../scss/access/pc_style.scss */
+div.campus_wrap .h2_box {
+  background: url(../../img/access/h1_bg.png);
+  height: 200px; }
+
+/* line 21, ../../scss/access/pc_style.scss */
+div.campus_wrap .h2_box h2 {
+  padding: 60px;
+  text-align: center; }
+
+/* line 27, ../../scss/access/pc_style.scss */
+/* line 30, ../../scss/access/pc_style.scss */
+/* line 36, ../../scss/access/pc_style.scss */
+div.campus_wrap div#campus div.inner {
+  min-width: 900px;
+  max-width: 900px; }
+
+div.campus_wrap div#campus div.innerB {
+  min-width: 1024px;
+  max-width: 1024px;
+  margin: 0 auto 0; }
+
+/*-----下層およびボトムリンク共通-----*/
+.cont_bs01 {
+  padding: 30px 0 50px 0; }
+
+.cont_bs02 {
+  padding: 30px 0 0px 0; }
+
+.cont_bs03 {
+  padding: 0px 0 0px 0; }
+
+.campus_B {
+  padding: 60px 0 0 0;
+  color: #646464; }
+
+.campus_B h3 {
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #8f82bc;
+  border-left: 6px solid #c7c1de;
+  font-size: 24px;
+  margin: 70px 0 0 0; }
+
+.campus_B h3:first-child {
+  margin: 0px 0 0 0; }
+
+.campus_C {
+  padding: 60px 0 0 0;
+  color: #646464; }
+
+.campus_C h3 {
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #449dd6;
+  border-left: 6px solid #a2ceeb;
+  font-size: 24px;
+  margin: 70px 0 0 0; }
+
+.campus_C h3:first-child {
+  margin: 0px 0 0 0; }
+
+.campus_D {
+  padding: 60px 0 0 0;
+  color: #646464; }
+
+.campus_D h3 {
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #e97bb8;
+  border-left: 6px solid #f4bddc;
+  font-size: 24px;
+  margin: 70px 0 0 0; }
+
+.campus_D h3:first-child {
+  margin: 0px 0 0 0; }
+
+.campus_block03 {
+  width: 1200px;
+  margin: 0 auto 0;
+  padding: 70px 0; }
+
+.campus_block03_list {
+  border-left: 6px solid #beb7d8;
+  background: #eeecf5;
+  padding: 30px;
+  width: 285px;
+  float: left;
+  margin: 0 20px 0px 0px; }
+
+.campus_block03_list:nth-child(4) {
+  margin: 0 0 0px 0; }
+
+.campus_block03_ttl01 {
+  padding: 0px 0px 0px 0px; }
+
+.campus_block03_ttl02 {
+  padding: 0px 0px 0px 0px; }
+
+.campus_block03_ttl03 {
+  padding: 0px 0px 0px 0px; }
+
+.campus_block03_ttl04 {
+  padding: 0px 0px 0px 0px; }
+
+.campus_block03_ttl01 h3,
+.campus_block03_ttl02 h3,
+.campus_block03_ttl03 h3,
+.campus_block03_ttl04 h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0 0 10px 0;
+  color: #646464; }
+
+.campus_block03_list ul {
+  border-top: 1px solid #8f82bc;
+  margin: 20px 0px;
+  font-size: 18px;
+  padding: 10px 0 0 0; }
+
+.campus_block03_list li {
+  margin: 12px 0 0 0;
+  font-size: 18px;
+  text-align: left; }
+
+.campus_block03_list li a {
+  background: url(../../img/campus/icon_img_05.png) left 7px no-repeat;
+  background-size: 10px 10px;
+  padding: 0 0 0 18px;
+  display: block; }
+
+.campus_block03_list li a:hover {
+  text-decoration: underline; }
+
+/*-----キャンパスライフ-----*/
+div.campus_wrap .h2_box2 {
+  background: url(../../img/campus/h1_bg.png);
+  height: 260px; }
+
+div.campus_wrap .h2_box2 h2 {
+  padding: 90px 0 0 190px; }
+
+.h2_area2 {
+  width: 1200px;
+  margin: 0 auto 0;
+  position: relative;
+  height: 260px; }
+
+.h2_area_photo {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 500px; }
+
+.h2_area_photoSP {
+  display: none; }
+
+div.campus_wrap div#campus {
+  padding: 0px 0; }
+
+.cam_ttl01 {
+  text-align: center;
+  font-size: 34px;
+  line-height: 38px;
+  margin: 0 0 60px 0;
+  color: #FFF; }
+
+.campus_block01 {
+  padding: 80px 0 80px 0;
+  background: url(../../img/campus/bg_img_01.jpg) center top no-repeat;
+  background-size: contain; }
+
+.campus_block01 p {
+  text-align: center;
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: #FFF; }
+
+.campus_block02 {
+  width: 900px;
+  margin: 0 auto 0;
+  padding: 70px 0; }
+
+.campus_block02_list {
+  border-left: 6px solid #beb7d8;
+  background: #eeecf5;
+  padding: 35px;
+  width: 424px;
+  float: left;
+  margin: 0 40px 40px 0px; }
+
+.campus_block02_list:nth-child(2),
+.campus_block02_list:nth-child(4) {
+  margin: 0 0 40px 0; }
+
+.campus_block02_ttl01 {
+  padding: 0 0px 0px 0px; }
+
+.campus_block02_ttl02 {
+  padding: 0 0px 0px 0px; }
+
+.campus_block02_ttl03 {
+  padding: 0 0px 0px 0px; }
+
+.campus_block02_ttl04 {
+  padding: 0 0px 0px 0px; }
+
+.campus_block02_ttl01 h3,
+.campus_block02_ttl02 h3,
+.campus_block02_ttl03 h3,
+.campus_block02_ttl04 h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0 0 10px 0;
+  color: #646464; }
+
+.campus_block02_ttl01 p,
+.campus_block02_ttl02 p,
+.campus_block02_ttl03 p,
+.campus_block02_ttl04 p {
+  font-size: 12px;
+  color: #464646;
+  line-height: 16pt; }
+
+.campus_block02_list ul {
+  margin: 20px 0px;
+  font-size: 18px;
+  line-height: 20pt;
+  padding: 0px 0 0 0; }
+
+.campus_block02_list li {
+  margin: 12px 0 0 0; }
+
+.campus_block02_list li a {
+  background: url(../../img/campus/icon_img_05.png) left 7px no-repeat;
+  background-size: 10px 10px;
+  padding: 0 0 0 18px;
+  display: block; }
+
+.campus_block02_list li a:hover {
+  text-decoration: underline; }
+
+/*-----エアトラ-----*/
+div.campus_wrap .h2_box3 {
+  background: url(../../img/campus/h1_bg.png);
+  height: 260px; }
+
+div.campus_wrap .h2_box3 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+.campus_left01 {
+  float: left;
+  width: 470px; }
+
+.campus_right01 {
+  float: right;
+  width: 470px; }
+
+.camp_block_001,
+.camp_block_001k {
+  background: #fffcdb url(../../img/campus/air-year-event/bg_img_01.png) left top no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 40px 50px 40px 120px; }
+
+.camp_block_002,
+.camp_block_002k {
+  background: #FFFFFF url(../../img/campus/air-year-event/bg_img_01.png) left top no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 40px 50px 40px 120px; }
+
+.camp_month {
+  position: absolute;
+  top: 30px;
+  left: -10px; }
+
+.camp_block_001 ul,
+.camp_block_002 ul,
+.camp_block_001k ul,
+.camp_block_002k ul {
+  margin: 0 0 20px 0; }
+
+.camp_block_001 li,
+.camp_block_002 li,
+.camp_block_001k li,
+.camp_block_002k li {
+  background: url(../../img/campus/air-year-event/icon_img_14.png) left 4px no-repeat;
+  background-size: 14px 14px;
+  padding: 0 0 0 20px;
+  margin: 0 0 4px 0; }
+
+.camp_block_001 h3,
+.camp_block_002 h3 {
+  font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #e97bb8;
+  margin: 10px 0;
+  padding: 0; }
+
+.camp_block_001k h3,
+.camp_block_002k h3 {
+  font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #1584cc;
+  margin: 10px 0;
+  padding: 0; }
+
+.camp_block_001 p,
+.camp_block_002 p,
+.camp_block_001k p,
+.camp_block_002k p {
+  font-size: 86%; }
+
+.ht01 {
+  height: 170px; }
+
+.camp_photo_02 {
+  margin: 25px 0 0 0; }
+
+.lstbg {
+  background: url(../../img/campus/air-year-event/bg_img_01.png) left top no-repeat, url(../../img/campus/air-year-event/bg_img_01.png) left bottom no-repeat;
+  background-size: contain , contain; }
+
+/*-----工学院-----*/
+.camp_block_001k li,
+.camp_block_002k li {
+  background: url(../../img/campus/eng-year-event/icon_img_14.png) left 4px no-repeat;
+  background-size: 14px 14px;
+  padding: 0 0 0 20px;
+  margin: 0 0 4px 0; }
+
+/*追加*/
+.cal_wrap {
+  margin-top: -100px;
+  padding-top: 100px; }
+
+/*-----施設-----*/
+div.campus_wrap .h2_box4 {
+  background: url(../../img/campus/h1_bg.png);
+  height: 260px; }
+
+div.campus_wrap .h2_box4 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+.campus_block04 {
+  padding: 80px 0 80px 0;
+  background: url(../../img/campus/facilities/bg_img_03.png) center top repeat-x;
+  /*
+  background-size:contain;
+  */ }
+
+.campus_block04 p {
+  text-align: center;
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: #FFF; }
+
+.campus_area04 {
+  width: 1170px;
+  margin: 0 auto 0; }
+
+.area04_left {
+  float: left;
+  width: 470px; }
+
+.area04_right {
+  float: right;
+  width: 700px; }
+
+.area04_right img {
+  width: 693px; }
+
+.cam_ttl02 img {
+  width: 376px; }
+
+.area04_left p {
+  font-size: 17px;
+  line-height: 38px;
+  margin-bottom: 25px;
+  color: #464646;
+  text-align: left;
+  margin: 50px 0 0 20px; }
+
+.fac_block01 {
+  width: 900px;
+  margin: 60px auto 0; }
+
+.fac_block01 h3 {
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #8f82bc;
+  border-left: 6px solid #c7c1de;
+  font-size: 24px;
+  margin: 0 0 25px 0; }
+
+.fac_block02 {
+  width: 900px;
+  margin: 120px auto 0; }
+
+.fac_block02 h3 {
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #8f82bc;
+  border-left: 6px solid #c7c1de;
+  font-size: 24px;
+  margin: 0 0 25px 0; }
+
+.bx-wrapper .bx-controls-direction a {
+  width: 17px !important;
+  height: 56px !important;
+  margin-top: -140px; }
+
+.slider .bx-wrapper {
+  box-shadow: none;
+  border: none;
+  margin: 0 auto 60px; }
+
+.bx-wrapper .bx-prev {
+  left: -50px !important;
+  background: url(../../img/campus/facilities/controls.png) no-repeat -2px -8px !important; }
+
+.bx-wrapper .bx-next {
+  right: -50px !important;
+  background: url(../../img/campus/facilities/controls.png) no-repeat -55px -8px !important; }
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #023e92 !important; }
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+  bottom: -10px; }
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #a6bad5 !important;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+h3.h3bg01 {
+  background: #8f82bc;
+  border-left: 6px solid #c7c1de; }
+
+h3.h3bg02 {
+  background: #449dd6;
+  border-left: 6px solid #a2ceeb; }
+
+h3.h3bg03 {
+  background: #e97bb8;
+  border-left: 6px solid #f4bddc; }
+
+h3.h3bg04 {
+  background: #004bb4;
+  border-left: 6px solid #80a5da; }
+
+h3.h3bg05 {
+  background: #23af37;
+  border-left: 6px solid #91d79b; }
+
+
+.sd_ttl01 {
+  text-align: center;
+  font-weight: bold;
+  color: #8f82bc;
+  font-size: 21px;
+  margin: 40px 0 20px 0; }
+
+.sd_ttl02 {
+  text-align: center;
+  font-weight: bold;
+  color: #1584cc;
+  font-size: 21px;
+  margin: 40px 0 20px 0; }
+
+.sd_ttl03 {
+  text-align: center;
+  font-weight: bold;
+  color: #e97bb8;
+  font-size: 21px;
+  margin: 40px 0 20px 0; }
+
+  .sd_ttl04 {
+  text-align: center;
+  font-weight: bold;
+  color: #004bb4;
+  font-size: 21px;
+  margin: 40px 0 20px 0; }
+
+  .sd_ttl05 {
+  text-align: center;
+  font-weight: bold;
+  color: #23af37;
+  font-size: 21px;
+  margin: 40px 0 20px 0; }
+
+.bxslider01PC p,
+.bxslider02PC p,
+.bxslider03PC p,
+.bxslider04PC p,
+.bxslider05PC p {
+  font-size: 15px;
+  color: #464646; }
+
+.cmp_exblock {
+  position: relative;
+  text-align: left; }
+
+.cmp_exblock a {
+  width: 206px;
+  display: block;
+  color: #000;
+  font-weight: bold; }
+
+.cmp_exblock a span {
+  background: #ff0; }
+
+.cmp_exblock a:visited,
+.cmp_exblock a:link,
+.cmp_exblock a:hover {
+  color: #000; }
+
+.cmp_exblock a:hover {
+  text-decoration: underline; }
+
+.cmp_exblock div {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #e60012;
+  color: #FFF;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px; }
+
+.bx-wrapper .bx-controls-direction a {
+  z-index: 10 !important; }
+
+/*============================
+#club
+============================*/
+div.campus_wrap .h2_box5 {
+  background: url(../../img/campus/h1_bg.png);
+  height: 260px; }
+
+div.campus_wrap .h2_box5 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+div#club div.block01 {
+  height: 960px;
+  background: url(../../img/campus/club/sec1_bg.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  margin-bottom: 120px; }
+  div#club div.block01 .inner {
+    max-width: 900px;
+    min-width: 900px; }
+  div#club div.block01 h3 {
+    text-align: center;
+    margin-bottom: 30px; }
+  div#club div.block01 p {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 17px;
+    line-height: 30px; }
+  div#club div.block01 div.cf div {
+    width: 166px;
+    float: left;
+    border: 1px solid  #8f82bc;
+    margin-bottom: 20px;
+    margin-right: 17px; }
+    div#club div.block01 div.cf div:nth-child(5n) {
+      margin-right: 0; }
+    div#club div.block01 div.cf div a {
+      display: block;
+      background: #8f82bc; }
+      div#club div.block01 div.cf div a:hover {
+        opacity: 0.6; }
+        div#club div.block01 div.cf div a:hover img {
+          opacity: 1; }
+      div#club div.block01 div.cf div a p {
+        padding: 15px;
+        margin: 0;
+        line-height: 1;
+        font-size: 15px;
+        font-weight: bold;
+        color: #fff;
+        position: relative; }
+        div#club div.block01 div.cf div a p:after {
+          transform: rotate(-45deg);
+          content: "";
+          display: block;
+          position: absolute;
+          right: 10px;
+          top: 15px;
+          width: 7px;
+          height: 7px;
+          border-left: 2px solid #fff;
+          border-bottom: 2px solid #fff; }
+      div#club div.block01 div.cf div a p.two {
+        line-height: 1.3;
+        padding: 4px 5px 3px; }
+div#club div.block02 {
+  max-width: 900px;
+  min-width: 900px; }
+  div#club div.block02 div.box {
+    margin-bottom: 100px; }
+    div#club div.block02 div.box div.h3_box {
+      margin-bottom: 30px;
+      position: relative;
+      padding-left: 30px; }
+      div#club div.block02 div.box div.h3_box img {
+        position: absolute;
+        left: 0;
+        top: -6px; }
+      div#club div.block02 div.box div.h3_box h3 {
+        background: #8f82bc;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 1;
+        padding: 20px 20px 20px 60px;
+        color: #fff; }
+        div#club div.block02 div.box div.h3_box h3 span {
+          font-size: 20px; }
+    div#club div.block02 div.box div.cf div {
+      width: 500px; }
+      div#club div.block02 div.box div.cf div dl + dl {
+        margin-top: 20px; }
+      div#club div.block02 div.box div.cf div dl dt {
+        color: #8f82bc;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px; }
+      div#club div.block02 div.box div.cf div dl dd {
+        font-size: 15px;
+        line-height: 25px; }
+        div#club div.block02 div.box div.cf div dl dd p + table {
+          margin-top: 10px; }
+        div#club div.block02 div.box div.cf div dl dd table tr th {
+          vertical-align: top; }
+        div#club div.block02 div.box div.cf div dl dd table tr td {
+          vertical-align: top; }
+  div#club div.block02 div#badminton div.cf div dl dd table tr th {
+    width: 245px; }
+
+/*============================
+#international
+============================*/
+div.campus_wrap .h2_box6 {
+  background: url(../../img/campus/h1_bg.png);
+  height: 260px; }
+
+div.campus_wrap .h2_box6 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+div#international div.block01 {
+  background: url(../../img/campus/international/sec01_bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 845px;
+  position: relative; }
+  div#international div.block01 p.ttl.onlyPC {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    width: 1200px;
+    margin: 0 auto; }
+  div#international div.block01 p.obi {
+    position: absolute;
+    left: 0;
+    bottom: 50px; }
+div#international div.block02 {
+  background: url(../../img/campus/international/sec02_bg01.png) no-repeat center top;
+  background-size: contain;
+  padding-top: 70px;
+  margin-bottom: 50px; }
+  div#international div.block02 div.inner {
+    max-width: 900px;
+    min-width: 900px; }
+    div#international div.block02 div.inner p {
+      font-size: 16px;
+      line-height: 35px;
+      text-align: center; }
+    div#international div.block02 div.inner div.block02_inner {
+      margin-top: 100px;
+      background: url(../../img/campus/international/sec02_bg02.png) no-repeat;
+      height: 486px;
+      padding: 35px 40px 0 60px; }
+      div#international div.block02 div.inner div.block02_inner p.ttl {
+        margin-bottom: 20px; }
+      div#international div.block02 div.inner div.block02_inner div.cf img {
+        vertical-align: middle !important;
+        display: inline-block; }
+      div#international div.block02 div.inner div.block02_inner div.cf div.box {
+        border-bottom: 2px solid  #fff;
+        padding: 10px 0; }
+        div#international div.block02 div.inner div.block02_inner div.cf div.box p {
+          margin-left: 5px;
+          font-size: 15px;
+          line-height: 1.3;
+          text-align: left;
+          display: inline-block;
+          vertical-align: middle;
+          max-width: 300px; }
+          div#international div.block02 div.inner div.block02_inner div.cf div.box p span {
+            font-size: 12px; }
+      div#international div.block02 div.inner div.block02_inner div.cf div.fl {
+        width: 380px;
+        border-top: 2px solid  #fff; }
+      div#international div.block02 div.inner div.block02_inner div.cf div.fr {
+        border-top: 2px solid  #fff;
+        width: 380px; }
+div#international div.block03.cf {
+  margin-bottom: 100px; }
+  div#international div.block03.cf div.box {
+    width: 33.33%;
+    float: left; }
+    div#international div.block03.cf div.box:nth-child(3n) {
+      width: 33.34%; }
+    div#international div.block03.cf div.box img {
+      width: 100%; }
+    div#international div.block03.cf div.box div.cf {
+      padding: 25px; }
+      div#international div.block03.cf div.box div.cf img {
+        display: inline-block;
+        vertical-align: top !important;
+        float: left;
+        width: auto; }
+      div#international div.block03.cf div.box div.cf p {
+        float: left;
+        font-size: 12px;
+        width: 70%;
+        margin-left: 5%; }
+div#international div.block04 {
+  margin-bottom: 150px; }
+  div#international div.block04 h3 {
+    width: 900px;
+    margin: 0 auto 30px; }
+  div#international div.block04 div.box {
+    background: #fffcdb; }
+    div#international div.block04 div.box div.cf.inner {
+      max-width: 900px;
+      min-width: 900px;
+      padding: 60px 0; }
+      div#international div.block04 div.box div.cf.inner div.txt {
+        float: right;
+        width: 600px; }
+        div#international div.block04 div.box div.cf.inner div.txt p {
+          line-height: 25px; }
+        div#international div.block04 div.box div.cf.inner div.txt dl {
+          margin-top: 30px; }
+          div#international div.block04 div.box div.cf.inner div.txt dl dt {
+            color: #8f82bc;
+            font-weight: bold;
+            margin-bottom: 10px; }
+          div#international div.block04 div.box div.cf.inner div.txt dl dd p.gakka {
+            font-size: 12px; }
+          div#international div.block04 div.box div.cf.inner div.txt dl dd div p.name {
+            font-size: 15px;
+            font-weight: bold;
+            margin-right: 20px;
+            padding-top: 0; }
+            div#international div.block04 div.box div.cf.inner div.txt dl dd div p.name span {
+              font-size: 20px; }
+          div#international div.block04 div.box div.cf.inner div.txt dl dd div p {
+            padding-top: 5px;
+            line-height: 1;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 12px; }
+div#international div.block05.inner {
+  max-width: 1020px;
+  min-width: 1020px;
+  border: 3px solid  #009bd5; }
+  div#international div.block05.inner div.head_area {
+    background: url(../../img/campus/international/box05_bg.png);
+    padding: 55px;
+    position: relative; }
+    div#international div.block05.inner div.head_area div.h3_box.cf {
+      width: 600px; }
+      div#international div.block05.inner div.head_area div.h3_box.cf div.fr {
+        width: 427px; }
+        div#international div.block05.inner div.head_area div.h3_box.cf div.fr p {
+          color: #009bd5;
+          font-weight: bold;
+          font-size: 20px;
+          margin-top: 7px;
+          margin-left: 30px;
+          margin-bottom: 15px;
+          line-height: 1; }
+        div#international div.block05.inner div.head_area div.h3_box.cf div.fr h3 {
+          background: #009bd5;
+          color: #fff;
+          font-size: 30px;
+          font-weight: bold;
+          padding: 15px 30px;
+          line-height: 1; }
+    div#international div.block05.inner div.head_area div.ph_box {
+      max-width: 388px;
+      position: absolute;
+      right: 20px;
+      top: 30px; }
+      div#international div.block05.inner div.head_area div.ph_box p {
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: -20px;
+        margin-left: 15px; }
+    div#international div.block05.inner div.head_area p.txt {
+      margin-top: 45px;
+      width: 515px;
+      line-height: 25px; }
+  div#international div.block05.inner div.cont {
+    padding: 55px; }
+    div#international div.block05.inner div.cont h4 {
+      margin-bottom: 45px; }
+    div#international div.block05.inner div.cont div.cf div.box.cf {
+      width: 410px; }
+      div#international div.block05.inner div.cont div.cf div.box.cf img {
+        float: left; }
+      div#international div.block05.inner div.cont div.cf div.box.cf div.fr {
+        width: 240px; }
+        div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dt {
+          margin-bottom: 15px;
+          font-size: 12px; }
+          div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dt span {
+            font-weight: bold;
+            font-size: 20px; }
+        div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dd ul {
+          margin-bottom: 30px; }
+          div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dd ul li {
+            font-size: 12px; }
+        div#international div.block05.inner div.cont div.cf div.box.cf div.fr dl dd p {
+          font-size: 15px;
+          line-height: 25px; }
+    div#international div.block05.inner div.cont div.sns {
+      margin-top: -40px; }
+      div#international div.block05.inner div.cont div.sns p.ttl {
+        display: inline-block;
+        vertical-align: middle; }
+      div#international div.block05.inner div.cont div.sns ul {
+        margin-left: 20px;
+        display: inline-block;
+        vertical-align: middle; }
+        div#international div.block05.inner div.cont div.sns ul li {
+          display: inline-block;
+          vertical-align: middle; }
+          div#international div.block05.inner div.cont div.sns ul li + li {
+            margin-left: 40px; }
+
+/*============================
+#sandwich
+============================*/
+div.campus_wrap .h2_box7 {
+  background: url(../../img/campus/h1_bg.png);
+  height: 250px; }
+
+div.campus_wrap .h2_box7 h2 {
+  padding: 55px 0 0 0px;
+  text-align: center; }
+
+/*============================
+#sandwich
+============================*/
+div#sandwich .inner {
+  max-width: 900px;
+  min-width: 900px; }
+div#sandwich div.block01 {
+  margin-bottom: 120px;
+  padding-top: 65px;
+  background: url(../../img/campus/sandwich/box01_bg.jpg) no-repeat center bottom;
+  background-size: cover;
+  height: 1065px; }
+  div#sandwich div.block01 div.inner {
+    text-align: center; }
+    div#sandwich div.block01 div.inner p.ttl {
+      margin-left: 115px;
+      margin-bottom: 40px; }
+    div#sandwich div.block01 div.inner p.lead {
+      margin-bottom: 40px; }
+    div#sandwich div.block01 div.inner p {
+      text-align: center;
+      color: #fff;
+      font-size: 17px;
+      line-height: 30px; }
+div#sandwich div.block02.inner {
+  margin-bottom: 80px; }
+  div#sandwich div.block02.inner h3 {
+    background: #e97bb8;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 30px; }
+    div#sandwich div.block02.inner h3 span {
+      vertical-align: text-bottom;
+      font-size: 33px; }
+  div#sandwich div.block02.inner div.cf div.box {
+    float: left;
+    width: 300px;
+    padding: 0 25px;
+    text-align: center; }
+    div#sandwich div.block02.inner div.cf div.box + div.box {
+      border-left: 1px dotted #e97bb8; }
+    div#sandwich div.block02.inner div.cf div.box:nth-child(1) {
+      padding-left: 0; }
+    div#sandwich div.block02.inner div.cf div.box:nth-child(3) {
+      padding-right: 0; }
+    div#sandwich div.block02.inner div.cf div.box p {
+      margin: 30px auto 0;
+      max-width: 235px;
+      text-align: justify; }
+div#sandwich div.block03.inner {
+  margin-bottom: 100px; }
+  div#sandwich div.block03.inner h3 {
+    margin-bottom: 30px;
+    background: #e97bb8;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1; }
+    div#sandwich div.block03.inner h3 span {
+      vertical-align: text-bottom;
+      font-size: 33px; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.year {
+    background: #f4bddb;
+    padding-top: 250px; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.txt {
+    padding-top: 0; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.txt div.schedule div.cf div {
+      width: 380px; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(1) div.txt div.schedule div.cf div dl dd {
+        width: 273px; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(2) div.year {
+    padding-top: 150px;
+    background: url(../../img/campus/sandwich/box03_bg01.jpg) no-repeat center top #ef9cca; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(3) div.year {
+    padding-top: 130px;
+    background: url(../../img/campus/sandwich/box03_bg02.jpg) no-repeat center top #e97bb8; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf:nth-child(3) div.txt {
+    border-bottom: none; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf div.year {
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    width: 74px;
+    float: left;
+    text-align: center;
+    padding: 20px; }
+  div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt {
+    border-bottom: 3px dotted  #646464;
+    width: 795px;
+    float: right;
+    padding: 40px 0; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt h4 {
+      font-weight: bold;
+      color: #e45aa6;
+      font-size: 25px;
+      margin-bottom: 10px; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.img_box.cf {
+      margin: 30px 0; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.img_box.cf img.fl {
+        margin-right: 15px; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.img_box.cf p.fr {
+        font-size: 12px;
+        line-height: 20px;
+        width: 210px; }
+    div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule {
+      margin-top: 30px; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule p.ttl {
+        font-weight: bold;
+        color: #e45aa6;
+        font-size: 20px;
+        margin-bottom: 10px; }
+      div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div {
+        width: 440px; }
+        div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl {
+          height: 48px;
+          margin-bottom: 15px;
+          border: 1px solid  #8f82bc;
+          line-height: 1; }
+          div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dt {
+            font-size: 20px;
+            padding: 13px 0;
+            width: 105px;
+            float: left;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            background: #8f82bc;
+            position: relative; }
+            div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dt:after {
+              position: absolute;
+              left: 0;
+              bottom: -16px;
+              content: "";
+              display: block;
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 15px 52.5px 0 52.5px;
+              border-color: #8e82bc transparent transparent transparent; }
+            div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dt.last:after {
+              display: none; }
+          div#sandwich div.block03.inner div.box_wrap div.box.cf div.txt div.schedule div.cf div dl dd {
+            width: 333px;
+            float: left;
+            padding: 15px; }
+div#sandwich div.block04.inner {
+  margin-bottom: 80px; }
+  div#sandwich div.block04.inner h3 {
+    margin-bottom: 30px;
+    background: #e97bb8;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1; }
+  div#sandwich div.block04.inner ul {
+    margin-left: 50px; }
+    div#sandwich div.block04.inner ul li {
+      float: left;
+      margin-right: 50px;
+      margin-bottom: 40px; }
+      div#sandwich div.block04.inner ul li:nth-child(6n) {
+        margin-right: 0; }
+div#sandwich div.block05 {
+  margin-bottom: 100px; }
+  div#sandwich div.block05 h3 {
+    text-align: center;
+    margin-bottom: 10px; }
+  div#sandwich div.block05 div.box {
+    padding: 50px 0;
+    background: #fffcdb;
+    margin-bottom: 30px; }
+    div#sandwich div.block05 div.box div.cf.inner img.fl {
+      margin-left: -20px; }
+    div#sandwich div.block05 div.box div.cf.inner div.txt {
+      padding-top: 20px;
+      width: 370px; }
+      div#sandwich div.block05 div.box div.cf.inner div.txt h4 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #e45aa6;
+        margin-bottom: 10px; }
+      div#sandwich div.block05 div.box div.cf.inner div.txt p {
+        line-height: 25px; }
+      div#sandwich div.block05 div.box div.cf.inner div.txt div.profile {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -ms-align-items: center;
+        align-items: center;
+        margin-top: 60px; }
+        div#sandwich div.block05 div.box div.cf.inner div.txt div.profile img {
+          width: 166px; }
+        div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl {
+          margin-left: 30px;
+          width: 170px; }
+          div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl dd div p.name {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            padding-top: 0; }
+            div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl dd div p.name span {
+              font-size: 20px; }
+          div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl dd div p {
+            padding-top: 5px;
+            line-height: 15px;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 12px; }
+          div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl dt {
+            margin-top: 15px; }
+            div#sandwich div.block05 div.box div.cf.inner div.txt div.profile dl dt span {
+              display: block;
+              font-weight: bold;
+              font-size: 17px;
+              color: #e45aa6; }
+div#sandwich div.block06.inner h3 {
+  background: #e97bb8;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 12px;
+  margin-bottom: 40px; }
+  div#sandwich div.block06.inner h3 span {
+    position: absolute;
+    font-size: 13px;
+    font-weight: lighter;
+    right: 10px;
+    top: 22px; }
+div#sandwich div.block06.inner div.cf div.box {
+  width: 425px;
+  float: left;
+  margin: 0 50px 50px 0; }
+  div#sandwich div.block06.inner div.cf div.box:nth-child(2n) {
+    margin-right: 0; }
+  div#sandwich div.block06.inner div.cf div.box div.fr {
+    width: 340px; }
+    div#sandwich div.block06.inner div.cf div.box div.fr h4 {
+      line-height: 1;
+      padding: 10px;
+      border: 2px solid  #e45aa6;
+      color: #e45aa6;
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 10px; }
+      div#sandwich div.block06.inner div.cf div.box div.fr h4 span {
+        margin-left: 10px;
+        font-size: 20px; }
+    div#sandwich div.block06.inner div.cf div.box div.fr p {
+      font-weight: bold;
+      font-size: 20px; }
+      div#sandwich div.block06.inner div.cf div.box div.fr p span.pink {
+        color: #e45aa6; }
+        div#sandwich div.block06.inner div.cf div.box div.fr p span.pink span {
+          font-size: 30px; }
+  div#sandwich div.block06.inner > dl{
+
+  }
+  div#sandwich div.block06.inner > dl dt{
+    font-weight: bold;
+    font-size: 17px;
+    color: #646464;
+    margin-bottom: 10px;
+  }
+  div#sandwich div.block06.inner > dl dd{
+    color: #464646;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  div#sandwich div.block06.inner > dl dd span{
+    font-size: 12px;
+  }
+
+/*============================
+#sister
+============================*/
+div.campus_wrap .h2_box8 {
+  background: url(../../img/campus/h1_bg.png);
+  height: 250px; }
+
+div.campus_wrap .h2_box8 h2 {
+  padding: 55px 0 0 0px;
+  text-align: center; }
+
+div#sister .inner {
+  max-width: 900px;
+  min-width: 900px; }
+div#sister div.block01.cf {
+  min-height: 1000px;
+  margin-bottom: 100px; }
+  div#sister div.block01.cf div.fl {
+    height: 100%;
+    width: 50%;
+    background: url(../../img/campus/sister/box01_bg01.jpg) no-repeat;
+    background-size: cover; }
+  div#sister div.block01.cf div.fr {
+    padding-top: 20px;
+    height: 100%;
+    width: 50%; }
+    div#sister div.block01.cf div.fr div.box01 {
+      margin-left: -140px;
+      height: 520px;
+      max-width: 856px;
+      text-align: center;
+      background: url(../../img/campus/sister/box01_bg02.png) no-repeat;
+      padding-top: 30px;
+      padding-left: 20px; }
+      div#sister div.block01.cf div.fr div.box01 h3 {
+        width: 500px;
+        margin: 20px auto 40px; }
+      div#sister div.block01.cf div.fr div.box01 p {
+        font-size: 17px;
+        line-height: 30px;
+        width: 500px;
+        margin: 0 auto; }
+    div#sister div.block01.cf div.fr div.box02 img {
+      width: 100%; }
+    div#sister div.block01.cf div.fr div.box03 {
+      background: #8f82bc;
+      color: #fff;
+      padding: 50px 60px; }
+      div#sister div.block01.cf div.fr div.box03 dl dt {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px; }
+      div#sister div.block01.cf div.fr div.box03 dl dd {
+        line-height: 25px; }
+div#sister div.block02 {
+  margin-bottom: 100px; }
+  div#sister div.block02 h3 {
+    text-align: center;
+    margin-bottom: 40px; }
+  div#sister div.block02 div.box01 {
+    background: #fceef6; }
+    div#sister div.block02 div.box01 h4 {
+      background: #e97bb8; }
+  div#sister div.block02 div.box02 {
+    background: #e7f2fa; }
+    div#sister div.block02 div.box02 h4 {
+      background: #449dd6; }
+  div#sister div.block02 div.box01,
+  div#sister div.block02 div.box02 {
+    padding: 60px 0;
+    margin-bottom: 50px;
+    text-align: center; }
+    div#sister div.block02 div.box01 h4,
+    div#sister div.block02 div.box02 h4 {
+      font-size: 25px;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 30px; }
+    div#sister div.block02 div.box01 img,
+    div#sister div.block02 div.box02 img {
+      margin-left: 20px; }
+    div#sister div.block02 div.box01 div.member,
+    div#sister div.block02 div.box02 div.member {
+      margin-bottom: 60px; }
+      div#sister div.block02 div.box01 div.member div,
+      div#sister div.block02 div.box02 div.member div {
+        display: inline-block;
+        vertical-align: middle; }
+        div#sister div.block02 div.box01 div.member div + div,
+        div#sister div.block02 div.box02 div.member div + div {
+          margin-left: 60px; }
+        div#sister div.block02 div.box01 div.member div p,
+        div#sister div.block02 div.box02 div.member div p {
+          font-size: 12px;
+          line-height: 15px;
+          margin-bottom: 15px; }
+        div#sister div.block02 div.box01 div.member div p.name,
+        div#sister div.block02 div.box02 div.member div p.name {
+          font-size: 15px;
+          font-weight: bold; }
+          div#sister div.block02 div.box01 div.member div p.name span,
+          div#sister div.block02 div.box02 div.member div p.name span {
+            font-size: 20px; }
+    div#sister div.block02 div.box01 p.comment,
+    div#sister div.block02 div.box02 p.comment {
+      width: 720px;
+      margin: 0 auto; }
+div#sister div.block03.inner h3 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  background: #8f82bc;
+  margin-bottom: 50px; }
+div#sister div.block03.inner div.cf.box {
+  margin-bottom: 80px; }
+  div#sister div.block03.inner div.cf.box div.img_box01 {
+    width: 250px;
+    float: left; }
+    div#sister div.block03.inner div.cf.box div.img_box01 .fr {
+      display: none; }
+    div#sister div.block03.inner div.cf.box div.img_box01 a {
+      display: inline-block;
+      margin-top: 25px;
+      background: #8f82bc;
+      padding: 7px 10px;
+      padding-right: 20px;
+      line-height: 1;
+      color: #fff;
+      position: relative;
+      font-weight: bold;
+      font-size: 12px; }
+      div#sister div.block03.inner div.cf.box div.img_box01 a:after {
+        content: "";
+        display: inline-block;
+        border-bottom: 1px solid  #fff;
+        border-right: 1px solid  #fff;
+        width: 7px;
+        height: 7px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        transform: rotate(-45deg); }
+      div#sister div.block03.inner div.cf.box div.img_box01 a:hover {
+        opacity: 0.6; }
+  div#sister div.block03.inner div.cf.box div.txt {
+    margin-left: 30px;
+    width: 475px;
+    float: left; }
+    div#sister div.block03.inner div.cf.box div.txt div.h4_box {
+      margin-bottom: 20px;
+      border-bottom: 1px solid  #8f82bc; }
+      div#sister div.block03.inner div.cf.box div.txt div.h4_box h4 {
+        color: #8f82bc;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px; }
+      div#sister div.block03.inner div.cf.box div.txt div.h4_box p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 20px; }
+    div#sister div.block03.inner div.cf.box div.txt p {
+      font-size: 15px;
+      line-height: 25px; }
+  div#sister div.block03.inner div.cf.box div.img_box02 {
+    width: 115px;
+    float: right; }
+    div#sister div.block03.inner div.cf.box div.img_box02 p {
+      margin-top: 10px;
+      font-size: 11px;
+      line-height: 15px; }
+
+
+.campus_block04 .bx-wrapper .bx-controls-direction a{
+  top: 38%;
+}

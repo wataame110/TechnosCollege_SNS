@@ -1,0 +1,1215 @@
+
+ysd_nsdfpd = "";
+if(typeof GetNsdDomainDate == "function") {
+ ysd_nsdfpd = GetNsdDomainDate();
+}
+
+function GetCookiensd(cookie_n) {
+	var StartIndex = "";
+	var EndIndex = "";
+
+	if( document.cookie.length > 0 ) {
+		StartIndex=document.cookie.indexOf(cookie_n + "=");
+		if( StartIndex != -1 ) {
+			StartIndex += cookie_n.length+1;
+			EndIndex = document.cookie.indexOf(";",StartIndex);
+			if( EndIndex == -1 ) {
+				EndIndex=document.cookie.length;
+			}
+			return decodeURIComponent( document.cookie.substring( StartIndex,EndIndex ) );
+		}
+	}
+	return "";
+}
+
+function SetTimeCookiensd( cookie_n, value, domain ) {
+	var Path = "/";
+	var DTime = new Date().getTime();
+	var STime = new Date(DTime + (86400 * 365 * 3 * 1000));
+	var SDate = STime.toUTCString();
+	var s="";
+	s += cookie_n +"="+ encodeURIComponent(value) + "_" + encodeURIComponent(DTime);
+	s += "; path="+ Path;
+if( "" != domain )	{
+	s += "; domain="+ domain;
+}
+	s += "; expires=" +SDate+"; ";
+	document.cookie=s;
+}
+
+function UpdateTimeCookiensd( cookie_n, value, domain ) {
+	var Path = "/";
+	var DTime = new Date().getTime();
+	var STime = new Date(DTime + (86400 * 365 * 3 * 1000));
+	var SDate = STime.toUTCString();
+	var s="";
+	s += cookie_n +"="+ encodeURIComponent(value);
+	s += "; path="+ Path;
+if( "" != domain )	{
+	s += "; domain="+ domain;
+}
+	s += "; expires=" +SDate+"; ";
+	document.cookie=s;
+}
+
+function SetSOCookiensd( cookie_n, value, domain ) {
+	var Path = "/";
+	var DTime = new Date().getTime();
+	var STime = new Date(DTime + (86400 * 1000));
+	var SDate = STime.toUTCString();
+	var s="";
+	s += cookie_n +"="+ encodeURIComponent(value);
+	s += "; path="+ Path;
+if( "" != domain )	{
+	s += "; domain="+ domain;
+}
+	s += "; expires=" +SDate+"; ";
+	document.cookie=s;
+}
+
+function SetSOnsd() {
+	var nso_s = GetCookiensd("nittosys_nso");
+	if("" == nso_s ) {
+		nso_s = 0;
+	} else {
+		nso_s++;
+	}
+	SetSOCookiensd( "nittosys_nso", nso_s, ysd_nsdfpd )
+	nso_s = GetCookiensd("nittosys_nso");
+
+	return nso_s;
+}
+
+function GetNsdMailParam()
+{
+	var result = {};
+
+    if( 1 < window.location.search.length )
+    {
+        // 最初の1文字 (?記号) を除いた文字列を取得する
+        var query = window.location.search.substring( 1 );
+        // クエリの区切り記号 (&) で文字列を配列に分割する
+        var parameters = query.split( '&' );
+
+		var result = new Object();
+        for( var i = 0; i < parameters.length; i++ )
+        {
+            // パラメータ名とパラメータ値に分割する
+            var element = parameters[ i ].split( '=' );
+
+            var paramName = decodeURIComponent( element[ 0 ] );
+            var paramValue = decodeURIComponent( element[ 1 ] );
+
+            // パラメータ名をキーとして連想配列に追加する
+            result[ paramName ] = paramValue;
+        }
+    }
+    return result;
+}
+
+function nsdlink( obj )
+{
+	if( "" == GetCookiensd("nittosys_fp_id") )
+	{
+		if( "undefined" === typeof nittosys_fp_id )	{
+			if("" != nsdlocalparams.nsdid && "undefined" !== typeof nsdlocalparams.nsdid )
+			{
+				SetTimeCookiensd( "nittosys_fp_id", nsdlocalparams.nsdid, ysd_nsdfpd);
+			}
+			else if( "undefined" === typeof nsdlocalparams.nsdid )	{
+				SetTimeCookiensd( "nittosys_fp_id", '00000000', ysd_nsdfpd);
+			}
+		}
+		else	{
+			SetTimeCookiensd( "nittosys_fp_id", nittosys_fp_id, ysd_nsdfpd);
+		}
+	}
+	else	{
+		UpdateTimeCookiensd("nittosys_fp_id", GetCookiensd("nittosys_fp_id"), ysd_nsdfpd );
+	}
+
+	var Inquirynfp = GetCookiensd("nittosys_fp_id");
+	var Inquirynso = "&nnso="+GetCookiensd("nittosys_nso");
+	Inquirynfp += Inquirynso;
+
+	if( -1 == obj.href.indexOf('#'))	{
+		if( -1 == obj.href.indexOf('?'))	{
+			obj.href += '?nsdfpid=' + Inquirynfp;
+		}
+		else	{
+			obj.href +=  '&nsdfpid=' + Inquirynfp;
+		}
+	}
+	else	{
+		var searchIndex = obj.href.search('#');
+		if( -1 == obj.href.indexOf('?'))	{
+			obj.href = obj.href.substr(0, searchIndex) +'?nsdfpid=' + Inquirynfp + obj.href.substr(searchIndex);
+		}
+		else	{
+			obj.href = obj.href.substr(0, searchIndex) +'&nsdfpid=' + Inquirynfp + obj.href.substr(searchIndex);
+		}
+	}
+}
+
+function nsdInquiry( InquiryUrl )
+{
+	if( "" == GetCookiensd("nittosys_fp_id") )
+	{
+		if( "undefined" === typeof nittosys_fp_id )	{
+			if("" != nsdlocalparams.nsdid && "undefined" !== typeof nsdlocalparams.nsdid )
+			{
+				SetTimeCookiensd( "nittosys_fp_id", nsdlocalparams.nsdid, ysd_nsdfpd);
+			}
+			else if( "undefined" === typeof nsdlocalparams.nsdid )	{
+				SetTimeCookiensd( "nittosys_fp_id", '00000000', ysd_nsdfpd);
+			}
+		}
+		else	{
+			SetTimeCookiensd( "nittosys_fp_id", nittosys_fp_id, ysd_nsdfpd);
+		}
+	}
+	else	{
+		UpdateTimeCookiensd("nittosys_fp_id", GetCookiensd("nittosys_fp_id"), ysd_nsdfpd );
+	}
+
+	var Inquirynfp = GetCookiensd("nittosys_fp_id");
+
+	if( -1 == InquiryUrl.indexOf('?'))	{
+		InquiryUrl = InquiryUrl + '?nsdfpid=' + Inquirynfp;
+	}
+	else	{
+		InquiryUrl = InquiryUrl + '&nsdfpid=' + Inquirynfp;
+	}
+
+	location.href= InquiryUrl;
+}
+
+function nsdInquiryWindow( InquiryUrl )
+{
+	if( "" == GetCookiensd("nittosys_fp_id") )
+	{
+		if( "undefined" === typeof nittosys_fp_id )	{
+			if("" != nsdlocalparams.nsdid && "undefined" !== typeof nsdlocalparams.nsdid )
+			{
+				SetTimeCookiensd( "nittosys_fp_id", nsdlocalparams.nsdid, ysd_nsdfpd);
+			}
+			else if( "undefined" === typeof nsdlocalparams.nsdid )	{
+				SetTimeCookiensd( "nittosys_fp_id", '00000000', ysd_nsdfpd);
+			}
+		}
+		else	{
+			SetTimeCookiensd( "nittosys_fp_id", nittosys_fp_id, ysd_nsdfpd);
+		}
+	}
+	else	{
+		UpdateTimeCookiensd("nittosys_fp_id", GetCookiensd("nittosys_fp_id"), ysd_nsdfpd );
+	}
+
+	var Inquirynfp = GetCookiensd("nittosys_fp_id");
+
+	if( -1 == InquiryUrl.indexOf('?'))	{
+		InquiryUrl = InquiryUrl + '?nsdfpid=' + Inquirynfp;
+	}
+	else	{
+		InquiryUrl = InquiryUrl + '&nsdfpid=' + Inquirynfp;
+	}
+
+	window.open(InquiryUrl, "_blank");
+}
+
+function nsdnowcount()	{
+
+	var refurl = document.referrer;
+	var nowurl = location.hostname;
+
+	if ( (!refurl.indexOf(nowurl)) || "" == refurl ) {
+		SetSOCookiensd( "nsd_rd", 0, ysd_nsdfpd );
+		nso_s = 0;
+	}
+	else	{
+		var nso_s = GetCookiensd("nsd_rd");
+		nso_s++;
+		SetSOCookiensd( "nsd_rd", nso_s, ysd_nsdfpd )
+		nso_s = GetCookiensd("nsd_rd");
+	}
+	return nso_s;
+}
+
+function nsddommake()	{
+	var newNode = document.createElement("div");
+	newNode.id='nsdwindow';
+	newNode.classList.add('active');
+	oldNode = document.getElementById('nsdimg');
+	oldNode.parentNode.insertBefore(newNode, oldNode);
+}
+
+function	nsdsetwindow()	{
+	nsdnowcount();
+	var getw =	GetCookiensd("nittosys_fp_id");
+	var nso_s = GetCookiensd("nsd_rd");
+	var d = document;
+	var cururl = encodeURIComponent(location.href);
+
+	var po_id_str = '';
+	var po_id = window.localStorage.getItem("nittosys_po_id");
+	var curdate = get_curdate();
+	var po_xid = window.localStorage.getItem("nittosys_po_xid");
+	var po_xdate = window.localStorage.getItem("nittosys_po_xdate");
+	if( null !== po_xid && null !== po_xdate ){
+		if( po_xdate < curdate ){
+			if( null !== po_id ){
+				po_id = po_id+','+po_xid;
+				var po_id_arr = po_id.split(',');
+				var po_id_maxno_arr = new Array();
+				for(let i = 0; i < po_id_arr.length; i++) {
+					var tmp_po_id_arr = po_id_arr[i].split('_');
+					var tmp_code = tmp_po_id_arr[0];
+					var tmp_no = tmp_po_id_arr[1];
+					if( ("undefined" === typeof po_id_maxno_arr[tmp_code]) || (po_id_maxno_arr[tmp_code] < tmp_no) ){
+						po_id_maxno_arr[tmp_code] = tmp_no;
+					}
+				}
+				var res_po_id_arr = new Array();
+				var count = 0;
+				po_id_maxno_arr.forEach(function (value, index, po_id_maxno_arr) {
+					res_po_id_arr[count] = index+'_'+value;
+					count++;
+				});
+				po_id = res_po_id_arr.join(',');
+			}else{
+				po_id = po_xid;
+			}
+		}
+	}
+	if( null !== po_id ){
+		po_id_str = '&po_id='+po_id;
+	}
+
+	var scriptElement = document.createElement('script');
+	scriptElement.setAttribute('type', 'text/javascript');
+	scriptElement.setAttribute('src', 'http://www2.infoclipper.net/infohp_api/nsdpopup.php?id='+getw+'&nso_s='+nso_s+'&fp_id='+nittosys_fp_id+'&callback=func1'+po_id_str+'&cururl='+cururl);
+	var h = d.getElementsByTagName('head')[0];
+	h.appendChild(scriptElement);
+}
+
+function func1(result)
+{
+	if( "" != result )	{
+
+		// ポップアップ表示あり
+		var DispType = result.prop11;
+		var DispPosition = result.prop12;
+
+		// 表示位置を保持
+		var Inpit_DispPosition = document.createElement("input");
+		Inpit_DispPosition.setAttribute("type", "hidden");
+		Inpit_DispPosition.setAttribute("id", "DispPosition");
+		Inpit_DispPosition.setAttribute("value", DispPosition);
+
+		if( 1 == DispType ){
+
+			//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+			// 表示タイプ：シンプル
+			//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+			var getw =	GetCookiensd("nittosys_fp_id");
+			var d = document;
+			var link = d.createElement('link');
+			link.href = '../infohp_api/index.css';
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			var h = d.getElementsByTagName('head')[0];
+			h.appendChild(link);
+
+			var div = document.getElementById('nsdwindow');
+			div.style.zIndex = 1001040;
+			div.appendChild(Inpit_DispPosition);
+			var newNodediv = document.createElement("div");
+
+			//dialog追加
+			div.insertBefore(newNodediv, div.firstChild);
+			var newNodediv = document.createElement("div");
+			newNodediv.classList.add('nsdwindow-dialog');
+			newNodediv.style.borderRadius = "0px";
+			newNodediv.style.border = "none";
+			newNodediv.classList.add('hide');
+			newNodediv.setAttribute('id','nsdwindow-dialog');
+			newNodediv.style.fontFamily = "'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Verdana,'ＭＳ Ｐゴシック',sans-serif";
+			newNodediv.style.zIndex = 1001042;
+			newNodediv.style.margin = "0px auto";
+			newNodediv.style.top = "0px";
+			newNodediv.style.left = "0px";
+			newNodediv.style.width = "auto";
+			newNodediv.style.height = "auto";
+			newNodediv.style.maxWidth = "320px";
+
+			div.insertBefore(newNodediv, div.LastChild);
+			var div = document.getElementById('nsdwindow-dialog');
+			div.style.width = "auto";
+			div.style.height = "auto";
+			div.style.maxWidth = "320px";
+
+			//閉じるボタン
+			var newHNodediv = document.createElement("a");
+			newHNodediv.classList.add('fsize32');
+			newHNodediv.classList.add('defcolorw');
+			newHNodediv.classList.add('noline');
+			newHNodediv.setAttribute('onclick',"deletensdwindow()");
+			div.appendChild(newHNodediv);
+
+			newNode4 = document.createElement("img");
+			newNode4.setAttribute('src', '../img/popup/close.png');
+			newNode4.setAttribute('id','nsdwindow-delwindow');
+			newNode4.setAttribute('alt','閉じる');
+			newNode4.style.zIndex = 1001043;
+			newNode4.style.fontSize = "20px";
+			newNode4.style.width = "20px";
+			newNode4.style.height = "20px";
+			newNode4.style.marginTop = "-20px";
+			newNode4.classList.add('cursor-pointer');
+			newNode4.style.position = "absolute";
+			newNode4.style.top = "-2px";
+			newNode4.style.right = "0px";
+			newNode4.style.border = "1px solid #cccccc";
+			newHNodediv.insertBefore(newNode4, newHNodediv.firstChild);
+
+			//Body追加
+			var newNodeBody = document.createElement("div");
+			newNodeBody.classList.add('nsdwindow-body');
+			newNodeBody.classList.add('text-center');
+			newNodeBody.setAttribute('id','nsdwindow-body');
+
+			newNodeBody.style.width = "auto";
+			newNodeBody.style.height = "auto";
+			newNodeBody.style.maxWidth = "320px";
+
+			div.appendChild(newNodeBody);
+
+			//画像リンク追加
+			if( "" != result.prop6 && "" != result.prop3 )	{
+				var newNodeBodybtn = document.createElement("a");
+				newNodeBodybtn.classList.add('cursor-pointer');
+				newNodeBodybtn.setAttribute('target','_blank');
+				newNodeBodybtn.setAttribute('href',result.prop6);
+				newNodeBodybtn.setAttribute('onclick',"nsdlink(this);clickendwindow('"+getw+"','"+result.prop2+"','"+result.prop9+"','"+result.prop10+"');");
+				newNodeBody.insertBefore(newNodeBodybtn, newNodeBody.firstChild);
+
+				var newNodeBodyimg = document.createElement("img");
+				newNodeBodyimg.setAttribute('src', result.prop3);
+				newNodeBodyimg.setAttribute('id','nsdwindow-img2');
+				newNodeBodyimg.setAttribute('alt','');
+
+				newNodeBodyimg.style.width = "auto";
+				newNodeBodyimg.style.height = "auto";
+				newNodeBodyimg.style.maxWidth = "320px";
+
+				newNodeBodyimg.style.margin = "0px";
+				newNodeBodyimg.style.padding = "0px";
+				newNodeBodyimg.style.display = "block";
+				newNodeBodybtn.insertBefore(newNodeBodyimg, newNodeBodybtn.firstChild);
+			}
+
+			var scriptElement = document.createElement('script');
+			scriptElement.setAttribute('type', 'text/javascript');
+			scriptElement.setAttribute('src', 'http://www2.infoclipper.net/infohp_api/nsdpoplog.php?id='+getw+'&id2='+result.prop2+'&id3='+result.prop9+'&id4='+result.prop10+'&status=1&callback=func2');
+			var h = d.getElementsByTagName('head')[0];
+			h.appendChild(scriptElement);
+
+			var huga = 0;
+			var hoge = setInterval(function() {
+				huga++;
+				//終了条件
+				if (huga == 1) {
+					clearInterval(hoge);
+					modalResize(DispPosition);
+				}
+			}, 150);
+
+		}else{
+
+			//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+			// 表示タイプ：通常
+			//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+			var getw =	GetCookiensd("nittosys_fp_id");
+			var d = document;
+			var link = d.createElement('link');
+			link.href = '../infohp_api/index.css';
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			var h = d.getElementsByTagName('head')[0];
+			h.appendChild(link);
+
+			//背景追加
+			var div = document.getElementById('nsdwindow');
+			div.style.zIndex = 1001040;
+			div.appendChild(Inpit_DispPosition);
+			var newNodediv = document.createElement("div");
+			newNodediv.classList.add('nsdwindow-backdrop');
+			newNodediv.classList.add('fade');
+			newNodediv.classList.add('in');
+			newNodediv.style.zIndex = 1001041;
+			newNodediv.setAttribute('onclick',"deletensdwindow()");
+			div.appendChild(newNodediv);
+
+			//dialog追加
+			div.insertBefore(newNodediv, div.firstChild);
+			var newNodediv = document.createElement("div");
+			newNodediv.classList.add('nsdwindow-dialog');
+			newNodediv.classList.add('fsize16');
+			newNodediv.classList.add('hide');
+			newNodediv.setAttribute('id','nsdwindow-dialog');
+			newNodediv.style.lineHeight = "1.2";
+			newNodediv.style.fontFamily = "'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Verdana,'ＭＳ Ｐゴシック',sans-serif";
+			if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+				newNodediv.style.width = "95%";
+				newNodediv.style.height = "auto";
+			} else {
+				newNodediv.style.width = "260px";
+			}
+			newNodediv.style.paddingBottom="10px";
+			newNodediv.style.zIndex = 1001042;
+			div.insertBefore(newNodediv, div.LastChild);
+
+			//header追加
+			var div = document.getElementById('nsdwindow-dialog');
+			div.style.margin = "0px auto";
+			var newNodediv = document.createElement("div");
+			newNodediv.classList.add('nsdwindow-header');
+			newNodediv.classList.add('text-right');
+			newNodediv.setAttribute('id','nsdwindow-header');
+			if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+				newNodediv.style.width = "95%";
+				newNodediv.style.marginTop="0.8em";
+				newNodediv.style.marginRight="0.8em";
+			}
+			div.appendChild(newNodediv);
+
+			var headerdiv = document.getElementById('nsdwindow-header');
+			var newHNodediv = document.createElement("a");
+
+			//閉じるボタン
+			newHNodediv.classList.add('fsize32');
+			newHNodediv.classList.add('defcolorw');
+			newHNodediv.classList.add('noline');
+			newHNodediv.setAttribute('onclick',"deletensdwindow()");
+			headerdiv.appendChild(newHNodediv);
+			newNode4 = document.createElement("img");
+			newNode4.setAttribute('src', '//www2.infoclipper.net/img/popup/close.png');
+			newNode4.setAttribute('id','nsdwindow-delwindow');
+			newNode4.setAttribute('alt','閉じる');
+			newNode4.style.display = "inline";
+			if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+				newNode4.style.zIndex = 1001043;
+				newNode4.style.fontSize = "1.0em";
+				newNode4.style.width = "1.0em";
+				newNode4.style.height = "1.0em";
+				newNode4.style.marginTop = "-1.0em";
+			} else	{
+				newNode4.style.zIndex = 1001043;
+				newNode4.style.fontSize = "20px";
+				newNode4.style.width = "20px";
+				newNode4.style.height = "20px";
+				newNode4.style.marginTop = "5px";
+				newNode4.style.marginRight = "3px";
+			}
+			newNode4.classList.add('vt');
+			newNode4.classList.add('cursor-pointer');
+			newHNodediv.insertBefore(newNode4, newHNodediv.firstChild);
+
+			//タイトル追加
+			var newTitleNodediv = document.createElement("div");
+			newTitleNodediv.innerHTML=result.prop1;
+			newNodediv.insertBefore(newTitleNodediv, newNodediv.LastChild);
+			newTitleNodediv.classList.add('text-center');
+			newTitleNodediv.setAttribute('id','nsdwindow-title');
+			if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+				newTitleNodediv.style.fontSize = "1.4em";
+			}
+			newTitleNodediv.style.marginTop="-1em";
+			//Body追加
+			var newNodeBody = document.createElement("div");
+			newNodeBody.classList.add('nsdwindow-body');
+			newNodeBody.classList.add('text-center');
+			newNodeBody.setAttribute('id','nsdwindow-body');
+			if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+				newNodeBody.style.width = "100%";
+				newNodeBody.style.height = "auto";
+			}
+			div.appendChild(newNodeBody);
+			//画像追加
+			if( "" != result.prop3 )	{
+				var newNodeBodyimg = document.createElement("img");
+				newNodeBodyimg.setAttribute('src', result.prop3);
+				newNodeBodyimg.setAttribute('id','nsdwindow-img');
+				newNodeBodyimg.setAttribute('alt','');
+				newNodeBodyimg.style.display = "inline";
+				if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+					newNodeBodyimg.style.width = "80%";
+					newNodeBodyimg.style.height = "auto";
+				}	else	{
+					newNodeBodyimg.style.width = "230px";
+				}
+				newNodeBodyimg.style.padding="0px";
+				newNodeBody.insertBefore(newNodeBodyimg, newNodeBody.firstChild);
+			}
+			//本文追加
+			var newNodeBodytext = document.createElement("div");
+			newNodeBodytext.classList.add('text-center');
+			newNodeBodytext.setAttribute('id','nsdwindow-text');
+			newNodeBodytext.innerHTML=result.prop4;
+			if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+				newNodeBodytext.style.fontSize = "1.4em";
+				newNodeBodytext.style.width = "98%";
+				newNodeBodytext.style.lineHeight = "1.4em";
+				newNodeBodytext.style.wordBreak = 'break-all';
+				newNodeBodytext.style.marginBottom="10px";
+				newNodeBodytext.style.paddingTop="5px";
+				newNodeBodytext.style.paddingRight="5px";
+				newNodeBodytext.style.paddingLeft="5px";
+			}	else	{
+				newNodeBodytext.style.margin = "10px auto";
+				newNodeBodytext.style.width = "240px";
+				newNodeBodytext.style.padding="10px";
+			}
+			newNodeBody.insertBefore(newNodeBodytext, newNodeBody.LastChild);
+			//ボタン追加
+			var newNodeBodybtn = document.createElement("a");
+			newNodeBodybtn.classList.add('text-center');
+			newNodeBodybtn.classList.add('radius4');
+			newNodeBodybtn.classList.add('defcolor13');
+			newNodeBodybtn.classList.add('fcolorw');
+			newNodeBodybtn.classList.add('fsize16');
+			newNodeBodybtn.classList.add('fweightb');
+			newNodeBodybtn.classList.add('nsdwindow-button');
+			newNodeBodybtn.classList.add('cursor-pointer');
+			newNodeBodybtn.setAttribute('id','nsdwindow-button');
+			newNodeBodybtn.setAttribute('target','_blank');
+			newNodeBodybtn.setAttribute('href',result.prop6);
+			newNodeBodybtn.innerHTML=result.prop5;
+			newNodeBodybtn.style.color=result.prop8;
+			newNodeBodybtn.style.backgroundColor=result.prop7;
+			newNodeBodybtn.setAttribute('onclick',"nsdlink(this);clickendwindow('"+getw+"','"+result.prop2+"','"+result.prop9+"','"+result.prop10+"');");
+
+			if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+				newNodeBodybtn.style.fontSize = "1.5em";
+				newNodeBodybtn.style.lineHeight = "2.4em";
+				newNodeBodybtn.style.padding="0.3em";
+			}
+			else	{
+				newNodeBodybtn.style.paddingTop="5px";
+				newNodeBodybtn.style.paddingBottom="5px";
+				newNodeBodybtn.style.paddingLeft="15px";
+				newNodeBodybtn.style.paddingRight="15px";
+				newNodeBodybtn.style.margin="10px";
+			}
+			newNodeBodybtn.style.textDecoration="none";
+			newNodeBody.insertBefore(newNodeBodybtn, newNodeBody.LastChild);
+
+			var scriptElement = document.createElement('script');
+			scriptElement.setAttribute('type', 'text/javascript');
+			scriptElement.setAttribute('src', '//www2.infoclipper.net/infohp_api/nsdpoplog.php?id='+getw+'&id2='+result.prop2+'&id3='+result.prop9+'&id4='+result.prop10+'&status=1&callback=func2');
+			var h = d.getElementsByTagName('head')[0];
+			h.appendChild(scriptElement);
+
+			var huga = 0;
+			var hoge = setInterval(function() {
+				huga++;
+				//終了条件
+				if (huga == 1) {
+					clearInterval(hoge);
+					modalResize(DispPosition);
+				}
+			}, 150);
+		}
+
+		if( '' == result.prop15 ){
+			window.localStorage.removeItem("nittosys_po_xid");
+			window.localStorage.removeItem("nittosys_po_xdate");
+			popid_upsert('nittosys_po_id', result.prop9+'_'+result.prop10);
+		}
+	}
+}
+
+function func2(result)
+{
+	console.log(result.prop1);
+}
+
+function func3(result){
+	var curdate = get_curdate();
+	var disable_popid_list = result.prop13;
+	var enable_popid_list = result.prop14;
+	var po_xdate = window.localStorage.getItem("nittosys_po_xdate");
+	var xflg = false;
+
+	if( '' == result.prop15 ){
+		if( ('' != disable_popid_list) || ('' != enable_popid_list) ){
+			if( null !== po_xdate ){
+				if( po_xdate < curdate ){
+					xflg = true;
+				}
+			}else{
+				xflg = true;
+			}
+		}
+	}
+
+	if( xflg ){
+		if( '' != disable_popid_list ){
+			window.localStorage.removeItem("nittosys_po_xid");
+			var disable_popid = '';
+			var disable_popid_arr = disable_popid_list.split(',');
+			disable_popid_arr.forEach(function(disable_popid,key){
+				if( '' != disable_popid ){
+					popid_upsert( 'nittosys_po_xid', disable_popid );
+				}
+			});
+		}else{
+			if( '' != enable_popid_list ){
+				window.localStorage.removeItem("nittosys_po_xid");
+				var enable_popid = '';
+				var enable_popid_arr = enable_popid_list.split(',');
+				enable_popid_arr.forEach(function(enable_popid,key){
+					if( '' != enable_popid ){
+						popid_upsert( 'nittosys_po_xid', enable_popid );
+					}
+				});
+			}
+		}
+		window.localStorage.setItem("nittosys_po_xdate", curdate);
+	}
+}
+
+function get_curdate(){
+	var date = new Date();
+	var yyyy = date.getFullYear();
+	var mm = ("0"+(date.getMonth()+1)).slice(-2);
+	var dd = ("0"+(date.getDate())).slice(-2);
+	var curdate = yyyy+'/'+mm+'/'+dd;
+	return curdate;
+}
+
+function popid_upsert( storage_name, new_popid ){
+	var po_id = window.localStorage.getItem(storage_name);
+	if(null !== po_id){
+		po_id = po_id+','+new_popid;
+		var po_id_arr = po_id.split(',');
+		var po_id_maxno_arr = new Array();
+		for(let i = 0; i < po_id_arr.length; i++) {
+			var tmp_po_id_arr = po_id_arr[i].split('_');
+			var tmp_code = tmp_po_id_arr[0];
+			var tmp_no = tmp_po_id_arr[1];
+			if( ("undefined" === typeof po_id_maxno_arr[tmp_code]) || (po_id_maxno_arr[tmp_code] < tmp_no) ){
+				po_id_maxno_arr[tmp_code] = tmp_no;
+			}
+		}
+		var res_po_id_arr = new Array();
+		var count = 0;
+		po_id_maxno_arr.forEach(function (value, index, po_id_maxno_arr) {
+			res_po_id_arr[count] = index+'_'+value;
+			count++;
+		});
+		po_id = res_po_id_arr.join(',');
+	}else{
+		po_id = new_popid;
+	}
+	window.localStorage.setItem(storage_name, po_id);
+}
+
+function modalResize( positions ){
+	if( null != document.getElementById('nsdwindow-dialog') ) {
+		var w = document.documentElement.clientWidth;
+		var h = document.documentElement.clientHeight;
+		if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+			// スマートフォン用表示幅
+			w = (document.documentElement.clientWidth || window.innerWidth || 0);
+			h = (document.documentElement.clientHeight || window.innerWidth || 0);
+		} else {
+			// PC用表示幅
+			w = (window.innerWidth || document.documentElement.clientWidth || 0);
+			h = (window.innerHeight || document.documentElement.clientHeight || 0);
+		}
+
+		// 表示タイプ
+		var DispType = 0;	// 通常
+		if(document.getElementById("nsdwindow-img2") != null){
+			DispType = 1;	// シンプル
+		}
+
+		if(navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0){
+			if(document.getElementById("nsdwindow-img") != null){
+				var nsddiv = document.getElementById('nsdwindow-img');
+				if( null != nsddiv )	{
+					if( w > h)	{
+						nsddiv.style.display = "none";
+					}
+					else	{
+						nsddiv.style.display = "inline-block";
+					}
+				}
+			}
+			if(w > h){
+				if(document.getElementById("nsdwindow-button") != null){
+					var nsddiv2 = document.getElementById('nsdwindow-button');
+					nsddiv2.style.lineHeight = "2.4em";
+					nsddiv2.style.padding="0.3em";
+				}
+				if(document.getElementById("nsdwindow-title") != null){
+					var nsddiv3 = document.getElementById('nsdwindow-title');
+					nsddiv3.style.marginTop="-1.3em";
+				}
+				if(document.getElementById("nsdwindow-text") != null){
+					var nsddiv4 = document.getElementById('nsdwindow-text');
+				}
+				if(navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 ){
+					if(document.getElementById("nsdwindow-button") != null){
+						nsddiv2.style.fontSize = "2em";
+					}
+					if(document.getElementById("nsdwindow-title") != null){
+						nsddiv3.style.fontSize = "2em";
+					}
+					if(document.getElementById("nsdwindow-text") != null){
+						nsddiv4.style.fontSize = "1.8em";
+					}
+				}else{
+					if(document.getElementById("nsdwindow-button") != null){
+						nsddiv2.style.fontSize = "1.8em";
+					}
+					if(document.getElementById("nsdwindow-title") != null){
+						nsddiv3.style.fontSize = "1.8em";
+					}
+					if(document.getElementById("nsdwindow-text") != null){
+						nsddiv4.style.fontSize = "1.3em";
+					}
+				}
+				if(document.getElementById("nsdwindow-delwindow") != null){
+					var nsddiv5 = document.getElementById('nsdwindow-delwindow');
+					nsddiv5.style.width = "1.0em";
+					nsddiv5.style.height = "1.0em";
+					nsddiv5.style.marginTop="-1.0em";
+				}
+				// スマホ対応していないWEBサイト用サイズ調整
+				if(w > 600 && 0 == DispType){
+					if(document.getElementById("nsdwindow-button") != null){
+						nsddiv2.style.fontSize = "2.8em";
+					}
+					if(document.getElementById("nsdwindow-title") != null){
+						nsddiv3.style.fontSize = "2.8em";
+						nsddiv3.style.marginTop="-1.3em";
+					}
+					if(document.getElementById("nsdwindow-text") != null){
+						nsddiv4.style.fontSize = "2.3em";
+					}
+					if(document.getElementById("nsdwindow-delwindow") != null){
+						nsddiv5.style.width = "1.0em";
+						nsddiv5.style.height = "1.0em";
+						nsddiv5.style.marginTop = "";
+					}
+				}
+			}else{
+				if(document.getElementById("nsdwindow-button") != null){
+					var nsddiv2 = document.getElementById('nsdwindow-button');
+					nsddiv2.style.fontSize = "1.5em";
+					nsddiv2.style.lineHeight = "2.4em";
+					nsddiv2.style.padding="0.3em";
+				}
+				if(document.getElementById("nsdwindow-title") != null){
+					var nsddiv3 = document.getElementById('nsdwindow-title');
+					nsddiv3.style.fontSize = "1.4em";
+					if(navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 ){
+						nsddiv3.style.marginTop="-2em";
+					} else {
+						nsddiv3.style.marginTop="-1.6em";
+					}
+				}
+				if(document.getElementById("nsdwindow-text") != null){
+					var nsddiv4 = document.getElementById('nsdwindow-text');
+					nsddiv4.style.marginTop="";
+					nsddiv4.style.fontSize = "1.4em";
+				}
+				if(document.getElementById("nsdwindow-delwindow") != null){
+					var nsddiv5 = document.getElementById('nsdwindow-delwindow');
+					nsddiv5.style.width = "1.0em";
+					nsddiv5.style.height = "1.0em";
+					nsddiv5.style.marginTop="-1.0em";
+				}
+
+				// スマホ対応していないWEBサイト用サイズ調整
+				if(w > 600 && 0 == DispType){
+					if(document.getElementById("nsdwindow-button") != null){
+						nsddiv2.style.fontSize = "3.6em";
+					}
+					if(document.getElementById("nsdwindow-title") != null){
+						nsddiv3.style.fontSize = "3.4em";
+						nsddiv3.style.marginTop="-1.3em";
+					}
+					if(document.getElementById("nsdwindow-text") != null){
+						nsddiv4.style.fontSize = "3.4em";
+					}
+					if(document.getElementById("nsdwindow-delwindow") != null){
+						nsddiv5.style.width = "2.0em";
+						nsddiv5.style.height = "2.0em";
+						nsddiv5.style.marginTop="-2.0em";
+					}
+				}
+			}
+		}
+
+		var w = document.documentElement.clientWidth;
+		var h = document.documentElement.clientHeight;
+		var w = (window.innerWidth || document.documentElement.clientWidth || 0);
+		var h = (window.innerHeight || document.documentElement.clientHeight || 0);
+
+		var div = document.getElementById('nsdwindow-dialog');
+		if(null != div){
+			div.classList.remove('hide');
+			var cw = div.clientWidth;
+			var ch = div.clientHeight;
+			var divtop_sp = 'auto';
+			var divright_sp = 'auto';
+			var divbottom_sp = 'auto';
+			var divleft_sp = 'auto';
+			var divtop_pc = 'auto';
+			var divright_pc = 'auto';
+			var divbottom_pc = 'auto';
+			var divleft_pc = 'auto';
+			var delbtn_embedflg = false;
+			var divmargin_sp = '10px';
+			var divmargin_pc = '10px';
+
+			switch(positions){
+				case '0':	// 中央（30px上寄り）
+					divtop_sp = (((h - ch) / 2) - 30) + 'px';
+					divleft_sp = ((w - cw) / 2) + 'px';
+					divtop_pc = (((h - ch) / 2) - 30) + 'px';
+					divleft_pc = ((w - cw) / 2) + 'px';
+					break;
+				case '1':	// 上寄せ
+					divtop_sp = divmargin_sp;
+					divleft_sp = ((w - cw) / 2) + 'px';
+					divtop_pc = divmargin_pc;
+					divleft_pc = ((w - cw) / 2) + 'px';
+					delbtn_embedflg = true;
+					break;
+				case '2':	// 下寄せ
+					divbottom_sp = divmargin_sp;
+					divleft_sp = ((w - cw) / 2) + 'px';
+					divbottom_pc = divmargin_pc;
+					divleft_pc = ((w - cw) / 2) + 'px';
+					break;
+				case '3':	// 左上寄せ
+					divtop_sp = divmargin_sp;
+					divleft_sp = ((w - cw) / 2) + 'px';
+					divtop_pc = divmargin_pc;
+					divleft_pc = divmargin_pc;
+					delbtn_embedflg = true;
+					break;
+				case '4':	// 右上寄せ
+					divtop_sp = divmargin_sp;
+					divright_sp = ((w - cw) / 2) + 'px';
+					divtop_pc = divmargin_pc;
+					divright_pc = divmargin_pc;
+					delbtn_embedflg = true;
+					break;
+				case '5':	// 左下寄せ
+					divbottom_sp = divmargin_sp;
+					divleft_sp = ((w - cw) / 2) + 'px';
+					divbottom_pc = divmargin_pc;
+					divleft_pc = divmargin_pc;
+					break;
+				case '6':	// 右下寄せ
+					divright_sp = ((w - cw) / 2) + 'px';
+					divbottom_sp = divmargin_sp;
+					divright_pc = divmargin_pc;
+					divbottom_pc = divmargin_pc;
+					break;
+				default:	// 未設定（従来の表示位置）
+					divtop_sp = '5px';
+					divleft_sp = ((w - cw) / 2) + 'px';
+					divtop_pc = (((h - ch) / 2) - 30) + 'px';
+					divleft_pc = ((w - cw) / 2) + 'px';
+					break;
+			}
+
+			// 閉じるボタンを画像に重ねて表示
+			if(delbtn_embedflg){
+				if(document.getElementById("nsdwindow-delwindow") != null){
+					var divdelbtn = document.getElementById('nsdwindow-delwindow');
+					divdelbtn.style.marginTop = '1px';
+				}
+			}
+
+			if(navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0){
+				div.style.top = divtop_sp;
+				div.style.right = divright_sp;
+				div.style.bottom = divbottom_sp;
+				div.style.left = divleft_sp;
+			}else{
+				div.style.top = divtop_pc;
+				div.style.right = divright_pc;
+				div.style.bottom = divbottom_pc;
+				div.style.left = divleft_pc;
+			}
+		}
+	}
+}
+
+function	deletensdwindow()	{
+	var div = document.getElementById('nsdwindow');
+	div.parentNode.removeChild(div);
+}
+
+function	clickendwindow( a, b, c, d)	{
+	var doc = document;
+	var scriptElement = document.createElement('script');
+	scriptElement.setAttribute('type', 'text/javascript');
+	scriptElement.setAttribute('src', '//www2.infoclipper.net/infohp_api/nsdpoplog.php?id='+a+'&id2='+b+'&id3='+c+'&id4='+d+'&status=2&callback=func2');
+	var h = doc.getElementsByTagName('head')[0];
+	h.appendChild(scriptElement);
+}
+
+var nsdlocalparams = (function(){
+    var scripts = document.getElementsByTagName( 'script' );
+    var src = scripts[ scripts.length - 1 ].src;
+
+    var query = src.substring( src.indexOf( '?' ) + 1 );
+    var parameters = query.split( '&' );
+
+    // URLクエリを分解して取得する
+    var result = new Object();
+    for( var i = 0; i < parameters.length; i++ )
+    {
+        var element = parameters[ i ].split( '=' );
+
+        var paramName = decodeURIComponent( element[ 0 ] );
+        var paramValue = decodeURIComponent( element[ 1 ] );
+
+        result[ paramName ] = paramValue;
+    }
+
+    return result;
+})();
+
+var nsdmparam = GetNsdMailParam();
+
+nsdurl = 'http://www2.infoclipper.net/infohp_api/nsdfpanalysis.php?NID=';
+
+if( "undefined" === typeof nittosys_fp_id )	{
+		if("" != nsdlocalparams.nsdid && "undefined" !== typeof nsdlocalparams.nsdid )
+		{
+			nsdurl += nsdlocalparams.nsdid;
+		}
+		else{
+			nsdurl += 'NG';
+		}
+}
+else	{
+		if("" != nittosys_fp_id)
+		{
+			nsdurl += nittosys_fp_id;
+		}
+		else{
+			nsdurl += 'NG';
+		}
+}
+
+var nsdstragefpid = window.localStorage.getItem("nittosys_fp_id");
+if( null != nsdstragefpid )	{
+	if( nsdstragefpid.length <= 12 )	{
+		window.localStorage.setItem("nittosys_fp_id","");
+	}
+}
+var nsdnfp = GetCookiensd("nittosys_fp_id");
+
+if("" != nsdmparam["nsdfpid"] && null != nsdmparam["nsdfpid"] )
+{
+	if( nsdmparam["nsdfpid"] != GetCookiensd("nittosys_fp_id"))
+	{
+		SetTimeCookiensd( "nittosys_fp_id", nsdmparam["nsdfpid"], ysd_nsdfpd);
+	}
+	nsdmparamlocalStorage = GetCookiensd("nittosys_fp_id");
+	if( "" != nsdmparamlocalStorage )	{
+		window.localStorage.setItem("nittosys_fp_id",nsdmparamlocalStorage);
+	}
+}
+
+if( "" == GetCookiensd("nittosys_fp_id") || GetCookiensd("nittosys_fp_id").indexOf('undefined') !== -1 || nsdnfp.length <= 12 )
+{
+	if("" != nsdmparam["nsdfpid"] && null != nsdmparam["nsdfpid"] )
+	{
+		SetTimeCookiensd( "nittosys_fp_id", nsdmparam["nsdfpid"], ysd_nsdfpd);
+		nsdmparamlocalStorage = GetCookiensd("nittosys_fp_id");
+		if( "" != nsdmparamlocalStorage )	{
+			window.localStorage.setItem("nittosys_fp_id",nsdmparam["nsdfpid"]);
+		}
+	}
+	else if( "undefined" === typeof nittosys_fp_id )	{
+		if("" != nsdlocalparams.nsdid && "undefined" !== typeof nsdlocalparams.nsdid )
+		{
+			SetTimeCookiensd( "nittosys_fp_id", nsdlocalparams.nsdid, ysd_nsdfpd);
+			nsdmparamlocalStorage = GetCookiensd("nittosys_fp_id");
+			if( "" != nsdmparamlocalStorage )	{
+				window.localStorage.setItem("nittosys_fp_id",nsdmparamlocalStorage);
+			}
+		}
+		else{
+			nsdurl += 'NG';
+		}
+	}
+	else	{
+		SetTimeCookiensd( "nittosys_fp_id", nittosys_fp_id, ysd_nsdfpd);
+	}
+}
+else	{
+	UpdateTimeCookiensd("nittosys_fp_id", GetCookiensd("nittosys_fp_id"), ysd_nsdfpd );
+}
+
+var nfp = GetCookiensd("nittosys_fp_id");
+var nsdstragefpid = window.localStorage.getItem("nittosys_fp_id");
+
+if(nsdstragefpid == null || nsdstragefpid == "")	{
+	window.localStorage.setItem("nittosys_fp_id",nfp);
+} else {
+	UpdateTimeCookiensd("nittosys_fp_id", nsdstragefpid, ysd_nsdfpd );
+	nfp = nsdstragefpid;
+}
+
+nsdurl += '&NFP=';
+if("" != nfp)
+{
+	nsdurl += nfp;
+}
+else{
+	nsdurl += 'NG';
+}
+var nso = SetSOnsd();
+nsdurl += '&NSO=';
+if("" != nso)
+{
+	nsdurl += nso;
+}
+else{
+	nsdurl += 'NG';
+}
+nsdurl += '&NDR=';
+if("" != document.referrer)
+{
+	nsdurl += encodeURIComponent(document.referrer);
+}
+else{
+	nsdurl += 'NG';
+}
+nsdurl += '&NAP=';
+if("" != navigator.platform)
+{
+	nsdurl += navigator.platform;
+}
+else{
+	nsdurl += 'NG';
+}
+nsdurl += '&NAC=';
+if("" != navigator.cookieEnabled)
+{
+	nsdurl += navigator.cookieEnabled;
+}
+else{
+	nsdurl += 'NG';
+}
+nsdurl += '&NSMAC=';
+if("" != nsdmparam["nsdmc"] && null != nsdmparam["nsdmc"] )
+{
+	nsdurl += nsdmparam["nsdmc"];
+}
+else{
+	nsdurl += 'NG';
+}
+nsdurl += '&NSLMAC=';
+if("" != nsdmparam["nsdlmc"] && null != nsdmparam["nsdlmc"] )
+{
+	nsdurl += nsdmparam["nsdlmc"];
+}
+else{
+	nsdurl += 'NG';
+}
+nsdurl += '&NSQRC=';
+if("" != nsdmparam["nsdqr"] && null != nsdmparam["nsdqr"] )
+{
+	nsdurl += nsdmparam["nsdqr"];
+}
+else{
+	nsdurl += 'NG';
+}
+
+nsdurl += '&NSDBMC=';
+if("" != nsdmparam["nsdbmc"] && null != nsdmparam["nsdbmc"] )
+{
+	nsdurl += nsdmparam["nsdbmc"];
+}
+else{
+	nsdurl += 'NG';
+}
+nsdurl += '&NSDHPLC=';
+if("" != nsdmparam["nsdhplc"] && null != nsdmparam["nsdhplc"] )
+{
+	nsdurl += nsdmparam["nsdhplc"];
+}
+else{
+	nsdurl += 'NG';
+}
+
+nsdurl += '&NSW=';
+if("" != screen.width)
+{
+	nsdurl += screen.width;
+}
+else{
+	nsdurl += 'NG';
+}
+nsdurl += '&NSH=';
+if("" != screen.width)
+{
+	nsdurl += screen.height;
+}
+else{
+	nsdurl += 'NG';
+}
+
+var nsdnsdurllll = location.href;
+nsdnsdurllll = encodeURIComponent(nsdnsdurllll);
+
+nsdurl += '&NSDURL=';
+nsdurl += nsdnsdurllll;
+
+var nsddoc = document;
+
+window.addEventListener('load', function (event) {
+	var scriptElement = document.createElement('script');
+	scriptElement.setAttribute('type', 'text/javascript');
+	scriptElement.setAttribute('src', nsdurl);
+	var h = nsddoc.getElementsByTagName('head')[0];
+	h.appendChild(scriptElement);
+	var h = nsddoc.getElementsByTagName('body')[0];
+	var scriptElement = document.createElement('div');
+	scriptElement.setAttribute('id','nsdimg');
+	scriptElement.style.display = "none";
+	h.insertBefore(scriptElement, h.firstChild);
+	nsddommake();
+	nsdsetwindow();
+});
+
+window.addEventListener('resize', function (event) {
+	var DispPosition = 0;
+	if(document.getElementById('DispPosition') != null){
+		DispPosition = document.getElementById('DispPosition').value;
+	}
+	modalResize(DispPosition);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+	var DispPosition = 0;
+	if(document.getElementById('DispPosition') != null){
+		DispPosition = document.getElementById('DispPosition').value;
+	}
+	modalResize(DispPosition);
+});

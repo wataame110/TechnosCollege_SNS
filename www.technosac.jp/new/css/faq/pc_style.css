@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+/*============================
+
+Mixin
+
+============================*/
+
+
+/*--------------------------
+基本フォント14px
+フォントサイズ呼び出し用
+---------------------------*/
+
+
+/*============================
+
+PC -top
+
+============================*/
+
+
+/* line 10, ../../scss/access/pc_style.scss */
+
+div.faq_wrap {
+    margin-bottom: 30px;
+    /*============================
+  #access
+  ============================*/
+}
+
+
+/* line 18, ../../scss/access/pc_style.scss */
+
+div.faq_wrap .h2_box {
+    background: url(../../img/access/h1_bg.png);
+    height: 200px;
+}
+
+
+/* line 21, ../../scss/access/pc_style.scss */
+
+div.faq_wrap .h2_box h2 {
+    padding: 60px;
+    text-align: center;
+}
+
+
+/* line 27, ../../scss/access/pc_style.scss */
+
+
+
+
+/* line 30, ../../scss/access/pc_style.scss */
+
+
+
+
+/* line 36, ../../scss/access/pc_style.scss */
+
+div.faq_wrap div#faq div.inner {
+    min-width: 900px;
+    max-width: 900px;
+}
+div.faq_wrap div#faq div.innerB {
+    min-width: 1024px;
+    max-width: 1024px;
+	margin:0 auto 0;
+}
+
+
+
+
+
+
+/*-----キャンパスライフ-----*/
+div.faq_wrap .h2_box2 {
+    background: url(../../img/faq/h1_bg.png);
+    height: 260px;
+}
+div.faq_wrap .h2_box2 h2 {
+    padding: 90px 0 0 190px;
+}
+
+.h2_area2{
+	width:1200px;
+	margin:0 auto 0;
+	position:relative;
+	height:260px;
+}
+.h2_area_photo{
+	position:absolute;
+	bottom:0px;
+	right:0;
+	width:500px;
+}
+.h2_area_photoSP{
+	display:none;
+}
+div.faq_wrap div#faq {
+    padding: 0px 0 70px 0;
+}
+
+.faq_B{
+	padding:60px 0 0 0;
+	/*
+	color:#646464;
+	*/
+}
+.faq_B h3{
+	color:#FFF;
+	font-weight:bold;
+	padding:10px 20px;
+	background:#8f82bc;
+	border-left:6px solid #c7c1de;
+	font-size:24px;
+	margin:70px 0 0 0 ; 
+}
+.faq_B h3:first-child{
+	margin:0px 0 0 0 ; 
+}
+	
+
+.cont_bs02 {
+    padding: 30px 0 0px 0;
+}
+.cont_bs02 p{
+	margin:0 0 20px 0;
+}
+.cont_bs02 p:last-child{
+	margin:0 0 0 0;
+}
+.faq_ttl{
+	width:402px;
+	margin:0 0 0px 0;
+}
+.anker_list{
+	margin:60px 0;
+}
+.anker_list li{
+	display:table;
+	border:1px solid #464646;
+	float:left;
+	width:49%;
+	margin:0 2% 2% 0;
+	background:url(../../img/faq/q_icon_01.png) 3% center no-repeat , url(../../img/faq/icon_img_01.png) 97% center no-repeat;
+	background-size: 52px 60px , 22px 13px;
+}
+.anker_list li:nth-child(even){
+	margin:0 0 2% 0;
+}
+.anker_list li a {
+	display:table-cell;
+	vertical-align:middle;
+	padding:20px 50px 20px 80px;
+}
+
+
+.anker_list li:nth-child(2),
+.anker_list li:nth-child(3),
+.anker_list li:nth-child(6),
+.anker_list li:nth-child(7),
+.anker_list li:nth-child(10),
+.anker_list li:nth-child(11),
+.anker_list li:nth-child(14),
+.anker_list li:nth-child(15){
+	background-color:#fffcdb;
+}
+.anker_list li:hover{
+	text-decoration:underline;
+	
+}
+
+
+
+
+
+
+
+.faq_B_dl1{
+	padding:30px;
+	border-bottom:1px solid #464646;
+}
+.faq_B_dl2{
+	padding:30px;
+	background:#fffcdb;
+	border-bottom:1px solid #464646;
+}
+.faq_B_dl1 dt,
+.faq_B_dl2 dt{
+	background: url(../../img/faq/q_icon_02.png) left 5px no-repeat;
+	background-size:47px 40px; 
+	padding:7px 0 7px 60px;
+	font-weight:bold;
+	color:#e45aa6;
+	font-size:20px;
+	margin:0 0 20px 0;
+}
+.faq_B_dl1 dd,
+.faq_B_dl2 dd{
+	background: url(../../img/faq/q_icon_03.png) left 10px no-repeat;
+	background-size:47px 40px; 
+	padding:6px 0 6px 60px;
+
+}
+.faq_B_dl1 dd em , .faq_B_dl2 dd em{
+	font-weight:bold;
+	color:#1584cc;
+}
+
+
+.faq_left01{
+	width:110px;
+	float:left;
+}
+.faq_right01{
+	float:right;
+	width:670px;
+}
+
+.bdnone{
+	border-bottom:none;
+}
+
+.sptel{
+	display:none;
+}
+.pctel{
+	display:inline-block;
+}

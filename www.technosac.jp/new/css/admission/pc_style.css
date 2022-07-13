@@ -1,0 +1,1827 @@
+@charset "UTF-8";
+/*============================
+
+PC -top
+
+============================*/
+div.admission_wrap {
+  margin-bottom: 30px;
+  /*============================
+#access
+============================*/ }
+
+div.admission_wrap {
+    margin-bottom: 30px;
+    /*============================
+  #access
+  ============================*/
+}
+
+
+.admission_wrap  .pagetopMargin{
+  margin-top: -100px;
+  padding-top: 100px;
+  height: auto;
+  background: none;
+  
+}
+.admission_wrap  .pagetopMargin h2{
+   height: 140px;
+   background: url(../../img/school/h1_bg.png);
+
+}
+
+div.admission_wrap .h2_box {
+  background: url(../../img/access/h1_bg.png);
+  height: 200px; }
+
+div.admission_wrap .h2_box h2 {
+  padding: 60px;
+  text-align: center; }
+
+div.admission_wrap div#admission div.inner {
+  min-width: 900px;
+  max-width: 900px; }
+
+/*-----下層およびボトムリンク共通-----*/
+.cont_bs01 {
+  padding: 30px 0 50px 0; }
+
+.cont_bs02 {
+  padding: 30px 0 0px 0;
+margin-bottom: 40px;}
+
+.cont_bs03 {
+  padding: 0px 0 0px 0; }
+
+.admission_B {
+  padding: 60px 0 0 0;
+  color: #646464; }
+
+.admission_B h3 {
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #8f82bc;
+  border-left: 6px solid #c7c1de;
+  font-size: 24px;
+  margin: 70px 0 0 0; }
+
+.admission_B h3:first-child {
+  margin: 0px 0 0 0; }
+
+.admission_C {
+  padding: 60px 0 0 0;
+  color: #646464; }
+
+.admission_C h3 {
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #449dd6;
+  border-left: 6px solid #a2ceeb;
+  font-size: 24px;
+  margin: 70px 0 0 0; }
+
+.admission_C h3:first-child {
+  margin: 0px 0 0 0; }
+
+.admission_D {
+  padding: 60px 0 0 0;
+  color: #646464; }
+
+.admission_D .series{
+  color: #e97bb8;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 70px;
+  margin-bottom: -40px;
+}
+.admission_D .series:before{
+  content: '●';
+}
+.admission_D h3 {
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #e97bb8;
+  border-left: 6px solid #f4bddc;
+  font-size: 24px;
+  margin: 70px 0 0 0; }
+
+.admission_D h3:first-child {
+  margin: 0px 0 0 0; }
+
+
+.admission_D .tuition_block01 h4{
+  color: #e97bb8;
+  background: url(../../img/admission/tuition/icon_img_02.png) left 8px no-repeat;
+    background-size: 15px 15px;
+}
+.admission_D .tuition_block01 h4{}
+.admission_block03 {
+  width: 1200px;
+  margin: 0 auto 0;
+  padding: 70px 0; }
+
+.admission_block03_list {
+  border-top: 6px solid #beb7d8;
+  background: #eeecf5;
+  padding: 30px;
+  width: 285px;
+  float: left;
+  margin: 0 20px 0px 0px; }
+
+.admission_block03_list:nth-child(4) {
+  margin: 0 0 0px 0; }
+
+.admission_block03_ttl01 {
+  background: url(../../img/admission/icon_img_01.png) center top no-repeat;
+  background-size: 85px 85px;
+  padding: 100px 0px 0px 0px;
+  text-align: center; }
+
+.admission_block03_ttl02 {
+  background: url(../../img/admission/icon_img_02.png) center top no-repeat;
+  background-size: 85px 85px;
+  padding: 100px 0px 0px 0px;
+  text-align: center; }
+
+.admission_block03_ttl03 {
+  background: url(../../img/admission/icon_img_03.png) center top no-repeat;
+  background-size: 85px 85px;
+  padding: 100px 0px 0px 0px;
+  text-align: center; }
+
+.admission_block03_ttl04 {
+  background: url(../../img/admission/icon_img_04.png) center top no-repeat;
+  background-size: 85px 85px;
+  padding: 100px 0px 0px 0px;
+  text-align: center; }
+
+.admission_block03_ttl01 h3,
+.admission_block03_ttl02 h3,
+.admission_block03_ttl03 h3,
+.admission_block03_ttl04 h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  color: #646464; }
+
+.admission_block03_list ul {
+  margin: 0px 0px;
+  font-size: 15px;
+  padding: 10px 0 0 0; }
+
+.admission_block03_list li {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+  text-align: left; }
+
+.admission_block03_list li a {
+  background: url(../../img/admission/icon_img_05.png) left 4px no-repeat;
+  background-size: 10px 10px;
+  padding: 0 0 0 18px;
+  display: block; }
+
+.admission_block03_list li a:hover {
+  text-decoration: underline; }
+
+/*-----入学のご案内-----*/
+div.admission_wrap .h2_box2 {
+  background: url(../../img/admission/h1_bg.png);
+  height: 260px; }
+
+div.admission_wrap .h2_box2 h2 {
+  padding: 50px 0 0 130px; }
+
+.h2_area2 {
+  width: 1200px;
+  margin: 0 auto 0;
+  position: relative;
+  height: 260px; }
+
+.h2_area_photo {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 500px; }
+
+.h2_area_photoSP {
+  display: none; }
+
+div.admission_wrap div#admission {
+  padding: 0px 0; }
+
+.admission_block01 {
+  padding: 80px 0 200px 0;
+  background: url(../../img/admission/bg_img_01.jpg) center bottom no-repeat;
+  background-size: cover; }
+
+.admission_block01 p {
+  text-align: center;
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 25px; }
+
+.admission_block02 {
+  width: 900px;
+  margin: 0 auto 0;
+  padding: 70px 0; }
+
+.admission_block02_list {
+  border-left: 6px solid #beb7d8;
+  background: #eeecf5;
+  padding: 35px 30px 35px 35px;
+  width: 430px;
+  float: left;
+  margin: 0 40px 40px 0px; }
+
+.admission_block02_list:nth-child(2),
+.admission_block02_list:nth-child(4) {
+  margin: 0 0 40px 0; }
+
+.admission_block02_ttl01 {
+  background: url(../../img/admission/icon_img_01.png) left top no-repeat;
+  background-size: 85px 85px;
+  padding: 0 0px 0px 100px;
+  height: 85px; }
+
+.admission_block02_ttl02 {
+  background: url(../../img/admission/icon_img_02.png) left top no-repeat;
+  background-size: 85px 85px;
+  padding: 0 0px 0px 100px;
+  height: 85px; }
+
+.admission_block02_ttl03 {
+  background: url(../../img/admission/icon_img_03.png) left top no-repeat;
+  background-size: 85px 85px;
+  padding: 0 0px 0px 100px;
+  height: 85px; }
+
+.admission_block02_ttl04 {
+  background: url(../../img/admission/icon_img_04.png) left top no-repeat;
+  background-size: 85px 85px;
+  padding: 0 0px 0px 100px;
+  height: 85px; }
+
+.admission_block02_ttl01 h3,
+.admission_block02_ttl02 h3,
+.admission_block02_ttl03 h3,
+.admission_block02_ttl04 h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0 0 10px 0;
+  color: #646464; }
+
+.admission_block02_ttl01 p,
+.admission_block02_ttl02 p,
+.admission_block02_ttl03 p,
+.admission_block02_ttl04 p {
+  font-size: 12px;
+  color: #464646;
+  line-height: 16pt; }
+
+.admission_block02_list ul {
+  border-top: 1px solid #8f82bc;
+  margin: 20px 0px;
+  font-size: 18px;
+  line-height: 20pt;
+  padding: 10px 0 0 0; }
+
+.admission_block02_list li {
+  margin: 12px 0 0 0; }
+
+.admission_block02_list li a {
+  background: url(../../img/admission/icon_img_05.png) left 7px no-repeat;
+  background-size: 10px 10px;
+  padding: 0 0 0 18px;
+  display: block; }
+
+.admission_block02_list li a:hover {
+  text-decoration: underline; }
+
+/*-----入学までの流れ-----*/
+div.admission_wrap .h2_box3 {
+  background: url(../../img/admission/h1_bg.png);
+  height: 260px; }
+
+div.admission_wrap .h2_box3 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+.list_bs01 li {
+  background: url(../../img/admission/admission/icon_img_01.png) left 3px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 20px;
+  font-weight: bold;
+  margin: 0 0 10px 0; }
+
+.step_a {
+  border-left: 6px solid #beb7d8;
+  background: #eeecf5;
+  padding: 30px; }
+
+.step_b {
+  border-left: 6px solid #fad07f;
+  background: #fff3c2;
+  padding: 30px; }
+
+.step_a h4,
+.step_b h4 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #8f82bc;
+  padding: 0 0 10px 0; }
+
+.step01 {
+  background: url(../../img/admission/admission/icon_img_02.png) left top no-repeat;
+  background-size: 55px 45px;
+  padding: 0 0 0 80px; }
+
+.step02 {
+  background: url(../../img/admission/admission/icon_img_03.png) left top no-repeat;
+  background-size: 55px 45px;
+  padding: 0 0 0 80px; }
+
+.step03 {
+  background: url(../../img/admission/admission/icon_img_04.png) left top no-repeat;
+  background-size: 55px 45px;
+  padding: 0 0 0 80px; }
+
+.step04 {
+  background: url(../../img/admission/admission/icon_img_05.png) left top no-repeat;
+  background-size: 55px 45px;
+  padding: 0 0 0 80px; }
+
+.step05 {
+  background: url(../../img/admission/admission/icon_img_06.png) left top no-repeat;
+  background-size: 55px 45px;
+  padding: 0 0 0 80px; }
+
+.y_icon {
+  text-align: center;
+  width: 55px;
+  margin: 10px auto; }
+
+.admission_B_dl1 {
+  padding: 30px;
+  border-bottom: 1px solid #464646; }
+
+.admission_B_dl2 {
+  padding: 30px;
+  background: #fffcdb;
+  border-bottom: 1px solid #464646; }
+
+.admission_B_dl1 dt,
+.admission_B_dl2 dt {
+  background: url(../../img/admission/admission/icon_img_01.png) left center no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+  color: #8f82bc;
+  font-size: 20px;
+  margin: 0 0 10px 0; }
+
+.admission_B_dl1_list li {
+  margin: 5px 0 0 0; }
+
+.admission_B_dl1_list li:nth-child(1) {
+  background: url(../../img/admission/admission/icon_img_08.png) left 3px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 20px; }
+
+.admission_B_dl1_list li:nth-child(2) {
+  background: url(../../img/admission/admission/icon_img_09.png) left 3px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 20px; }
+
+.admission_B_dl1_list li:nth-child(3) {
+  background: url(../../img/admission/admission/icon_img_10.png) left 3px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 20px; }
+
+.admission_B_dl1_list li:nth-child(4) {
+  background: url(../../img/admission/admission/icon_img_11.png) left 3px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 20px; }
+
+.admission_B_dl1_list li:nth-child(5) {
+  background: url(../../img/admission/admission/icon_img_12.png) left 3px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 20px; }
+
+.admission_B_dl1_list li:nth-child(6) {
+  background: url(../../img/admission/admission/icon_img_13.png) left 3px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 20px; }
+
+.admission_B_dl1_list li:nth-child(7) {
+  background: url(../../img/admission/admission/icon_img_14.png) left 3px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 20px; }
+
+.bdne {
+  border: none; }
+
+/*-----各種選考方法-----*/
+div.admission_wrap .h2_box4 {
+  background: url(../../img/admission/h1_bg.png);
+  height: 260px; }
+
+div.admission_wrap .h2_box4 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+.table_block01 table {
+  width: 100%;
+  margin: 30px 0 5px 0;
+  border-bottom: 1px solid #646464; }
+
+.table_block01 th {
+  background: #fffcdb;
+  padding: 20px;
+  font-weight: bold;
+  color: #646464;
+  font-size: 15px;
+  border-top: 1px solid #646464; }
+
+.table_block01 th span{
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+.table_block01 td {
+  padding: 20px;
+  color: #646464;
+  border-top: 1px solid #646464; }
+
+.table_block01 td a{
+  color: #007DFF;
+}
+.table_block01 td a:hover{
+  text-decoration: underline;
+}
+
+.selection_link a {
+  display: block;
+  background: #fbdad1 url(../../img/admission/selection/icon_img_01.png) 95% center no-repeat;
+  background-size: 14px 28px;
+  border: 1px solid #464646;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 20px;
+  margin: 40px 150px 0 150px; }
+
+.selection_link a:hover {
+  text-decoration: underline; }
+
+.table_p01 p {
+  margin: 0 0 15px 0; }
+
+.table_p01 p:last-child {
+  margin: 0; }
+
+.selection_tel01 {
+  background: url(../../img/admission/selection/icon_img_02.png) left center no-repeat;
+  background-size: 51px 36px;
+  padding: 5px 0 5px 65px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20pt;
+  margin: 20px 0 0 0; }
+
+.selection_tel02 {
+  background: url(../../img/admission/selection/icon_img_03.png) left center no-repeat;
+  background-size: 51px 36px;
+  padding: 5px 0 5px 65px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20pt;
+  margin: 20px 0 0 0; }
+
+.selection_tel01 img,
+.selection_tel02 img {
+  width: 200px;
+  vertical-align: top; }
+
+.selection_tel01 span,
+.selection_tel02 span {
+  display: inline-block;
+  width: 360px; }
+
+.selection_bd {
+  height: 1px;
+  background: #646464;
+  margin: 20px 0 0 0; }
+
+/*-----東京工学院専門学校 学費一覧-----*/
+div.admission_wrap .h2_box5 {
+  background: url(../../img/admission/h1_bg.png);
+  height: 260px; }
+
+div.admission_wrap .h2_box5 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+.tuition_txt01 {
+  text-align: center;
+  font-size: 17px;
+  line-height: 21pt; }
+
+.tuition_block01 {
+  margin: 30px 0 0px 0; }
+
+.tuition_block01 h4 {
+  background: url(../../img/admission/tuition/icon_img_01.png) left 8px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+  color: #1584cc;
+  font-size: 20px;
+  margin: 0 0 10px 0; }
+
+h4.airh4 {
+  background: url(../../img/admission/tuition/icon_img_02.png) left 8px no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+  color: #e45aa6;
+  font-size: 20px;
+  margin: 0 0 10px 0; }
+
+.tuition_block01 sup {
+  font-size: 10px;
+  color: #646464; }
+
+.tuition_left01 {
+  float: left;
+  width: 63%;
+  margin: 0px 0 0 0; }
+
+.tuition_right01 {
+  float: right;
+  width: 37%;
+  margin: 0px 0 0 0; }
+
+.tuition_left01 table {
+  width: 100%;
+  border-top: 1px solid #646464;
+  border-left: 1px solid #646464; }
+
+.tuition_right01 table {
+  width: 100%;
+  border-top: 1px solid #646464; }
+
+.tuition_left01 th,
+.tuition_right01 th {
+  background: #fffcdb;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px 5px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464; }
+
+.tuition_left01 td,
+.tuition_right01 td {
+  text-align: center;
+  padding: 8px 5px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464; }
+
+.tuition_right01 th:first-child,
+.tuition_right01 td:first-child {
+  display: none; }
+
+.tuition_right01 td span.s01 {
+  display: inline-block;
+  padding: 0 0 0 13px; }
+
+/*研究科のスタイル追加*/
+.tuition_left02 {
+  float: left;
+  width: 52%;
+  margin: 0px 0 0 0; }
+
+.tuition_right02 {
+  float: right;
+  width: 48%;
+  margin: 0px 0 0 0; }
+
+.tuition_left02 table {
+  width: 100%;
+  border-top: 1px solid #646464;
+  border-left: 1px solid #646464; }
+
+.tuition_right02 table {
+  width: 100%;
+  border-top: 1px solid #646464; }
+
+.tuition_left02 th,
+.tuition_right02 th {
+  background: #fffcdb;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px 5px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464; }
+
+/* 二行対応 */
+.tuition_left02.line-2 th{
+  line-height: 3;
+}
+
+.tuition_left02 td,
+.tuition_right02 td {
+  text-align: center;
+  padding: 8px 5px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464; }
+
+/*.tuition_right02 th:first-child,
+.tuition_right02 td:first-child{
+	display:none;
+}*/
+.tuition_right02 th:nth-child(3),
+.tuition_right02 td:nth-child(3) {
+  width: 40%; }
+
+.tuition_right02 td span.s01 {
+  display: inline-block;
+  padding: 0 0 0 13px; }
+
+.tb_ht01 {
+  height: 63px; }
+
+.lst_txt01 {
+  margin: 30px 0 0 0; }
+
+.lst_txt02 {
+  text-indent: -1.6em;
+  padding: 0 0 0 1.6em; }
+
+.lst_txt03 {
+  text-indent: -2em;
+  padding: 0 0 0 2em; }
+
+.tt_border {
+  height: 2px;
+  background: #b1b1b1;
+  margin: 50px 0 0 0; }
+
+.tuition_tb_block table {
+  float: left;
+  width: 20%;
+  border-top: 1px solid #646464;
+  /*
+  border-left:1px solid #646464;
+  */ }
+
+.tuition_tb_block table:first-child {
+  border-left: 1px solid #646464; }
+
+.tuition_tb_block02 table {
+  width: 100%;
+  margin: 0 0 50px 0;
+  border-left: 1px solid #646464; }
+
+.tuition_tb_block th,
+.tuition_tb_block02 th {
+  background: #fffcdb;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px 5px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464; }
+
+.tuition_tb_block td {
+  padding: 15px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464;
+  vertical-align: top; }
+
+.tuition_tb_block02 td {
+  padding: 15px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464;
+  vertical-align: top; }
+
+.tuition_tb_block td p,
+.tuition_tb_block02 td p {
+  margin: 0 0 20px 0; }
+
+.tuition_tb_block td p:last-child,
+.tuition_tb_block02 td p:last-child {
+  margin: 0 0 0px 0; }
+
+.lst_txt05 {
+  text-indent: -1.1em;
+  padding: 0 0 0 1.1em;
+  margin: 15px 0 0 0; }
+
+.h3_fl {
+  float: none; }
+
+.h3_fr {
+  float: none;
+  font-weight: normal;
+  margin: 0 0 0 20px;
+  font-size: 14px; }
+
+.tuition_tb_block03 table {
+  width: 100%;
+  border-top: 1px solid #646464;
+  border-left: 1px solid #646464; }
+
+.tuition_tb_block03 th {
+  font-weight: bold;
+  padding: 8px 0 8px 60px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464; }
+
+.tuition_tb_block03 td {
+  padding: 8px 0 8px 60px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464; }
+
+.bgcolor {
+  background: #fffcdb; }
+
+.tr {
+  text-align: right; }
+
+.tuition_tb_block04 table {
+  width: 100%;
+  border-top: 1px solid #646464;
+  border-left: 1px solid #646464;
+  margin: 20px 0 20px 0; }
+
+.tuition_tb_block04 th {
+  min-width: calc(8em + 20px);
+  font-weight: bold;
+  padding: 8px 10px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464;
+}
+
+.tuition_tb_block04 td {
+  padding: 8px 10px;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #646464; }
+
+.lst_txt04 {
+  text-indent: -1.1em;
+  padding: 0 0 0 1.1em;
+  margin: 3px 0 0 0 !important; }
+
+.lst_txt06 {
+  text-indent: -1.3em;
+  padding: 0 0 0 1.3em;
+  margin: 0 0 20px 0; }
+
+.tel_blue {
+  color: #1584cc;
+  font-weight: bold; }
+
+.tel_blue {
+  color: #e45aa6;
+  font-weight: bold; }
+
+.tuit_td01 {
+  padding: 8px 0 8px 30px !important; }
+
+.tuit_td02 {
+  padding: 8px 0px 8px 60px !important; }
+
+.tuit_td022 {
+  padding: 8px 10px 8px 50px !important; }
+
+span.s2 {
+  display: inline-block;
+  padding: 0 0 0 10px; }
+
+span.s3 {
+  display: inline-block;
+  padding: 0 10px 0 0px; }
+
+/*-----東京エアトラベル・ホテル専門学校 学費一覧-----*/
+div.admission_wrap .h2_box6 {
+  background: url(../../img/admission/h1_bg.png);
+  height: 260px; }
+
+div.admission_wrap .h2_box6 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+/*-----以下テーブルなど工学院のものを使用-----*/
+/*-----特待-----*/
+div.admission_wrap .tokutaiSeminarBnr{
+  text-align: center;
+  margin: 50px 0;
+}
+div.admission_wrap .h2_box7 {
+  background: url(../../img/admission/h1_bg.png);
+  height: 260px; }
+
+div.admission_wrap .h2_box7 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+.tokutaisei_txt01 {
+  text-align: center;
+  font-size: 17px;
+  line-height: 21pt; }
+
+.tokutai_tb_area table {
+  width: 100%;
+  border-bottom: 1px solid #646464;
+  margin: 0 0 15px 0; }
+
+.tokutai_tb_area th {
+  color: #8f82bc;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 60px 15px 0px; }
+
+.tokutai_tb_area td {
+  border-top: 1px solid #646464;
+  text-align: left;
+  padding: 15px 0 15px 45px; }
+
+.tokutai_tb_area td:first-child {
+  font-weight: bold;
+  padding: 15px 30px;
+  text-align: center;
+  width: 200px; }
+
+.tokutai_tb_area tr:nth-child(even) {
+  background: #fffcdb; }
+
+.pdl20 {
+  padding: 0 40px 0 0px !important; }
+
+.tokutaisei_left {
+  float: left;
+  width: 580px; }
+
+.tokutaisei_right {
+  float: right;
+  width: 270px; }
+
+.tokutaisei_left table {
+  width: 100%;
+  border-bottom: 1px solid #646464;
+  margin: 0 0 15px 0; }
+
+.tokutaisei_left th {
+  background: #fffcdb;
+  padding: 15px;
+  font-weight: bold;
+  border-top: 1px solid #646464; }
+
+.tokutaisei_left td {
+  padding: 15px;
+  border-top: 1px solid #646464; }
+
+.tokutaisei_left p{
+  margin-bottom: 12px;
+}
+.tokutaisei_left p:last-of-type{
+  margin-bottom: 0;
+}
+.tokutaisei_left p small a{
+  color: #007DFF;
+}
+.tokutaisei_left p small a:hover{
+  text-decoration: underline;
+}
+
+.tokutaisei_right table {
+  width: 100%;
+  border-bottom: 1px solid #646464;
+  margin: 0 0 15px 0; }
+
+.tokutaisei_right th {
+  color: #8f82bc;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 10px; }
+
+.tokutaisei_right th:nth-child(2) {
+  padding: 10px 0 10px 0%;
+  text-align: left; }
+
+.tokutaisei_right td {
+  border-top: 1px solid #646464;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px 0 10px 0; }
+
+.tokutaisei_right td:first-child {
+  font-weight: bold;
+  padding: 10px 10% 10px;
+  text-align: center; }
+
+.tokutaisei_right tr:nth-child(even) {
+  background: #fffcdb; }
+
+
+/*-----学生寮・マンション-----*/
+div.admission_wrap .h2_box8 {
+  background: url(../../img/admission/h1_bg.png);
+  height: 260px; }
+
+div.admission_wrap .h2_box8 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+.apartment h4 {
+  background: url(../../img/admission/apartment/icon_img_01.png) left center no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+  color: #8f82bc;
+  font-size: 20px;
+  margin: 30px 0 20px 0; }
+
+.apartment h4 span {
+  font-size: 12px;
+  color: #464646;
+  font-weight: normal; }
+
+.apartment_left01 {
+  float: left;
+  width: 510px; }
+
+.apartment_right01 {
+  float: right;
+  width: 350px; }
+
+.apartment_right01 table,
+.apartment_left03 table {
+  width: 100%;
+  border-bottom: 1px solid #646464;
+  margin: 0 0 15px 0; }
+
+.apartment_right01 th,
+.apartment_left03 th {
+  background: #fffcdb;
+  padding: 15px;
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+  border-top: 1px solid #646464; }
+
+.apartment_right01 td,
+.apartment_left03 td {
+  padding: 15px;
+  border-top: 1px solid #646464; }
+
+.apartment_left02 {
+  float: left;
+  width: 222px; }
+
+.apartment_right02 {
+  float: right;
+  width: 268px; }
+
+.apartment_left02 img {
+  border: 1px solid #646464; }
+
+.apartment_right02 div:first-child {
+  margin: 0 0 19px 0; }
+
+.apartment_left03 {
+  float: left;
+  width: 390px; }
+
+.apartment_right03 {
+  float: right;
+  width: 466px; }
+
+.apartment_left04 {
+  float: left;
+  width: 222px; }
+
+.apartment_right04 {
+  float: right;
+  width: 222px; }
+
+.apartment_left04 img,
+.apartment_right04 img {
+  border: 1px solid #646464; }
+
+.apartment_link a {
+  display: inline-block;
+  background: #fbdad1 url(../../img/admission/apartment/icon_img_02.png) 95% center no-repeat;
+  background-size: 14px 28px;
+  border: 1px solid #464646;
+  padding: 10px 120px;
+  text-align: center;
+  font-size: 20px;
+  margin: 40px 0px 0 0px; }
+
+.apartment_link a:hover {
+  text-decoration: underline; }
+
+.apart_inq {
+  border: 5px solid #ddd9eb;
+  padding: 30px 50px; }
+
+.apart_inq div {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 16pt;
+  margin: 10px 0 0 0; }
+
+.apart_inq div img {
+  width: 216px;
+  margin: 0 0 0 20px; }
+
+/*-----各種奨学金-----*/
+div.admission_wrap .h2_box9 {
+  background: url(../../img/admission/h1_bg.png);
+  height: 300px; }
+
+div.admission_wrap .h2_box9 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+.ship_txt01 {
+  text-align: center;
+  font-size: 17px;
+  line-height: 21pt;
+  margin-bottom: 40px; }
+
+.ship_navi {
+  width: 900px;
+  margin: 60px auto 60px; }
+
+.ship_navi li a {
+  display: block;
+  text-align: center;
+  border: 1px solid #464646;
+  padding: 8px 50px;
+  background: url(../../img/admission/scholarship/icon_img_01.png) 92% center no-repeat;
+  background-size: 23px 14px;
+  width: 30%;
+  float: left;
+  height: 66px;
+  font-size: 18px;
+  line-height: 18pt; }
+
+.ship_navi li:nth-child(2) a {
+  margin: 0 5%; }
+
+.ship_navi li:nth-child(1) a,
+.ship_navi li:nth-child(2) a {
+  padding: 20px 50px 0 50px; }
+
+.ship_navi li a:hover {
+  background: url(../../img/admission/scholarship/icon_img_01.png) 92% 30px no-repeat;
+  background-size: 23px 14px;
+  text-decoration: underline; }
+
+.ship_ttl01 {
+  margin: 60px auto 0;
+  background: url(../../img/admission/h1_bg.png);
+  height: 140px; }
+
+.ship_ttl01 h2 {
+  padding: 40px 0 0 0px;
+  text-align: center; }
+
+.ship_left01 {
+  float: left;
+  width: 590px; }
+
+.ship_right01 {
+  float: right;
+  width: 270px; }
+
+.ship_right01 table {
+  width: 100%;
+  border-bottom: 1px solid #646464; }
+
+.ship_right01 th {
+  color: #8f82bc;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 0 ; }
+.ship_right01 th:first-child{
+
+  text-align: center;
+  width: 40%;
+}
+
+.ship_right01 th:nth-child(2) {
+  padding: 10px 0;
+}
+
+.ship_right01 td:first-child{
+  text-align: center;
+  
+}
+.ship_right01 td {
+  border-top: 1px solid #646464;
+  text-align: left;
+  
+  font-weight: bold;
+  padding: 10px 0; }
+
+.ship_right01 td:first-child {
+  font-weight: bold;
+  padding: 10px 0; }
+
+.ship_right01 tr:nth-child(even) {
+  background: #fffcdb; }
+
+.ship_block01 h4,
+.ship_block02 h4 {
+  float: left;
+  background: url(../../img/admission/scholarship/bg_img_01.png) left top no-repeat;
+  background-size: 178px 106px;
+  display: block;
+  width: 178px;
+  height: 106px;
+  padding: 34px 12px 0 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold; }
+
+.ship_block01 div {
+  float: right;
+  width: 400px; }
+
+.ship_block02 div {
+  float: right;
+  width: 700px; }
+
+.ship_block01 p,
+.ship_block02 p {
+  margin: 0 0 20px 0; }
+
+.ship_block03 table {
+  width: 100%;
+  border-bottom: 1px solid #646464;
+  border-top: 1px solid #646464;
+  margin: 20px 0 0 0; }
+
+.ship_block03 th {
+  color: #8f82bc;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 10px; }
+
+.ship_block03 td {
+  border-top: 1px solid #646464;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 10px; }
+
+.ship_block03 td:first-child {
+  font-weight: bold;
+  padding: 10px 10px;
+  width: 20%; }
+
+.ship_block03 tr:nth-child(even) {
+  background: #fffcdb; }
+
+.ship_block03 td:nth-child(2) {
+  border-left: 1px solid #646464;
+  border-right: 1px solid #646464;
+  font-weight: normal;
+  text-align: left; }
+
+.ship_block03 th:nth-child(2) {
+  border-left: 1px solid #646464;
+  border-right: 1px solid #646464;
+  font-weight: normal; }
+
+.ship_pt01 {
+  padding: 30px 0 0 0; }
+
+.ship_block03 h4 {
+  padding: 0 0 0 0px;
+  font-weight: bold;
+  color: #8f82bc;
+  font-size: 20px;
+  margin: 30px 0 10px 0; }
+
+.ship_txt02 {
+  padding: 0px;
+  font-weight: bold;
+  color: #8f82bc;
+  font-size: 15px;
+  margin: 30px 0 5px 0; }
+
+.ship_txt03 {
+  background: url(../../img/admission/scholarship/icon_img_02.png) left center no-repeat;
+  background-size: 51px 36px;
+  padding: 5px 0 5px 65px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20pt;
+  margin: 20px 0 0 0; }
+
+.ship_txt04 {
+  background: url(../../img/admission/scholarship/icon_img_03.png) left center no-repeat;
+  background-size: 51px 36px;
+  padding: 5px 0 5px 65px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20pt;
+  margin: 40px 0 0 0; }
+
+.ship_block04 table {
+  width: 100%;
+  border-bottom: 1px solid #646464;
+  border-top: 1px solid #646464;
+  margin: 20px 0 15px 0; }
+
+.ship_block04 th {
+  color: #1584cc;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 10px; }
+
+.ship_block04 td {
+  border-top: 1px solid #646464;
+  text-align: left;
+  padding: 15px 15px; }
+
+.ship_block04 td:first-child {
+  font-weight: bold;
+  padding: 10px 10px;
+  width: 10%;
+  text-align: center; }
+
+.ship_block04 tr:nth-child(even) {
+  background: #e7f2fa; }
+
+.ship_block04 td:nth-child(2) {
+  border-left: 1px solid #646464;
+  border-right: 1px solid #646464;
+  font-weight: bold;
+  text-align: center;
+  width: 20%; }
+
+.ship_block04 th:nth-child(2) {
+  border-left: 1px solid #646464;
+  border-right: 1px solid #646464;
+  font-weight: normal; }
+
+.ship_block05 table {
+  width: 100%;
+  border-bottom: 1px solid #646464;
+  border-top: 1px solid #646464;
+  margin: 20px 0 15px 0; }
+
+.ship_block05 th {
+  color: #e45aa6;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 10px; }
+
+.ship_block05 td {
+  border-top: 1px solid #646464;
+  text-align: left;
+  padding: 15px 15px; }
+
+.ship_block05 td:first-child {
+  font-weight: bold;
+  padding: 10px 10px;
+  width: 10%;
+  text-align: center; }
+
+.ship_block05 tr:nth-child(even) {
+  background: #fceef6; }
+
+.ship_block05 td:nth-child(2) {
+  border-left: 1px solid #646464;
+  border-right: 1px solid #646464;
+  font-weight: bold;
+  text-align: center;
+  width: 20%; }
+
+.ship_block05 th:nth-child(2) {
+  border-left: 1px solid #646464;
+  border-right: 1px solid #646464;
+  font-weight: normal; }
+
+.ship_ttl03 {
+  margin: 60px auto 0;
+  background: url(../../img/admission/h1_bg.png);
+  height: 140px; }
+
+.ship_ttl03 h2 {
+  padding: 40px 0 0 0px;
+  text-align: center; }
+
+.ship_block06 {
+  margin: 20px 0 0 0; }
+
+.ship_block06 table {
+  width: 100%;
+  border-bottom: 1px solid #646464;
+  margin: 5px 0 20px 0; }
+
+.ship_block06 th {
+  font-weight: bold;
+  padding: 15px 15px;
+  border-top: 1px solid #646464;
+  background: #fffcdb;
+  width: 20%; }
+
+.ship_block06 td {
+  border-top: 1px solid #646464;
+  text-align: left;
+  padding: 15px 15px; }
+
+.bk6 {
+  font-weight: bold; }
+
+.bk6 th, bk6 td {
+  width: 50%; }
+
+.unker02_lastb {
+  border: 5px solid #beb7d8;
+  background: #eeecf5;
+  padding: 30px 120px;
+  margin: 60px 0 40px 0; }
+
+.lastb_left {
+  float: left;
+  width: 55%; }
+
+.lastb_left div {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 15px 0; }
+
+.lastb_right {
+  float: right;
+  width: 45%; }
+
+.lastb_right img {
+  width: 216px;
+  margin: 45px 0 10px 0; }
+
+.ship_ttl04 {
+  margin: 60px auto 0;
+  background: url(../../img/admission/h1_bg.png);
+  height: 140px; }
+
+.ship_ttl04 h2 {
+  padding: 40px 0 0 0px;
+  text-align: center; }
+
+.ship_block05 h4 {
+  background: url(../../img/admission/scholarship/icon_img_04.png) left center no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+  color: #8f82bc;
+  font-size: 20px;
+  margin: 30px 0 10px 0; }
+
+.bld {
+  font-weight: bold; }
+
+.ship_link a {
+  display: inline-block;
+  background: #fbdad1 url(../../img/admission/scholarship/icon_img_05.png) 95% center no-repeat;
+  background-size: 14px 28px;
+  border: 1px solid #464646;
+  padding: 10px 80px;
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0px 0 0px; }
+
+.ship_link a:hover {
+  text-decoration: underline; }
+
+.ship_call {
+  margin: 15px 0 0 0; }
+
+.ship_call em {
+  font-weight: bold;
+  font-size: 16px;
+  color: #8f82bc; }
+
+.logo_img_01 {
+  margin: 40px 0 10px 0;
+  width: 135px; }
+
+h4.l_h4 {
+  background: url(../../img/admission/scholarship/icon_img_04.png) left center no-repeat;
+  background-size: 15px 15px;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+  color: #8f82bc;
+  font-size: 20px;
+  margin: 5px 0 10px 0; }
+
+.ship_link01 a {
+  display: block;
+  background: #449dd6 url(../../img/admission/scholarship/icon_img_06.png) 97% center no-repeat;
+  background-size: 13px 23px;
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 10px 0px 0 0px;
+  color: #FFF;
+  width: 44%;
+  float: left; }
+
+.ship_link01 a:hover {
+  text-decoration: underline; }
+
+.ship_link02 a {
+  display: block;
+  background: #e97bb8 url(../../img/admission/scholarship/icon_img_06.png) 97% center no-repeat;
+  background-size: 13px 23px;
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 10px 0px 0 0px;
+  color: #FFF;
+  width: 54%;
+  float: right; }
+
+.ship_link02 a:hover {
+  text-decoration: underline; }
+
+.logo_img_02 {
+  margin: 40px 0 10px 0;
+  width: 79px; }
+
+.logo_img_02 img {
+  border: 1px solid #e5e3e3; }
+
+.ship_block06 td em {
+  color: #8f82bc;
+  font-weight: bold; }
+
+.logo_img_03 {
+  margin: 40px 0 10px 0;
+  width: 104px; }
+
+.logo_img_04 {
+  margin: 10px 0 10px 0;
+  width: 363px; }
+
+.audition{
+  clear:both;
+  padding-top: 30px;
+}
+.audition a{
+  color: #007DFF;
+}
+.audition a:hover{
+  text-decoration: underline;
+}
+
+.webEntryBnr{
+  display: block;
+  width: 100%;
+  max-width: 787px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+/*-----ao入学-----*/
+div.admission_wrap .h2_box10 {
+  background: url(../../img/admission/h1_bg.png);
+  height: 250px; }
+
+div.admission_wrap .h2_box10 h2 {
+  padding: 60px 0 0 0px;
+  text-align: center; }
+
+div#ao {
+  margin-top: 50px;
+  min-width: 900px;
+  max-width: 900px; }
+  div#ao h3 {
+    margin-bottom: 50px;
+    text-align: center; }
+  div#ao section.block01.cf div.box01,
+  div#ao section.block01.cf div.box02 {
+    width: 430px; }
+    div#ao section.block01.cf div.box01 h3,
+    div#ao section.block01.cf div.box02 h3 {
+      font-weight: bold;
+      text-align: center;
+      font-size: 26px;
+      padding: 10px;
+      color: #fff;
+      margin-bottom: 0; }
+    div#ao section.block01.cf div.box01 div.box_inner01,
+    div#ao section.block01.cf div.box02 div.box_inner01 {
+      background: #fff;
+      padding: 30px;
+      position: relative; }
+      div#ao section.block01.cf div.box01 div.box_inner01 p,
+      div#ao section.block01.cf div.box02 div.box_inner01 p {
+        font-size: 12px; }
+      div#ao section.block01.cf div.box01 div.box_inner01 dl dt,
+      div#ao section.block01.cf div.box02 div.box_inner01 dl dt {
+        line-height: 31px;
+        width: 175px;
+        height: 31px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 6px;
+        color: #fff;
+        position: relative;
+        z-index: 3; }
+      div#ao section.block01.cf div.box01 div.box_inner01 dl dd,
+      div#ao section.block01.cf div.box02 div.box_inner01 dl dd {
+        min-height: 190px;
+        margin-top: -15px;
+        background: #fff3c2;
+        padding: 25px; }
+        div#ao section.block01.cf div.box01 div.box_inner01 dl dd li,
+        div#ao section.block01.cf div.box02 div.box_inner01 dl dd li {
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 25px;
+          text-indent: -1em;
+          margin-left: 1em; }
+          div#ao section.block01.cf div.box01 div.box_inner01 dl dd li + li,
+          div#ao section.block01.cf div.box02 div.box_inner01 dl dd li + li {
+            margin-top: 15px; }
+          div#ao section.block01.cf div.box01 div.box_inner01 dl dd li:before,
+          div#ao section.block01.cf div.box02 div.box_inner01 dl dd li:before {
+            content: "●"; }
+      div#ao section.block01.cf div.box01 div.box_inner01 img,
+      div#ao section.block01.cf div.box02 div.box_inner01 img {
+        position: absolute; }
+    div#ao section.block01.cf div.box01 div.box_inner02,
+    div#ao section.block01.cf div.box02 div.box_inner02 {
+      padding: 0 0 30px; }
+      div#ao section.block01.cf div.box01 div.box_inner02 p.ttl,
+      div#ao section.block01.cf div.box02 div.box_inner02 p.ttl {
+        height: 130px;
+        line-height: 100px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        font-size: 22px; }
+      div#ao section.block01.cf div.box01 div.box_inner02 section,
+      div#ao section.block01.cf div.box02 div.box_inner02 section {
+        margin: 0 30px; }
+        div#ao section.block01.cf div.box01 div.box_inner02 section + section,
+        div#ao section.block01.cf div.box02 div.box_inner02 section + section {
+          margin-top: 30px;
+          padding-top: 30px;
+          border-top: 1px solid  #646464; }
+        div#ao section.block01.cf div.box01 div.box_inner02 section h4,
+        div#ao section.block01.cf div.box02 div.box_inner02 section h4 {
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 20px;
+          margin-bottom: 15px; }
+          div#ao section.block01.cf div.box01 div.box_inner02 section h4:before,
+          div#ao section.block01.cf div.box02 div.box_inner02 section h4:before {
+            content: "■"; }
+          div#ao section.block01.cf div.box01 div.box_inner02 section h4 span,
+          div#ao section.block01.cf div.box02 div.box_inner02 section h4 span {
+            font-size: 15px;
+            font-weight: lighter;
+            color: #464646; }
+        div#ao section.block01.cf div.box01 div.box_inner02 section dl.cf,
+        div#ao section.block01.cf div.box02 div.box_inner02 section dl.cf {
+          background: #fff;
+          padding: 15px;
+          margin-bottom: 20px;
+          text-align: center;
+          position: relative; }
+          div#ao section.block01.cf div.box01 div.box_inner02 section dl.cf + dl.cf:before,
+          div#ao section.block01.cf div.box02 div.box_inner02 section dl.cf + dl.cf:before {
+            position: absolute;
+            content: "";
+            display: block;
+            top: -20px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 16px 27px 0 27px; }
+          div#ao section.block01.cf div.box01 div.box_inner02 section dl.cf dt,
+          div#ao section.block01.cf div.box02 div.box_inner02 section dl.cf dt {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 13px;
+            font-weight: bold;
+            float: left; }
+            div#ao section.block01.cf div.box01 div.box_inner02 section dl.cf dt span,
+            div#ao section.block01.cf div.box02 div.box_inner02 section dl.cf dt span {
+              font-size: 17px; }
+          div#ao section.block01.cf div.box01 div.box_inner02 section dl.cf dd,
+          div#ao section.block01.cf div.box02 div.box_inner02 section dl.cf dd {
+            display: inline-block;
+            vertical-align: middle; }
+  div#ao section.block01.cf div.box01.fl h3 {
+    background: #449dd6; }
+  div#ao section.block01.cf div.box01.fl div.box_inner01 {
+    border: 3px solid  #449dd6;
+    padding-left: 160px; }
+    div#ao section.block01.cf div.box01.fl div.box_inner01 p {
+      margin-bottom: 20px; }
+    div#ao section.block01.cf div.box01.fl div.box_inner01 dl dt {
+      background: url(../../img/admission/ao/box01_bg01.png) no-repeat; }
+    div#ao section.block01.cf div.box01.fl div.box_inner01 dl dd li:before {
+      color: #449dd6; }
+    div#ao section.block01.cf div.box01.fl div.box_inner01 img {
+      left: -30px;
+      bottom: -30px; }
+  div#ao section.block01.cf div.box01.fl div.box_inner02 {
+    background: #e7f2fa; }
+    div#ao section.block01.cf div.box01.fl div.box_inner02 p.ttl {
+      background: url(../../img/admission/ao/box01_bg02.png) no-repeat center top; }
+    div#ao section.block01.cf div.box01.fl div.box_inner02 section h4 {
+      color: #1584cc; }
+    div#ao section.block01.cf div.box01.fl div.box_inner02 section dl.cf + dl.cf:before {
+      border-color: #449dd6 transparent transparent transparent; }
+    div#ao section.block01.cf div.box01.fl div.box_inner02 section dl.cf dt {
+      color: #449dd6; }
+  div#ao section.block01.cf div.box02.fr h3 {
+    background: #e97bb8; }
+  div#ao section.block01.cf div.box02.fr div.box_inner01 {
+    padding-right: 160px;
+    border: 3px solid  #e97bb8; }
+    div#ao section.block01.cf div.box02.fr div.box_inner01 p {
+      margin-bottom: 38px; }
+    div#ao section.block01.cf div.box02.fr div.box_inner01 dl dt {
+      background: url(../../img/admission/ao/box02_bg01.png) no-repeat; }
+    div#ao section.block01.cf div.box02.fr div.box_inner01 dl dd li:before {
+      color: #e97bb8; }
+    div#ao section.block01.cf div.box02.fr div.box_inner01 img {
+      right: -10px;
+      bottom: -30px; }
+  div#ao section.block01.cf div.box02.fr div.box_inner02 {
+    padding-bottom: 130px;
+    background: url(../../img/admission/ao/box02_bg03.png) no-repeat center bottom #fceef6; }
+    div#ao section.block01.cf div.box02.fr div.box_inner02 p.ttl {
+      background: url(../../img/admission/ao/box02_bg02.png) no-repeat center top; }
+    div#ao section.block01.cf div.box02.fr div.box_inner02 section h4 {
+      color: #e97bb8; }
+    div#ao section.block01.cf div.box02.fr div.box_inner02 section dl.cf:before {
+      border-color: #e97bb8 transparent transparent transparent; }
+    div#ao section.block01.cf div.box02.fr div.box_inner02 section dl.cf dt {
+      color: #e97bb8; }
+  div#ao section.block02 {
+    margin-bottom: 80px; }
+    div#ao section.block02 h3 {
+      text-align: left;
+      font-weight: bold;
+      font-size: 20px;
+      color: #e45aa6;
+      margin-bottom: 10px; }
+      div#ao section.block02 h3:before {
+        content: "■"; }
+    div#ao section.block02 table {
+      width: 100%;
+      border: 1px solid  #646464; }
+      div#ao section.block02 table thead tr th {
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        background: #fffcdb;
+        border: 1px solid  #646464; }
+      div#ao section.block02 table tbody tr:first-child td:nth-child(2) {
+        text-align: center; }
+      div#ao section.block02 table tbody tr td {
+        padding: 10px;
+        border: 1px solid  #646464; }
+        div#ao section.block02 table tbody tr td:nth-child(1) {
+          text-align: center; }
+      div#ao section.block02 table tbody tr:nth-child(even) td {
+        background: #fceef6; }
+  div#ao section.block03 {
+    margin-bottom: 100px; }
+    div#ao section.block03 h3 {
+      margin-bottom: 65px; }
+    div#ao section.block03 div.box {
+      border-top: 1px solid  #464646;
+      padding: 40px 30px; }
+      div#ao section.block03 div.box:last-child {
+        border-bottom: 1px solid  #464646; }
+      div#ao section.block03 div.box:nth-child(even) {
+        background: #fffcdb; }
+      div#ao section.block03 div.box dl dt {
+        margin-bottom: 20px; }
+        div#ao section.block03 div.box dl dt img {
+          display: inline-block;
+          vertical-align: middle !important; }
+        div#ao section.block03 div.box dl dt span {
+          font-weight: bold;
+          font-size: 20px;
+          margin-left: 20px;
+          color: #e45aa6;
+          display: inline-block;
+          vertical-align: middle; }
+      div#ao section.block03 div.box dl dd img {
+        display: inline-block;
+        vertical-align: middle !important; }
+      div#ao section.block03 div.box dl dd p {
+        max-width: 767px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px; }
+  div#ao section.block04 {
+    margin-bottom: 50px; }
+    div#ao section.block04 p.lead {
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 25px; }
+    div#ao section.block04 a {
+      display: block;
+      max-width: 450px;
+      width: 90%;
+      border: 1px solid  #464646;
+      background: #d7f1ef;
+      margin: 0 auto;
+      padding: 15px;
+      text-align: center;
+      text-align: center;
+      font-size: 20px;
+      position: relative; }
+      div#ao section.block04 a:hover {
+        opacity: 0.6; }
+      div#ao section.block04 a:after {
+        border-right: 1px solid  #464646;
+        border-bottom: 1px solid  #464646;
+        width: 15px;
+        height: 15px;
+        content: "";
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        transform: rotate(-45deg); }
+    div#ao section.block04 div.btm {
+      margin-top: 100px; }
+      div#ao section.block04 div.btm p {
+        margin-bottom: 20px; }
+      div#ao section.block04 div.btm div.cf {
+        margin-bottom: 20px; }
+        div#ao section.block04 div.btm div.cf img {
+          display: inline-block;
+          vertical-align: middle !important; }
+          div#ao section.block04 div.btm div.cf img.tel {
+            width: 199px; }
+        div#ao section.block04 div.btm div.cf p {
+          margin: 0 10px;
+          font-weight: bold;
+          font-size: 20px;
+          min-width: 320px;
+          display: inline-block;
+          vertical-align: middle; }
+
+
+/*21 05 comingsoon*/
+
+.comingsoonPage{
+  height: 70vh;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+.comingsoonPage p{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+
+}

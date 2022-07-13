@@ -1,0 +1,685 @@
+/*============================
+
+PC
+
+============================*/
+/* line 89, ../../scss/blog/pc_style.scss */
+.blog_wrap {
+  /*blogTOP*/
+}
+/* line 90, ../../scss/blog/pc_style.scss */
+.blog_wrap .h2_box {
+  margin-bottom: 80px;
+  background: url(../../img/blog/h1_bg.png);
+  height: 200px;
+}
+/* line 94, ../../scss/blog/pc_style.scss */
+.blog_wrap .h2_box h2 {
+  padding: 60px 0 0 0px;
+  text-align: center;
+}
+/* line 101, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents {
+  width: 1000px;
+  margin: 0 auto 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* line 107, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category {
+  width: 250px;
+  font-size: 13px;
+}
+/* line 110, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category p.title {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+/* line 113, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category p.title span {
+  margin-right: 7px;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* line 119, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category a {
+  display: block;
+  position: relative;
+  padding: 7px 10px;
+  padding-right: 25px;
+}
+/* line 124, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category a:after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  transform: rotate(-45deg);
+  border-right: 2px solid  #fff;
+  border-bottom: 2px solid  #fff;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* line 138, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category a:hover {
+  text-decoration: underline;
+}
+/* line 142, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category ul li {
+  border-bottom: 1px solid  #464646;
+}
+/* line 145, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl {
+  margin-bottom: 30px;
+}
+/* line 148, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl dt a {
+  font-weight: bold;
+  color: #fff;
+}
+/* line 155, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl dd a:after {
+  border-right: 1px solid  #464646;
+  border-bottom: 1px solid  #464646;
+}
+/* line 163, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl dd li:first-child a {
+  font-weight: bold;
+}
+/* line 165, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl dd li:first-child a:after {
+  border-right: 2px solid  #464646;
+  border-bottom: 2px solid  #464646;
+}
+/* line 175, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dt {
+  background: #1584CC;
+}
+/* line 180, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.entertainment li {
+  background: #FCEACC;
+}
+/* line 182, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.entertainment li:first-child {
+  background: #fff;
+}
+/* line 184, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.entertainment li:first-child a {
+  color: #F29600;
+}
+/* line 186, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.entertainment li:first-child a:after {
+  border-right: 2px solid  #F29600;
+  border-bottom: 2px solid #F29600;
+}
+/* line 195, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.creator li {
+  background: #FBDCEA;
+}
+/* line 197, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.creator li:first-child {
+  background: #fff;
+}
+/* line 199, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.creator li:first-child a {
+  color: #E82B81;
+}
+/* line 201, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.creator li:first-child a:after {
+  border-right: 2px solid  #E82B81;
+  border-bottom: 2px solid #E82B81;
+}
+/* line 210, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.sports li {
+  background: #E8F3D2;
+}
+/* line 212, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.sports li:first-child {
+  background: #fff;
+}
+/* line 214, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.sports li:first-child a {
+  color: #8DC21F;
+}
+/* line 216, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.sports li:first-child a:after {
+  border-right: 2px solid  #8DC21F;
+  border-bottom: 2px solid #8DC21F;
+}
+/* line 225, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.engineer li {
+  background: #D5EDF9;
+}
+/* line 227, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.engineer li:first-child {
+  background: #fff;
+}
+/* line 229, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.engineer li:first-child a {
+  color: #2CA6E0;
+}
+/* line 231, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.engineer li:first-child a:after {
+  border-right: 2px solid  #2CA6E0;
+  border-bottom: 2px solid #2CA6E0;
+}
+/* line 240, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.senior li {
+  background: #EFDAEC;
+}
+/* line 242, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.senior li:first-child {
+  background: #fff;
+}
+/* line 244, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.senior li:first-child a {
+  color: #9C208F;
+}
+/* line 246, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.senior li:first-child a:after {
+  border-right: 2px solid  #9C208F;
+  border-bottom: 2px solid #9C208F;
+}
+/* line 257, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.eng dd ul.kenkyu li a:after {
+  border-right: 2px solid  #E7B000;
+  border-bottom: 2px solid #E7B000;
+}
+/* line 267, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air dt {
+  background: #E45AA6;
+}
+/* line 273, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li {
+  font-weight: bold;
+}
+/* line 276, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.airline a {
+  color: #00B4DE;
+}
+/* line 278, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.airline a:after {
+  border-right: 2px solid  #00B4DE;
+  border-bottom: 2px solid #00B4DE;
+}
+/* line 283, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.airport a {
+  color: #00A3A3;
+}
+/* line 285, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.airport a:after {
+  border-right: 2px solid  #00A3A3;
+  border-bottom: 2px solid #00A3A3;
+}
+/* line 290, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.english a {
+  color: #5E66AD;
+}
+/* line 292, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.english a:after {
+  border-right: 2px solid  #5E66AD;
+  border-bottom: 2px solid #5E66AD;
+}
+/* line 297, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.hotel a {
+  color: #C54131;
+}
+/* line 299, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.hotel a:after {
+  border-right: 2px solid  #C54131;
+  border-bottom: 2px solid #C54131;
+}
+/* line 304, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.bridal a {
+  color: #EB6D87;
+}
+/* line 306, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.bridal a:after {
+  border-right: 2px solid  #EB6D87;
+  border-bottom: 2px solid #EB6D87;
+}
+/* line 311, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.bizsecretary a {
+  color: #E0BE00;
+}
+/* line 313, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.bizsecretary a:after {
+  border-right: 2px solid  #E0BE00;
+  border-bottom: 2px solid #E0BE00;
+}
+/* line 318, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.fashionbiz a {
+  color: #A499C9;
+}
+/* line 320, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.fashionbiz a:after {
+  border-right: 2px solid  #A499C9;
+  border-bottom: 2px solid #A499C9;
+}
+/* line 325, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.travel a {
+  color: #009E41;
+}
+/* line 327, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.travel a:after {
+  border-right: 2px solid  #009E41;
+  border-bottom: 2px solid #009E41;
+}
+/* line 332, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.train a {
+  color: #1A5392;
+}
+/* line 334, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.train a:after {
+  border-right: 2px solid  #1A5392;
+  border-bottom: 2px solid #1A5392;
+}
+/* line 340, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category dl.air ul li.kenkyu a:after {
+  border-right: 2px solid  #6FA93F;
+  border-bottom: 2px solid #6FA93F;
+}
+/* line 347, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category ul.other {
+  margin-bottom: 30px;
+  border-top: 1px solid  #464646;
+}
+/* line 350, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category ul.other li {
+  background: #F5F5F5;
+}
+/* line 352, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category ul.other li a:after {
+  border-right: 1px solid  #464646;
+  border-bottom: 1px solid #464646;
+}
+/* line 359, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category div.archive p.arcTtl {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* line 364, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category div.archive select {
+  width: 100%;
+  height: 30px;
+  display: block;
+  border: 1px solid  #646464;
+  padding: 5px 10px;
+  background: url(../../img/blog/arrow.png) no-repeat right center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/* line 374, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category div.archive select:hover {
+  cursor: pointer;
+}
+/* line 378, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents div.category div.archive ::-ms-expand {
+  display: none;
+}
+/* line 381, ../../scss/blog/pc_style.scss */
+.blog_wrap div.contents main {
+  width: 700px;
+}
+/* line 389, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop h3 {
+  font-size: 13px;
+  color: #fff;
+  background: #8F82BC;
+  padding: 15px 30px;
+}
+/* line 394, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop h3 span {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  margin-right: 15px;
+}
+/* line 401, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop h3.column span {
+  letter-spacing: 0;
+}
+/* line 406, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock {
+  margin-bottom: 50px;
+  border: 2px solid  #8F82BC;
+  overflow-y: scroll;
+  height: 860px;
+}
+/* line 4, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box {
+  border-bottom: 2px solid  #C8C8C8;
+}
+/* line 6, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box a {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 30px;
+}
+/* line 10, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box a:hover img {
+  opacity: 1;
+}
+/* line 13, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box a:hover p.more {
+  text-decoration: underline;
+}
+/* line 16, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box a:hover {
+  opacity: 0.6;
+}
+/* line 20, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box:last-child {
+  border-bottom: none;
+}
+/* line 24, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box div.img_box {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+/* line 28, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box div.img_box img {
+  display: block;
+}
+/* line 32, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box div.txt {
+  width: 474px;
+}
+/* line 34, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box div.txt p {
+  text-align: justify;
+  font-size: 13px;
+  line-height: 22px;
+}
+/* line 39, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box div.txt p.date {
+  margin-bottom: 5px;
+}
+/* line 42, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box div.txt p.more {
+  text-align: right;
+}
+/* line 45, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock div.box div.txt h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #8678B5;
+}
+/* line 55, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock p.more {
+  margin-top: 10px;
+  text-align: right;
+  color: #8678B5;
+  font-weight: bold;
+  position: relative;
+  padding-right: 10px;
+}
+/* line 63, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogTop div.blogBlock p.more:after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  transform: rotate(-45deg);
+  border-right: 2px solid  #8678B5;
+  border-bottom: 2px solid  #8678B5;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* line 421, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3 {
+  color: #fff;
+  background: #8F82BC;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* line 428, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.eng {
+  background: #1584CC;
+}
+/* line 431, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.entertainment, .blog_wrap .blogCat h3.concert, .blog_wrap .blogCat h3.art, .blog_wrap .blogCat h3.image, .blog_wrap .blogCat h3.music_dance, .blog_wrap .blogCat h3.play {
+  background: #F29600;
+}
+/* line 440, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.creator, .blog_wrap .blogCat h3.game, .blog_wrap .blogCat h3.cg_web, .blog_wrap .blogCat h3.web, .blog_wrap .blogCat h3.cartoon, .blog_wrap .blogCat h3.animation, .blog_wrap .blogCat h3.graphic {
+  background: #E82B81;
+}
+/* line 450, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.sports, .blog_wrap .blogCat h3.business, .blog_wrap .blogCat h3.cat329, .blog_wrap .blogCat h3.child, .blog_wrap .blogCat h3.cat311 {
+  background: #8DC21F;
+}
+/* line 457, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.engineer, .blog_wrap .blogCat h3.archi, .blog_wrap .blogCat h3.interior, .blog_wrap .blogCat h3.info, .blog_wrap .blogCat h3.cat312, .blog_wrap .blogCat h3.electric, .blog_wrap .blogCat h3.cat314, .blog_wrap .blogCat h3.cat313, .blog_wrap .blogCat h3.cat178 {
+  background: #2CA6E0;
+}
+/* line 468, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.senior_college, .blog_wrap .blogCat h3.cat314, .blog_wrap .blogCat h3.law, .blog_wrap .blogCat h3.management, .blog_wrap .blogCat h3.media, .blog_wrap .blogCat h3.cat197 {
+  background: #9C208F;
+}
+/* line 476, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.cat178 {
+  background: #E7B000;
+}
+/* line 480, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.air, .blog_wrap .blogCat h3.air_travel_hotel {
+  background: #E45AA6;
+}
+/* line 484, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.airline {
+  background: #00B4DE;
+}
+/* line 487, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.airportservice {
+  background: #00A3A3;
+}
+/* line 490, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.english {
+  background: #5E66AD;
+}
+/* line 493, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.hotel {
+  background: #C54131;
+}
+/* line 496, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.bridal {
+  background: #EB6D87;
+}
+/* line 499, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.bizsecretary {
+  background: #E0BE00;
+}
+/* line 502, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.fashionbiz {
+  background: #A499C9;
+}
+/* line 505, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.travel {
+  background: #009E41;
+}
+/* line 508, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.train {
+  background: #1A5392;
+}
+/* line 511, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat h3.labo {
+  background: #6FA93F;
+}
+/* line 516, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat .pager {
+  margin: 20px 0;
+}
+/* line 518, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat .pager ul {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0;
+}
+/* line 522, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat .pager ul li {
+  margin-left: 8px;
+  width: 30px;
+  height: 25px;
+  line-height: 22px;
+  border: 1px solid  #8F82BC;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 524, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat .pager ul li:first-child {
+  margin-left: 0;
+}
+/* line 534, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat .pager ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #8F82BC;
+}
+/* line 541, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat .pager ul li .current_page {
+  background: #8F82BC;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* line 552, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock {
+  margin-bottom: 0px;
+  border: 2px solid  #8F82BC;
+}
+/* line 4, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box {
+  border-bottom: 2px solid  #C8C8C8;
+}
+/* line 6, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box a {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 30px;
+}
+/* line 10, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box a:hover img {
+  opacity: 1;
+}
+/* line 13, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box a:hover p.more {
+  text-decoration: underline;
+}
+/* line 16, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box a:hover {
+  opacity: 0.6;
+}
+/* line 20, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box:last-child {
+  border-bottom: none;
+}
+/* line 24, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box div.img_box {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+/* line 28, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box div.img_box img {
+  display: block;
+}
+/* line 32, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box div.txt {
+  width: 474px;
+}
+/* line 34, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box div.txt p {
+  text-align: justify;
+  font-size: 13px;
+  line-height: 22px;
+}
+/* line 39, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box div.txt p.date {
+  margin-bottom: 5px;
+}
+/* line 42, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box div.txt p.more {
+  text-align: right;
+}
+/* line 45, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock div.box div.txt h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #8678B5;
+}
+/* line 55, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock p.more {
+  margin-top: 10px;
+  text-align: right;
+  color: #8678B5;
+  font-weight: bold;
+  position: relative;
+  padding-right: 10px;
+}
+/* line 63, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogCat div.blogBlock p.more:after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  transform: rotate(-45deg);
+  border-right: 2px solid  #8678B5;
+  border-bottom: 2px solid  #8678B5;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* line 563, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogDetail h3 {
+  color: #fff;
+  background: #8F82BC;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* line 571, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogDetail p.date {
+  text-align: right;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+/* line 578, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogDetail div.article p {
+  font-size: 13px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+/* line 583, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogDetail div.article img {
+  margin-bottom: 25px;
+  /*display: block;*/
+  height: auto !important;
+}
+/* line 587, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogDetail div.article a {
+  text-decoration: underline;
+}
+/* line 589, ../../scss/blog/pc_style.scss */
+.blog_wrap .blogDetail div.article a:hover {
+  text-decoration: none;
+}
