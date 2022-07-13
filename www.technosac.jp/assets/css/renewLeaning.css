@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap");
+.learningPage .detailArea {
+  margin: 0 0 0 13rem;
+}
+.learningPage .detailArea__block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100rem;
+  width: calc(100% - 13rem);
+  margin: 0 auto;
+  padding: 6.7rem 5rem 8.6rem;
+  border-bottom: solid 0.2rem #000;
+  position: relative;
+}
+.learningPage .detailArea__block:first-of-type {
+  border-top: solid 0.2rem #000;
+  padding: 8.5rem 5rem 8.6rem;
+}
+.learningPage .detailArea__block:first-of-type .detailArea__blockRight {
+  position: absolute;
+  right: 2rem;
+}
+.learningPage .detailArea__block:nth-of-type(6) {
+  padding: 6.7rem 0 8.6rem 5rem;
+}
+.learningPage .detailArea__block:nth-of-type(6) .detailArea__blockPadding {
+  padding: 0 5rem 0 0;
+}
+.learningPage .detailArea__block:nth-of-type(6) .detailArea__blockLeft {
+  width: 45%;
+}
+.learningPage .detailArea__block:nth-of-type(6) .detailArea__blockRight {
+  width: 43%;
+}
+.learningPage .detailArea__block:nth-of-type(7) .detailArea__blockRight {
+  position: absolute;
+  width: 47%;
+  right: 2rem;
+}
+.learningPage .detailArea__block:nth-of-type(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.learningPage .detailArea__blockLeft {
+  width: 45%;
+}
+.learningPage .detailArea__blockLeftNumber {
+  margin: 0 0 3.2rem;
+}
+.learningPage .detailArea__blockLeftTitle {
+  margin: 0 0 4.5rem;
+}
+.learningPage .detailArea__blockLeftBottom {
+  border-top: dotted 0.3rem #FF8C3C;
+  position: relative;
+  padding: 2.5rem 0 0;
+  margin: 0 0 4.2rem;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.learningPage .detailArea__blockLeftBottomText {
+  font-size: 1.2rem;
+}
+.learningPage .detailArea__blockLeftBottomOrange {
+  color: #FF8C3C;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 0 0.4rem 0 0;
+  position: absolute;
+  top: -1.5rem;
+  left: 0;
+  background: #fff;
+}
+.learningPage .detailArea__blockLeftLinkBtn {
+  display: block;
+  width: 100%;
+  background: #FF8C3C url(../img/study/learning/arrowIcon.png) no-repeat right 2.3rem center;
+  background-size: 0.9rem auto;
+  border: solid 0.1rem #000;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 4.5rem;
+  padding: 1.1rem 5rem 1.1rem 4.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.learningPage .detailArea__blockLeftLinkBtn:hover {
+  background: #FFAF7C url(../img/study/learning/arrowIcon.png) no-repeat right 2.3rem center;
+  background-size: 0.9rem auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.learningPage .detailArea__blockRight {
+  width: 45%;
+}
+.learningPage .bottomAera {
+  padding: 9rem 0 9rem 13rem;
+  background: #FEFAF0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.learningPage .bottomAera__inner {
+  width: 100%;
+  max-width: 100rem;
+  width: calc(100% - 13rem);
+  margin: 0 auto;
+}
+.learningPage .bottomAera__inner h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  background: #fff;
+  padding: 1.5rem 0;
+  margin: 0 0 5.5rem;
+}
+.learningPage .bottomAera__innerFlex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.learningPage .bottomAera__innerFlex h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 0 2.6rem;
+}
+.learningPage .bottomAera__innerFlexLeft, .learningPage .bottomAera__innerFlexRight {
+  width: 48%;
+}
+.learningPage .bottomAera__innerFlexLeft ul, .learningPage .bottomAera__innerFlexRight ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.learningPage .bottomAera__innerFlexLeft ul li, .learningPage .bottomAera__innerFlexRight ul li {
+  width: 48%;
+  margin: 0 0 2.6rem;
+}
+.learningPage .bottomAera__innerFlexLeft ul li a, .learningPage .bottomAera__innerFlexRight ul li a {
+  display: block;
+  border-radius: 4.5rem;
+  text-align: center;
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1.2rem 0.5rem;
+}
+.learningPage .bottomAera__innerFlexLeft h3 {
+  color: #0078D7;
+}
+.learningPage .bottomAera__innerFlexLeft ul li a {
+  background: url(../img/study/learning/linkArrow.svg) #0078D7 right 1.6rem center no-repeat;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.learningPage .bottomAera__innerFlexLeft ul li a:hover {
+  background: url(../img/study/learning/linkArrow.svg) #4698D9 right 1.6rem center no-repeat;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.learningPage .bottomAera__innerFlexRight h3 {
+  color: #DC0064;
+}
+.learningPage .bottomAera__innerFlexRight ul {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.learningPage .bottomAera__innerFlexRight ul li {
+  width: 47%;
+  margin: 0 2rem 0 0;
+}
+.learningPage .bottomAera__innerFlexRight ul li:nth-child(2) {
+  margin: 0 0 2.6rem 0;
+}
+.learningPage .bottomAera__innerFlexRight ul li:nth-child(2) a {
+  padding: 1.9rem 1.7rem 1.9rem 0;
+}
+.learningPage .bottomAera__innerFlexRight ul li:last-child {
+  margin: 0 0 2.6rem 0;
+}
+.learningPage .bottomAera__innerFlexRight ul li a {
+  background: url(../img/study/learning/linkArrow.svg) #DC0064 right 1.6rem center no-repeat;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.learningPage .bottomAera__innerFlexRight ul li a img {
+  margin: auto;
+}
+.learningPage .bottomAera__innerFlexRight ul li a:hover {
+  background: url(../img/study/learning/linkArrow.svg) #D86498 right 1.6rem center no-repeat;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .learningPage .bottomAera__innerFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .learningPage .bottomAera__innerFlexLeft, .learningPage .bottomAera__innerFlexRight {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .learningPage .detailArea {
+    margin: 0 0 0 0;
+  }
+  .learningPage .detailArea__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10vw 0 13vw;
+  }
+  .learningPage .detailArea__block:first-of-type {
+    padding: 10vw 0 13vw;
+  }
+  .learningPage .detailArea__block:nth-child(2) .detailArea__blockLeft figure {
+    margin: 0 0 10vw 4.7vw;
+    padding: 0 0 0;
+  }
+  .learningPage .detailArea__block:nth-child(3) .detailArea__blockLeft figure {
+    padding: 0 5vw;
+  }
+  .learningPage .detailArea__block:nth-child(4) .detailArea__blockLeft figure {
+    margin: 0 0 0;
+    padding: 0 6vw;
+  }
+  .learningPage .detailArea__block:nth-of-type(6) {
+    padding: 10vw 0 13vw;
+  }
+  .learningPage .detailArea__block:nth-of-type(6) .detailArea__blockPadding {
+    padding: 0 0 0 0;
+  }
+  .learningPage .detailArea__block:nth-of-type(6) .detailArea__blockLeft {
+    width: 100%;
+  }
+  .learningPage .detailArea__block:nth-of-type(6) .detailArea__blockRight {
+    width: 100%;
+  }
+  .learningPage .detailArea__block:nth-of-type(7) .detailArea__blockLeft figure {
+    padding: 0 0;
+  }
+  .learningPage .detailArea__block:nth-of-type(8) .detailArea__blockLeft figure, .learningPage .detailArea__block:nth-of-type(9) .detailArea__blockLeft figure, .learningPage .detailArea__block:nth-of-type(10) .detailArea__blockLeft figure {
+    padding: 0 6vw;
+  }
+  .learningPage .detailArea__block:nth-of-type(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .learningPage .detailArea__blockLeft {
+    width: 100%;
+  }
+  .learningPage .detailArea__blockLeftInner {
+    padding: 0 4vw;
+  }
+  .learningPage .detailArea__blockLeftNumber {
+    width: 7.1vw;
+    margin: 0 0 6vw;
+  }
+  .learningPage .detailArea__blockLeftTitle {
+    width: 90%;
+    margin: 0 0 10vw;
+  }
+  .learningPage .detailArea__blockLeftBottom {
+    padding: 5vw 0 0;
+    margin: 0 0 6.5vw;
+  }
+  .learningPage .detailArea__blockLeftBottomText {
+    font-size: 4vw;
+    line-height: 7.8vw;
+  }
+  .learningPage .detailArea__blockLeftBottomOrange {
+    font-size: 4.5vw;
+    padding: 0 1.4vw 0 0;
+    position: absolute;
+    top: -11%;
+    letter-spacing: 0.2vw;
+  }
+  .learningPage .detailArea__blockLeftLinkBtn {
+    width: 90%;
+    margin: 0 auto;
+    background: #FF8C3C url(../img/study/learning/arrowIcon.png) no-repeat right 4.5vw center;
+    background-size: 0.7rem auto;
+    font-size: 3.7vw;
+    padding: 1.5vw 7vw 1.5vw 5vw;
+  }
+  .learningPage .detailArea__blockLeft figure {
+    margin: 0 0 10vw;
+    padding: 0 3.5vw;
+  }
+  .learningPage .detailArea__blockRight {
+    width: 100%;
+  }
+  .learningPage .bottomAera {
+    padding: 14vw 6vw 18vw;
+    background: #FEFAF0;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .learningPage .bottomAera__inner {
+    width: 100%;
+  }
+  .learningPage .bottomAera__inner h2 {
+    font-size: 3.8vw;
+    padding: 3vw 0;
+    margin: 0 0 8.5vw;
+  }
+  .learningPage .bottomAera__innerFlex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .learningPage .bottomAera__innerFlex h3 {
+    font-size: 4.2vw;
+    margin: 0 0 5vw;
+  }
+  .learningPage .bottomAera__innerFlexLeft, .learningPage .bottomAera__innerFlexRight {
+    width: 100%;
+  }
+  .learningPage .bottomAera__innerFlexLeft ul, .learningPage .bottomAera__innerFlexRight ul {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .learningPage .bottomAera__innerFlexLeft ul li, .learningPage .bottomAera__innerFlexRight ul li {
+    width: 100%;
+    margin: 0 0 7.2vw;
+  }
+  .learningPage .bottomAera__innerFlexLeft ul li:last-child, .learningPage .bottomAera__innerFlexRight ul li:last-child {
+    margin: 0 0 0;
+  }
+  .learningPage .bottomAera__innerFlexLeft ul li a, .learningPage .bottomAera__innerFlexRight ul li a {
+    font-size: 3.3vw;
+    padding: 1vw 5vw;
+  }
+  .learningPage .bottomAera__innerFlexLeft {
+    margin: 0 0 10vw;
+  }
+  .learningPage .bottomAera__innerFlexLeft h3 {
+    color: #0078D7;
+  }
+  .learningPage .bottomAera__innerFlexLeft ul li a {
+    background: url(../img/study/learning/linkArrow.svg) #0078D7 right 1.6rem center no-repeat;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .learningPage .bottomAera__innerFlexLeft ul li a:hover {
+    background: url(../img/study/learning/linkArrow.svg) #4698D9 right 1.6rem center no-repeat;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .learningPage .bottomAera__innerFlexRight {
+    margin: 0 0 0;
+  }
+  .learningPage .bottomAera__innerFlexRight h3 {
+    color: #DC0064;
+  }
+  .learningPage .bottomAera__innerFlexRight ul {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .learningPage .bottomAera__innerFlexRight ul li {
+    width: 100%;
+    margin: 0 0 7.2vw;
+  }
+  .learningPage .bottomAera__innerFlexRight ul li:nth-child(2) {
+    margin: 0 0 7.2vw;
+  }
+  .learningPage .bottomAera__innerFlexRight ul li:nth-child(2) a {
+    padding: 1.2vw 5vw;
+  }
+  .learningPage .bottomAera__innerFlexRight ul li:last-child {
+    margin: 0 0 0;
+  }
+  .learningPage .bottomAera__innerFlexRight ul li a {
+    background: url(../img/study/learning/linkArrow.svg) #DC0064 right 1.6rem center no-repeat;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .learningPage .bottomAera__innerFlexRight ul li a img {
+    margin: auto;
+  }
+  .learningPage .bottomAera__innerFlexRight ul li a:hover {
+    background: url(../img/study/learning/linkArrow.svg) #D86498 right 1.6rem center no-repeat;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}

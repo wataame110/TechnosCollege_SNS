@@ -1,0 +1,945 @@
+@charset "UTF-8";
+.greetings {
+  color: #464646;
+  padding-bottom: 10rem;
+  /*高等教育無償化対象校*/
+}
+.greetings a:hover {
+  opacity: 0.75;
+}
+.greetings__Contents {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .greetings__Contents {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.greetings .inner {
+  width: 93.75%;
+  margin: 0 auto;
+}
+.greetings__Title {
+  height: 24rem;
+  background: url(../img/school/greetings/titleBg.png) no-repeat left top;
+  background-size: cover;
+}
+.greetings__Title--Inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+  height: 24rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .greetings__Title--Inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.greetings__Title h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.greetings h2 {
+  border: 5px solid #8f82bc;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+  font-weight: bold;
+  padding: 2rem 0;
+  margin: 10rem 0 4.5rem 0;
+}
+.greetings h3 {
+  border: 5px solid #8f82bc;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  margin: 6rem 0 3.5rem 0;
+}
+.greetings h4 {
+  color: #a046b4;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+  padding: 4rem 0 1.6rem 0;
+}
+.greetings__Block06 h3 {
+  color: #fff;
+  border: none;
+  background: #8f82bc;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  margin: 0rem 0;
+}
+.greetings__Block06 h4 {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+  background: url(../img/school/greetings/icon_img_02.png) left center no-repeat;
+  background-size: 1.5rem 1.5rem;
+  padding: 0 0 0 2.5rem;
+  font-weight: bold;
+  color: #8f82bc;
+  font-size: 2rem;
+  margin: 3rem 0 1.6rem 0;
+}
+.greetings__Block07--Eng {
+  border: none !important;
+  color: #fff;
+  background: #449dd6;
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+  padding: 1.6rem 0;
+  margin: 3rem 0 1rem 0;
+}
+.greetings__Block07--Air {
+  border: none !important;
+  color: #fff;
+  background: #e97bb8;
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+  padding: 1.6rem 0;
+  margin: 3rem 0 1rem 0;
+}
+.greetings__Block07--Ttl01 {
+  text-align: center;
+  border: none !important;
+  color: #646464 !important;
+  background: #d0e6f5;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  padding: 1rem 0 !important;
+  margin: 2.5rem 0 1.8rem 0;
+  color: #a046b4;
+}
+.greetings__Block07--Ttl02 {
+  text-align: center;
+  border: none !important;
+  color: #646464 !important;
+  background: #fadeed;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  padding: 1rem 0 !important;
+  margin: 2.5rem 0 1.8rem 0;
+  color: #a046b4;
+}
+.greetings__Btn {
+  width: 44.4%;
+  margin: 0 auto;
+}
+.greetings__Btn a {
+  display: block;
+  background: url(../img/inquiry/inquiry_btnicon.svg) 94.75% center no-repeat #ffffc8;
+  background-size: 1.2rem 2.5rem;
+  border: 1px solid #464646;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  padding: 1.2rem 0;
+  text-align: center;
+}
+.greetings .greeting_table table {
+  width: 100%;
+  margin: 0 0 3rem 0;
+  border-bottom: 1px solid #646464;
+}
+.greetings .greeting_table table th {
+  background: #f0f0f0;
+  font-weight: bold;
+  border-top: 1px solid #646464;
+  padding: 1.8rem 2.2rem;
+  text-align: center;
+  width: 8.2%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  vertical-align: middle;
+}
+.greetings .greeting_table table .bdr {
+  border-right: 1px solid #646464;
+  width: 11.6%;
+}
+.greetings .greeting_table table td {
+  padding: 1.8rem 2.2rem;
+  border-top: 1px solid #646464;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  vertical-align: middle;
+}
+.greetings .greeting_navi {
+  width: auto;
+  margin: 8.5rem auto 0 auto;
+}
+.greetings .greeting_navi ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.greetings .greeting_navi ul li {
+  width: 19.1%;
+  webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.greetings .greeting_navi ul li a {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  border: 1px solid #464646;
+  padding: 1.8rem 0;
+  background: url(../img/school/greetings/icon.svg) 92% center no-repeat;
+  background-size: 1.5rem 0.9rem;
+  webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.greetings .greeting_navi ul li a:hover {
+  background: url(../img/school/greetings/icon.svg) 92% 54% no-repeat;
+  background-size: 1.5rem 0.9rem;
+  text-decoration: none;
+  webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.greetings .admission_B {
+  padding: 0;
+  display: block;
+}
+.greetings .greeting_txt_01 {
+  width: 83.1%;
+  text-align: center;
+  margin: 0 auto 0;
+}
+.greetings .greeting_block001 {
+  width: 83.3%;
+  margin: 5rem auto auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.greetings .greeting_block001 .greeting_left01 {
+  width: 18.6%;
+}
+.greetings .greeting_block001 .greeting_right01 {
+  width: 76%;
+}
+.greetings .greeting_block001 .greeting_right01 div {
+  margin: 0 0 2rem 0;
+  font-size: 1.7rem;
+}
+.greetings .greeting_block001 .greeting_right01 div span {
+  font-size: 2.5rem;
+  display: inline-block;
+  margin: 0 0 0 1rem;
+}
+.greetings .greeting_block002 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.greetings .greeting_block002 .greeting_left02 {
+  order: 1;
+  width: 53.3%;
+}
+.greetings .greeting_block002 .greeting_left02 h3 {
+  text-align: left;
+  padding: 0;
+  font-size: 3.5rem;
+  line-height: 5.5rem;
+  font-weight: bold;
+  color: #8f82bc;
+  margin: 0 0 3rem 0;
+  border: none;
+}
+.greetings .greeting_block002 .greeting_left02 p {
+  text-align: left;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  margin: 0;
+}
+.greetings .greeting_block002 .greeting_left02 p + p {
+  margin-top: 3rem;
+}
+.greetings .greeting_block002 .greeting_right02 {
+  order: 2;
+  width: 38.8%;
+}
+.greetings .greeting_block002 .greeting_right02 p {
+  margin: 2rem 0 1.6rem 0;
+  text-align: center;
+}
+.greetings .greeting_block002 .greeting_right02 div {
+  text-align: center;
+}
+.greetings .greeting_block002 .greeting_right02 div span {
+  font-size: 2.4rem;
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+.greetings .greeting_txt_02 {
+  margin-top: 3rem;
+}
+.greetings .greeting_txt_02 p {
+  text-align: left;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  margin: 0;
+}
+.greetings .greeting_txt_02 p + p {
+  margin-top: 3rem;
+}
+.greetings .greeting_block003 {
+  margin: 0 auto 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.greetings .greeting_block003 .greeting_left03 {
+  order: 1;
+  width: 55.55%;
+  padding: 0;
+}
+.greetings .greeting_block003 .greeting_left03 h3 {
+  text-align: left;
+  padding: 0;
+  font-size: 3.5rem;
+  line-height: 5.5rem;
+  font-weight: bold;
+  color: #8f82bc;
+  margin: 0 0 3rem 0;
+  border: none;
+}
+.greetings .greeting_block003 .greeting_left03 p {
+  text-align: left;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  margin: 0;
+}
+.greetings .greeting_block003 .greeting_left03 p + p {
+  margin-top: 3rem;
+}
+.greetings .greeting_block003 .greeting_right03 {
+  order: 2;
+  width: 38.8%;
+}
+.greetings .greeting_block003 .greeting_right03 p {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+.greetings .greeting_block003 p.greeting_txt_03 {
+  text-align: center;
+}
+.greetings .greeting_block003 p.greeting_txt_03 span {
+  font-size: 2.5rem;
+  display: inline-block;
+  margin: 0 0 0 1rem;
+}
+.greetings .greeting_txt_04 {
+  text-align: left;
+  font-size: 1.7rem;
+  line-height: 3rem;
+}
+.greetings .greeting_block004 {
+  width: 93.3%;
+  margin: 2rem auto 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.greetings .greeting_block004 .greeting_three {
+  width: 28.5%;
+  padding: 0;
+}
+.greetings .greeting_block004 .greeting_three div {
+  width: 183px;
+  height: 182px;
+  color: #FFF;
+  font-size: 27px;
+  margin: 0 0 0 30px;
+  padding: 70px 0 0 40px;
+}
+.greetings .greeting_block004 .greeting_three:nth-child(1) div {
+  background: url(../img/school/greetings/bg_img_01.png) left top no-repeat;
+  background-size: 183px 182px;
+}
+.greetings .greeting_block004 .greeting_three:nth-child(2) div {
+  background: url(../img/school/greetings/bg_img_02.png) left top no-repeat;
+  background-size: 183px 182px;
+}
+.greetings .greeting_block004 .greeting_three:nth-child(3) div {
+  background: url(../img/school/greetings/bg_img_03.png) left top no-repeat;
+  background-size: 183px 182px;
+}
+.greetings .greeting_block005 {
+  margin: 30px 0 60px 0;
+}
+.greetings .greeting_block005 p {
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.greetings .greeting_block005 img {
+  margin-bottom: 70px;
+}
+.greetings .information__list {
+  margin-bottom: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.greetings .information__list::before {
+  order: 1;
+}
+.greetings .information__list::after {
+  display: block;
+  content:"";
+  width: 280px;
+  }
+.greetings .information__list li {
+  width: 280px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.greetings .information__list li a {
+  padding-left: 36px;
+  display: inline-block;
+  min-height: 26px;
+}
+.greetings .information__list li a:hover {
+  text-decoration: underline;
+}
+.greetings .information--eng .information__list li a {
+  background: url(../img/school/greetings/pdfIcon_eng.svg) 0 0 no-repeat;
+}
+.greetings .information--air .information__list li a {
+  background: url(../img/school/greetings/pdfIcon_air.svg) 0 0 no-repeat;
+}
+.greetings .information__list li.information__list--application {
+  width: 100%;
+}
+
+_:-ms-fullscreen, :root .greetings .information--eng .information__list li a {
+  background: url(../img/school/greetings/pdfIcon_eng.png) left top no-repeat;
+}
+
+_:-ms-fullscreen, :root .greetings .information--air .information__list li a {
+  background: url(../img/school/greetings/pdfIcon_air.png) left top no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .greetings {
+    padding-bottom: 15.625vw;
+    /*高等教育無償化対象校*/
+  }
+  .greetings__Title {
+    height: 37.5vw;
+    background: url(../img/school/greetings/titleBg_sp.png) no-repeat center top;
+    background-size: cover;
+  }
+  .greetings__Title--Inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    height: 37.5vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+  }
+  .greetings__Title h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4.6875vw;
+    font-weight: bold;
+    letter-spacing: 0em;
+  }
+  .greetings__Contents {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .greetings .inner {
+    width: auto;
+    margin: 0 auto;
+  }
+  .greetings p {
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+  }
+  .greetings h2 {
+    border: 3px solid #8f82bc;
+    text-align: center;
+    font-size: 4.6875vw;
+    line-height: 5.625vw;
+    font-weight: bold;
+    padding: 5vw 0;
+    margin: 15.625vw 0 6.875vw 0;
+  }
+  .greetings h3 {
+    border: 3px solid #8f82bc;
+    text-align: center;
+    font-size: 4.375vw;
+    line-height: 5.3125vw;
+    font-weight: bold;
+    padding: 2.5vw 0;
+    margin: 7.8125vw 0 3.75vw 0;
+  }
+  .greetings h4 {
+    color: #a046b4;
+    font-size: 4.0625vw;
+    line-height: 5vw;
+    font-weight: bold;
+    padding: 0;
+    margin: 6.25vw 0 2.5vw 0;
+  }
+  .greetings__Btn {
+    margin-top: 0vw;
+    width: auto;
+  }
+  .greetings__Btn a {
+    display: block;
+    background: url(../img/inquiry/inquiry_btnicon.svg) 94% center no-repeat #ffffc8;
+    background-size: 2.1875vw 5vw;
+    border: 1px solid #464646;
+    font-size: 4.0625vw;
+    line-height: 6.25vw;
+    padding: 3.75vw 0;
+    text-align: center;
+  }
+  .greetings .greeting_table table {
+    width: 100%;
+    margin: 0 0 4.6875vw 0;
+    border-bottom: 1px solid #646464;
+  }
+  .greetings .greeting_table table th {
+    background: #f0f0f0;
+    font-weight: bold;
+    border-top: 1px solid #646464;
+    padding: 3.125vw;
+    text-align: center;
+    width: auto;
+    font-size: 3.4375vw;
+    line-height: 5.625vw;
+    vertical-align: middle;
+    outline: #646464;
+  }
+  .greetings .greeting_table table .bdr {
+    border-right: 1px solid #646464;
+  }
+  .greetings .greeting_table table td {
+    padding: 3.125vw;
+    border-top: 1px solid #646464;
+    font-size: 3.125vw;
+    line-height: 5.625vw;
+  }
+  .greetings .greeting_navi {
+    width: auto;
+    margin: 6.25vw auto 0 auto;
+  }
+  .greetings .greeting_navi ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .greetings .greeting_navi ul li {
+    width: 48.4%;
+    margin-top: 3.125vw;
+  }
+  .greetings .greeting_navi ul li a {
+    display: block;
+    text-align: center;
+    font-size: 4.0625vw;
+    border: 1px solid #464646;
+    padding: 2.8125vw 0;
+    background: url(../img/school/greetings/icon.svg) 92% center no-repeat;
+    background-size: 3.75vw 2.1875vw;
+    webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+  }
+  .greetings .greeting_navi ul li a:hover {
+    background: url(../img/school/greetings/icon.svg) 92% 54% no-repeat;
+    background-size: 3.75vw 2.1875vw;
+    text-decoration: none;
+    webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+  }
+  .greetings .admission_B {
+    padding: 0;
+    display: block;
+  }
+  .greetings .greeting_txt_01 {
+    width: 83.1%;
+    text-align: center;
+    margin: 0 auto 0;
+  }
+  .greetings .greeting_block001 {
+    width: auto;
+    margin: 7.8125vw auto auto;
+    display: block;
+  }
+  .greetings .greeting_block001 .greeting_left01 {
+    width: 52.6%;
+    margin: 0 auto;
+  }
+  .greetings .greeting_block001 .greeting_right01 {
+    width: auto;
+  }
+  .greetings .greeting_block001 .greeting_right01 div {
+    text-align: center;
+    margin: 6.25vw 0 3.125vw 0;
+    font-size: 3.4375vw;
+  }
+  .greetings .greeting_block001 .greeting_right01 div span {
+    font-size: 5.3125vw;
+    display: inline-block;
+    margin: 0 0 0 3.125vw;
+  }
+  .greetings .greeting_block002 {
+    display: block;
+  }
+  .greetings .greeting_block002 .greeting_left02 {
+    margin-top: 6.25vw;
+    width: auto;
+  }
+  .greetings .greeting_block002 .greeting_left02 h3 {
+    text-align: left;
+    padding: 0;
+    font-size: 6.25vw;
+    line-height: 10vw;
+    font-weight: bold;
+    color: #8f82bc;
+    margin: 0 0 4.6875vw 0;
+    border: none;
+  }
+  .greetings .greeting_block002 .greeting_left02 p {
+    text-align: left;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    margin: 0;
+  }
+  .greetings .greeting_block002 .greeting_left02 p + p {
+    margin-top: 4.6875vw;
+  }
+  .greetings .greeting_block002 .greeting_right02 {
+    width: 78.9%;
+    margin: 0 auto;
+  }
+  .greetings .greeting_block002 .greeting_right02 p {
+    margin: 6.25vw 0 2.5vw 0;
+    text-align: center;
+    font-size: 3.125vw;
+    line-height: 4.6875vw;
+  }
+  .greetings .greeting_block002 .greeting_right02 div {
+    text-align: center;
+    font-size: 3.4375vw;
+  }
+  .greetings .greeting_block002 .greeting_right02 div span {
+    font-size: 5.3125vw;
+    display: inline-block;
+    margin: 0 0 0 10px;
+  }
+  .greetings .greeting_txt_02 {
+    margin-top: 4.6875vw;
+  }
+  .greetings .greeting_txt_02 p {
+    text-align: left;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    margin: 0;
+  }
+  .greetings .greeting_txt_02 p + p {
+    margin-top: 4.6875vw;
+  }
+  .greetings .greeting_block003 {
+    margin: 0 auto 0;
+    display: block;
+  }
+  .greetings .greeting_block003 .greeting_left03 {
+    margin-top: 6.25vw;
+    order: 1;
+    width: auto;
+    padding: 0;
+  }
+  .greetings .greeting_block003 .greeting_left03 h3 {
+    text-align: left;
+    padding: 0;
+    font-size: 6.25vw;
+    line-height: 10vw;
+    font-weight: bold;
+    color: #8f82bc;
+    margin: 0 0 4.6875vw 0;
+    border: none;
+  }
+  .greetings .greeting_block003 .greeting_left03 p {
+    text-align: left;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    margin: 0;
+  }
+  .greetings .greeting_block003 .greeting_left03 p + p {
+    margin-top: 4.6875vw;
+  }
+  .greetings .greeting_block003 .greeting_right03 {
+    width: 78.9%;
+    margin: 0 auto;
+  }
+  .greetings .greeting_block003 .greeting_right03 p {
+    margin: 6.25vw 0 0 0;
+    text-align: center;
+  }
+  .greetings .greeting_block003 p.greeting_txt_03 {
+    text-align: center;
+  }
+  .greetings .greeting_block003 p.greeting_txt_03 div {
+    text-align: center;
+    font-size: 3.4375vw;
+  }
+  .greetings .greeting_block003 p.greeting_txt_03 div span {
+    font-size: 5.3125vw;
+    display: inline-block;
+    margin: 0 0 0 10px;
+  }
+  .greetings .greeting_txt_04 {
+    text-align: left;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+  }
+  .greetings .greeting_block004 {
+    width: 92.9%;
+    margin: 3.125vw auto 0 auto;
+    display: block;
+  }
+  .greetings .greeting_block004 .greeting_three {
+    width: 100%;
+    padding: 0;
+    margin-top: 3.125vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .greetings .greeting_block004 .greeting_three div {
+    width: 114px;
+    height: 114px;
+    color: #FFF;
+    font-size: 5.3125vw;
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    padding-right: 3.125vw;
+    padding-bottom: 3.125vw;
+  }
+  .greetings .greeting_block004 .greeting_three:nth-child(1) div {
+    background: url(../img/school/greetings/bg_img_01.png) left top no-repeat;
+    background-size: 100% auto;
+  }
+  .greetings .greeting_block004 .greeting_three:nth-child(2) div {
+    background: url(../img/school/greetings/bg_img_02.png) left top no-repeat;
+    background-size: 100% auto;
+  }
+  .greetings .greeting_block004 .greeting_three:nth-child(3) div {
+    background: url(../img/school/greetings/bg_img_03.png) left top no-repeat;
+    background-size: 100% auto;
+  }
+  .greetings .greeting_block004 .greeting_three p {
+    width: 56.9%;
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .greetings .greeting_block005 {
+    margin: 30px 0 60px 0;
+  }
+  .greetings .greeting_block005 p {
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    margin-bottom: 6.25vw;
+  }
+  .greetings .greeting_block005 img {
+    margin-bottom: 6.25vw;
+  }
+  .greetings__Block06 h3 {
+    color: #fff;
+    border: none;
+    background: #8f82bc;
+    text-align: center;
+    font-size: 4.0625vw;
+    line-height: 6.875vw;
+    font-weight: bold;
+    padding: 1.5625vw 0;
+    margin: 0vw 0;
+  }
+  .greetings__Block06 h4 {
+    font-weight: bold;
+    background: url(../img/school/greetings/icon_img_02.png) left 1.25vw no-repeat;
+    background-size: 3.125vw 3.125vw;
+    padding: 0 0 0 4.6875vw;
+    font-weight: bold;
+    color: #8f82bc;
+    font-size: 4.0625vw;
+    line-height: 5.625vw;
+    margin: 4.6875vw 0 2.5vw 0;
+  }
+  .greetings__Block07--Eng {
+    border: none !important;
+    color: #fff;
+    background: #449dd6;
+    font-size: 7.8125vw;
+    line-height: 10vw;
+    font-weight: bold;
+    padding: 5vw 0;
+    margin: 9.375vw 0 3.125vw 0;
+  }
+  .greetings__Block07--Air {
+    border: none !important;
+    color: #fff;
+    background: #e97bb8;
+    font-size: 7.8125vw;
+    line-height: 10vw;
+    font-weight: bold;
+    padding: 5vw 0;
+    margin: 9.375vw 0 3.125vw 0;
+  }
+  .greetings__Block07--Ttl01 {
+    text-align: center;
+    border: none !important;
+    color: #646464 !important;
+    background: #d0e6f5;
+    font-size: 6.25vw;
+    line-height: 7.8125vw;
+    font-weight: bold;
+    padding: 2.5vw 0 !important;
+    margin: 3.75vw 0 3.75vw 0 !important;
+    color: #a046b4;
+  }
+  .greetings__Block07--Ttl02 {
+    text-align: center;
+    border: none !important;
+    color: #646464 !important;
+    background: #fadeed;
+    font-size: 6.25vw;
+    line-height: 7.8125vw;
+    font-weight: bold;
+    padding: 2.5vw 0 !important;
+    margin: 3.75vw 0 3.75vw 0 !important;
+    color: #a046b4;
+  }
+  .greetings .information__list {
+    margin-bottom: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .greetings .information__list::before {
+    order: 1;
+  }
+  .greetings .information__list li {
+    width: 48.2%;
+    font-size: 3.125vw;
+    line-height: 4.6875vw;
+    margin-bottom: 1.25vw;
+  }
+  .greetings .information__list li a {
+    padding-left: 6.25vw;
+    display: inline-block;
+    min-height: 26px;
+  }
+  .greetings .information__list li a:hover {
+    text-decoration: underline;
+  }
+  .greetings .information--eng .information__list li a {
+    background: url(../img/school/greetings/pdfIcon_eng.svg) 0 0vw no-repeat;
+    background-size: 3.75vw 4.6875vw;
+  }
+  .greetings .information--air .information__list li a {
+    background: url(../img/school/greetings/pdfIcon_air.svg) 0 0 no-repeat;
+    background-size: 3.75vw 4.6875vw;
+  }
+  .greetings .information__list li.information__list--application {
+    width: 100%;
+  }
+}

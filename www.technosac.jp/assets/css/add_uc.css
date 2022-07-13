@@ -1,0 +1,883 @@
+.universityCourse {
+  position: relative;
+  min-width: 104rem;
+  color: #000;
+}
+.universityCourse::before {
+  content: "";
+  display: block;
+  width: 100%;
+  min-height: 102.3rem;
+  background: url(../img/study/university-course/bg01.png) no-repeat left bottom;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.universityCourse .bgArea {
+  position: relative;
+}
+.universityCourse .bgArea::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/study/university-course/bg03.png) repeat-y left top 10vh;
+  background-size: 100% auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.universityCourse .uc__inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489019034% 0 auto;
+  min-width: 90rem;
+  position: relative;
+  z-index: 2;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .universityCourse .uc__inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.universityCourse .uc__title--underLine {
+  text-align: center;
+  position: relative;
+  padding-bottom: 2.5rem;
+  font-size: 4rem;
+  line-height: 5.9rem;
+  letter-spacing: 0.6rem;
+}
+.universityCourse .uc__title--underLine::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 10rem;
+  background-color: #000;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+}
+.universityCourse .uc__title--colorLine {
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 13.2rem;
+  margin-bottom: 4.8rem;
+  font-size: 3.1rem;
+  line-height: 4.4rem;
+  letter-spacing: 0.4rem;
+}
+.universityCourse .uc__title--colorLine .mainText {
+  text-align: center;
+}
+.universityCourse .uc__title--colorLine span.color {
+  color: #fff;
+  background-color: #000;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  margin: 0 0.5rem;
+}
+.universityCourse .uc__title--colorLine span.small {
+  font-size: 2.4rem;
+}
+.universityCourse .uc__read {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+.universityCourse .h1Block_uc {
+  position: relative;
+  height: 69.1rem;
+  background: url(../img/study/university-course/mv.jpg) no-repeat center bottom;
+  background-size: cover;
+}
+.universityCourse .h1Block_uc .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.universityCourse .h1Block_uc .details__inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489019034% 0 auto;
+  min-width: 90rem;
+  height: 100%;
+  padding-left: 26.7203513909%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .universityCourse .h1Block_uc .details__inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.universityCourse .h1Block_uc .details__text {
+  min-width: 60rem;
+}
+.universityCourse .h1Block_uc .title__text--size01 {
+  font-size: 4.6rem;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  margin-bottom: 3rem;
+  letter-spacing: 0.7rem;
+  line-height: 5.7rem;
+}
+.universityCourse .h1Block_uc .title__text--size02 {
+  font-size: 8.1rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.6rem;
+  display: inline-block;
+  letter-spacing: 1.6rem;
+  margin-bottom: 8rem;
+  line-height: 8.7rem;
+}
+.universityCourse .h1Block_uc .subTitle {
+  font-size: 4.2rem;
+  line-height: 7.3rem;
+  position: relative;
+  padding-bottom: 2.2rem;
+  margin-bottom: 3.6rem;
+  letter-spacing: 0.6rem;
+}
+.universityCourse .h1Block_uc .subTitle::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 10rem;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.universityCourse .h1Block_uc .read {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+.universityCourse #uc_01 .uc__inner {
+  padding-top: 13.5rem;
+  padding-bottom: 13rem;
+}
+.universityCourse #uc_01 .uc__title--underLine {
+  margin-bottom: 5rem;
+}
+.universityCourse #uc_01 .image {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+.universityCourse #uc_02 {
+  background: url(../img/study/university-course/bgLine.png);
+}
+.universityCourse #uc_02 .uc__inner {
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+}
+.universityCourse #uc_02 .uc__title--underLine {
+  margin-bottom: 3.3rem;
+}
+.universityCourse #uc_02 .uc__title--underLine .popText {
+  max-width: 22.5rem;
+  margin: 0 auto 0.7rem;
+}
+.universityCourse #uc_02 .uc__read {
+  padding-bottom: 5.5rem;
+}
+.universityCourse #uc_02 .content01 {
+  background: #fff;
+  border: 10px solid #ffdb00;
+  padding-top: 8rem;
+  margin-top: 8rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 5rem;
+}
+.universityCourse #uc_02 .content01 .uc__title--underLine {
+  margin-bottom: 5rem;
+}
+.universityCourse #uc_02 .content01 .field__listBox {
+  width: 79rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.universityCourse #uc_02 .content01 .field__single {
+  width: 24rem;
+  margin-bottom: 4.2rem;
+}
+@media (min-width: 769px) {
+  .universityCourse #uc_02 .content01 .field__single:not(:nth-child(3n)) {
+    margin-right: 3.5rem;
+  }
+}
+.universityCourse #uc_02 .content01 .field__title {
+  font-size: 2.3rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.universityCourse #uc_02 .content01 .field__title .small {
+  font-size: 1.8rem;
+}
+.universityCourse #uc_02 .content01 .field__photo {
+  margin-bottom: 1rem;
+}
+.universityCourse #uc_02 .content01 .field__photo .name {
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: #ffdb00;
+  padding: 5px 0;
+  letter-spacing: 0.4rem;
+}
+.universityCourse #uc_02 .content01 .field__details .info {
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+  text-indent: -1.2rem;
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+.universityCourse #uc_02 .content01 .field__details .unit {
+  font-size: 1.3rem;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 1.1rem 0;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+.universityCourse #uc_02 .content01 .field__details .unit span {
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+  display: inline-block;
+}
+.universityCourse #uc_02 .content01 .field__details .text {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.08rem;
+}
+.universityCourse #uc_02 .content02 {
+  background: #fff;
+  padding-top: 8.5rem;
+  padding-bottom: 5rem;
+}
+.universityCourse #uc_02 .content02 .headImg {
+  max-width: 82rem;
+  margin: 4.3rem auto 9.6rem;
+}
+.universityCourse #uc_02 .content02 .learn__single {
+  width: 79rem;
+  margin: 0 auto;
+}
+.universityCourse #uc_02 .content02 .learn__single:not(:last-child) {
+  margin-bottom: 9rem;
+}
+.universityCourse #uc_02 .content02 .learn__single.color01 .uc__title--colorLine {
+  border-color: #D4A189;
+}
+.universityCourse #uc_02 .content02 .learn__single.color01 .uc__title--colorLine span.color {
+  background-color: #D4A189;
+}
+.universityCourse #uc_02 .content02 .learn__single.color02 .uc__title--colorLine {
+  border-color: #C2D85B;
+}
+.universityCourse #uc_02 .content02 .learn__single.color02 .uc__title--colorLine span.color {
+  background-color: #C2D85B;
+}
+.universityCourse #uc_02 .content02 .learn__single.color03 .uc__title--colorLine {
+  border-color: #A2BBE1;
+}
+.universityCourse #uc_02 .content02 .learn__single.color03 .uc__title--colorLine span.color {
+  background-color: #A2BBE1;
+}
+.universityCourse #uc_02 .content02 .learn .title {
+  font-size: 2.4rem;
+  line-height: 4rem;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  margin: 5rem 0 1.4rem;
+}
+.universityCourse #uc_02 .content02 .learn .text {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  text-align: center;
+}
+.universityCourse #uc_03 .uc__inner {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.universityCourse #uc_03 .uc__title--underLine {
+  margin-bottom: 4.7rem;
+}
+.universityCourse #uc_04 {
+  background: url(../img/study/university-course/bgLine.png);
+}
+.universityCourse #uc_04 .uc__inner {
+  padding-top: 9rem;
+  padding-bottom: 8.5rem;
+}
+.universityCourse #uc_04 .uc__title--underLine {
+  margin-bottom: 4.7rem;
+}
+.universityCourse #uc_05 .uc__inner {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+.universityCourse #uc_05 .uc__title--underLine {
+  margin-bottom: 6.5rem;
+}
+.universityCourse #uc_05 .voice__single:not(:last-child) {
+  margin-bottom: 9.5rem;
+}
+.universityCourse #uc_05 .voice__single.rightType .voice__head {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.universityCourse #uc_05 .voice__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 4rem;
+}
+.universityCourse #uc_05 .voice__photo {
+  width: 30.1rem;
+}
+.universityCourse #uc_05 .voice__details {
+  width: calc(100% - (30.1rem + 6rem));
+  padding-top: 1.8rem;
+}
+.universityCourse #uc_05 .voice__details .title {
+  font-size: 2.7rem;
+  line-height: 3.9rem;
+  margin-bottom: 2.5rem;
+}
+.universityCourse #uc_05 .voice__details .title span {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, transparent), color-stop(85%, #ffdb00));
+  background: linear-gradient(transparent 85%, #ffdb00 85%);
+  background-position: center bottom 2px;
+}
+.universityCourse #uc_05 .voice__details .belongs {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: 0.7rem;
+}
+.universityCourse #uc_05 .voice__details .birthplace {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.08rem;
+  margin-bottom: 2.5rem;
+}
+.universityCourse #uc_05 .voice__details .text {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+.universityCourse #uc_05 .voice__schedule .title {
+  font-size: 2.1rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+.universityCourse #uc_05 aside {
+  width: 71rem;
+  margin: 11rem auto 0;
+}
+.universityCourse #uc_05 aside a {
+  display: block;
+}
+@media (min-width: 769px) {
+  .universityCourse #uc_05 aside a:hover img {
+    opacity: 0.7;
+  }
+}
+.universityCourse #uc_06 {
+  background: #E5F5FD;
+  margin-bottom: 8rem;
+}
+.universityCourse #uc_06 .uc__inner {
+  padding-top: 7rem;
+  padding-bottom: 11rem;
+}
+.universityCourse #uc_06 .uc__title--underLine {
+  margin-bottom: 3.2rem;
+}
+.universityCourse #uc_06 .uc__read {
+  padding-bottom: 3.5rem;
+  letter-spacing: 0.2rem;
+}
+.universityCourse #uc_06 .linkBtn__listBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.universityCourse #uc_06 .linkBtn__listBox li {
+  width: calc((100% - 4.5rem) / 2);
+}
+.universityCourse #uc_06 .linkBtn__listBox li a {
+  display: block;
+}
+@media (min-width: 769px) {
+  .universityCourse #uc_06 .linkBtn__listBox li a:hover img {
+    opacity: 0.7;
+  }
+}
+.universityCourse .content__listBox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.universityCourse .content__listBox.centerType .content__single {
+  border-radius: 1.9rem;
+  background: #fffbe5;
+  border: 2px solid #ffdb00;
+}
+.universityCourse .content__listBox.centerType .content__single p.title {
+  text-align: center;
+  line-height: 3.8rem;
+  margin-bottom: 2.2rem;
+}
+.universityCourse .content__listBox.leftType .content__single {
+  background: #fff;
+  padding-top: 3.5rem;
+}
+.universityCourse .content__listBox.leftType .content__single p.title {
+  line-height: 4rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0.3rem;
+}
+.universityCourse .content__single {
+  width: 30.8333333333%;
+  padding: 4rem 3rem 3rem;
+}
+@media (min-width: 769px) {
+  .universityCourse .content__single:not(:nth-child(3n)) {
+    margin-right: 3.6458333333%;
+  }
+}
+.universityCourse .content__single p {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+.universityCourse .content__single p.title {
+  font-size: 2.4rem;
+}
+.universityCourse .content__single p.title span {
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, transparent), color-stop(85%, #ffdb00));
+  background: linear-gradient(transparent 85%, #ffdb00 85%);
+  background-position: center bottom 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .universityCourse {
+    min-width: auto;
+  }
+  .universityCourse::before {
+    min-height: 100vw;
+    background-position: center top;
+  }
+  .universityCourse .bgArea::after {
+    background: url(../img/study/university-course/bg03.png) repeat-y left top 5rem;
+    background-size: 100% auto;
+  }
+  .universityCourse .uc__inner {
+    width: 84.375%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    min-width: auto;
+  }
+  .universityCourse .uc__title--underLine {
+    padding-bottom: 0.8rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.3rem;
+  }
+  .universityCourse .uc__title--underLine::before {
+    width: 5rem;
+  }
+  .universityCourse .uc__title--colorLine {
+    border-width: 2px;
+    height: auto;
+    margin-bottom: 1.7rem;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    padding: 0.7rem 0 1.1rem;
+  }
+  .universityCourse .uc__title--colorLine .mainText {
+    text-align: center;
+  }
+  .universityCourse .uc__title--colorLine span.color {
+    padding: 0 0.5rem;
+  }
+  .universityCourse .uc__title--colorLine span.small {
+    font-size: 1.2rem;
+  }
+  .universityCourse .uc__read {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    text-align: left;
+  }
+  .universityCourse .h1Block_uc {
+    height: 100%;
+    padding-top: 92%;
+    background: url(../img/study/university-course/mvSP.jpg) no-repeat center bottom;
+    background-size: cover;
+  }
+  .universityCourse .h1Block_uc .details__inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    min-width: auto;
+    height: 100%;
+    padding-left: 34%;
+    padding-top: 11%;
+    display: block;
+  }
+  .universityCourse .h1Block_uc .details__text {
+    min-width: auto;
+  }
+  .universityCourse .h1Block_uc .title__text--size01 {
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: 0.25rem;
+    line-height: 2.5rem;
+  }
+  .universityCourse .h1Block_uc .title__text--size02 {
+    font-size: 3rem;
+    padding-bottom: 0rem;
+    letter-spacing: 0.6rem;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+  }
+  .universityCourse .h1Block_uc .subTitle {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.3rem;
+  }
+  .universityCourse .h1Block_uc .subTitle::before {
+    width: 5rem;
+  }
+  .universityCourse .h1Block_uc .read {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .universityCourse #uc_01 .uc__inner {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .universityCourse #uc_01 .uc__title--underLine {
+    margin-bottom: 1.6rem;
+  }
+  .universityCourse #uc_02 {
+    background: url(../img/study/university-course/bgLine.png);
+  }
+  .universityCourse #uc_02 .uc__inner {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .universityCourse #uc_02 .uc__title--underLine {
+    margin-bottom: 1.4rem;
+  }
+  .universityCourse #uc_02 .uc__title--underLine .popText {
+    max-width: 11.2rem;
+    margin: 0 auto 0.5rem;
+  }
+  .universityCourse #uc_02 .uc__read {
+    padding-bottom: 1.5rem;
+  }
+  .universityCourse #uc_02 .content01 {
+    border: 3px solid #ffdb00;
+    margin-top: 4rem;
+    padding-top: 3.4rem;
+    padding-bottom: 0;
+    margin-bottom: 4rem;
+  }
+  .universityCourse #uc_02 .content01 .uc__title--underLine {
+    margin-bottom: 2rem;
+  }
+  .universityCourse #uc_02 .content01 .field__listBox {
+    width: 80%;
+    display: block;
+  }
+  .universityCourse #uc_02 .content01 .field__single {
+    width: 100%;
+    margin-bottom: 2.8rem;
+  }
+  .universityCourse #uc_02 .content01 .field__title {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+  }
+  .universityCourse #uc_02 .content01 .field__title .small {
+    font-size: 1.6rem;
+  }
+  .universityCourse #uc_02 .content01 .field__photo .name {
+    font-size: 1.6rem;
+    padding: 2px 0;
+  }
+  .universityCourse #uc_02 .content01 .field__details .info {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+  }
+  .universityCourse #uc_02 .content01 .field__details .unit {
+    font-size: 1.2rem;
+    padding: 0.9rem 0;
+    margin-bottom: 0.8rem;
+  }
+  .universityCourse #uc_02 .content01 .field__details .unit span {
+    font-size: 1rem;
+  }
+  .universityCourse #uc_02 .content01 .field__details .text {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.08rem;
+  }
+  .universityCourse #uc_02 .content02 {
+    padding: 3.5rem 10% 3rem;
+  }
+  .universityCourse #uc_02 .content02 h3.uc__title--underLine {
+    letter-spacing: 0.1rem;
+  }
+  .universityCourse #uc_02 .content02 .headImg {
+    margin: 2.2rem auto 2.6rem;
+  }
+  .universityCourse #uc_02 .content02 .learn__single {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .universityCourse #uc_02 .content02 .learn__single:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+  .universityCourse #uc_02 .content02 .learn .title {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.2rem;
+    margin: 1.7rem 0 1.2rem;
+  }
+  .universityCourse #uc_02 .content02 .learn .text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .universityCourse #uc_03 .uc__inner {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+  }
+  .universityCourse #uc_03 .uc__title--underLine {
+    margin-bottom: 2rem;
+  }
+  .universityCourse #uc_04 .uc__inner {
+    padding-top: 4.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .universityCourse #uc_04 .uc__title--underLine {
+    margin-bottom: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  .universityCourse #uc_05 .uc__inner {
+    padding-top: 5.5rem;
+    padding-bottom: 3.5rem;
+  }
+  .universityCourse #uc_05 .uc__title--underLine {
+    margin-bottom: 2.2rem;
+  }
+  .universityCourse #uc_05 .voice__single:not(:last-child) {
+    margin-bottom: 4.5rem;
+  }
+  .universityCourse #uc_05 .voice__head {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .universityCourse #uc_05 .voice__photo {
+    width: 100%;
+  }
+  .universityCourse #uc_05 .voice__photo img {
+    max-width: 65%;
+    margin: 0 auto;
+  }
+  .universityCourse #uc_05 .voice__details {
+    width: 100%;
+  }
+  .universityCourse #uc_05 .voice__details .title {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    margin-bottom: 0.7rem;
+  }
+  .universityCourse #uc_05 .voice__details .belongs {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+  }
+  .universityCourse #uc_05 .voice__details .birthplace {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    letter-spacing: 0;
+    margin-bottom: 1.1rem;
+  }
+  .universityCourse #uc_05 .voice__details .text {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+  .universityCourse #uc_05 .voice__schedule .title {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0;
+  }
+  .universityCourse #uc_05 aside {
+    width: 100%;
+    margin: 4rem auto 0;
+  }
+  .universityCourse #uc_06 {
+    margin-bottom: 4rem;
+  }
+  .universityCourse #uc_06 .uc__inner {
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+  }
+  .universityCourse #uc_06 .uc__title--underLine {
+    margin-bottom: 1.5rem;
+  }
+  .universityCourse #uc_06 .uc__read {
+    padding-bottom: 1.8rem;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .universityCourse #uc_06 .linkBtn__listBox {
+    display: block;
+    width: 92%;
+    margin: 0 auto;
+  }
+  .universityCourse #uc_06 .linkBtn__listBox li {
+    width: 100%;
+  }
+  .universityCourse #uc_06 .linkBtn__listBox li:not(:last-child) {
+    margin-bottom: 1.4rem;
+  }
+  .universityCourse .content__listBox {
+    width: 100%;
+    display: block;
+  }
+  .universityCourse .content__listBox.centerType .content__single {
+    border-radius: 1.9rem;
+    background: #fffbe5;
+    border: 2px solid #ffdb00;
+  }
+  .universityCourse .content__listBox.centerType .content__single p.title {
+    margin-bottom: 1.3rem;
+  }
+  .universityCourse .content__listBox.leftType .content__single {
+    background: #fff;
+    padding-top: 2.5rem;
+  }
+  .universityCourse .content__listBox.leftType .content__single p.title {
+    line-height: 3.8rem;
+    margin-bottom: 1.7rem;
+    letter-spacing: 0.2rem;
+  }
+  .universityCourse .content__single {
+    width: 100%;
+    padding: 3rem 2.5rem 2.5rem;
+  }
+  .universityCourse .content__single:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  .universityCourse .content__single p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+}

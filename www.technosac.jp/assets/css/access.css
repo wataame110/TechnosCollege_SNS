@@ -1,0 +1,592 @@
+@charset "UTF-8";
+.access {
+  color: #000;
+}
+.access__Title {
+  height: 24rem;
+  background: url(../img/access/titleBg.png) no-repeat left top;
+  background-size: cover;
+}
+.access__Title--Inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+  height: 24rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .access__Title--Inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.access__Title h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.access__info {
+  padding: 10rem 0;
+}
+.access__infoInner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .access__infoInner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.access__info .firstText {
+  width: 45%;
+  max-width: 432px;
+  margin: 0 auto 5.6rem auto;
+}
+.access__infoTransportation {
+  position: relative;
+  background: #d9f1fc;
+  padding: 8rem 7.5rem 4.5rem;
+  margin-bottom: 6rem;
+}
+.access__infoTransportation h2 {
+  margin: auto;
+  background: url(../img/experience/block06_title_bg.png) 0 0 no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 64.7rem;
+  height: 6.8rem;
+  color: #464646;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -3.4rem;
+}
+.access__infoTransportation h2 span {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  height: 5.5rem;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  background: url(../img/experience/transportIcon.png) left center no-repeat;
+  background-size: 5.5rem;
+  padding-left: 7.8rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.access__infoTransportation p:not([class]) {
+  margin-bottom: 3rem;
+}
+.access__infoTransportationAtt {
+  margin-bottom: 1.5rem;
+}
+.access__infoTransportation ul li {
+  position: relative;
+  line-height: 2.7rem;
+  padding-left: 1.8rem;
+}
+.access__infoTransportation ul li:before {
+  content: '●';
+  color: #00a0e9;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.access__infoAccess {
+  max-width: 90.2rem;
+  margin: 0 auto;
+}
+.access__infoAccess iframe {
+  width: 100%;
+  height: 64rem;
+  border: 1px solid #444444;
+  margin-bottom: 3rem;
+  vertical-align: bottom;
+}
+.access__infoAccess p {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.access__infoAccessMap {
+  margin-bottom: 7.5rem;
+}
+.access__infoAccessScroll {
+  border: 1px solid #444444;
+}
+.access__infoAccessRosen, .access__infoAccessBus {
+  margin-bottom: 8rem;
+}
+.access__infoAccessRosen h2, .access__infoAccessBus h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3rem;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+  color: #464646;
+}
+.access__infoAccessRosenSingle, .access__infoAccessBusSingle {
+  width: 44.79167%;
+  position: relative;
+}
+.access__infoAccessRosenSingle:first-of-type::after, .access__infoAccessBusSingle:first-of-type::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -11.6%;
+  border-right: 1px dotted #444444;
+  width: 1px;
+  height: 100%;
+}
+.access__infoAccessRosenSingle img, .access__infoAccessBusSingle img {
+  border: none;
+  margin-bottom: 2rem;
+}
+.access__infoAccessRosenSingle dl, .access__infoAccessBusSingle dl {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.access__infoAccessRosenSingle dl dt, .access__infoAccessBusSingle dl dt {
+  color: #e45aa6;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.access__infoAccessRosenSingle dl dd, .access__infoAccessBusSingle dl dd {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+.access__infoAccessRosenSingle .arrow, .access__infoAccessBusSingle .arrow {
+  width: 30px;
+  margin: 0 auto 2rem auto;
+}
+.access__infoAccessRosenSingle h3, .access__infoAccessBusSingle h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  padding: 1.4rem 0;
+  margin-bottom: 2rem;
+}
+.access__infoAccessRosenSingle h3.pink, .access__infoAccessBusSingle h3.pink {
+  background: #d55a97;
+}
+.access__infoAccessRosenSingle h3.blue, .access__infoAccessBusSingle h3.blue {
+  background: #1580bd;
+}
+.access__infoAccessBus {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+.access__info--btnBg {
+  background: #fff8cc;
+  mix-blend-mode: multiply;
+  padding: 7.5rem 0;
+}
+.access__info--btnBg .inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .access__info--btnBg .inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .access__Title {
+    height: 37.5vw;
+    background: url(../img/access/titleBg_sp.png) no-repeat center top;
+    background-size: cover;
+  }
+  .access__Title--Inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    height: 37.5vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+  }
+  .access__Title h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 5.625vw;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+  }
+  .access__info {
+    background: none;
+    padding: 0;
+  }
+  .access__infoInner {
+    width: 100%;
+    padding: 10.9375vw 0 0vw;
+  }
+  .access__info .firstText {
+    width: 55%;
+    max-width: 110vw;
+    margin: 0 auto 3rem auto;
+  }
+  .access__infoTransportation {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    padding: 12.5vw 4.6875vw 7.8125vw;
+    margin-bottom: 6.25vw;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+  }
+  .access__infoTransportation h2 {
+    background: url(../img/experience/block06_title_bg_sp.png) 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 82.1875vw;
+    height: 12.5vw;
+    top: -6.25vw;
+  }
+  .access__infoTransportation h2 span {
+    height: 8.4375vw;
+    background-size: 8.4375vw;
+    padding-left: 11.5625vw;
+    font-size: 4.6875vw;
+  }
+  .access__infoTransportation p:not([class]) {
+    margin-bottom: 5.625vw;
+  }
+  .access__infoTransportationAtt {
+    margin-bottom: 3.125vw;
+  }
+  .access__infoTransportation ul li {
+    line-height: 5.9375vw;
+    padding-left: 5.625vw;
+  }
+  .access__infoAccess h2 {
+    color: #464646;
+    font-size: 5.625vw;
+    line-height: 7.5vw;
+    width: auto;
+    margin: 0 auto 4.375vw;
+    padding-bottom: 3.125vw;
+    background-size: 3.3rem 0.2rem;
+  }
+  .access__infoAccess iframe {
+    height: 56.25vw;
+    margin-bottom: 0.625vw;
+  }
+  .access__infoAccess p {
+    font-size: 3.75vw;
+  }
+  .access__infoAccessMap {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    margin-bottom: 6.25vw;
+  }
+  .access__infoAccessScroll {
+    overflow: scroll;
+    white-space: nowrap;
+  }
+  .access__infoAccessScroll img {
+    border: none;
+    height: 87.5vw;
+    width: auto;
+  }
+  .access__infoAccessRosen .inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .access__infoAccessRosen, .access__infoAccessBus {
+    margin-bottom: 9.375vw;
+  }
+  .access__infoAccessRosen h2, .access__infoAccessBus h2 {
+    color: #464646;
+    margin-bottom: 2.1875vw;
+    font-size: 4.375vw;
+  }
+  .access__infoAccessRosen h2 img, .access__infoAccessBus h2 img {
+    height: 4.0625vw;
+  }
+  .access__infoAccessRosenSingle, .access__infoAccessBusSingle {
+    width: auto;
+  }
+  .access__infoAccessRosenSingle:not(:last-child), .access__infoAccessBusSingle:not(:last-child) {
+    margin-bottom: 6.25vw;
+  }
+  .access__infoAccessRosenSingle:first-of-type::after, .access__infoAccessBusSingle:first-of-type::after {
+    display: none;
+  }
+  .access__infoAccessRosenSingle img, .access__infoAccessBusSingle img {
+    margin-bottom: 3.125vw;
+  }
+  .access__infoAccessRosenSingle dl dt, .access__infoAccessBusSingle dl dt {
+    font-size: 3.75vw;
+    margin-bottom: 1.5625vw;
+  }
+  .access__infoAccessRosenSingle dl dd, .access__infoAccessBusSingle dl dd {
+    font-size: 2.8125vw;
+    line-height: 4.375vw;
+  }
+  .access__infoAccessRosenSingle .arrow, .access__infoAccessBusSingle .arrow {
+    width: 19px;
+    margin: 0 auto 2rem auto;
+  }
+  .access__infoAccessRosenSingle h3, .access__infoAccessBusSingle h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+  }
+  .access__infoAccessRosenSingle h3.pink, .access__infoAccessBusSingle h3.pink {
+    background: #d55a97;
+  }
+  .access__infoAccessRosenSingle h3.blue, .access__infoAccessBusSingle h3.blue {
+    background: #1580bd;
+  }
+  .access__infoAccessRosen {
+    margin-right: 0;
+    margin-bottom: 6.25vw;
+  }
+  .access__infoAccessRosen p {
+    font-size: 2.8125vw;
+  }
+  .access__infoAccessBus {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    margin-bottom: 14.0625vw;
+  }
+  .access__info--btnBg {
+    background: #fff8cc;
+    mix-blend-mode: multiply;
+    padding: 3.8rem 0;
+    margin-bottom: 4rem;
+  }
+  .access__info--btnBg .inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .access__info--btnBg .opencampusBtn {
+    width: 93.33333333333333%;
+    margin: 0 auto;
+  }
+  .access__sns {
+    width: 80.9375%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 9.375vw;
+  }
+  .access__snsSingle {
+    width: 32.1875vw;
+    margin: 0;
+  }
+  .access__snsSingle dt {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    font-size: 3.4375vw;
+    line-height: 5vw;
+    margin-bottom: 3.125vw;
+    height: 13.125vw;
+  }
+  .access__snsSingle ul {
+    width: 100%;
+  }
+  .access--top .oc__slider .slick-dots {
+    width: 100%;
+  }
+  .access--top .oc__slider .slick-dots li {
+    width: 3.75vw;
+    height: 3.75vw;
+    margin: 0 3.125vw;
+  }
+  .access--top .oc__content {
+    background-size: contain;
+    padding: 17.8125vw 0 10.9375vw;
+  }
+  .access--top .oc__contentInner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .access--top .oc__content h1 {
+    max-width: 81.25vw;
+    margin: 0 auto 9.375vw;
+  }
+  .access--top .oc__content ul {
+    flex-direction: column;
+    margin-bottom: 12.5vw;
+  }
+  .access--top .oc__content ul li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 3.125vw;
+  }
+  .access--top .oc__content ul a {
+    width: 72.5vw;
+    height: 25.3125vw;
+    font-size: 3.75vw;
+    line-height: 5.625vw;
+    padding: 0 3.125vw 1.5625vw 0;
+  }
+  .access--top .oc__contentInstagram {
+    margin-bottom: 15.625vw;
+  }
+  .access--top .oc__news {
+    background-image: radial-gradient(#ccecfb 26%, rgba(0, 0, 0, 0) 29%), radial-gradient(#ccecfb 26%, rgba(0, 0, 0, 0) 29%);
+    background-position: 0 0, 7px 7px;
+    background-size: 14px 14px;
+    padding: 10.9375vw 0 4.6875vw;
+  }
+  .access--top .oc__news h2 {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .access--top .oc__news h2 img {
+    width: 46.25vw;
+    margin: 0 auto 4.6875vw;
+  }
+  .access--top .oc__newsInner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .access--top .oc__newsInner:before, .access--top .oc__newsInner:after {
+    display: none;
+  }
+  .access--top .oc__newsDep {
+    color: #fff;
+    padding: 1.25vw;
+    font-size: 2.8125vw;
+  }
+  .access--top .oc__newsTtl {
+    padding: 4.6875vw 1.5625vw;
+    font-size: 3.4375vw;
+    line-height: 4.6875vw;
+  }
+  .access--top .oc__news a {
+    box-shadow: 0.9375vw 0.9375vw 0 rgba(228, 90, 166, 0.2);
+    width: 42.8125vw;
+    margin-bottom: 4.6875vw;
+  }
+  .access--top .oc__calendar {
+    background: url(../img/experience/top/calendarBg_sp.png) no-repeat center top;
+    background-size: contain;
+    padding-top: 7.8125vw;
+    padding-bottom: 12.5vw;
+  }
+  .access--top .oc__calendar h2 {
+    width: 66.25vw;
+    margin: 0 auto 6.25vw;
+  }
+  .access--top .oc__calendarInner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .access--top .oc__calendarTab li {
+    width: 21.875vw;
+    height: 12.8125vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    padding: 1.875vw 0 0.9375vw;
+    font-size: 2.8125vw;
+    line-height: 1;
+  }
+  .access--top .oc__calendarTab li span {
+    margin-top: 1.25vw;
+  }
+  .access--top .oc__calendarTab li img {
+    height: 5.3125vw;
+  }
+  .access--top .oc__calendarTab li:not(:last-child) {
+    margin-right: 0.625vw;
+  }
+  .access--top .oc__calendarCont {
+    padding-bottom: 0;
+  }
+  .access--top .oc__calendarCont table {
+    width: calc(100% - 2px);
+    border-width: 2px;
+  }
+  .access--top .oc__calendarCont table th, .access--top .oc__calendarCont table td {
+    border-width: 2px;
+  }
+  .access--top .oc__calendarCont table th.wide, .access--top .oc__calendarCont table td.wide {
+    width: 15.625vw;
+  }
+  .access--top .oc__calendarCont table th {
+    padding: 0;
+    font-size: 2.5vw;
+    height: 6.25vw;
+  }
+  .access--top .oc__calendarCont table td {
+    padding: 1.875vw;
+    height: auto;
+    font-size: 2.5vw;
+    line-height: 3.75vw;
+  }
+  .access--top .oc__calendarCont table td .day {
+    font-size: 3.125vw;
+  }
+  .access--top .oc__calendarCont table td .day--big {
+    font-size: 3.75vw;
+  }
+  .access--top .oc__calendarCont:after {
+    display: none;
+  }
+  .access--top .oc__calendarSingle {
+    display: none;
+  }
+}

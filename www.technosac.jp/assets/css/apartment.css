@@ -1,0 +1,447 @@
+.apartment {
+  color: #464646;
+  padding-bottom: 10rem;
+}
+.apartment a:hover {
+  opacity: 0.75;
+}
+.apartment__Title {
+  height: 24rem;
+  background: url(../img/admission/apartment/titleBg.png) no-repeat left top;
+  background-size: cover;
+}
+.apartment__Title--Inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+  height: 24rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .apartment__Title--Inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.apartment__Title h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.apartment__Contents {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .apartment__Contents {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.apartment__Contents .inner {
+  width: 93.75%;
+  margin: 0 auto;
+}
+.apartment__Contents h2 {
+  border: 5px solid #a046b4;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+  font-weight: bold;
+  padding: 2rem 0;
+  margin-bottom: 3.5rem;
+}
+.apartment__Contents h3 {
+  color: #a046b4;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+  padding: 4rem 0 1.6rem 0;
+}
+.apartment__Contents h3 span.small {
+  color: #444444;
+  font-size: 1.2rem;
+  font-weight: normal;
+  vertical-align: middle;
+}
+.apartment__Contents p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.apartment__Contents table {
+  border-top: 1px solid #646464;
+}
+.apartment__Contents table th {
+  width: 24.2%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  background: #f0f0f0;
+  border-bottom: 1px solid #646464;
+}
+.apartment__Contents table td {
+  width: 75.7%;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #646464;
+  padding: 1.5rem 2rem;
+}
+.apartment__Contents table td ul li {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.apartment__Contents table td span {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+.apartment__Contents--Block01 {
+  padding: 10rem 0 0 0;
+}
+.apartment__Contents--Block01 .blockBox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.apartment__Contents--Block01 .blockBox__Single01 {
+  width: 24.6%;
+}
+.apartment__Contents--Block01 .blockBox__Single01 img {
+  border: 1px solid #646464;
+}
+.apartment__Contents--Block01 .blockBox__Single02 {
+  width: 29.5%;
+}
+.apartment__Contents--Block01 .blockBox__Single02--Img + .blockBox__Single02--Img {
+  margin-top: 2rem;
+}
+.apartment__Contents--Block01 .blockBox__Single03 {
+  width: 38.8%;
+}
+.apartment__Contents--Block01 .blockBox__Single03 p {
+  margin-top: 1.2rem;
+}
+.apartment__Contents--Block02 {
+  padding: 10rem 0 0 0;
+}
+.apartment__Contents--Block02 .blockBox02 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.apartment__Contents--Block02 .blockBox02__Area01 {
+  width: 43.6%;
+}
+.apartment__Contents--Block02 .blockBox02__Area02 {
+  width: 51.7%;
+}
+.apartment__Contents--Block02 .blockBox02__Area02Contents {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.apartment__Contents--Block02 .blockBox02__Area02Contents--Single {
+  width: 47.6%;
+  border: 1px solid #646464;
+}
+.apartment__Contents--Block02 .blockBox02__Area02Contents--Single .inner {
+  padding: 1.3rem 0 2rem 0;
+}
+.apartment__Contents--Block02 .blockBox02__Area02Contents--Single p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.apartment__Contents--Block02 .blockBox02__Area02Contents--Single .image {
+  width: 55.8%;
+  max-width: 12.4rem;
+  margin: 1.2rem auto;
+}
+.apartment__Contents--Block02 .blockBox02__Area02Contents--Single ul {
+  width: 70.2%;
+  margin: 0 auto;
+}
+.apartment__Contents--Block02 .blockBox02__Area02Contents--Single ul li {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.apartment__Contents--Block03 {
+  margin: 10rem 0 0 0;
+  border: 5px solid #e2c7e8;
+}
+.apartment__Contents--Block03 .inner {
+  width: 86.6%;
+  margin: 0 auto;
+  padding: 2.5rem 0;
+}
+.apartment__Contents--Block03 p {
+  font-size: 1.5rem;
+}
+.apartment__Contents--Block03 h3 {
+  color: #444444;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.7rem 0 0rem 0;
+}
+.apartment__Contents--Block03 h3 img {
+  width: 21.5rem;
+  display: inline;
+  vertical-align: middle;
+  margin-left: 2.5rem;
+}
+.apartment__Contents .apartmentBtn {
+  margin-top: 1rem;
+  width: 50%;
+}
+.apartment__Contents .apartmentBtn a {
+  display: block;
+  background: url(../img/inquiry/inquiry_btnicon.svg) 92.6% center no-repeat #ffffc8;
+  background-size: 1.2rem 2.5rem;
+  border: 1px solid #464646;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  padding: 1.2rem 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .apartment {
+    padding-bottom: 15.625vw;
+  }
+  .apartment__Title {
+    height: 37.5vw;
+    background: url(../img/admission/apartment/titleBg_sp.png) no-repeat center top;
+    background-size: cover;
+  }
+  .apartment__Title--Inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    height: 37.5vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+  }
+  .apartment__Title h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 5.625vw;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+  }
+  .apartment__Contents {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .apartment__Contents .inner {
+    width: auto;
+    margin: 0 auto;
+  }
+  .apartment__Contents h2 {
+    border: 5px solid #a046b4;
+    text-align: center;
+    font-size: 4.6875vw;
+    line-height: 5.625vw;
+    font-weight: bold;
+    padding: 5vw 0;
+    margin-bottom: 5vw;
+  }
+  .apartment__Contents h3 {
+    color: #a046b4;
+    font-size: 4.375vw;
+    line-height: 4.375vw;
+    font-weight: bold;
+    padding: 6.25vw 0 3.125vw 0;
+  }
+  .apartment__Contents h3 span.small {
+    color: #444444;
+    font-size: 3.75vw;
+    font-weight: normal;
+    vertical-align: middle;
+  }
+  .apartment__Contents h3 span.spaceSp {
+    display: block;
+    margin-left: 1em;
+    line-height: 60%;
+  }
+  .apartment__Contents p {
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+  }
+  .apartment__Contents table {
+    border-top: 1px solid #646464;
+  }
+  .apartment__Contents table th {
+    width: 22.8%;
+    max-width: 20.3125vw;
+    font-size: 3.75vw;
+    font-weight: bold;
+    text-align: center;
+    background: #f0f0f0;
+    border-bottom: 1px solid #646464;
+  }
+  .apartment__Contents table td {
+    width: auto;
+    font-size: 3.75vw;
+    border-bottom: 1px solid #646464;
+    padding: 3.4375vw 4.6875vw;
+  }
+  .apartment__Contents table td ul li {
+    font-size: 3.125vw;
+    line-height: 6.25vw;
+  }
+  .apartment__Contents--Block01 {
+    padding: 12.5vw 0 0 0;
+  }
+  .apartment__Contents--Block01 .blockBox {
+    display: block;
+  }
+  .apartment__Contents--Block01 .blockBox__Single01 {
+    width: 54.3%;
+    margin: 2.5vw auto 0 auto;
+  }
+  .apartment__Contents--Block01 .blockBox__Single01 img {
+    border: 1px solid #646464;
+  }
+  .apartment__Contents--Block01 .blockBox__Single02 {
+    padding: 4.6875vw 0;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .apartment__Contents--Block01 .blockBox__Single02--Img {
+    width: 48.5%;
+  }
+  .apartment__Contents--Block01 .blockBox__Single02--Img + .blockBox__Single02--Img {
+    margin-top: 0vw;
+  }
+  .apartment__Contents--Block01 .blockBox__Single03 {
+    width: auto;
+  }
+  .apartment__Contents--Block01 .blockBox__Single03 p {
+    margin-top: 3.75vw;
+  }
+  .apartment__Contents--Block02 {
+    padding: 12.5vw 0 0 0;
+  }
+  .apartment__Contents--Block02 .blockBox02 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .apartment__Contents--Block02 .blockBox02__Area {
+    width: auto;
+  }
+  .apartment__Contents--Block02 .blockBox02__AreaContents {
+    padding: 3.75vw 0 0vw 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .apartment__Contents--Block02 .blockBox02__AreaContents--Single {
+    width: 48.7%;
+    border: 1px solid #646464;
+  }
+  .apartment__Contents--Block02 .blockBox02__AreaContents--Single .inner {
+    padding: 3.125vw 0 3.125vw 0;
+  }
+  .apartment__Contents--Block02 .blockBox02__AreaContents--Single p {
+    font-size: 3.4375vw;
+    text-align: center;
+  }
+  .apartment__Contents--Block02 .blockBox02__AreaContents--Single .image {
+    width: 57.9%;
+    max-width: initial;
+    margin: 3.125vw auto;
+  }
+  .apartment__Contents--Block02 .blockBox02__AreaContents--Single ul {
+    width: 70.2%;
+    margin: 0 auto;
+  }
+  .apartment__Contents--Block02 .blockBox02__AreaContents--Single ul li {
+    font-size: 3.125vw;
+    line-height: 5vw;
+  }
+  .apartment__Contents--Block03 {
+    margin: 15.625vw 0 0 0;
+    border: 3px solid #e2c7e8;
+  }
+  .apartment__Contents--Block03 .inner {
+    width: auto;
+    margin: 0 auto;
+    padding: 4.6875vw 0;
+  }
+  .apartment__Contents--Block03 p {
+    font-size: 3.4375vw;
+    text-align: center;
+  }
+  .apartment__Contents--Block03 h3 {
+    color: #444444;
+    font-size: 4.0625vw;
+    line-height: 5.625vw;
+    font-weight: bold;
+    padding: 2.1875vw 0 0vw 0;
+    text-align: center;
+  }
+  .apartment__Contents--Block03 h3 img {
+    width: 53.4375vw;
+    display: block;
+    vertical-align: middle;
+    margin: 2.1875vw auto 0 auto;
+  }
+  .apartment__Contents .apartmentBtn {
+    margin-top: 3.125vw;
+    width: auto;
+  }
+  .apartment__Contents .apartmentBtn a {
+    display: block;
+    background: url(../img/inquiry/inquiry_btnicon.svg) 94% center no-repeat #ffffc8;
+    background-size: 2.1875vw 5vw;
+    border: 1px solid #464646;
+    font-size: 4.0625vw;
+    line-height: 6.25vw;
+    padding: 3.75vw 0;
+    text-align: center;
+  }
+}

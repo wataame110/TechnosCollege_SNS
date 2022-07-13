@@ -1,0 +1,782 @@
+@charset "UTF-8";
+
+.ocLearning {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2;
+  background: #fff;
+  position: relative;
+}
+
+.ocLearning a img:hover {
+  opacity: 0.7;
+}
+
+/* ボタン関連 */
+.ocLearning .apply_bt {
+  margin: 0 auto 2rem;
+  max-width: 23.6rem;
+  width: 82.5%;
+}
+
+.ocLearning .apply_bt a {
+  border-radius: 4.35rem;
+  background: #FFA000;
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.ocLearning .apply_bt a:hover {
+  background: rgba(255, 160, 0, 0.7);
+}
+
+.ocLearning .apply_bt a::after {
+  content: "";
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 2rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.ocLearning .return_bt {
+  margin: 0 auto;
+  max-width: 40rem;
+  width: 41.7%;
+}
+
+.ocLearning .return_bt a {
+  background: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  position: relative;
+  margin: 0 auto 2rem;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.ocLearning .return_bt a:hover {
+  opacity: 0.7;
+}
+
+.ocLearning .return_bt a::after {
+  content: "";
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 2rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  transform: rotate(45deg);
+}
+
+.ocLearning__mv {
+  background-image: url(../img/experience/learning/mv_bg.jpg);
+  background-size: cover;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  margin: 4.5rem 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35rem;
+  padding-left: 12rem;
+}
+
+.ocLearning__mv h1 {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: 700;
+  display: flex;
+  position: relative;
+  text-align: center;
+  line-height: 6rem;
+  letter-spacing: 0.5rem;
+  padding-top: 3rem;
+}
+
+.ocLearning__mv h1::before {
+  content: "";
+  display: inline-block;
+  width: 13.815rem;
+  height: 6.5rem;
+  background-image: url(../img/experience/learning/mv_logo.svg);
+  background-size: contain;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  bottom: 13.6rem;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+}
+
+.selector {
+  padding-left: 12rem;
+}
+
+.selector .inner {
+  max-width: 45rem;
+  width: calc(100% - 13rem);
+  margin: 0 auto;
+}
+
+.selector .inner select {
+  background: url(../img/selectBg.svg) no-repeat right center;
+  padding-right: 3.5rem;
+  color: #000;
+}
+
+.selector .inner p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+#ocLearning__list {
+  padding-left: 12rem;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+}
+
+.ocLearning__listTtl {
+  margin: -1.6rem auto 4rem;
+  width: 39rem;
+}
+
+.ocLearning__listTtl a {
+  line-height: 1;
+  padding-right: 1.9rem;
+  background-repeat: no-repeat;
+  background-size: 0.8rem;
+  background-position: right center;
+}
+
+
+
+#ocLearning__list .gakka_Title,
+.ocLearning__listList li .gakka,
+.modal-container .gakka {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  height: 4rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  background: none;
+}
+
+#ocLearning__list .gakka_Title {
+  max-width: 98rem;
+  width: calc(100% - 13rem);
+  margin: 0 auto 4rem;
+}
+
+#ocLearning__list .eng,
+.ocLearning__listList li .eng,
+.modal-container .eng {
+  background: #1580BD;
+}
+
+#ocLearning__list .air,
+.ocLearning__listList li .air,
+.modal-container .air {
+  background: #D55A97;
+}
+
+@media screen and (max-width: 767px) {
+  .ocLearning__listTtl a {
+    padding-right: 4.2666666667vw;
+    background-size: 2.1333333333vw;
+  }
+}
+
+.ocLearning__listList {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 98rem;
+  width: calc(100% - 13rem);
+  margin: 0 auto;
+}
+
+.ocLearning__listList::after {
+  content:"";
+  display: block;
+  width:29.791667%;
+  max-width: 28.6rem;
+}
+
+.ocLearning__listList li {
+  width: 29.791667%;
+  max-width: 28.6rem;
+  margin-bottom: 7rem;
+}
+
+.ocLearning__listList li a {
+  display: block;
+}
+
+.ocLearning__listListImg {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.ocLearning__listListImg::after {
+  content: "";
+  display: block;
+  padding-top: 57.3%;
+}
+
+.ocLearning__listListImg div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.ocLearning__listListTxt {
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.ocLearning__listListTitle {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .ocLearning__listList li .gakka,
+  .modal-container .gakka {
+    font-size: 1.6vw;
+  }
+
+  .ocLearning__listListTitle {
+    font-size: 1.5vw;
+  }
+
+  .ocLearning__listListTxt {
+    line-height: 1.5;
+    font-size: 1.4vw;
+  }
+
+  .ocLearning .return_bt a {
+    font-size: 1.4vw;
+  }
+
+  .ocLearning .apply_bt a {
+    font-size: 1.4vw;
+  }
+}
+
+/*モーダルを開くボタン*/
+.modal-open {
+  cursor: pointer;
+}
+
+/*モーダル本体の指定 + モーダル外側の背景の指定*/
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 50%);
+  padding: 40px 20px;
+  overflow: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+  box-sizing: border-box;
+
+}
+
+/*モーダル本体の擬似要素の指定*/
+.modal-container:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+/*モーダル本体に「active」クラス付与した時のスタイル*/
+.modal-container.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 9;
+}
+
+/*モーダル枠の指定*/
+.modal-body {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 76rem;
+  width: 80%;
+  height: auto;
+
+}
+
+/*モーダルを閉じるボタンの指定*/
+.modal-close {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -4rem;
+  right: 0;
+  width: 6rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*モーダル内のコンテンツの指定*/
+.modal-content {
+  background: #fff;
+  text-align: left;
+  padding: 4rem 6rem 2rem;
+  overflow: auto;
+}
+
+.modal-content .modal-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1rem 0 2rem;
+}
+
+.modal-content .ocLearning__listListTxt {
+  margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .ocLearning {
+    overflow-x: hidden;
+    font-size: 3.7333333333vw;
+    line-height: 1.6428571429;
+    padding-left: 0;
+  }
+
+  .ocLearning::before {
+    display: none;
+  }
+
+  .ocLearning__mv {
+    background-image: url(../img/experience/learning/mv_bg_sp.jpg);
+    background-size: cover;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    margin: 0 0 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vw;
+    padding-left: 0;
+  }
+
+  .ocLearning__mv h1 {
+    color: #fff;
+    font-size: 9.5vw;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+    text-align: center;
+    line-height: 12vw;
+    letter-spacing: 0.5vw;
+    padding-top: 9vw;
+  }
+
+  .ocLearning__mv h1::before {
+    content: "";
+    display: inline-block;
+    width: 21.815vw;
+    height: 10.5vw;
+    background-image: url(../img/experience/learning/mv_logo.svg);
+    background-size: contain;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    bottom: 27.6vw;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+  }
+
+
+  /* ボタン関連 */
+  .ocLearning .apply_bt {
+    margin: 0 auto 2rem;
+    max-width: 23.6rem;
+    width: 82.5%;
+  }
+
+  .ocLearning .apply_bt a {
+    border-radius: 4.35rem;
+    background: #FFA000;
+    font-size: 1.6rem;
+    font-weight: bold;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+
+  .ocLearning .apply_bt a:hover {
+    background: rgba(255, 160, 0, 0.7);
+  }
+
+  .ocLearning .apply_bt a::after {
+    content: "";
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+  }
+
+  .ocLearning .return_bt {
+    margin: 0 auto;
+    max-width: 72%;
+    width: 72%;
+  }
+
+  .ocLearning .return_bt a {
+    background: #fff;
+    font-size: 3.6vw;
+    font-weight: bold;
+    height: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    position: relative;
+    margin: 0 auto 4vw;
+    text-align: center;
+    border: 1px solid #000;
+  }
+
+  .ocLearning .return_bt a:hover {
+    opacity: 0.7;
+  }
+
+  .ocLearning .return_bt a::after {
+    content: "";
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 3.5vw;
+    width: 2vw;
+    height: 2vw;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(45deg);
+  }
+
+
+
+
+  .selector {
+    padding-left: 0;
+  }
+
+  .selector .inner {
+    max-width: 90%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .selector .inner select {
+    background: url(../img/selectBg.svg) no-repeat right center;
+    padding-right: 3.5rem;
+    font-size: 4vw;
+  }
+
+  .selector .inner p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4.2vw;
+    margin-bottom: 2.5vw;
+  }
+
+
+  #ocLearning__list {
+    padding-left: 0;
+    padding-top: 10vw;
+    padding-bottom: 6vw;
+  }
+
+  .ocLearning__listTtl {
+    margin: -1.6rem auto 4rem;
+    width: 39rem;
+  }
+
+  .ocLearning__listTtl a {
+    line-height: 1;
+    padding-right: 1.9rem;
+    background-repeat: no-repeat;
+    background-size: 0.8rem;
+    background-position: right center;
+  }
+
+
+
+  #ocLearning__list .gakka_Title,
+  .ocLearning__listList li .gakka,
+  .modal-container .gakka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    height: 13vw;
+    font-size: 5vw;
+    margin-bottom: 2.5vw;
+  }
+
+  #ocLearning__list .gakka_Title {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto 8vw;
+  }
+
+  #ocLearning__list .eng,
+  .ocLearning__listList li .eng,
+  .modal-container .eng {
+    background: #1580BD;
+  }
+
+  #ocLearning__list .air,
+  .ocLearning__listList li .air,
+  .modal-container .air {
+    background: #D55A97;
+  }
+
+  .ocLearning__listList {
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 90%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ocLearning__listList li {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 13vw;
+  }
+
+  .ocLearning__listList li a {
+    display: block;
+  }
+
+  .ocLearning__listListImg {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+
+  .ocLearning__listListImg::after {
+    content: "";
+    display: block;
+    padding-top: 57.3%;
+  }
+
+  .ocLearning__listListImg div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .ocLearning__listListTxt {
+    line-height: 1.8;
+    margin-bottom: 4vw;
+    font-size: 3.2vw;
+  }
+
+  .ocLearning__listListTitle {
+    line-height: 1.5;
+    margin-bottom: 2.5vw;
+    font-weight: bold;
+    font-size: 4vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .modal-open {
+    cursor: pointer;
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 50%);
+    padding: 40px 20px;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    box-sizing: border-box;
+
+  }
+
+  .modal-container:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+
+  .modal-container.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9;
+  }
+
+  .modal-body {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 76rem;
+    width: 98%;
+    height: auto;
+
+  }
+
+  .modal-close {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -4rem;
+    right: 0;
+    width: 16vw;
+    height: 10vw;
+    font-size: 4vw;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .modal-content {
+    background: #fff;
+    text-align: left;
+    padding: 4vw 6vw 2vw;
+    overflow: auto;
+  }
+
+  .modal-content .modal-title {
+    text-align: left;
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 2vw 0 2vw;
+  }
+
+  .modal-content .ocLearning__listListTxt {
+    margin-bottom: 4vw;
+  }
+
+  .modal-content .apply_bt {
+    margin: 0 auto 6vw;
+    width: 70%;
+  }
+
+  .modal-content .apply_bt a {
+    border-radius: 4.35rem;
+    background: #FFA000;
+    font-size: 3.8vw;
+    font-weight: bold;
+    height: 13.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,564 @@
+.yumeproject {
+  color: #464646;
+}
+.yumeproject::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 93vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: url(../img/support/yumeproject/bg_mv.png) no-repeat center top;
+  background-size: 100% auto;
+}
+.yumeproject .bgArea {
+  position: relative;
+}
+.yumeproject .bgArea::before {
+  content: "";
+  display: block;
+  width: 325px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: url(../img/support/yumeproject/bg_left.png) no-repeat right -5%;
+  background-size: 325px auto;
+}
+.yumeproject .bgArea::after {
+  content: "";
+  display: block;
+  width: 325px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  background: url(../img/support/yumeproject/bg_right.png) no-repeat left 95%;
+  background-size: 325px auto;
+}
+.yumeproject .yume__inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489019034% 0 auto;
+  min-width: 960px;
+  z-index: 1;
+  position: relative;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .yumeproject .yume__inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.yumeproject .yume__title {
+  text-align: center;
+}
+.yumeproject .yume__title img {
+  margin: 0 auto;
+}
+.yumeproject .h1Block_yume {
+  margin-bottom: 110px;
+  padding: 62px 0 0 14%;
+  position: relative;
+  z-index: -1;
+}
+.yumeproject .h1Block_yume .mainImg {
+  margin: 0 auto;
+  width: 1115px;
+}
+.yumeproject .h1Block_yume .inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.yumeproject .h1Block_yume .details {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489019034% 0 auto;
+  font-size: 17px;
+  line-height: 41px;
+  padding: 397px 0 0;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .yumeproject .h1Block_yume .details {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.yumeproject .h1Block_yume .details p {
+  letter-spacing: 2.5px;
+}
+.yumeproject .h1Block_yume .details p:not(:last-child) {
+  margin-bottom: 43px;
+}
+.yumeproject #yume_01 {
+  background-color: #f8f8f8;
+}
+.yumeproject #yume_01 .yume__inner {
+  padding-top: 73px;
+  padding-bottom: 95px;
+}
+.yumeproject #yume_01 .yume__title {
+  margin-bottom: 33px;
+}
+.yumeproject #yume_01 .yume__title img {
+  width: 484px;
+}
+.yumeproject #yume_01 .read {
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.yumeproject #yume_01 .about__listBox {
+  width: 850px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.yumeproject #yume_01 .about__listBox li {
+  width: 252px;
+}
+.yumeproject #yume_01 .about__listBox li a {
+  display: block;
+  background-color: #f8f8f8;
+}
+@media (min-width: 769px) {
+  .yumeproject #yume_01 .about__listBox li a:hover img {
+    opacity: 0.7;
+  }
+}
+.yumeproject #yume_01 .about__listBox li p {
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 22px;
+}
+.yumeproject #challenge .yume__inner {
+  padding-top: 89px;
+}
+.yumeproject #challenge .yume__title {
+  margin-bottom: 65px;
+}
+.yumeproject #challenge .yume__title img {
+  width: 394px;
+}
+.yumeproject #challenge .challenge__listBox {
+  margin-bottom: 84px;
+}
+.yumeproject #challenge .challenge__single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.yumeproject #challenge .challenge__single:not(:last-child) {
+  margin-bottom: 84px;
+}
+.yumeproject #challenge .challenge__single:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.yumeproject #challenge .challenge__photo {
+  width: 510px;
+}
+.yumeproject #challenge .challenge__details {
+  width: calc(100% - 565px);
+}
+.yumeproject #challenge .challenge__details .title {
+  margin-bottom: 25px;
+}
+.yumeproject #challenge .challenge__details .title img {
+  height: 77px;
+}
+.yumeproject #challenge .challenge__details .text {
+  font-size: 15px;
+  line-height: 28px;
+}
+.yumeproject #challenge aside {
+  text-align: center;
+}
+.yumeproject #challenge aside .read {
+  display: inline-block;
+  background-image: url(../img/support/yumeproject/bg_challengeLeft.png), url(../img/support/yumeproject/bg_challengeRight.png);
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  background-size: auto 69px;
+  padding: 2px 73px 5px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 31px;
+}
+.yumeproject #challenge aside a {
+  display: block;
+  margin: 20px auto 25px;
+  width: 231px;
+}
+@media (min-width: 769px) {
+  .yumeproject #challenge aside a:hover img {
+    opacity: 0.7;
+  }
+}
+.yumeproject #challenge aside .attention {
+  font-size: 12px;
+}
+.yumeproject #audition {
+  background: url(../img/support/yumeproject/bg_audition.png) no-repeat center;
+  background-size: 100% auto;
+  padding: 186px 0 200px;
+}
+.yumeproject #audition .yume__title {
+  margin-bottom: 48px;
+}
+.yumeproject #audition .yume__title img {
+  width: 468px;
+}
+.yumeproject #audition a {
+  display: block;
+  width: 444px;
+  margin: 0 auto 0;
+}
+@media (min-width: 769px) {
+  .yumeproject #audition a:hover img {
+    opacity: 0.7;
+  }
+}
+.yumeproject #support {
+  padding-bottom: 50px;
+}
+.yumeproject #support .yume__inner {
+  padding-top: 37px;
+}
+.yumeproject #support .yume__title {
+  margin-bottom: 75px;
+}
+.yumeproject #support .yume__title img {
+  width: 364px;
+}
+.yumeproject #support .support__listBox {
+  width: 880px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.yumeproject #support .support__listBox li {
+  width: 416px;
+  background: url(../img/support/yumeproject/bg_support.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 60px 40px 50px;
+  margin-bottom: 50px;
+}
+@media (min-width: 769px) {
+  .yumeproject #support .support__listBox li.single01 .title {
+    height: 82px;
+  }
+  .yumeproject #support .support__listBox li.single01 .title img {
+    width: 255px;
+  }
+  .yumeproject #support .support__listBox li.single02 .title {
+    height: 82px;
+  }
+  .yumeproject #support .support__listBox li.single02 .title img {
+    width: 186px;
+  }
+  .yumeproject #support .support__listBox li.single03 .title {
+    height: 146px;
+  }
+  .yumeproject #support .support__listBox li.single03 .title img {
+    width: 260px;
+  }
+  .yumeproject #support .support__listBox li.single03 .text {
+    min-height: 140px;
+  }
+  .yumeproject #support .support__listBox li.single04 .title {
+    height: 146px;
+  }
+  .yumeproject #support .support__listBox li.single04 .title img {
+    width: 248px;
+  }
+  .yumeproject #support .support__listBox li.single04 .text {
+    min-height: 140px;
+  }
+}
+.yumeproject #support .support__listBox li .title {
+  margin-bottom: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.yumeproject #support .support__listBox li .text {
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  text-align: justify;
+}
+.yumeproject #support .support__listBox li .btn {
+  display: block;
+  width: 231px;
+  margin: 28px auto 0;
+}
+@media (min-width: 769px) {
+  .yumeproject #support .support__listBox li .btn:hover img {
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .yumeproject::before {
+    height: 14%;
+    background: url(../img/support/yumeproject/bg_mvSP.png) no-repeat center top;
+    background-size: 100% auto;
+  }
+  .yumeproject .bgArea {
+    position: relative;
+  }
+  .yumeproject .bgArea::before {
+    width: 120px;
+    top: -10.5%;
+    background: url(../img/support/yumeproject/bg_leftSP.png) no-repeat 0 0;
+    background-size: 120px auto;
+  }
+  .yumeproject .bgArea::after {
+    width: 120px;
+    top: 2%;
+    background: url(../img/support/yumeproject/bg_rightSP.png) no-repeat 0 0;
+    background-size: 120px auto;
+  }
+  .yumeproject .yume__inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    min-width: auto;
+  }
+  .yumeproject .h1Block_yume {
+    margin-bottom: 220px;
+    padding: 40px 0 0;
+  }
+  .yumeproject .h1Block_yume .mainImg {
+    width: 100%;
+  }
+  .yumeproject .h1Block_yume .details {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    width: 82%;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 117vw 0 0;
+  }
+  .yumeproject .h1Block_yume .details p {
+    letter-spacing: 1.5px;
+  }
+  .yumeproject .h1Block_yume .details p:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .yumeproject #yume_01 .yume__inner {
+    padding-top: 44px;
+    padding-bottom: 42px;
+  }
+  .yumeproject #yume_01 .yume__title {
+    margin-bottom: 18px;
+  }
+  .yumeproject #yume_01 .yume__title img {
+    width: 98%;
+  }
+  .yumeproject #yume_01 .read {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 27px;
+  }
+  .yumeproject #yume_01 .about__listBox {
+    width: 100%;
+    display: block;
+  }
+  .yumeproject #yume_01 .about__listBox li {
+    width: 100%;
+  }
+  .yumeproject #yume_01 .about__listBox li:not(:last-child) {
+    margin-bottom: 31px;
+  }
+  .yumeproject #yume_01 .about__listBox li a {
+    width: 200px;
+    margin: 0 auto 0;
+  }
+  .yumeproject #yume_01 .about__listBox li p {
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 14px;
+    padding: 0 2%;
+  }
+  .yumeproject #challenge {
+    margin-bottom: 30px;
+  }
+  .yumeproject #challenge .yume__inner {
+    padding-top: 44px;
+    width: 100%;
+  }
+  .yumeproject #challenge .yume__title {
+    margin-bottom: 30px;
+  }
+  .yumeproject #challenge .yume__title img {
+    width: 76%;
+  }
+  .yumeproject #challenge .challenge__listBox {
+    margin-bottom: 0;
+  }
+  .yumeproject #challenge .challenge__single {
+    display: block;
+  }
+  .yumeproject #challenge .challenge__single:not(:last-child) {
+    margin-bottom: 35px;
+  }
+  .yumeproject #challenge .challenge__photo {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .yumeproject #challenge .challenge__details {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    width: 84%;
+  }
+  .yumeproject #challenge .challenge__details .title {
+    margin-bottom: 12px;
+  }
+  .yumeproject #challenge .challenge__details .title img {
+    height: 54px;
+    width: auto;
+  }
+  .yumeproject #challenge .challenge__details .text {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .yumeproject #challenge aside {
+    display: none;
+  }
+  .yumeproject #audition {
+    background: url(../img/support/yumeproject/bg_auditionSP.png) no-repeat center;
+    background-size: 100% auto;
+    padding: 110px 0 120px;
+  }
+  .yumeproject #audition .yume__title {
+    margin-bottom: 28px;
+  }
+  .yumeproject #audition .yume__title img {
+    width: 98%;
+  }
+  .yumeproject #audition a {
+    width: 100%;
+  }
+  .yumeproject #support .yume__inner {
+    padding-top: 52px;
+  }
+  .yumeproject #support .yume__title {
+    margin-bottom: 28px;
+  }
+  .yumeproject #support .yume__title img {
+    width: 78%;
+  }
+  .yumeproject #support .support__listBox {
+    width: 100%;
+    display: block;
+  }
+  .yumeproject #support .support__listBox li {
+    width: 100%;
+    padding: 30px 8% 20px;
+    margin-bottom: 0;
+  }
+  .yumeproject #support .support__listBox li:not(:last-child) {
+    margin-bottom: 35px;
+  }
+  .yumeproject #support .support__listBox li.single01 .title img {
+    width: 72%;
+  }
+  .yumeproject #support .support__listBox li.single02 .title img {
+    width: 54%;
+  }
+  .yumeproject #support .support__listBox li.single03 .title img {
+    width: 75%;
+  }
+  .yumeproject #support .support__listBox li.single04 .title img {
+    width: 72%;
+  }
+  .yumeproject #support .support__listBox li .title {
+    margin-bottom: 18px;
+    display: block;
+  }
+  .yumeproject #support .support__listBox li .title img {
+    margin: 0 auto;
+  }
+  .yumeproject #support .support__listBox li .text {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .yumeproject #support .support__listBox li .btn {
+    width: 84%;
+    margin: 18px auto 0;
+  }
+}
+
+a.nlink:hover,
+.yumeproject #audition a.nlink:hover img {
+  opacity: 1;
+}

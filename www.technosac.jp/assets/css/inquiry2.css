@@ -1,0 +1,417 @@
+.inquiry {
+  color: #464646;
+  padding-bottom: 10rem;
+}
+.inquiry a:hover {
+  opacity: 0.75;
+}
+.inquiry__Title {
+  height: 24rem;
+  background: url(../img/inquiry/titleBg2.png) no-repeat left top;
+  background-size: cover;
+}
+.inquiry__Title--Inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+  height: 24rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .inquiry__Title--Inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.inquiry__Title h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.inquiry__Contents {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .inquiry__Contents {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.inquiry__Contents .inner {
+  width: 93.75%;
+  margin: 0 auto;
+}
+.inquiry__Contents--Block01 {
+  padding: 6.5rem 0 5rem 0;
+}
+.inquiry__Contents--Block01 h2 {
+  font-size: 3.5rem;
+  line-height: 5.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #8f82bc;
+}
+.inquiry__Contents--Block01 p {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  padding-top: 2rem;
+}
+.inquiry__Contents--Block02 h2 {
+  border: 5px solid #8f82bc;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+.inquiry__Contents--Block02 .telBlock {
+  padding: 4rem 0;
+  border-bottom: 1px solid #464646;
+}
+.inquiry__Contents--Block02 .telBlock.last {
+  border-bottom: none;
+}
+.inquiry__Contents--Block02 .telBlock .BlockBox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__School {
+  width: 46.1%;
+}
+.inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__School p {
+  display: inline;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+}
+.inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__School p img {
+  width: 5rem;
+  display: inline;
+  vertical-align: middle;
+  margin-right: 1.5rem;
+}
+.inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__Tel {
+  width: 53.3%;
+}
+.inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__Tel img {
+  width: 19.8rem;
+}
+.inquiry__Contents--Block02 .telBlock .BlockBox.telBox + .telBox {
+  margin-top: 2.5rem;
+}
+.inquiry__Contents--Block02 .titleSchool p {
+  display: inline;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+}
+.inquiry__Contents--Block02 .titleSchool p img {
+  width: 5.4rem;
+  display: inline;
+  vertical-align: middle;
+  margin-right: 1.5rem;
+}
+/* .inquiry__Contents--Block02 .BlockBox02 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: center;
+} */
+.inquiry__Contents--Block02 .BlockBox02__Text {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  width: 100%;
+}
+.inquiry__Contents--Block02 .BlockBox03 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  align-items: flex-end;
+}
+.inquiry__Contents--Block02 .BlockBox03__Tel {
+  width: 28.8%;
+}
+.inquiry__Contents--Block02 .BlockBox03__Tel p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.inquiry__Contents--Block02 .BlockBox03__Tel div img {
+  width: 21.5rem;
+}
+.inquiry__Contents--Block02 .BlockBox03__Fax {
+  width: 30%;
+}
+.inquiry__Contents--Block02 .BlockBox03__Fax p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.inquiry__Contents--Block02 .BlockBox03__Fax div img {
+  width: 22rem;
+}
+.inquiry__Contents--Block02 .BlockBox03__Email {
+  width: 41.1%;
+}
+.inquiry__Contents--Block02 .BlockBox03__Email p {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.inquiry__Contents--Btn {
+  width: 50%;
+}
+.inquiry__Contents--Btn a {
+  display: block;
+  background: url(../img/inquiry/inquiry_btnicon.svg) 92.6% center no-repeat #ffffc8;
+  background-size: 1.2rem 2.5rem;
+  border: 1px solid #464646;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  padding: 1.2rem 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .inquiry {
+    padding-bottom: 5rem;
+  }
+  .inquiry__Title {
+    height: 37.5vw;
+    background: url(../img/inquiry/titleBg_sp2.png) no-repeat center top;
+    background-size: cover;
+  }
+  .inquiry__Title--Inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    height: 37.5vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+  }
+  .inquiry__Title h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 5.625vw;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+  }
+  .inquiry__Contents {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .inquiry__Contents .inner {
+    width: auto;
+    margin: 0 auto;
+  }
+  .inquiry__Contents--Block01 {
+    padding: 9.375vw 0 7.8125vw 0;
+  }
+  .inquiry__Contents--Block01 h2 {
+    font-size: 6.25vw;
+    line-height: 9.375vw;
+    text-align: center;
+    font-weight: bold;
+    color: #8f82bc;
+  }
+  .inquiry__Contents--Block01 p {
+    text-align: center;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    padding-top: 4.375vw;
+  }
+  .inquiry__Contents--Block02 h2 {
+    border: 3px solid #8f82bc;
+    text-align: center;
+    font-size: 4.6875vw;
+    line-height: 5.625vw;
+    font-weight: bold;
+    padding: 5vw 0;
+  }
+  .inquiry__Contents--Block02 .telBlock {
+    padding: 6.25vw 0;
+    border-bottom: 1px solid #464646;
+  }
+  .inquiry__Contents--Block02 .telBlock.last {
+    border-bottom: none;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox {
+    display: block;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox.telBox {
+    position: relative;
+    padding-left: 14.375vw;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__School {
+    width: auto;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__School p {
+    display: inline;
+    font-size: 4.0625vw;
+    line-height: 6.875vw;
+    font-weight: bold;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__School p img {
+    display: none;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__Tel {
+    width: auto;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox.telBox .telBox__Tel img {
+    width: 49.375vw;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox.telBox + .telBox {
+    margin-top: 3.75vw;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox.telBox.eng::before {
+    content: "";
+    display: inline-block;
+    width: 10.9375vw;
+    height: 7.8125vw;
+    background: url(../img/inquiry/inquiry_eng.svg) no-repeat left top;
+    background-size: 10.9375vw 7.8125vw;
+    position: absolute;
+    top: 30%;
+    left: 0;
+  }
+  .inquiry__Contents--Block02 .telBlock .BlockBox.telBox.air::before {
+    content: "";
+    display: inline-block;
+    width: 10.9375vw;
+    height: 7.8125vw;
+    background: url(../img/inquiry/inquiry_air.svg) no-repeat left top;
+    background-size: 10.9375vw 7.8125vw;
+    position: absolute;
+    top: 30%;
+    left: 0;
+  }
+  .inquiry__Contents--Block02 .titleSchool {
+    position: relative;
+    padding-left: 14.375vw;
+  }
+  .inquiry__Contents--Block02 .titleSchool p {
+    display: block;
+    font-size: 4.375vw;
+    line-height: 5.9375vw;
+    font-weight: bold;
+  }
+  .inquiry__Contents--Block02 .titleSchool p img {
+    width: 10.9375vw;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 4.6875vw;
+    display: none;
+  }
+  .inquiry__Contents--Block02 .titleSchool::before {
+    content: "";
+    display: inline-block;
+    width: 10.9375vw;
+    height: 9.6875vw;
+    background: url(../img/inquiry/inquiry_technosac.svg) no-repeat left top;
+    background-size: 10.9375vw 9.6875vw;
+    position: absolute;
+    top: 5%;
+    left: 0;
+  }
+  .inquiry__Contents--Block02 .BlockBox02 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .inquiry__Contents--Block02 .BlockBox02__Text {
+    font-size: 3.4375vw;
+    line-height: 5.9375vw;
+    width: auto;
+    padding: 5vw 0 2.5vw 0;
+  }
+  .inquiry__Contents--Block02 .BlockBox02__TelMail {
+    width: auto;
+  }
+  .inquiry__Contents--Block02 .BlockBox02__TelMail--Tel {
+    width: 51.5625vw;
+  }
+  .inquiry__Contents--Block02 .BlockBox02__TelMail--Mail {
+    padding-top: 1.25vw;
+    font-size: 4.6875vw;
+    line-height: 7.8125vw;
+  }
+  .inquiry__Contents--Block02 .BlockBox03 {
+    display: block;
+  }
+  .inquiry__Contents--Block02 .BlockBox03__Tel {
+    width: auto;
+  }
+  .inquiry__Contents--Block02 .BlockBox03__Tel p {
+    font-size: 3.75vw;
+    line-height: 6.25vw;
+    margin-top: 2.5vw;
+  }
+  .inquiry__Contents--Block02 .BlockBox03__Tel div img {
+    width: 53.4375vw;
+    margin: 1.25vw 0 2.5vw 0;
+  }
+  .inquiry__Contents--Block02 .BlockBox03__Fax {
+    width: auto;
+  }
+  .inquiry__Contents--Block02 .BlockBox03__Fax p {
+    font-size: 3.75vw;
+    line-height: 6.25vw;
+    margin-top: 0.625vw;
+  }
+  .inquiry__Contents--Block02 .BlockBox03__Fax div img {
+    width: 54.6875vw;
+    margin: 1.25vw 0 2.5vw 0;
+  }
+  .inquiry__Contents--Block02 .BlockBox03__Email {
+    width: auto;
+  }
+  .inquiry__Contents--Block02 .BlockBox03__Email p {
+    font-size: 4.6875vw;
+    line-height: 6.25vw;
+  }
+  .inquiry__Contents--Btn {
+    width: auto;
+  }
+  .inquiry__Contents--Btn a {
+    display: block;
+    background: url(../img/inquiry/inquiry_btnicon.svg) 94% center no-repeat #ffffc8;
+    background-size: 2.1875vw 5vw;
+    border: 1px solid #464646;
+    font-size: 4.0625vw;
+    line-height: 6.25vw;
+    padding: 3.75vw 0;
+    text-align: center;
+  }
+}

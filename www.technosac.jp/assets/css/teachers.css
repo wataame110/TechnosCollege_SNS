@@ -1,0 +1,1038 @@
+.teachers {
+  color: #000;
+}
+.teachers__Inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+  position: relative;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .teachers__Inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.teachers__mainBlock {
+  padding: 8.5rem 0 0 0;
+  background: url(../img/support/teachers/mainv_bg_center.png) no-repeat center top;
+  background-size: 32rem auto;
+  position: relative;
+  z-index: 15;
+}
+.teachers__mainBlock::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/support/teachers/mainv_bg_left.png) no-repeat left top, url(../img/support/teachers/mainv_bg_right.png) no-repeat right top;
+  background-size: 36.8rem auto, 36.4rem auto;
+  z-index: 10;
+}
+.teachers__mainBlock h1 {
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  text-align: center;
+}
+.teachers__mainBlock h1 span {
+  font-size: 3rem;
+}
+.teachers__mainBlock p.copy {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 4.5rem;
+}
+.teachers__mv {
+  background-image: url(../img/support/teachers/mainv.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: #ced9da;
+  background-size: auto 100%;
+  height: 70rem;
+  padding-top: 6.5rem;
+  margin-top: 6.5rem;
+}
+.teachers__mv--Text {
+  margin-left: 52.7%;
+  width: 41.66666666666667%;
+}
+.teachers__mv h2 {
+  font-size: 3.5rem;
+  line-height: 6.5rem;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+.teachers__mv h2:after {
+  right: auto;
+}
+.teachers__mv .nameBlcok {
+  padding: 30px 0;
+}
+.teachers__mv .nameBlcok p {
+  font-size: 1.8rem;
+}
+.teachers__mv .nameBlcok p.name {
+  font-size: 2.7rem;
+  padding-top: 1.5rem;
+}
+.teachers__mv .nameBlcok p.name span {
+  font-size: 2rem;
+}
+.teachers__Btn {
+  position: relative;
+  z-index: 20;
+  margin: 10rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+.teachers__Btn--eng {
+  width: 48.4375%;
+}
+.teachers__Btn--eng a {
+  display: block;
+  font-size: 1.9rem;
+  padding: 1.4rem 0;
+  color: #fff;
+  text-align: center;
+  background: url(../img/support/teachers/arrow.svg) 96.77419% center no-repeat #1580bd;
+  background-size: 1.4rem 0.7rem;
+}
+.teachers__Btn--air {
+  width: 48.4375%;
+}
+.teachers__Btn--air a {
+  display: block;
+  font-size: 1.9rem;
+  padding: 1.4rem 0;
+  color: #fff;
+  text-align: center;
+  background: url(../img/support/teachers/arrow.svg) 96.77419% center no-repeat #d55a97;
+  background-size: 1.4rem 0.7rem;
+}
+.teachers__Btn a:hover {
+  opacity: 0.7;
+}
+.teachers .engTeacherArticle {
+  background: url(../img/support/teachers/bgLeft.png) repeat-y left top, url(../img/support/teachers/bgRight.png) repeat-y right top;
+  background-size: 34.4rem auto, 30.6rem auto;
+  padding-bottom: 6.5rem;
+}
+.teachers .engTeacherArticle.airTeacherArticle {
+  padding-top: 9.5rem;
+}
+.teachers .engTeacherArticle__Title {
+  background: url(../img/support/teachers/block01_title_bg.png) left top repeat;
+  background-size: 1.2rem 1.2rem;
+  margin-bottom: 5rem;
+}
+.teachers .engTeacherArticle__Title h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 2.7rem 0;
+}
+.teachers .engTeacherArticle__Title.airTeacher {
+  background: url(../img/support/teachers/block02_title_bg.png) left top repeat;
+  background-size: 1.2rem 1.2rem;
+  margin-bottom: 5rem;
+}
+.teachers .engTeacherArticle__inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+  position: relative;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .teachers .engTeacherArticle__inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.teachers .engTeacherArticle__Block {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+.teachers .engTeacherArticle__Block--Img {
+  width: 36.4%;
+}
+.teachers .engTeacherArticle__Block--Box {
+  width: 58.3%;
+}
+.teachers .engTeacherArticle__Block--Box h3 {
+  font-size: 3rem;
+  line-height: 5.5rem;
+}
+.teachers .engTeacherArticle__Block--Box .nameBlock {
+  padding: 0 0 2.5rem 0;
+}
+.teachers .engTeacherArticle__Block--Box .nameBlock p.name {
+  font-size: 2.7rem;
+  padding-top: 0.8rem;
+}
+.teachers .engTeacherArticle__Block--Box .nameBlock p.name span {
+  font-size: 2rem;
+}
+.teachers .engTeacherArticle__Specialty {
+  margin: 8rem 0 0 0;
+  background: url(../img/support/teachers/block01_box_bg.png) left top repeat;
+  background-size: 3rem 245.8rem;
+}
+.teachers .engTeacherArticle__Specialty--Inner {
+  max-width: 86rem;
+  width: 89.58333333333334%;
+  margin: 0 auto;
+  position: relative;
+  padding: 5rem 0 0 0;
+}
+.teachers .engTeacherArticle__Specialty--Box {
+  padding: 5rem 0 6rem 0;
+}
+.teachers .engTeacherArticle__Specialty--Box:not(:first-of-type) {
+  border-top: 1px solid #000;
+  padding: 7rem 0 6rem 0;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox__Img {
+  width: 34.883720930232556%;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox__Img--profile .title {
+  width: 8.9rem;
+  padding: 1.6rem 0 1rem 0;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox__Img--profile p {
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox__Text {
+  width: 59.30232558139535%;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox__Text h4 {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox__Text .nameBlock {
+  padding: 2.5rem 0;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox__Text .nameBlock p {
+  font-size: 1.6rem;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox__Text .nameBlock p.name {
+  font-size: 2.4rem;
+  padding: 1rem 0;
+}
+.teachers .engTeacherArticle__Specialty .teacherBox__Text .nameBlock p.name span {
+  font-size: 1.8rem;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox {
+  padding: 3.5rem 0 0 0;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox h4 {
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn {
+  width: 31.74418604651163%;
+  margin: 1rem 0;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn a {
+  display: block;
+  font-size: 1.6rem;
+  padding: 1.2rem 0;
+  color: #fff;
+  text-align: center;
+  background: url(../img/support/teachers/link_arrow.svg) 95.9707% center no-repeat;
+  background-size: 0.7rem 1.4rem;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn a:hover {
+  opacity: 0.7;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.orange {
+  background-color: #ed8408;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.pink {
+  background-color: #df1a70;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.green {
+  background-color: #7cb919;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.blue {
+  background-color: #2794d8;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.rightblue {
+  background-color: #15a4d6;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.red {
+  background-color: #b62d25;
+}
+.teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.deepgren {
+  background-color: #139032;
+}
+.teachers .engTeacherArticle .teacherAll {
+  padding: 4.5rem 0 0 0;
+}
+.teachers .engTeacherArticle .teacherAll h3 {
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 0.8em;
+}
+.teachers .engTeacherArticle .teacherAll h3 span {
+  font-size: 2rem;
+  letter-spacing: 0;
+  margin-right: 4.5rem;
+}
+.teachers .engTeacherArticle .teacherAll__Box {
+  margin-top: 5rem;
+}
+.teachers .engTeacherArticle .teacherAll__Box h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 1.2rem 0;
+}
+.teachers .engTeacherArticle .teacherAll__Box--List {
+  padding: 0.8rem 0 4rem 0;
+}
+.teachers .engTeacherArticle .teacherAll__Box--List .inner {
+  width: 91.66666666666666%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: flex-start;
+}
+.teachers .engTeacherArticle .teacherAll__Box--List .single {
+  padding: 2rem 0 0 0;
+}
+.teachers .engTeacherArticle .teacherAll__Box--List .single h5 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+.teachers .engTeacherArticle .teacherAll__Box--List .single p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+.teachers .engTeacherArticle .teacherAll__Box--List .single p.sText {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.05em;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange h4 {
+  background: #ed8408;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List {
+  background-color: rgba(237, 132, 8, 0.1);
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(58) {
+  width: 31.8%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(59) {
+  width: 26.5%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(60) {
+  width: 35.9%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink h4 {
+  background: #df1a70;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List {
+  background-color: rgba(223, 26, 112, 0.1);
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(58) {
+  width: 30%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(59) {
+  width: 29.5%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(60) {
+  width: 35.2%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.green h4 {
+  background: #7cb919;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List {
+  background-color: rgba(124, 185, 25, 0.1);
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(58) {
+  width: 30.6%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(59) {
+  width: 35.2%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(60) {
+  width: 28.4%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue h4 {
+  background: #2794d8;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List {
+  background-color: rgba(39, 148, 216, 0.1);
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(58) {
+  width: 33.8%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(59) {
+  width: 32.9%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(60) {
+  width: 28.4%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple h4 {
+  background: #8a1a7e;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List {
+  background-color: rgba(138, 26, 126, 0.1);
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(58) {
+  width: 27.7%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(59) {
+  width: 32.9%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(60) {
+  width: 28.4%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue h4 {
+  background: #15a4d6;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List {
+  background-color: rgba(21, 164, 214, 0.1);
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(58) {
+  width: 34.0%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(59) {
+  width: 30.1%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(60) {
+  width: 30.6%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.red h4 {
+  background: #b62d25;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List {
+  background-color: rgba(182, 45, 37, 0.1);
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(58) {
+  width: 37.0%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(59) {
+  width: 32.9%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(60) {
+  width: 25%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen h4 {
+  background: #139032;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List {
+  background-color: rgba(19, 144, 50, 0.1);
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(58) {
+  width: 36.8%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(59) {
+  width: 32.9%;
+  margin-right: 2.272727272727273%;
+}
+.teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(60) {
+  width: 25.4%;
+}
+
+@media screen and (max-width: 768px) {
+  .teachers__Inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+  }
+  .teachers p {
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+  }
+  .teachers__mainBlock {
+    padding: 0;
+    background: none;
+    position: relative;
+    z-index: 15;
+  }
+  .teachers__mainBlock--Bg {
+    background: url(../img/support/teachers/mainv_bg01_sp.png) no-repeat center top;
+    background-size: 100% auto;
+    padding: 6.25vw 0 7.8125vw 0;
+  }
+  .teachers__mainBlock::before {
+    display: none;
+  }
+  .teachers__mainBlock h1 {
+    font-size: 7.1875vw;
+    line-height: 9.375vw;
+    text-align: center;
+  }
+  .teachers__mainBlock h1 span {
+    font-size: 4.6875vw;
+  }
+  .teachers__mainBlock p.copy {
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    text-align: center;
+    padding-top: 3.125vw;
+  }
+  .teachers__mv {
+    background: none;
+    height: auto;
+    padding-top: 0vw;
+    margin-top: 0vw;
+  }
+  .teachers__mv--Text {
+    margin-left: 0;
+    width: auto;
+    background: url(../img/support/teachers/mainv_bg02_sp.png) no-repeat center top;
+    background-size: 100% auto;
+  }
+  .teachers__mv--Text .inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    padding-top: 9.375vw;
+  }
+  .teachers__mv h2 {
+    font-size: 7.8125vw;
+    line-height: 12.5vw;
+    text-align: left;
+    letter-spacing: 0.1em;
+  }
+  .teachers__mv h2:after {
+    right: auto;
+  }
+  .teachers__mv .nameBlcok {
+    padding: 10px 0 15px 0;
+  }
+  .teachers__mv .nameBlcok p {
+    font-size: 4.0625vw;
+  }
+  .teachers__mv .nameBlcok p.name {
+    font-size: 6.25vw;
+    padding-top: 2.5vw;
+  }
+  .teachers__mv .nameBlcok p.name span {
+    font-size: 4.6875vw;
+  }
+  .teachers__Btn {
+    position: relative;
+    z-index: 20;
+    margin: 10.9375vw 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    display: block;
+  }
+  .teachers__Btn--eng {
+    width: auto;
+  }
+  .teachers__Btn--eng a {
+    display: block;
+    font-size: 3.75vw;
+    padding: 2.5vw 0;
+    color: #fff;
+    text-align: center;
+    background: url(../img/support/teachers/arrow.svg) 96.77419% center no-repeat #1580bd;
+    background-size: 4.375vw 2.1875vw;
+  }
+  .teachers__Btn--air {
+    width: auto;
+    margin-top: 6.25vw;
+  }
+  .teachers__Btn--air a {
+    display: block;
+    font-size: 3.75vw;
+    padding: 2.5vw 0;
+    color: #fff;
+    text-align: center;
+    background: url(../img/support/teachers/arrow.svg) 96.77419% center no-repeat #d55a97;
+    background-size: 4.375vw 2.1875vw;
+  }
+  .teachers__Btn a:hover {
+    opacity: 1.0;
+  }
+  .teachers .engTeacherArticle {
+    background: none;
+    margin-bottom: 15.625vw;
+    padding-bottom: 0vw;
+  }
+  .teachers .engTeacherArticle.airTeacherArticle {
+    padding-top: 0rem;
+  }
+  .teachers .engTeacherArticle__Title {
+    background: url(../img/support/teachers/block01_title_bg.png) left top repeat;
+    background-size: 3.75vw 3.75vw;
+    margin-bottom: 7.8125vw;
+  }
+  .teachers .engTeacherArticle__Title h2 {
+    text-align: center;
+    font-size: 5.625vw;
+    padding: 4.375vw 0;
+    letter-spacing: 0.2em;
+  }
+  .teachers .engTeacherArticle__Title.airTeacher {
+    background: url(../img/support/teachers/block02_title_bg.png) left top repeat;
+    background-size: 3.75vw 3.75vw;
+    margin-bottom: 7.8125vw;
+  }
+  .teachers .engTeacherArticle__inner {
+    max-width: initial;
+    width: auto;
+    margin: 0;
+    position: relative;
+  }
+  .teachers .engTeacherArticle__Block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    display: block;
+  }
+  .teachers .engTeacherArticle__Block--Img {
+    width: auto;
+  }
+  .teachers .engTeacherArticle__Block--Box {
+    background: url(../img/support/teachers/block01_bg.png) left top no-repeat;
+    background-size: 100% auto;
+    width: auto;
+  }
+  .teachers .engTeacherArticle__Block--Box .inner {
+    width: 84.375%;
+    margin: 0 auto;
+    padding: 4.6875vw;
+  }
+  .teachers .engTeacherArticle__Block--Box h3 {
+    font-size: 5.625vw;
+    line-height: 10.3125vw;
+  }
+  .teachers .engTeacherArticle__Block--Box .nameBlock {
+    padding: 4.6875vw 0;
+  }
+  .teachers .engTeacherArticle__Block--Box .nameBlock p {
+    font-size: 3.125vw;
+  }
+  .teachers .engTeacherArticle__Block--Box .nameBlock p.name {
+    font-size: 4.6875vw;
+    padding-top: 0.625vw;
+  }
+  .teachers .engTeacherArticle__Block--Box .nameBlock p.name span {
+    font-size: 3.4375vw;
+  }
+  .teachers .engTeacherArticle__Specialty {
+    margin: 9.375vw 0 0 0;
+    background: url(../img/support/teachers/block01_box_bg.png) left top repeat;
+    background-size: 3rem 245.8rem;
+  }
+  .teachers .engTeacherArticle__Specialty--Inner {
+    max-width: 86rem;
+    width: 89.58333333333334%;
+    margin: 0 auto;
+    position: relative;
+    padding: 7.8125vw 0 0 0;
+  }
+  .teachers .engTeacherArticle__Specialty--Box {
+    padding: 7.8125vw 0 7.8125vw 0;
+  }
+  .teachers .engTeacherArticle__Specialty--Box:not(:first-of-type) {
+    border-top: 1px solid #000;
+    padding: 7.8125vw 0 7.8125vw 0;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    display: block;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    width: auto;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Img--Photo {
+    width: 55.5%;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Img--profile {
+    width: 38.8%;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Img--profile .title {
+    width: 20.9375vw;
+    padding: 0vw 0 3.125vw 0;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Img--profile p {
+    font-size: 3.125vw;
+    line-height: 5vw;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Text {
+    width: auto;
+    margin-top: 6.25vw;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Text h4 {
+    font-size: 5.625vw;
+    line-height: 9.375vw;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Text .nameBlock {
+    padding: 3.4375vw 0;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Text .nameBlock p {
+    font-size: 3.125vw;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Text .nameBlock p.name {
+    font-size: 4.6875vw;
+    padding: 0vw 0;
+  }
+  .teachers .engTeacherArticle__Specialty .teacherBox__Text .nameBlock p.name span {
+    font-size: 3.4375vw;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox {
+    padding: 3.125vw 0 0 0;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox h4 {
+    font-size: 4.6875vw;
+    margin: 0 0 1.5625vw 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    align-items: center;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn {
+    width: 48.2%;
+    margin: 1.5625vw 0;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn a {
+    display: block;
+    font-size: 3.75vw;
+    line-height: 4.6875vw;
+    padding: 4.6875vw 0;
+    color: #fff;
+    text-align: center;
+    background: url(../img/support/teachers/link_arrow.svg) 95.9707% center no-repeat;
+    background-size: 2.1875vw 4.375vw;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn a:hover {
+    opacity: 0.7;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.orange {
+    background-color: #ed8408;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.pink {
+    background-color: #df1a70;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.green {
+    background-color: #7cb919;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.blue {
+    background-color: #2794d8;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.rightblue {
+    background-color: #15a4d6;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.red {
+    background-color: #b62d25;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.deepgren {
+    background-color: #139032;
+  }
+  .teachers .engTeacherArticle__Specialty .departmentBox__List--Btn.two a {
+    padding: 2.5vw 0;
+  }
+  .teachers .engTeacherArticle .teacherAll {
+    padding: 0vw 0 0 0;
+  }
+  .teachers .engTeacherArticle .teacherAll h3 {
+    text-align: center;
+    font-size: 6.5625vw;
+    letter-spacing: 0.4em;
+  }
+  .teachers .engTeacherArticle .teacherAll h3 span {
+    font-size: 3.75vw;
+    letter-spacing: 0;
+    margin-right: 6.25vw;
+  }
+  .teachers .engTeacherArticle .teacherAll h3.airTitle span {
+    display: block;
+    margin-right: 0vw;
+  }
+  .teachers .engTeacherArticle .teacherAll__Box {
+    margin-top: 6.25vw;
+  }
+  .teachers .engTeacherArticle .teacherAll__Box h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 4.6875vw;
+    line-height: 6.875vw;
+    padding: 3.125vw 0;
+  }
+  .teachers .engTeacherArticle .teacherAll__Box--List {
+    padding: 2.5vw 0 6.25vw 0;
+  }
+  .teachers .engTeacherArticle .teacherAll__Box--List .inner {
+    width: 90.625%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+    justify-content: space-between;
+  }
+  .teachers .engTeacherArticle .teacherAll__Box--List .single {
+    padding: 3.75vw 0 0 0;
+  }
+  .teachers .engTeacherArticle .teacherAll__Box--List .single h5 {
+    font-size: 4.0625vw;
+    line-height: 5.9375vw;
+  }
+  .teachers .engTeacherArticle .teacherAll__Box--List .single p {
+    font-size: 2.8125vw;
+    line-height: 4.375vw;
+    letter-spacing: -0.05em;
+  }
+  .teachers .engTeacherArticle .teacherAll__Box--List .single p.sText {
+    font-size: 2.5vw;
+    line-height: 4.375vw;
+    letter-spacing: -0.05em;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange h4 {
+    background: #ed8408;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List {
+    background-color: rgba(237, 132, 8, 0.1);
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(58) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(59) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-of-type(60) {
+    width: auto;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-child(odd) {
+    width: 54.3%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.orange .teacherAll__Box--List .single:nth-child(even) {
+    width: 42.0%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink h4 {
+    background: #df1a70;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List {
+    background-color: rgba(223, 26, 112, 0.1);
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(58) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(59) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-of-type(60) {
+    width: auto;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-child(odd) {
+    width: 56.8%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.pink .teacherAll__Box--List .single:nth-child(even) {
+    width: 41.0%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green h4 {
+    background: #7cb919;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List {
+    background-color: rgba(124, 185, 25, 0.1);
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(58) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(59) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-of-type(60) {
+    width: auto;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-child(odd) {
+    width: 44.8%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.green .teacherAll__Box--List .single:nth-child(even) {
+    width: 51.7%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue h4 {
+    background: #2794d8;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List {
+    background-color: rgba(39, 148, 216, 0.1);
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(58) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(59) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-of-type(60) {
+    width: auto;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-child(odd) {
+    width: 48.2%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.blue .teacherAll__Box--List .single:nth-child(even) {
+    width: 48.2%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple h4 {
+    background: #8a1a7e;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List {
+    background-color: rgba(138, 26, 126, 0.1);
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(58) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(59) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-of-type(60) {
+    width: auto;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-child(odd) {
+    width: 56.0%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.purple .teacherAll__Box--List .single:nth-child(even) {
+    width: 41.8%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue h4 {
+    background: #15a4d6;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List {
+    background-color: rgba(21, 164, 214, 0.1);
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(58) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(59) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-of-type(60) {
+    width: auto;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-child(odd) {
+    width: 56.8%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.rightblue .teacherAll__Box--List .single:nth-child(even) {
+    width: 40.5%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red h4 {
+    background: #b62d25;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List {
+    background-color: rgba(182, 45, 37, 0.1);
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(58) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(59) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-of-type(60) {
+    width: auto;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-child(odd) {
+    width: 50.8%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.red .teacherAll__Box--List .single:nth-child(even) {
+    width: 46.2%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen h4 {
+    background: #139032;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List {
+    background-color: rgba(19, 144, 50, 0.1);
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(1), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(4), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(7), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(10), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(13), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(16), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(19), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(22), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(25), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(28), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(31), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(34), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(37), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(40), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(43), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(46), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(49), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(52), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(55), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(58) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(2), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(5), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(8), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(11), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(14), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(17), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(20), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(23), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(26), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(29), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(32), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(35), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(38), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(41), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(44), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(47), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(50), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(53), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(56), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(59) {
+    width: auto;
+    margin-right: 0;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(3), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(6), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(9), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(12), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(15), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(18), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(21), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(24), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(27), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(30), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(33), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(36), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(39), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(45), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(48), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(51), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(54), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(57), .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-of-type(60) {
+    width: auto;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-child(odd) {
+    width: 53.4%;
+  }
+  .teachers .engTeacherArticle .teacherAll .teacherAll__Box.deepgreen .teacherAll__Box--List .single:nth-child(even) {
+    width: 44.1%;
+  }
+}

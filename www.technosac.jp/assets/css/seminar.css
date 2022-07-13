@@ -1,0 +1,610 @@
+.seminar {
+  color: #000;
+  padding-top: 0rem;
+}
+.seminarBg {
+  padding: 0 0 10rem 0;
+  background: url(../img/study/seminar/bgLeft.png) repeat-y left top, url(../img/study/seminar/bgRight.png) repeat-y right top;
+  background-size: 38rem auto, 29.6rem auto;
+}
+.seminar__Block01 {
+  padding-top: 6rem;
+}
+.seminar__Block01 .inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .seminar__Block01 .inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.seminar__Block01 p {
+  width: 83.3%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 5rem 0 10rem 0;
+}
+.seminar__KindBlock .inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .seminar__KindBlock .inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.seminar__KindBlock .seminarBox {
+  margin: 0 0 8rem 0;
+  position: relative;
+}
+.seminar__KindBlock .seminarBox__Top {
+  position: absolute;
+  top: -1rem;
+  left: 0;
+}
+.seminar__KindBlock .seminarBox.seminar01 {
+  margin: 5rem 0 8rem 0;
+  border-radius: 20px;
+  background-size: auto auto;
+  background-color: white;
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 11px, #d7eab1 11px, #d7eab1 13px);
+  mix-blend-mode: multiply;
+}
+.seminar__KindBlock .seminarBox.seminar02 {
+  border-radius: 20px;
+  background-size: auto auto;
+  background-color: white;
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 11px, #fbe5ee 11px, #fbe5ee 13px);
+  mix-blend-mode: multiply;
+}
+.seminar__KindBlock .seminarBox.seminar03 {
+  margin: 5rem 0 8rem 0;
+  border-radius: 20px;
+  background-size: auto auto;
+  background-color: white;
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 11px, #ddf2fc 11px, #ddf2fc 13px);
+  mix-blend-mode: multiply;
+}
+.seminar__KindBlock .seminarBox.seminar04 {
+  margin: 0rem 0 12rem 0;
+  border-radius: 20px;
+  background-size: auto auto;
+  background-color: white;
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 11px, #fce7d0 11px, #fce7d0 13px);
+  mix-blend-mode: multiply;
+}
+.seminar__KindBlock .seminarBox .seminarInner {
+  width: 88.5%;
+  margin: 0 auto;
+  padding: 5rem 0 4.5rem 0;
+}
+.seminar__KindBlock .seminarBox__1st {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  margin-bottom: 4rem;
+}
+.seminar__KindBlock .seminarBox__1st--Title {
+  width: 33.6%;
+}
+.seminar__KindBlock .seminarBox__1st--Text {
+  width: 64.9%;
+  color: #464646;
+}
+.seminar__KindBlock .seminarBox__1st--Text h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 2rem 0 1.4rem 0;
+  font-weight: bold;
+}
+.seminar__KindBlock .seminarBox__1st--Text p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.seminar__KindBlock .seminarBox__2nd {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+.seminar__KindBlock .seminarBox__2nd--Image {
+  width: 52.9%;
+}
+.seminar__KindBlock .seminarBox__2nd--Text {
+  width: 43.5%;
+  color: #000;
+}
+.seminar__KindBlock .seminarBox__2nd--Text h3 {
+  display: inline-block;
+  text-align: center;
+  border-radius: 1000px;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  background: #fff;
+  margin: 1rem 0 2rem 0;
+  padding: 0.6rem 3rem;
+}
+.seminar__KindBlock .seminarBox__2nd--Text p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.seminar__KindBlock .seminarBox.seminar01 .seminarBox__2nd--Text h3 {
+  border: 2px solid #afd463;
+}
+.seminar__KindBlock .seminarBox.seminar02 .seminarBox__2nd--Text h3 {
+  border: 2px solid #f2b3cf;
+}
+.seminar__KindBlock .seminarBox.seminar03 .seminarBox__2nd--Text h3 {
+  border: 2px solid #9dd8f5;
+}
+.seminar__KindBlock .seminarBox.seminar04 .seminarBox__2nd--Text h3 {
+  display: block;
+  text-align: left;
+  border: 2px solid #f7bb78;
+}
+.seminar__KindBlock .seminarBox.seminar04 .seminarBox__2nd--Text a{
+  display: block;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  font-weight: bold;
+  padding: 1.2rem 0;
+  color: #464646;
+  text-align: center;
+  background: url(../img/study/seminar/btn_icon.svg) 95.9707% center no-repeat #ffff00;
+  background-size: 0.7rem 1.2rem;
+  border: 2px solid #646464;
+  border-radius: 1000px;
+  margin-top: 2.5rem;
+}
+.seminar__KindBlock .seminarBox.seminar04 .seminarBox__2nd--Text a:hover {
+  opacity: 0.7;
+}
+.seminar__KindBlock--Btn {
+  width: 35.4%;
+  max-width: 34rem;
+  margin: 0rem auto;
+}
+.seminar__KindBlock--Btn a {
+  display: block;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  font-weight: bold;
+  padding: 1.2rem 0;
+  color: #464646;
+  text-align: center;
+  background: url(../img/study/seminar/btn_icon.svg) 95.9707% center no-repeat #ffff00;
+  background-size: 0.7rem 1.2rem;
+  border: 2px solid #646464;
+  border-radius: 1000px;
+}
+.seminar__KindBlock--Btn a:hover {
+  opacity: 0.7;
+}
+.seminar__Pickup {
+  margin: 2rem 0 6rem 0;
+  background-image: linear-gradient(#feeea6 1px, transparent 0), linear-gradient(90deg, #feeea6 1px, transparent 0);
+  background-size: 15px 15px;
+  position: relative;
+  /*
+  & h2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: pxToRem(-25);
+    & img{
+      width: 30.8%;
+      max-width: pxToRem(422);
+      margin: 0 auto;
+      margin-left: 4.3%;
+    }
+    &::before,
+    &::after {
+      content: "";
+      flex-grow: 1;
+      height: 1px;
+      width: 100%;
+      background: #000;
+      display: block;
+    }
+    &::before{
+      margin-right: .4em;
+    }
+    &::after {
+      margin-left: 4.3%;
+    }
+  }
+  */
+}
+.seminar__Pickup::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  background: url(../img/study/seminar/block_pickup_border.png) no-repeat left top;
+  background-size: 100% 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.seminar__Pickup h2 {
+  width: 43.9%;
+  position: relative;
+  margin: 0 auto 2rem auto;
+  top: -25px;
+}
+.seminar__Pickup .inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .seminar__Pickup .inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.seminar__Pickup .inner02 {
+  width: 90.625%;
+  margin: 0 auto;
+}
+.seminar__Pickup--Box {
+  padding: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  align-items: center;
+}
+.seminar__Pickup--Box .pickup__Image {
+  width: 37.9%;
+}
+.seminar__Pickup--Box .pickup__Image.img04 {
+  position: relative;
+  width: 43.125%;
+}
+.seminar__Pickup--Box .pickup__Text {
+  width: 55.17%;
+}
+.seminar__Pickup--Box .pickup__Text h3.pickup__Text--Category {
+  display: inline-block;
+  text-align: center;
+  border-radius: 1000px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  background: #fff;
+  margin: 1rem 0 0 0;
+  padding: 0.6rem 3rem;
+  border: 3px solid #ffe100;
+}
+.seminar__Pickup--Box .pickup__Text h3.pickup__Text--ttl {
+  display: block;
+  text-align: left;
+  font-size: 2.8rem;
+  line-height: 4.5rem;
+  color: #464646;
+  margin: 1.5rem 0 1.5rem 0;
+}
+.seminar__Pickup--Box .pickup__Text p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.seminar__Pickup--Box:nth-child(even) .pickup__Image {
+  order: 2;
+}
+.seminar__Pickup--Box:nth-child(even) .pickup__Text {
+  order: 1;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .seminar .seminar__Pickup::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.1rem;
+    background: url(../img/study/seminar/block_pickup_border02.png) no-repeat left top;
+    background-size: 100% 0.1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .seminar .seminar__Pickup h2 {
+    width: 43.9%;
+    position: relative;
+    margin: 0 auto;
+    top: -25px;
+    left: 4.3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .seminar {
+    color: #000;
+    padding-top: 0vw;
+  }
+  .seminarBg {
+    padding: 0 0 12.5vw 0;
+    background: url(../img/study/seminar/bgLeft_sp.png) repeat-y left top, url(../img/study/seminar/bgRight_sp.png) repeat-y right top;
+    background-size: 33.125vw auto, 33.125vw auto;
+  }
+  .seminar__Block01 {
+    padding-top: 9.375vw;
+  }
+  .seminar__Block01 .inner {
+    max-width: initial;
+    width: auto;
+    margin: 0;
+  }
+  .seminar__Block01 p {
+    width: 84.375%;
+    margin: 0 auto;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    padding: 7.8125vw 0 15.625vw 0;
+  }
+  .seminar__KindBlock .inner {
+    max-width: initial;
+    width: auto;
+    margin: 0;
+  }
+  .seminar__KindBlock .seminarBox {
+    margin: 0 auto 12.5vw auto;
+    position: relative;
+    width: 93.75%;
+  }
+  .seminar__KindBlock .seminarBox__Top {
+    position: absolute;
+    top: -3.125vw;
+    left: 0;
+  }
+  .seminar__KindBlock .seminarBox.seminar01 {
+    margin: 7.8125vw auto 12.5vw auto;
+    border-radius: 20px;
+    background-size: auto auto;
+    background-color: white;
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 11px, #d7eab1 11px, #d7eab1 13px);
+    mix-blend-mode: multiply;
+  }
+  .seminar__KindBlock .seminarBox.seminar02 {
+    border-radius: 20px;
+    background-size: auto auto;
+    background-color: white;
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 11px, #fbe5ee 11px, #fbe5ee 13px);
+    mix-blend-mode: multiply;
+  }
+  .seminar__KindBlock .seminarBox.seminar03 {
+    margin: 7.8125vw auto 12.5vw auto;
+    border-radius: 20px;
+    background-size: auto auto;
+    background-color: white;
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 11px, #ddf2fc 11px, #ddf2fc 13px);
+    mix-blend-mode: multiply;
+  }
+  .seminar__KindBlock .seminarBox.seminar04 {
+    margin: 0vw auto 12.5vw auto;
+    border-radius: 20px;
+    background-size: auto auto;
+    background-color: white;
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 11px, #fce7d0 11px, #fce7d0 13px);
+    mix-blend-mode: multiply;
+  }
+  .seminar__KindBlock .seminarBox .seminarInner {
+    width: 93.3%;
+    margin: 0 auto;
+    padding: 4.6875vw 0 6.25vw 0;
+  }
+  .seminar__KindBlock .seminarBox__1st {
+    display: block;
+    margin-bottom: 4.375vw;
+  }
+  .seminar__KindBlock .seminarBox__1st--Title {
+    width: auto;
+  }
+  .seminar__KindBlock .seminarBox__1st--Text {
+    width: auto;
+    color: #464646;
+  }
+  .seminar__KindBlock .seminarBox__1st--Text h3 {
+    font-size: 5vw;
+    line-height: 6.25vw;
+    margin: 3.125vw 0 2.1875vw 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  .seminar__KindBlock .seminarBox__1st--Text p {
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+  }
+  .seminar__KindBlock .seminarBox__2nd {
+    display: block;
+  }
+  .seminar__KindBlock .seminarBox__2nd--Image {
+    width: auto;
+  }
+  .seminar__KindBlock .seminarBox__2nd--Text {
+    width: auto;
+    color: #000;
+    text-align: center;
+    margin-top: 4.6875vw;
+  }
+  .seminar__KindBlock .seminarBox__2nd--Text h3 {
+    display: inline-block;
+    text-align: center;
+    border-radius: 1000px;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    background: #fff;
+    margin: 0vw 0 3.125vw 0;
+    padding: 0.9375vw 9.375vw;
+  }
+  .seminar__KindBlock .seminarBox__2nd--Text p {
+    text-align: left;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+  }
+  .seminar__KindBlock .seminarBox.seminar01 .seminarBox__2nd--Text h3 {
+    border: 2px solid #afd463;
+  }
+  .seminar__KindBlock .seminarBox.seminar02 .seminarBox__2nd--Text h3 {
+    border: 2px solid #f2b3cf;
+  }
+  .seminar__KindBlock .seminarBox.seminar03 .seminarBox__1st--Title {
+    padding-top: 6.25vw;
+  }
+  .seminar__KindBlock .seminarBox.seminar03 .seminarBox__2nd--Text h3 {
+    border: 2px solid #9dd8f5;
+  }
+  .seminar__KindBlock .seminarBox.seminar04 .seminarBox__1st--Title {
+    padding-top: 6.25vw;
+  }
+  .seminar__KindBlock .seminarBox.seminar04 .seminarBox__2nd--Text h3 {
+    display: block;
+    text-align: left;
+    border: 2px solid #f7bb78;
+  }
+  .seminar__KindBlock .seminarBox.seminar04 .seminarBox__2nd--Text a {
+    display: block;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    font-weight: bold;
+    padding: 3.125vw 0;
+    color: #464646;
+    text-align: center;
+    background: url(../img/study/seminar/btn_icon.svg) 95.9707% center no-repeat #ffff00;
+    background-size: 2.1875vw 3.75vw;
+    border: 2px solid #646464;
+    border-radius: 1000px;
+  }
+  .seminar__KindBlock--Btn {
+    width: 74.6875%;
+    max-width: initial;
+    margin: 0vw auto;
+  }
+  .seminar__KindBlock--Btn a {
+    display: block;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    font-weight: bold;
+    padding: 3.125vw 0;
+    color: #464646;
+    text-align: center;
+    background: url(../img/study/seminar/btn_icon.svg) 95.9707% center no-repeat #ffff00;
+    background-size: 2.1875vw 3.75vw;
+    border: 2px solid #646464;
+    border-radius: 1000px;
+  }
+  .seminar__KindBlock--Btn a:hover {
+    opacity: 0.7;
+  }
+  .seminar__Pickup {
+    margin: 6.25vw 0 18.75vw 0;
+    background-image: linear-gradient(#feeea6 1px, transparent 0), linear-gradient(90deg, #feeea6 1px, transparent 0);
+    background-size: 15px 15px;
+    position: relative;
+    /*
+    & h2{
+      display: flex;
+      align-items: center;
+      position: relative;
+      top: pxToVw(-25);
+      & img{
+        width: 30.8%;
+        max-width: pxToVw(422);
+        margin: 0 auto;
+        margin-left: 4.3%;
+      }
+      &::before,
+      &::after {
+        content: "";
+        flex-grow: 1;
+        height: 1px;
+        width: 100%;
+        background: #000;
+        display: block;
+      }
+      &::before{
+        margin-right: .4em;
+      }
+      &::after {
+        margin-left: 4.3%;
+      }
+    }
+    */
+  }
+  .seminar__Pickup::before {
+    display: none;
+  }
+  .seminar__Pickup h2 {
+    width: auto;
+    position: relative;
+    margin: 0 auto 3.125vw auto;
+    top: -1px;
+  }
+  .seminar__Pickup .inner {
+    max-width: initial;
+    width: auto;
+    margin: 0;
+  }
+  .seminar__Pickup .inner02 {
+    max-width: initial;
+    width: auto;
+    margin: 0;
+  }
+  .seminar__Pickup--Box {
+    padding: 4.6875vw 0;
+    display: block;
+  }
+  .seminar__Pickup--Box .pickup__Image {
+    width: auto;
+  }
+  .seminar__Pickup--Box .pickup__Image.img04 {
+    position: relative;
+    width: auto;
+  }
+  .seminar__Pickup--Box .pickup__Text {
+    width: 89.0625%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .seminar__Pickup--Box .pickup__Text h3.pickup__Text--Category {
+    display: inline-block;
+    text-align: center;
+    border-radius: 1000px;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+    background: #fff;
+    margin: 3.125vw 0 0 0;
+    padding: 1.25vw 9.375vw;
+    border: 3px solid #ffe100;
+  }
+  .seminar__Pickup--Box .pickup__Text h3.pickup__Text--ttl {
+    display: block;
+    text-align: center;
+    font-size: 5vw;
+    line-height: 6.875vw;
+    color: #464646;
+    margin: 4.6875vw 0 4.6875vw 0;
+  }
+  .seminar__Pickup--Box .pickup__Text p {
+    text-align: left;
+    font-size: 3.75vw;
+    line-height: 5.9375vw;
+  }
+  .seminar__Pickup--Box:nth-child(even) .pickup__Image {
+    order: 2;
+  }
+  .seminar__Pickup--Box:nth-child(even) .pickup__Text {
+    order: 1;
+  }
+}

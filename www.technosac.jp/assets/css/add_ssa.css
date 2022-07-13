@@ -1,0 +1,2178 @@
+.sandwichStudyAbroad {
+  color: #464646;
+}
+.sandwichStudyAbroad .h1Block_yume {
+  padding-top: 45px;
+}
+.sandwichStudyAbroad .h1Block_yume .inner {
+  background: url(../img/support/sandwich-study-abroad/bg_mv.png) no-repeat center bottom;
+  background-size: 100% auto;
+  width: 1105px;
+  margin: 0 5.2% 0 auto;
+  height: 644px;
+  position: relative;
+  padding: 35px 0 0 37px;
+}
+.sandwichStudyAbroad .h1Block_yume .textArea {
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 547px;
+  padding: 40px 80px 50px 40px;
+  border-radius: 10px;
+}
+.sandwichStudyAbroad .h1Block_yume .text--main {
+  font-size: 31px;
+  line-height: 61px;
+  border-bottom: 3px solid #e2017e;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  padding: 0 0 24px 14px;
+  margin-bottom: 38px;
+}
+.sandwichStudyAbroad .h1Block_yume .text--main span {
+  color: #019fe8;
+}
+.sandwichStudyAbroad .h1Block_yume .text--sub {
+  font-size: 16px;
+  line-height: 31px;
+  font-weight: bold;
+  padding: 0 0 0 20px;
+}
+.sandwichStudyAbroad .h1Block_yume .photo {
+  position: absolute;
+  bottom: 0px;
+  right: 280px;
+  z-index: 1;
+  width: 365px;
+}
+.sandwichStudyAbroad .ssa__inner {
+  width: 960px;
+  margin: 0 10% 0 auto;
+  min-width: 960px;
+  z-index: 1;
+  position: relative;
+}
+.sandwichStudyAbroad .ssa__title--narmal {
+  font-size: 26px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.sandwichStudyAbroad .ssa__title--border {
+  font-size: 32px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 4.5px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 17px 0 17px;
+  position: relative;
+}
+.sandwichStudyAbroad .ssa__title--border .small {
+  font-size: 27px;
+}
+.sandwichStudyAbroad #ssa01{
+  position:relative;
+}
+.sandwichStudyAbroad #ssa01 .ssa__inner {
+  padding: 102px 0 0;
+}
+.sandwichStudyAbroad #ssa01 .about__listBox {
+  width: 880px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 48px auto 52px;
+}
+.sandwichStudyAbroad #ssa01 .about__listBox img.size01 {
+  width: 450px;
+}
+.sandwichStudyAbroad #ssa01 .about__listBox img.size02 {
+  width: 400px;
+}
+.sandwichStudyAbroad #ssa01 p {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0 auto;
+  max-width: 605px;
+}
+.sandwichStudyAbroad #ssa02 {
+  padding: 128px 0 0;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa02 .ssa__title--border {
+  margin-bottom: 66px;
+}
+.sandwichStudyAbroad #ssa02 .ssa__title--border img {
+  position: absolute;
+  right: -104px;
+  top: -98px;
+  width: 304px;
+  z-index: 1;
+}
+.sandwichStudyAbroad #ssa02 .features__listBox {
+  width: 880px;
+  margin: 0 auto;
+  width: 866px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.sandwichStudyAbroad #ssa02 .features__single {
+  width: 242px;
+}
+.sandwichStudyAbroad #ssa02 .features__main {
+  position: relative;
+  background-color: #019fe8;
+  border: 1px solid #464646;
+  border-radius: 10px;
+  width: 100%;
+  height: 232px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 30px;
+}
+.sandwichStudyAbroad #ssa02 .features__main .num {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -19px;
+  width: 81px;
+}
+.sandwichStudyAbroad #ssa02 .features__main .text {
+  color: #fff;
+  text-align: center;
+  font-size: 27px;
+  line-height: 42px;
+}
+.sandwichStudyAbroad #ssa02 .features__details p {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.sandwichStudyAbroad #ssa03 {
+  padding: 67px 0 0;
+}
+.sandwichStudyAbroad #ssa03 .ssa__title--border {
+  padding: 31px 5px 18px 0;
+  letter-spacing: 6px;
+  margin-bottom: 49px;
+}
+.sandwichStudyAbroad #ssa03 .ssa__title--border img {
+  position: absolute;
+  left: -160px;
+  top: -126px;
+  width: 327px;
+}
+.sandwichStudyAbroad #ssa03 .ssa__title--border p{
+  position: absolute;
+  bottom:10px;
+  right:0px;
+  font-size:14px;
+  line-height:14pt;
+  letter-spacing:0;
+}
+.sandwichStudyAbroad #ssa03 .schedule__listBox {
+  width: 880px;
+  margin: 0 auto;
+  width: 905px;
+  padding-right: 5px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single {
+  position: relative;
+  padding-left: 113px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single:not(:last-child) .schedule__details {
+  border-bottom: 1px solid #464646;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single:not(:last-child) .schedule__year::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 37px 0 37px;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  z-index: 1;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single:not(:first-child) .schedule__details {
+  padding-top: 40px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single01 .schedule__year {
+  background-color: #8adbf6;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single01 .schedule__year::after {
+  border-color: #8adbf6 transparent transparent transparent;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single02 .schedule__year {
+  background-color: #5cc1f0;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single02 .schedule__year::after {
+  border-color: #5cc1f0 transparent transparent transparent;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single03 .schedule__year {
+  background-color: #019fe8;
+  height: 95%;
+}
+.sandwichStudyAbroad #ssa03 .schedule__year {
+  color: #fff;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+          writing-mode: vertical-rl;
+  -webkit-text-orientation: upright;
+          text-orientation: upright;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 74px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  letter-spacing: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details {
+  padding-bottom: 51px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.3px;
+  color: #019fe8;
+  margin-bottom: 7px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .read {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  margin-bottom: 22px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex img {
+  margin-top: 2px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex img.photo01 {
+  width: 250px;
+  margin-right: 15px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex img.photo02 {
+  width: 296px;
+  margin-right: 25px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex p {
+  width: calc(100% - 586px);
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .subTitle {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #019fe8;
+  margin: 35px 0 17px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box {
+  width: calc(50% - 14px);
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box.long {
+  width: 440px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box.long_more {
+  width: 560px;
+  margin-top:14px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box dl {
+  border: 1px solid #464646;
+  border-radius: 0 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 48px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box dl:not(:last-child) {
+  margin-bottom: 14px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box dt {
+  background-color: #464646;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 105px;
+  height: 100%;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box dd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: calc(100% - 105px);
+  height: 100%;
+  font-size: 15px;
+  padding-left: 14px;
+}
+.sandwichStudyAbroad #ssa04 {
+  padding: 90px 0 0;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa04 .ssa__title--border {
+  margin-bottom: 64px;
+}
+.sandwichStudyAbroad #ssa04 .ssa__title--border img {
+  position: absolute;
+  right: 50px;
+  top: -50px;
+  width: 162px;
+}
+.sandwichStudyAbroad #ssa04 img.countryImg {
+  width: 800px;
+  margin: 0 auto;
+}
+.sandwichStudyAbroad #ssa04 h2.voice {
+  display: block;
+  font-size: 17px;
+  border: 1px solid #464646;
+  text-align: center;
+  width: 145px;
+  padding: 12px 0;
+  margin: 132px auto 0;
+}
+.sandwichStudyAbroad #ssa05 {
+  padding: 37px 0 0;
+}
+.sandwichStudyAbroad #ssa05 .ssa__title--img {
+    /*
+  margin-bottom: 40px;
+  padding-left: 9.8%;
+  */
+  width: 960px;
+  margin: 0 10% 40px auto;
+  min-width: 960px;
+}
+.sandwichStudyAbroad #ssa05 .ssa__title--img img {
+  width: 781px;
+  margin: 0 auto;
+}
+.sandwichStudyAbroad #ssa05 .voice__single {
+  background-color: #d5effb;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single01 {
+  padding-top: 55px;
+  margin-bottom: 40px;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single01 .ssa__inner {
+  padding: 0 550px 294px 30px;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single01 .voice__mainPhoto {
+  width: 590px;
+  top: -25px;
+  right: -45px;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single01 .voice__voicePhoto {
+  width: 399px;
+  left: 25px;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single02 {
+  padding-top: 64px;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single02 .ssa__inner {
+  padding: 0 20px 308px 560px;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single02 .voice__mainPhoto {
+  width: 547px;
+  top: -25px;
+  left: -30px;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single02 .voice__voicePhoto {
+  width: 393px;
+  right: 25px;
+}
+.sandwichStudyAbroad #ssa05 .voice__single .ssa__inner {
+  position: relative;
+}
+.sandwichStudyAbroad #ssa05 .voice__mainPhoto {
+  position: absolute;
+}
+.sandwichStudyAbroad #ssa05 .voice__voicePhoto {
+  position: absolute;
+  bottom: 50px;
+}
+.sandwichStudyAbroad #ssa05 .voice__details p {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+}
+.sandwichStudyAbroad #ssa05 .voice__details p.title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #019fe8;
+  margin-bottom: 17px;
+}
+.sandwichStudyAbroad #ssa06 .ssa__title--border02{
+  background:#fff6c0;
+  margin-top:100px;
+  border-top:1px solid #646464;
+  border-bottom:1px solid #646464;
+  padding:20px 0;
+}
+.sandwichStudyAbroad #ssa06 .ssa__title--border02 h2{
+  width: 960px;
+  margin: 0 10% 0px auto;
+  min-width: 960px;
+  text-align:center;
+  letter-spacing: 6px;
+  font-size: 32px;
+  line-height: 65px;
+  text-align: center;
+  color:#019fe8;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa06 .ssa__title--border02 .small{
+  font-size: 27px;
+  color:#646464;
+}
+.sandwichStudyAbroad #ssa06 .ssa__title--border02 .attention{
+  position: absolute;
+  right:0;
+  color:#464646;
+  font-size:12px;
+  letter-spacing:0em;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single{
+  width:100%;
+  max-width:47%;
+  margin:40px 0 0 0;
+  display:flex;
+  justify-content: space-between;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single .country__photo{
+  width:68px;
+  margin:0 15px 0 0;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single .country__details{
+  background:#019fe8;
+  color:#FFF;
+  text-align:center;
+  flex:1;
+  border-radius: 0 15px 15px 15px;
+  padding:10px 0;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single .country__details p{
+  font-weight:bold;
+  font-size:21px;
+  line-height:26pt;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single .country__details p span{
+  font-size:30px;
+}
+.sandwichStudyAbroad #ssa06 .cost{
+  margin-top:40px;
+}
+.sandwichStudyAbroad #ssa06 .cost dt{
+  color:#646464;
+  font-size:18px;
+  line-height:22pt;
+  font-weight:bold;
+  margin-bottom:15px;
+}
+.sandwichStudyAbroad #ssa06 .cost dd span{
+  color:#019fe8;
+}
+.sandwichStudyAbroad #ssa07{
+  margin-top:100px;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa07 .photo{
+  width: 1140px;
+  margin: 0 5% 40px auto;
+  min-width: 1140px;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox{
+  display:flex;
+  margin: 120px auto 0;
+  width: 866px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li{
+  background:#019fe8;
+  max-width:242px;
+  width:100%;
+  border: 1px solid #464646;
+    border-radius: 10px;
+    position:relative;
+    color:#FFF;
+    text-align:center;
+    font-weight:bold;
+    padding-bottom:30px;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li img{
+  z-index:1;
+  position:absolute;
+  margin:auto;
+  top:-70px;
+  left:0;
+  right:0;
+  width:82px;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li .day{
+  padding:50px 0 20px 0;
+  border-bottom:2px solid #FFF;
+  font-size:21px;
+  width:70%;
+  margin:0 auto 20px;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li  .money{
+  font-size:21px;
+  line-height:24pt;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li  .money span{
+  font-size:15px;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .attentionText{
+  text-align:center;
+  color:#464646;
+  margin:30px 0 80px;
+}
+main.sandwichStudyAbroad .bg01{
+  position:absolute;
+  right:0;
+  top:120px;
+  width:240px;
+  z-index:1;
+}
+main.sandwichStudyAbroad .bg02{
+  position:absolute;
+  left:0;
+  top:50px;
+  width:422px;
+  z-index:1;
+}
+main.sandwichStudyAbroad .bg03{
+  position:absolute;
+  left:0;
+  bottom:-40px;
+  width:300px;
+  z-index:1;
+}
+main.sandwichStudyAbroad .bg04{
+  position:absolute;
+  right:0;
+  bottom:-130px;
+  width:300px;
+  z-index:-1;
+}
+main.sandwichStudyAbroad .bg05{
+  position:absolute;
+  left:0;
+  top:120px;
+  width:300px;
+  z-index:-1;
+}
+main.sandwichStudyAbroad .bg06{
+  position:absolute;
+  right:0;
+  top:-120px;
+  width:300px;
+  z-index:1;
+}
+main.sandwichStudyAbroad .bg07{
+  position:absolute;
+  left:0;
+  bottom:-85px;
+  width:300px;
+  z-index:1;
+}
+main.sandwichStudyAbroad .bg08{
+  position:absolute;
+  right:0;
+  top:-20px;
+  width:350px;
+  z-index:1;
+}
+main.sandwichStudyAbroad .bg09{
+  position:absolute;
+  left:0;
+  bottom:230px;
+  width:560px;
+  z-index:-1;
+}
+.sandwichStudyAbroad .h1Block_yume .photo_sp{
+  display:none;
+}
+main.sandwichStudyAbroad .bg10{
+  display:none;
+}
+main.sandwichStudyAbroad .bg11{
+  display:none;
+}
+main.sandwichStudyAbroad .bg12{
+  display:none;
+}
+main.sandwichStudyAbroad .bg13{
+  display:none;
+}
+main.sandwichStudyAbroad .bg14{
+  display:none;
+}
+main.sandwichStudyAbroad .bg15{
+  display:none;
+}
+main.sandwichStudyAbroad .bg16{
+  display:none;
+}
+main.sandwichStudyAbroad .bg17{
+  display:none;
+}
+.onlyPC{
+  display:block;
+}
+.onlySP{
+  display:none;
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+.yume::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 93vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: url(../img/support/yumeproject/bg_mv.png) no-repeat center top;
+  background-size: 100% auto;
+}
+.yume .bgArea {
+  position: relative;
+}
+.yume .bgArea::before {
+  content: "";
+  display: block;
+  width: 325px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: url(../img/support/yumeproject/bg_left.png) no-repeat right -5%;
+  background-size: 325px auto;
+}
+.yume .bgArea::after {
+  content: "";
+  display: block;
+  width: 325px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  background: url(../img/support/yumeproject/bg_right.png) no-repeat left 95%;
+  background-size: 325px auto;
+}
+.yume .yume__inner {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489019034% 0 auto;
+  min-width: 960px;
+  z-index: 1;
+  position: relative;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .yume .yume__inner {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.yume .yume__title {
+  text-align: center;
+}
+.yume .yume__title img {
+  margin: 0 auto;
+}
+.yume .h1Block_yume {
+  margin-bottom: 110px;
+  padding: 62px 0 0 14%;
+  position: relative;
+  z-index: -1;
+}
+.yume .h1Block_yume .mainImg {
+  margin: 0 auto;
+  width: 1115px;
+}
+.yume .h1Block_yume .inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.yume .h1Block_yume .details {
+  max-width: 96rem;
+  width: 90%;
+  margin: 0 10.2489019034% 0 auto;
+  font-size: 17px;
+  line-height: 41px;
+  padding: 397px 0 0;
+}
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .yume .h1Block_yume .details {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+.yume .h1Block_yume .details p {
+  letter-spacing: 2.5px;
+}
+.yume .h1Block_yume .details p:not(:last-child) {
+  margin-bottom: 43px;
+}
+.yume #yume_01 {
+  background-color: #f8f8f8;
+}
+.yume #yume_01 .yume__inner {
+  padding-top: 73px;
+  padding-bottom: 95px;
+}
+.yume #yume_01 .yume__title {
+  margin-bottom: 33px;
+}
+.yume #yume_01 .yume__title img {
+  width: 484px;
+}
+.yume #yume_01 .read {
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.yume #yume_01 .about__listBox {
+  width: 850px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.yume #yume_01 .about__listBox li {
+  width: 252px;
+}
+.yume #yume_01 .about__listBox li a {
+  display: block;
+  background-color: #f8f8f8;
+}
+@media (min-width: 769px) {
+  .yume #yume_01 .about__listBox li a:hover img {
+    opacity: 0.7;
+  }
+}
+.yume #yume_01 .about__listBox li p {
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 22px;
+}
+.yume #challenge .yume__inner {
+  padding-top: 89px;
+}
+.yume #challenge .yume__title {
+  margin-bottom: 65px;
+}
+.yume #challenge .yume__title img {
+  width: 394px;
+}
+.yume #challenge .challenge__listBox {
+  margin-bottom: 84px;
+}
+.yume #challenge .challenge__single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.yume #challenge .challenge__single:not(:last-child) {
+  margin-bottom: 84px;
+}
+.yume #challenge .challenge__single:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.yume #challenge .challenge__photo {
+  width: 510px;
+}
+.yume #challenge .challenge__details {
+  width: calc(100% - 565px);
+}
+.yume #challenge .challenge__details .title {
+  margin-bottom: 25px;
+}
+.yume #challenge .challenge__details .title img {
+  height: 77px;
+}
+.yume #challenge .challenge__details .text {
+  font-size: 15px;
+  line-height: 28px;
+}
+.yume #challenge aside {
+  text-align: center;
+}
+.yume #challenge aside .read {
+  display: inline-block;
+  background-image: url(../img/support/yumeproject/bg_challengeLeft.png), url(../img/support/yumeproject/bg_challengeRight.png);
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  background-size: auto 69px;
+  padding: 2px 73px 5px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 31px;
+}
+.yume #challenge aside a {
+  display: block;
+  margin: 20px auto 25px;
+  width: 231px;
+}
+@media (min-width: 769px) {
+  .yume #challenge aside a:hover img {
+    opacity: 0.7;
+  }
+}
+.yume #challenge aside .attention {
+  font-size: 12px;
+}
+.yume #audition {
+  background: url(../img/support/yumeproject/bg_audition.png) no-repeat center;
+  background-size: 100% auto;
+  padding: 186px 0 200px;
+}
+.yume #audition .yume__title {
+  margin-bottom: 48px;
+}
+.yume #audition .yume__title img {
+  width: 468px;
+}
+.yume #audition a {
+  display: block;
+  width: 444px;
+  margin: 0 auto 0;
+}
+@media (min-width: 769px) {
+  .yume #audition a:hover img {
+    opacity: 0.7;
+  }
+}
+.yume #support {
+  padding-bottom: 50px;
+}
+.yume #support .yume__inner {
+  padding-top: 37px;
+}
+.yume #support .yume__title {
+  margin-bottom: 75px;
+}
+.yume #support .yume__title img {
+  width: 364px;
+}
+.yume #support .support__listBox {
+  width: 880px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.yume #support .support__listBox li {
+  width: 416px;
+  background: url(../img/support/yumeproject/bg_support.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 60px 40px 50px;
+  margin-bottom: 50px;
+}
+@media (min-width: 769px) {
+  .yume #support .support__listBox li.single01 .title {
+    height: 82px;
+  }
+  .yume #support .support__listBox li.single01 .title img {
+    width: 255px;
+  }
+  .yume #support .support__listBox li.single02 .title {
+    height: 82px;
+  }
+  .yume #support .support__listBox li.single02 .title img {
+    width: 186px;
+  }
+  .yume #support .support__listBox li.single03 .title {
+    height: 146px;
+  }
+  .yume #support .support__listBox li.single03 .title img {
+    width: 260px;
+  }
+  .yume #support .support__listBox li.single03 .text {
+    min-height: 140px;
+  }
+  .yume #support .support__listBox li.single04 .title {
+    height: 146px;
+  }
+  .yume #support .support__listBox li.single04 .title img {
+    width: 248px;
+  }
+  .yume #support .support__listBox li.single04 .text {
+    min-height: 140px;
+  }
+}
+.yume #support .support__listBox li .title {
+  margin-bottom: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.yume #support .support__listBox li .text {
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  text-align: justify;
+}
+.yume #support .support__listBox li .btn {
+  display: block;
+  width: 231px;
+  margin: 28px auto 0;
+}
+@media (min-width: 769px) {
+  .yume #support .support__listBox li .btn:hover img {
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .yumeproject::before {
+    height: 14%;
+    background: url(../img/support/yumeproject/bg_mvSP.png) no-repeat center top;
+    background-size: 100% auto;
+  }
+  .yumeproject .bgArea {
+    position: relative;
+  }
+  .yumeproject .bgArea::before {
+    width: 120px;
+    top: -10.5%;
+    background: url(../img/support/yumeproject/bg_leftSP.png) no-repeat 0 0;
+    background-size: 120px auto;
+  }
+  .yumeproject .bgArea::after {
+    width: 120px;
+    top: 2%;
+    background: url(../img/support/yumeproject/bg_rightSP.png) no-repeat 0 0;
+    background-size: 120px auto;
+  }
+  .yumeproject .yume__inner {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    min-width: auto;
+  }
+  .yumeproject .h1Block_yume {
+    margin-bottom: 220px;
+    padding: 40px 0 0;
+  }
+  .yumeproject .h1Block_yume .mainImg {
+    width: 100%;
+  }
+  .yumeproject .h1Block_yume .details {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    width: 82%;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 117vw 0 0;
+  }
+  .yumeproject .h1Block_yume .details p {
+    letter-spacing: 1.5px;
+  }
+  .yumeproject .h1Block_yume .details p:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .yumeproject #yume_01 .yume__inner {
+    padding-top: 44px;
+    padding-bottom: 42px;
+  }
+  .yumeproject #yume_01 .yume__title {
+    margin-bottom: 18px;
+  }
+  .yumeproject #yume_01 .yume__title img {
+    width: 98%;
+  }
+  .yumeproject #yume_01 .read {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 27px;
+  }
+  .yumeproject #yume_01 .about__listBox {
+    width: 100%;
+    display: block;
+  }
+  .yumeproject #yume_01 .about__listBox li {
+    width: 100%;
+  }
+  .yumeproject #yume_01 .about__listBox li:not(:last-child) {
+    margin-bottom: 31px;
+  }
+  .yumeproject #yume_01 .about__listBox li a {
+    width: 200px;
+    margin: 0 auto 0;
+  }
+  .yumeproject #yume_01 .about__listBox li p {
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 14px;
+    padding: 0 2%;
+  }
+  .yumeproject #challenge {
+    margin-bottom: 30px;
+  }
+  .yumeproject #challenge .yume__inner {
+    padding-top: 44px;
+    width: 100%;
+  }
+  .yumeproject #challenge .yume__title {
+    margin-bottom: 30px;
+  }
+  .yumeproject #challenge .yume__title img {
+    width: 76%;
+  }
+  .yumeproject #challenge .challenge__listBox {
+    margin-bottom: 0;
+  }
+  .yumeproject #challenge .challenge__single {
+    display: block;
+  }
+  .yumeproject #challenge .challenge__single:not(:last-child) {
+    margin-bottom: 35px;
+  }
+  .yumeproject #challenge .challenge__photo {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .yumeproject #challenge .challenge__details {
+    width: 90%;
+    max-width: inherit;
+    min-width: inherit;
+    margin: 0 auto;
+    width: 84%;
+  }
+  .yumeproject #challenge .challenge__details .title {
+    margin-bottom: 12px;
+  }
+  .yumeproject #challenge .challenge__details .title img {
+    height: 54px;
+    width: auto;
+  }
+  .yumeproject #challenge .challenge__details .text {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .yumeproject #challenge aside {
+    display: none;
+  }
+  .yumeproject #audition {
+    background: url(../img/support/yumeproject/bg_auditionSP.png) no-repeat center;
+    background-size: 100% auto;
+    padding: 110px 0 120px;
+  }
+  .yumeproject #audition .yume__title {
+    margin-bottom: 28px;
+  }
+  .yumeproject #audition .yume__title img {
+    width: 98%;
+  }
+  .yumeproject #audition a {
+    width: 100%;
+  }
+  .yumeproject #support .yume__inner {
+    padding-top: 52px;
+  }
+  .yumeproject #support .yume__title {
+    margin-bottom: 28px;
+  }
+  .yumeproject #support .yume__title img {
+    width: 78%;
+  }
+  .yumeproject #support .support__listBox {
+    width: 100%;
+    display: block;
+  }
+  .yumeproject #support .support__listBox li {
+    width: 100%;
+    padding: 30px 8% 20px;
+    margin-bottom: 0;
+  }
+  .yumeproject #support .support__listBox li:not(:last-child) {
+    margin-bottom: 35px;
+  }
+  .yumeproject #support .support__listBox li.single01 .title img {
+    width: 72%;
+  }
+  .yumeproject #support .support__listBox li.single02 .title img {
+    width: 54%;
+  }
+  .yumeproject #support .support__listBox li.single03 .title img {
+    width: 75%;
+  }
+  .yumeproject #support .support__listBox li.single04 .title img {
+    width: 72%;
+  }
+  .yumeproject #support .support__listBox li .title {
+    margin-bottom: 18px;
+    display: block;
+  }
+  .yumeproject #support .support__listBox li .title img {
+    margin: 0 auto;
+  }
+  .yumeproject #support .support__listBox li .text {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .yumeproject #support .support__listBox li .btn {
+    width: 84%;
+    margin: 18px auto 0;
+  }
+
+
+
+
+
+
+
+
+
+  .sandwichStudyAbroad .h1Block_yume{
+    padding:5% 5% 5%;
+  }
+  .sandwichStudyAbroad .h1Block_yume .inner{
+    width:100%;
+    height:auto;
+    background: url(../img/support/sandwich-study-abroad/bg_mv_sp.jpg) right bottom no-repeat;
+    background-size: cover;
+    margin:0;
+    border-radius: 20px;
+    padding:20px 20px 75% 20px;
+  }
+  .sandwichStudyAbroad .h1Block_yume .textArea{
+    width:auto;
+    padding:20px;
+  }
+  .sandwichStudyAbroad .h1Block_yume .text--main {
+    font-size: 20px;
+    line-height: 32px;
+    border-bottom: 3px solid #e2017e;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    padding: 0 0 24px 0px;
+    margin-bottom: 20px;
+}
+  main.sandwichStudyAbroad .bg01{
+    display:none;
+  }
+  .sandwichStudyAbroad .h1Block_yume .photo {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 365px;
+    display:none;
+}
+.sandwichStudyAbroad .h1Block_yume .text--sub {
+  font-size: 15px;
+  line-height: 22pt;
+  font-weight: bold;
+  padding: 0 0 0 0px;
+}
+.sandwichStudyAbroad .h1Block_yume .photo_sp{
+  display:block;
+  position:absolute;
+  bottom:5%;
+  right:1.5%;
+  width:55.5%;
+  min-width:200px;
+}
+
+
+
+
+
+.sandwichStudyAbroad #ssa01{
+  position:relative;
+}
+.sandwichStudyAbroad #ssa01 .ssa__inner {
+  padding: 30px 0;
+  width:100%;
+  min-width:auto;
+}
+.sandwichStudyAbroad #ssa01 .about__listBox {
+  width:90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+          word-wrap: wrap;
+}
+.sandwichStudyAbroad #ssa01 .about__listBox img.size01 {
+  width: 80%;
+  margin:0 auto 5%;
+}
+.sandwichStudyAbroad #ssa01 .about__listBox img.size02 {
+  width: 80%;
+  margin:0 auto 0%;
+}
+.sandwichStudyAbroad #ssa01 p {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0 auto;
+  max-width: 605px;
+}
+main.sandwichStudyAbroad .bg02 {
+  position: absolute;
+  left: -100px;
+  top: 10px;
+  width: 211px;
+  z-index: -1;
+}
+.sandwichStudyAbroad .ssa__title--narmal {
+  font-size: 18px;
+  line-height: 22pt;
+  text-align: center;
+  letter-spacing: 2px;
+  margin:0 0 30px 0;
+}
+main.sandwichStudyAbroad .bg03 {
+  position: absolute;
+  left: -35px;
+  bottom:40%;
+  width: 150px;
+  z-index:-1;
+}
+.sandwichStudyAbroad #ssa01 p {
+  font-size: 12px;
+  line-height: 16pt;
+  margin: 5% auto 0;
+  max-width: auto;
+  width:90%;
+}
+main.sandwichStudyAbroad .bg10 {
+  position: absolute;
+  right: 0;
+  top:16%;
+  width: 70px;
+  z-index:-1;
+}
+
+
+
+.sandwichStudyAbroad .ssa__title--border {
+  font-size: 24px;
+  line-height: 26pt;
+  text-align: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 17px 0 17px;
+  position: relative;
+}
+.sandwichStudyAbroad .ssa__title--border .small {
+  font-size: 16px;
+}
+.sandwichStudyAbroad .ssa__inner {
+  padding: 0px 0;
+  width:100%;
+  min-width:auto;
+  margin:0;
+  z-index: 1;
+  position: relative;
+}
+.sandwichStudyAbroad #ssa02 {
+  padding: 30px 5%;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa02 .ssa__title--border {
+  margin-bottom: 66px;
+}
+.sandwichStudyAbroad #ssa02 .ssa__title--border img {
+  position: absolute;
+  right: -19px;
+  top: 60px;
+  width:120px;
+  z-index: 1;
+}
+.sandwichStudyAbroad #ssa02 .features__listBox {
+  width: 100%;
+  margin: 0 auto;
+  display:block;
+}
+.sandwichStudyAbroad #ssa02 .features__single {
+  width:100%;
+  margin:0 auto 50px;
+}
+.sandwichStudyAbroad #ssa02 .features__main {
+  position: relative;
+  background-color: #019fe8;
+  border: 1px solid #464646;
+  border-radius: 10px;
+  width: 70%;
+  height: 232px;
+  margin:auto;
+  margin-bottom: 20px;
+}
+.sandwichStudyAbroad #ssa02 .features__main .num {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -19px;
+  width: 81px;
+}
+.sandwichStudyAbroad #ssa02 .features__main .text {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  line-height: 42px;
+}
+.sandwichStudyAbroad #ssa02 .features__details p {
+  font-size: 12px;
+    line-height: 16pt;
+}
+.onlyPC{
+  display:none;
+
+}
+.onlySP{
+  display:block;
+}
+main.sandwichStudyAbroad .bg04{
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sandwichStudyAbroad #ssa03 {
+  padding:30px 5%;
+}
+.sandwichStudyAbroad #ssa03 .ssa__title--border {
+  padding: 25px 0px 18px 0;
+  letter-spacing: 6px;
+  margin-bottom: 49px;
+}
+.sandwichStudyAbroad #ssa03 .ssa__title--border img {
+  position: absolute;
+  left: -6%;
+  top: -50px;
+  width:110px;
+}
+.sandwichStudyAbroad #ssa03 .ssa__title--border p {
+  position:relative;
+  bottom: auto;
+  right:auto;
+  font-size: 13px;
+  line-height: 13pt;
+  letter-spacing: 0;
+  text-align:center;
+  display:block;
+  margin-top:10px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__listBox {
+  width:100%;
+  margin: 0 auto;
+  width: 100%;
+  padding-right: 0px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single {
+  position: relative;
+  padding-left: 70px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single:not(:last-child) .schedule__details {
+  border-bottom: 1px solid #464646;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single:not(:last-child) .schedule__year::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 23px 10px 25px;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  z-index: 1;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single:not(:first-child) .schedule__details {
+  padding-top: 30px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single01 .schedule__year {
+  background-color: #8adbf6;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single01 .schedule__year::after {
+  border-color: #8adbf6 transparent transparent transparent;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single02 .schedule__year {
+  background-color: #5cc1f0;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single02 .schedule__year::after {
+  border-color: #5cc1f0 transparent transparent transparent;
+}
+.sandwichStudyAbroad #ssa03 .schedule__single.single03 .schedule__year {
+  background-color: #019fe8;
+  height: 95%;
+}
+.sandwichStudyAbroad #ssa03 .schedule__year {
+  color: #fff;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+          writing-mode: vertical-rl;
+  -webkit-text-orientation: upright;
+          text-orientation: upright;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  letter-spacing: 10px;
+  font-size: 21px;
+  font-weight: bold;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details {
+  padding-bottom: 20px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  color: #019fe8;
+  margin-bottom: 7px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .read {
+  font-size: 12px;
+  line-height: 15pt;
+  letter-spacing: 0px;
+  margin-bottom: 22px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex {
+  display:block;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex img {
+  margin-top: 2px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex img.photo01 {
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom:5%;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex img.photo02 {
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom:20px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .flex p {
+  width:100%;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .subTitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #019fe8;
+  margin: 35px 0 17px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList {
+  display: block;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box {
+  width:100%;
+  margin-bottom: 14px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box.long {
+  width: 100%;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box.long_more {
+  width: 100%;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box dl {
+  border: 1px solid #464646;
+  border-radius: 0 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 48px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box dl:not(:last-child) {
+  margin-bottom: 14px;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box dt {
+  background-color: #464646;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 75px;
+  height: 100%;
+}
+.sandwichStudyAbroad #ssa03 .schedule__details .scheduleList__box dd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: calc(100% - 75px);
+  height: 100%;
+  font-size: 12px;
+  padding-left: 14px;
+  line-height:14pt;
+}
+
+main.sandwichStudyAbroad .bg05{
+  display:none;
+}
+.sandwichStudyAbroad #ssa04 {
+  padding: 30px 5%;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa04 .ssa__title--border {
+  margin-bottom: 64px;
+}
+.sandwichStudyAbroad #ssa04 .ssa__title--border img {
+  position: absolute;
+  right: 0px;
+  top: 60px;
+  width: 100px;
+}
+.sandwichStudyAbroad #ssa04 img.countryImg {
+  width: 90%;
+  margin: 0 auto;
+}
+.sandwichStudyAbroad #ssa04 h2.voice {
+  display: block;
+  font-size: 15px;
+  border: 1px solid #464646;
+  text-align: center;
+  width: 145px;
+  padding: 8px 0;
+  margin:60px auto 0;
+}
+
+.sandwichStudyAbroad #ssa05 {
+  padding: 0px 0 0;
+}
+.sandwichStudyAbroad #ssa05 .ssa__title--img {
+    /*
+  margin-bottom: 40px;
+  padding-left: 9.8%;
+  */
+  width:100%;
+  margin: 0 auto;
+  min-width: 100%;
+}
+.sandwichStudyAbroad #ssa05 .ssa__title--img img {
+  width: 90%;
+  margin: 0 auto 20px;
+}
+.sandwichStudyAbroad #ssa05 .voice__single {
+  background-color: #d5effb;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single01 {
+  padding-top: 20px;
+  margin-bottom: 40px;
+  padding-bottom:5%;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single01 .ssa__inner {
+  padding: 0 0 0 0;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single01 .voice__mainPhoto {
+  width:100%;
+  top: auto;
+  right: auto;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single01 .voice__voicePhoto {
+  width: 90%;
+  left: auto;
+  margin:20px auto 0;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single02 {
+  padding-top: 20px;
+  margin-bottom: 40px;
+  padding-bottom:5%;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single02 .ssa__inner {
+  padding: 0;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single02 .voice__mainPhoto {
+  width: 100%;
+  top: auto;
+  left: auto;
+  padding:0 5% 0 0;
+}
+.sandwichStudyAbroad #ssa05 .voice__single.single02 .voice__voicePhoto {
+  width: 90%;
+  right: auto;
+  margin:20px auto 0;
+
+}
+.sandwichStudyAbroad #ssa05 .voice__single .ssa__inner {
+  position: relative;
+}
+.sandwichStudyAbroad #ssa05 .voice__mainPhoto {
+  position: relative;
+}
+.sandwichStudyAbroad #ssa05 .voice__voicePhoto {
+  position: relative;
+  bottom: auto;
+}
+.sandwichStudyAbroad #ssa05 .voice__details p {
+  font-size: 12px;
+  line-height: 15pt;
+  letter-spacing: 0.3px;
+  padding:0 5%;
+}
+.sandwichStudyAbroad #ssa05 .voice__details p.title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #019fe8;
+  margin-bottom: 10px;
+  text-align:center;
+  margin-top:20px;
+}
+
+
+main.sandwichStudyAbroad .bg11 {
+  position: absolute;
+  right: 0;
+  bottom:35%;
+  width:50px;
+  z-index:-1;
+  display:block;
+}
+main.sandwichStudyAbroad .bg12 {
+  position: absolute;
+  left: 0;
+  bottom:8%;
+  width:80px;
+  z-index:-1;
+  display:block;
+}
+main.sandwichStudyAbroad .bg13 {
+  position: absolute;
+  right: 0;
+  bottom:2%;
+  width:100px;
+  z-index:-1;
+  display:block;
+}
+
+main.sandwichStudyAbroad .bg06{
+  display:none;
+}
+main.sandwichStudyAbroad .bg07{
+  display:none;
+}
+
+
+
+
+
+
+.sandwichStudyAbroad #ssa06 .ssa__title--border02{
+  background:#fff6c0;
+  margin-top:60px;
+  border-top:1px solid #646464;
+  border-bottom:1px solid #646464;
+  padding:13px 0;
+}
+.sandwichStudyAbroad #ssa06 .ssa__title--border02 h2{
+  width: 100%;
+  margin: 0 ;
+  min-width: 100%;
+  text-align:center;
+  letter-spacing: 6px;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  color:#019fe8;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa06 .ssa__title--border02 .small{
+  font-size: 16px;
+  color:#646464;
+}
+.sandwichStudyAbroad #ssa06 .ssa__title--border02 .attention{
+  position: relative;
+  display:inline-block;
+  right:auto;
+  color:#464646;
+  font-size:12px;
+  letter-spacing:0em;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox{
+  display:block;
+  padding:0 5%;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single{
+  width:100%;
+  max-width:100%;
+  margin:30px 0 0 0;
+  display:flex;
+  justify-content: space-between;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single .country__photo{
+  width:50px;
+  margin:0 15px 0 0;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single .country__details{
+  background:#019fe8;
+  color:#FFF;
+  text-align:center;
+  flex:1;
+  border-radius: 0 15px 15px 15px;
+  padding:10px 0;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single .country__details p{
+  font-weight:bold;
+  font-size:16px;
+  line-height:20pt;
+}
+.sandwichStudyAbroad #ssa06 .country__listBox .country__single .country__details p span{
+  font-size:26px;
+}
+.sandwichStudyAbroad #ssa06 .cost{
+  margin-top:30px;
+  padding:0 5%;
+}
+.sandwichStudyAbroad #ssa06 .cost dt{
+  color:#646464;
+  font-size:16px;
+  line-height:20pt;
+  font-weight:bold;
+  margin-bottom:15px;
+}
+.sandwichStudyAbroad #ssa06 .cost dd{
+  font-size:12px;
+  line-height:15pt;
+}
+.sandwichStudyAbroad #ssa06 .cost dd span{
+  color:#019fe8;
+}
+
+
+
+
+
+
+.sandwichStudyAbroad #ssa07{
+  margin-top:60px;
+  position:relative;
+}
+.sandwichStudyAbroad #ssa07 .photo{
+  width: 90%;
+  margin: auto ;
+  min-width:90%;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox{
+  display:block;
+  margin: 120px auto 0;
+  width: 100%;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li{
+  background:#019fe8;
+  max-width:100%;
+  width:60%;
+  margin:100px auto 0px;
+  border: 1px solid #464646;
+    border-radius: 10px;
+    position:relative;
+    color:#FFF;
+    text-align:center;
+    font-weight:bold;
+    padding-bottom:30px;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li img{
+  z-index:1;
+  position:absolute;
+  margin:auto;
+  top:-70px;
+  left:0;
+  right:0;
+  width:82px;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li .day{
+  padding:50px 0 20px 0;
+  border-bottom:2px solid #FFF;
+  font-size:21px;
+  width:70%;
+  margin:0 auto 20px;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li .money{
+  font-size:21px;
+  line-height:24pt;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .cost__listBox li .money span{
+  font-size:15px;
+}
+.sandwichStudyAbroad #ssa07 .ssa__inner .attentionText{
+  text-align:left;
+  color:#464646;
+  margin:30px 0 80px;
+  padding:0 5%;
+  font-size:12px;
+  line-height:15pt;
+}
+
+main.sandwichStudyAbroad .bg08 {
+  position: absolute;
+  right: 0;
+  top: -40px;
+  width: 150px;
+  z-index: -1;
+}
+
+
+main.sandwichStudyAbroad .bg09{
+  position: absolute;
+  left: 0;
+  bottom: auto;
+  top:15%;
+  width: 120px;
+  z-index: -1;
+}
+
+
+main.sandwichStudyAbroad .bg14{
+  position: absolute;
+  right: 0;
+  bottom: auto;
+  top:35%;
+  width: 130px;
+  z-index: -1;
+  display:block;
+}
+
+main.sandwichStudyAbroad .bg15{
+  position: absolute;
+  left: 0;
+  bottom: auto;
+  top:50%;
+  width: 150px;
+  z-index: -1;
+  display:block;
+}
+
+
+main.sandwichStudyAbroad .bg16{
+  position: absolute;
+  right: 0;
+  bottom: 26%;
+  top:auto;
+  width: 130px;
+  z-index: -1;
+  display:block;
+}
+
+main.sandwichStudyAbroad .bg17{
+  position: absolute;
+  left: 0;
+  bottom: 18%;
+  top:auto;
+  width: 150px;
+  z-index: -1;
+  display:block;
+}
+
+
+
+}

@@ -1,0 +1,760 @@
+@charset "UTF-8";
+
+/***************
+pc
+***************/
+.prospective__bnr {
+  padding: 6rem 0 4rem;
+}
+
+.prospective__bnr ul {
+  max-width: 110rem;
+  width: 90%;
+  margin: 0 10.2489% 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1230px) {
+  .prospective__bnr ul {
+    margin-left: 14rem;
+    margin-right: 0;
+    width: calc(90% - 140px);
+  }
+}
+
+.prospective__bnr ul a {
+  display: block;
+}
+
+.prospective__bnr ul a:hover {
+  opacity: 0.7;
+}
+
+.prospective__bnr ul li {
+  width: 23%;
+  margin-bottom: 3rem;
+}
+
+.prospective__bnr ul::before,
+.prospective__bnr ul::after {
+  content: '';
+  display: block;
+  width: 23%;
+}
+
+main.forPage .forPage__block h2 img {
+  height: 3.2rem;
+  margin: 0 auto 0 auto;
+  /* margin-left: 14vw; */
+  padding-left: 9.3vw;
+}
+
+.prospective__bnr ul::before {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.prospective__course {
+  padding: 5rem 0 4rem;
+}
+
+.prospective__course h2 {
+  margin: 0 auto 3rem;
+}
+
+.prospective__course h3 {
+  width: 83.74817%;
+  margin: 0 3.66032% 0 auto;
+  background-size: 7px 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.9rem 0;
+  margin-bottom: 0.8vw;
+}
+
+.prospective__course h3.course_eng {
+  background-image: linear-gradient(-45deg,
+      #fff, #fff 48.5%,
+      #D9EAF4 49.5%, #D9EAF4 50.5%,
+      #fff 51.5%, #fff);
+}
+
+.prospective__course h3.course_air {
+  background-image: linear-gradient(-45deg,
+      #fff, #fff 48.5%,
+      #F8E4EE 49.5%, #F8E4EE 50.5%,
+      #fff 51.5%, #fff);
+}
+
+.prospective__course h3.course_eng img {
+  max-width: 51.3rem;
+}
+
+.prospective__course h3.course_air img {
+  max-width: 69.7rem;
+}
+
+.prospective__course ul {
+  width: 83.74817%;
+  margin: 0 3.66032% 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  margin-bottom: 2vw;
+}
+
+
+
+.prospective__course ul li {
+  width: 13vw;
+  height: 9.7857143vw;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 0.9vw;
+}
+
+.prospective__course ul li:not(:nth-child(6n)) {
+  margin-right: 0.9vw;
+}
+
+.prospective__course a {
+  /*  display: block;
+  position: relative;
+  height: 100%;*/
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.prospective__course a span {
+  z-index: 99;
+  font-size: 1.5vw;
+  line-height: 2.05vw;
+  text-align: center;
+}
+
+.prospective__course a::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  mix-blend-mode: multiply;
+}
+
+.prospective__course a:hover {
+  cursor: pointer;
+}
+
+.prospective__course a:hover::before {
+  opacity: 0;
+}
+
+.prospective__course a img {
+  width: auto;
+  height: 2.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+}
+
+.prospective__course--concert a::before,
+.prospective__course--image a::before,
+.prospective__course--media a::before,
+.prospective__course--music a::before,
+.prospective__course--play a::before {
+  background: rgba(20, 132, 204, 0.5);
+}
+
+.prospective__course--concert {
+  background-image: url(../img/eng/top/coursePh_concert.jpg);
+}
+
+.prospective__course--concert a img {
+  height: 5.9rem;
+}
+
+.prospective__course--image {
+  background-image: url(../img/eng/top/coursePh_image.jpg);
+}
+
+.prospective__course--media {
+  background-image: url(../img/eng/top/coursePh_media.jpg);
+}
+
+.prospective__course--media a img {
+  height: 5.9rem;
+}
+
+.prospective__course--music {
+  background-image: url(../img/eng/top/coursePh_music.jpg);
+}
+
+.prospective__course--play {
+  background-image: url(../img/eng/top/coursePh_play.jpg);
+}
+
+.prospective__course--game a::before,
+.prospective__course--anime a::before,
+.prospective__course--design a::before,
+.prospective__course--cg a::before {
+  background: rgba(20, 132, 204, 0.5);
+}
+
+.prospective__course--game {
+  background-image: url(../img/eng/top/coursePh_game.jpg);
+}
+
+.prospective__course--game a img {
+  height: 5.9rem;
+}
+
+.prospective__course--anime {
+  background-image: url(../img/eng/top/coursePh_anime.jpg);
+}
+
+.prospective__course--anime a img {
+  height: 5.9rem;
+}
+
+.prospective__course--design {
+  background-image: url(../img/eng/top/coursePh_design.jpg);
+}
+
+.prospective__course--cg {
+  background-image: url(../img/eng/top/coursePh_cg.jpg);
+}
+
+.prospective__course--cg a img {
+  height: 5.9rem;
+}
+
+.prospective__course--sports a::before,
+.prospective__course--child a::before,
+.prospective__course--kinder a::before,
+.prospective__course--official a::before {
+  background: rgba(20, 132, 204, 0.5);
+}
+
+.prospective__course--sports {
+  background-image: url(../img/eng/top/coursePh_sports.jpg);
+}
+
+.prospective__course--sports a img {
+  height: 5.9rem;
+}
+
+.prospective__course--child {
+  background-image: url(../img/eng/top/coursePh_child.jpg);
+}
+
+.prospective__course--kinder {
+  background-image: url(../img/eng/top/coursePh_kinder.jpg);
+}
+
+.prospective__course--official {
+  background-image: url(../img/eng/top/coursePh_official.jpg);
+}
+
+.prospective__course--archi a::before,
+.prospective__course--interior a::before,
+.prospective__course--it_senmon a::before,
+.prospective__course--electric a::before,
+.prospective__course--aerial a::before {
+  background: rgba(20, 132, 204, 0.5);
+}
+
+.prospective__course--archi {
+  background-image: url(../img/eng/top/coursePh_archi.jpg);
+}
+
+.prospective__course--interior {
+  background-image: url(../img/eng/top/coursePh_interior.jpg);
+}
+
+.prospective__course--interior a img {
+  height: 5.8rem;
+}
+
+.prospective__course--it_senmon {
+  background-image: url(../img/eng/top/coursePh_it_senmon.jpg);
+}
+
+.prospective__course--electric {
+  background-image: url(../img/eng/top/coursePh_electric.jpg);
+}
+
+.prospective__course--aerial {
+  background-image: url(../img/eng/top/coursePh_aerial.jpg);
+}
+
+.prospective__course--law a::before,
+.prospective__course--business a::before,
+.prospective__course--w_school a::before,
+.prospective__course--edupro a::before,
+.prospective__course--research a::before {
+  background: rgba(20, 132, 204, 0.5);
+}
+
+.prospective__course--law {
+  background-image: url(../img/eng/top/coursePh_law.jpg);
+}
+
+.prospective__course--business {
+  background-image: url(../img/eng/top/coursePh_business.jpg);
+}
+
+.prospective__course--w_school {
+  background-image: url(../img/eng/top/coursePh_w_school.html);
+}
+
+.prospective__course--edupro {
+  background-image: url(../img/eng/top/coursePh_edupro.html);
+}
+
+.prospective__course--research {
+  background-image: url(../img/eng/top/coursePh_research.html);
+}
+
+.prospective__course--airline a::before,
+.prospective__course--eng a::before {
+  background: rgba(213, 90, 151, 0.5);
+}
+
+.prospective__course--airline {
+  background-image: url(../img/air/top/coursePh_air.jpg);
+}
+
+.prospective__course--airline a img {
+  height: 5.8rem;
+}
+
+.prospective__course--eng {
+  background-image: url(../img/air/top/coursePh_eng.jpg);
+}
+
+.prospective__course--hotel a::before,
+.prospective__course--bridal a::before,
+.prospective__course--biz a::before {
+  background: rgba(213, 90, 151, 0.5);
+}
+
+.prospective__course--hotel {
+  background-image: url(../img/air/top/coursePh_hotel.jpg);
+}
+
+.prospective__course--bridal {
+  background-image: url(../img/air/top/coursePh_bridal.jpg);
+}
+
+.prospective__course--biz {
+  background-image: url(../img/air/top/coursePh_biz.jpg);
+}
+
+.prospective__course--tour a::before,
+.prospective__course--train a::before {
+  background: rgba(213, 90, 151, 0.5);
+}
+
+.prospective__course--tour {
+  background-image: url(../img/air/top/coursePh_tour.jpg);
+}
+
+.prospective__course--tour a img {
+  height: 5.8rem;
+}
+
+.prospective__course--train {
+  background-image: url(../img/air/top/coursePh_train.jpg);
+}
+
+.prospective__course--collage a::before,
+.prospective__course--graduate a::before {
+  background: rgba(141, 94, 164, 0.5);
+}
+
+.prospective__course--collage {
+  background-image: url(../img/air/top/coursePh_collage.jpg);
+}
+
+.prospective__course--graduate {
+  background-image: url(../img/air/top/coursePh_graduate.jpg);
+}
+
+.prospective.eng .mainV__topicSingleTxt {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(21, 128, 189, 0)), to(rgba(21, 128, 189, 0.7)));
+  background: linear-gradient(to bottom, rgba(21, 128, 189, 0) 0%, rgba(21, 128, 189, 0.7) 100%);
+}
+
+.prospective.eng .news__list h2 {
+  background: #5ca9db;
+}
+
+.prospective.eng .prospective__course {
+  background: rgba(21, 128, 189, 0.1);
+}
+
+.prospective.eng .prospective__course h2 {
+  width: 100%;
+  max-width: 48rem;
+}
+
+.prospective.air .mainV__topicSingleTxt {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 90, 166, 0)), to(rgba(228, 90, 166, 0.7)));
+  background: linear-gradient(to bottom, rgba(228, 90, 166, 0) 0%, rgba(228, 90, 166, 0.7) 100%);
+}
+
+.prospective.air .news__list h2 {
+  background: #ec8cc1;
+}
+
+.prospective.air .prospective__course {
+  background: rgba(228, 90, 166, 0.1);
+}
+
+.prospective.air .prospective__course h2 {
+  width: 100%;
+  max-width: 44.3rem;
+}
+
+/*main.forPage .forPage__block {
+    margin-bottom: 6rem;
+}*/
+main.forPage section.prospective__course {
+  margin-bottom: 0;
+}
+
+main.forPage .prospective__linkarea h2 {
+  background: none;
+}
+
+main.forPage .prospective__linkarea h2 img {
+  max-width: 54.9rem;
+  height: auto;
+  padding-left: 0;
+}
+
+main.forPage .prospective__linkarea a {
+  max-width: 77.5rem;
+  display: block;
+  margin: 0 auto;
+}
+
+main.forPage section.prospective__oc {
+  background: #fff9ca;
+  padding: 6rem 0;
+}
+main.forPage .prospective__linkarea a:hover img,
+main.forPage section.prospective__oc a:hover img{
+  opacity: 0.7;
+}
+main.forPage section.prospective__oc h2 {
+  background: none;
+  padding: 0 0 1.6rem;
+}
+
+main.forPage section.prospective__oc h2 img {
+  max-width: 49.3rem;
+  height: auto;
+  padding-left: 0;
+}
+
+main.forPage section.prospective__oc a {
+  max-width: 49.7rem;
+  display: block;
+  margin: 0 auto;
+}
+
+main.forPage section.prospective__admission a {
+  position: relative;
+  display: block;
+  /* -webkit-box-orient: horizontal; */
+  /* -webkit-box-direction: normal; */
+  -ms-flex-flow: row wrap;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  border: 1px solid #aaa;
+  height: auto;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 724px;
+}
+
+main.forPage section.prospective__admission a h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: baseline;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  height: 8vw;
+  line-height: 1.9vw;
+  text-align: left;
+  font-size: 1.4vw;
+
+  text-align: left;
+  padding-right: 2vw;
+  color: #4B4B4B;
+}
+
+
+section.prospective__admission a.admi_02 h3 span {
+  font-size: 0.86vw;
+  line-height: 1.3vw;
+}
+
+section.prospective__admission a.admi_01 h3 {
+  margin-left: 11.5vw;
+}
+
+section.prospective__admission a.admi_01 h3::before {
+  position: absolute;
+  content: "";
+  left: 4.5vw;
+  background: url(../img/prospective/admi_01_ico.svg) no-repeat;
+  width: 5.7vw;
+  height: 3.6vw;
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+section.prospective__admission a.admi_02 h3 {
+  margin-left: 8.5vw;
+}
+
+section.prospective__admission a.admi_02 h3::before {
+  position: absolute;
+  content: "";
+  left: 2.3vw;
+  background: url(../img/prospective/admi_02_ico.svg)no-repeat;
+  width: 5.7vw;
+  height: 3.6vw;
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+section.prospective__admission a.admi_03 h3 {
+  margin-left: 7vw;
+}
+
+section.prospective__admission a.admi_03 h3::before {
+  position: absolute;
+  content: "";
+  left: 3vw;
+  /* top: 50%; */
+  /* margin-top: -2.4rem; */
+  background: url(../img/prospective/admi_03_ico.svg)no-repeat;
+  width: 5.7vw;
+  height: 3.6vw;
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1180px) {
+  .prospective__course ul {
+    margin-left: 14rem;
+    margin-right: 0;
+    /*width: calc(98% - 140px);*/
+  }
+
+  .prospective__course h3 {
+    margin-left: 14rem;
+    margin-right: 0;
+    /*width: calc(98% - 140px);*/
+  }
+
+  .prospective__course ul li:not(:nth-child(6n)) {
+    margin-right: 0.8vw;
+  }
+}
+
+/***************
+sp
+***************/
+
+@media screen and (max-width: 768px) {
+  main.forPage .forPage__block h2 img {
+    width: auto;
+    height: 5vw;
+    padding-left: 0;
+  }
+
+  .prospective__course h3 {
+    padding: 2.9vw 0;
+    width: 100%;
+    margin: 0 0 2vw;
+  }
+
+  .prospective__course h3 img {
+    height: 3.6vw;
+    width: auto;
+  }
+
+  .prospective__course ul {
+    width: 92%;
+  }
+
+  .prospective__course ul li {
+    width: 29.25vw;
+    height: 20.785714vw;
+    margin-bottom: 1.6vw;
+  }
+
+  .prospective__course ul li:not(:nth-child(6n)) {
+    margin-right: 1.4vw;
+  }
+
+  .prospective__course a span {
+    font-size: 3.3vw;
+    line-height: 4.05vw;
+  }
+
+  main.forPage .prospective__linkarea h2 img {
+    height: auto;
+    width: 98%;
+  }
+
+  .prospective__course {
+    padding: 5rem 0 0;
+  }
+
+  main.forPage section.prospective__oc {
+    padding: 4vw 0;
+  }
+
+  main.forPage section.prospective__oc h2 img {
+    width: 87%;
+  }
+
+  .prospective__admission a {
+    padding: 0;
+  }
+
+  section.prospective__admission .forPage__blockInner {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  main.forPage section.prospective__admission a h3 {
+    height: 23vw;
+    line-height: 4.9vw;
+    font-size: 4.4vw;
+    padding-right: 4vw;
+  }
+
+  section.prospective__admission a.admi_01 h3 {
+    margin-left: 32.5vw;
+  }
+
+  section.prospective__admission a.admi_02 h3 {
+    margin-left: 25.5vw;
+  }
+
+  section.prospective__admission a.admi_02 h3 span {
+    font-size: 2.8vw;
+    line-height: 3.8vw;
+  }
+
+  section.prospective__admission a.admi_03 h3 {
+    margin-left: 21vw;
+  }
+
+  section.prospective__admission a.admi_03 h3::before {
+    left: 10vw;
+    width: 7.7vw;
+    height: 8.6vw;
+  }
+
+  section.prospective__admission a.admi_02 h3::before {
+    left: 9.5vw;
+    width: 13.7vw;
+    height: 8.6vw;
+  }
+
+  section.prospective__admission a.admi_01 h3::before {
+    left: 13.9vw;
+    width: 14.7vw;
+    height: 8.6vw;
+  }
+
+  main.forPage .forPage__block {
+    margin-bottom: 6vw;
+  }
+
+  .prospective__course {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 68.7rem) {}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1250px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1230px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1180px) {}

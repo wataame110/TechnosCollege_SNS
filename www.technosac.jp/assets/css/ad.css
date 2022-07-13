@@ -1,0 +1,5559 @@
+@charset "UTF-8";
+
+/***************
+pc
+***************/
+body.audi {
+  background: #d1d1d1;
+}
+
+body.audi.loan {
+  background: #fff;
+}
+
+main.admission,
+main.audition,
+main.scholarship,
+main.selection,
+main.entry,
+main.educational-loan,
+main.studyabroad {
+  background: #fff;
+  margin-left: 120px;
+  margin-top: 0;
+  padding-top: 4.5rem;
+}
+
+main.admission a:hover,
+main.audition a:hover,
+main.scholarship a:hover,
+main.selection a:hover,
+main.entry a:hover,
+main.studyabroad a:hover {
+  opacity: 0.7;
+}
+
+main.admission a.pointerno,
+main.audition a.pointerno,
+main.scholarship a.pointerno,
+main.selection a.pointerno,
+main.entry a.pointerno,
+main.studyabroad a.pointerno {
+  pointer-events: none;
+}
+
+a.nlink:hover {
+  opacity: 1;
+}
+
+/*admission*/
+main.admission .h1Block_audi {
+  padding: 8rem 0 6.6rem;
+  background: url(../img/admission/admi_h1bk.jpg) #e6e6e6;
+  text-align: center;
+  background-size: cover;
+}
+
+main.admission .h1Block_audi h1 {
+  color: #464646;
+  font-size: 4.6rem;
+  line-height: 5rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+
+main.admission .h1Block_audi hr {
+  border-bottom: 6px solid;
+  border-image: linear-gradient(to right, #1580bd 0%, #1580bd 50%, #e45aa6 50%, #e45aa6 100%);
+  border-image-slice: 1;
+  width: 18rem;
+  margin: 0 auto 2.8rem;
+}
+
+main.admission .h1Block_audi h1 span {
+  font-size: 1.6rem;
+  display: block;
+  line-height: 3.8rem;
+}
+
+main.admission .h1Block_audi p {
+  font-size: 1.7rem;
+  line-height: 3.5rem;
+}
+
+main.admission .Ablock {
+  margin: 0 auto;
+  max-width: 88rem;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+main.admission .Ablock:first-child {
+  padding-bottom: 8rem;
+  border-bottom: 1px solid #C8C8C8;
+}
+
+main.admission .Ablock:last-child {
+  padding-top: 5rem;
+}
+
+main.admission .Ablock2 {
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+main.admission #audi_01 {
+  padding: 10rem 0;
+}
+
+main.admission #audi_01 .newsTtl {
+  width: 100%;
+  margin: 0 0 3.6rem;
+  position: relative;
+}
+
+main.admission #audi_01 h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+main.admission #audi_01 .news__slider li {
+  display: block;
+  width: 23.4%;
+  position: relative;
+  background: #fff;
+}
+
+main.admission #audi_01 .newsTtl a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #464646;
+  background: #f0f0f0;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  padding: 0.6rem 1.8rem;
+  line-height: 1;
+}
+
+main.admission #audi_01 .newsTtl a:hover {
+  opacity: 0.7;
+}
+
+main.admission #audi_01 .news__slider ul {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  margin-right: 0;
+}
+
+main.admission #audi_01 .newsList {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  margin-right: 0;
+}
+
+main.admission #audi_01 .newsSingle {
+  display: block;
+  width: 23.4%;
+  position: relative;
+  background: #fff;
+  /*-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2rem;*/
+  margin-right: 1.8rem;
+}
+
+main.admission #audi_01 .newsSingle:last-child {
+  margin-right: 0;
+}
+
+main.admission #audi_01 .newsTxt {
+  padding: 1.5rem 0 0;
+  text-align: justify;
+  word-break: break-all;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+}
+
+main.admission #audi_01 .newsImg {
+  overflow: hidden;
+  height: 14rem;
+}
+
+main.admission #audi_01 .newsSingle:hover .newsImg div {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+main.admission #audi_01 .newsImg div {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+main.admission #audi_02 {
+  padding: 7rem 0;
+  background: #f0f0f0;
+}
+
+main.admission #audi_02 .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main.admission #audi_02 .box {
+  width: 26.9rem;
+  background: no-repeat center/100% url(../img/admission/admi_block.png);
+  padding: 9rem 1rem 9rem 0;
+
+}
+
+main.admission #audi_02 .no img {
+  margin: -9rem auto 0;
+  width: 5.8rem;
+}
+
+main.admission #audi_02 img {
+  display: block;
+}
+
+main.admission #audi_02 h2 {
+  font-size: 2.6rem;
+  line-height: 3.8rem;
+  color: #464646;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+main.admission #audi_02 p {
+  text-align: center;
+}
+
+main.admission #audi_02 em {
+  text-align: center;
+  background: #ffe600;
+}
+
+main.admission #audi_03 {
+  padding: 10rem 0 15rem;
+}
+
+main.admission #audi_03 ul li {
+  position: relative;
+  border-bottom: 1px solid #c8c8c8;
+  text-align: center;
+}
+
+main.admission #audi_03 ul li:first-child {
+  border-top: 1px solid #c8c8c8;
+}
+
+main.admission #audi_03 ul li a {
+  padding: 3rem 0;
+  display: block;
+  color: #464646;
+  font-size: 1.8rem;
+  font-weight: bold;
+  /*letter-spacing: -0.05em;*/
+}
+
+main.admission #audi_03 ul li:after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  /*font-family: FontAwesome;
+  content: "\f105";*/
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.admission #audi_03 .rcorne {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 6rem auto 0;
+  width: 76rem;
+}
+
+main.admission #audi_03 .rcorne:last-child {
+  margin: 3rem auto 0;
+}
+
+main.admission #audi_03 .rcorne a {
+  border-radius: 4rem;
+  background: #f0f0f0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 36.5rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #464646;
+  position: relative;
+}
+
+main.admission a:hover {
+  opacity: 0.7;
+}
+
+main.admission #audi_03 .rcorne a:after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  /*font-family: FontAwesome;
+  content: "\f105";*/
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.admission #audi_03 .rcorne a.r1:before {
+  position: absolute;
+  content: "";
+  left: 2.5rem;
+  top: 50%;
+  margin-top: -1.85rem;
+  /*font-family: FontAwesome;
+  content: "\f105";*/
+  background: url(../img/admission/ico_entry.svg);
+  width: 4.2rem;
+  height: 3.7rem;
+}
+
+main.admission #audi_03 .rcorne a.r2:before {
+  position: absolute;
+  content: "";
+  left: 3.5rem;
+  top: 50%;
+  margin-top: -2.4rem;
+  /*font-family: FontAwesome;
+  content: "\f105";*/
+  background: url(../img/admission/ico_dormitory.svg);
+  width: 3.9rem;
+  height: 4.8rem;
+}
+
+main.admission #audi_03 .rcorne a.r3:before {
+  position: absolute;
+  content: "";
+  left: 4rem;
+  top: 50%;
+  margin-top: -2rem;
+  /*font-family: FontAwesome;
+  content: "\f105";*/
+  background: url(../img/admission/ico_boshu.svg) no-repeat;
+  height: 4rem;
+  width: 32rem;
+}
+
+main.admission #audi_03 .rcorne a.r4:before {
+  position: absolute;
+  content: "";
+  left: 2.5rem;
+  top: 50%;
+  margin-top: -1.5rem;
+  background: url(../img/admission/ico_loan.svg) no-repeat;
+  height: 3rem;
+  width: 5rem;
+}
+
+main.admission #audi_03 .rcorne a.r5 {
+  width: 39.5rem;
+  margin: 0 auto;
+}
+
+main.admission #audi_03 .rcorne a.r5 span:before {
+  position: absolute;
+  content: url(../img/admission/ico_earth.svg);
+  transform: scale(1);
+  /* left: 4rem; */
+  top: 50%;
+  margin-top: -2.2rem;
+  margin-left: -6rem;
+}
+
+main.admission #audi_03 .rcorne2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 6rem auto 0;
+  width: 36.5rem;
+}
+
+main.admission #audi_03 .rcorne2 a {
+  border-radius: 4rem;
+  background: #f0f0f0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 36.5rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #464646;
+  position: relative;
+}
+
+main.admission #audi_03 .rcorne2 a:after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  /*font-family: FontAwesome;
+  content: "\f105";*/
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.admission #audi_03 .rcorne2 a.r3:before {
+  position: absolute;
+  content: "";
+  left: 4rem;
+  top: 50%;
+  margin-top: -2rem;
+  /*font-family: FontAwesome;
+  content: "\f105";*/
+  background: url(../img/admission/ico_boshu.svg) no-repeat;
+  height: 4rem;
+  width: 32rem;
+}
+
+/* audition */
+main.audition .h1Block_audi {
+  padding: 6rem 0;
+  background: url(../img/admission/audition/audi_h1bk.png) #e6e6e6;
+  text-align: center;
+  background-size: cover;
+}
+
+main.audition .h1Block_audi h1 {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: bold;
+}
+
+main.audition .h1Block_audi h1 span {
+  font-size: 2.4rem;
+  line-height: 4rem;
+  display: block;
+}
+
+main.audition .Ablock {
+  margin: 0 auto;
+  width: 88rem;
+}
+
+main.audition #audi_01 {
+  padding: 13rem 0;
+}
+
+main.audition #audi_01 h2 {
+  background: #fa3c5a;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #fa3c5a 20%, #ffb94b 80%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #fa3c5a 20%, #ffb94b 80%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #fa3c5a 20%, #ffb94b 80%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa3c5a', endColorstr='#ffb94b', GradientType=1);
+  /* IE6-9 */
+  display: inline;
+  font-size: 6.8rem;
+  line-height: 12.0rem;
+  color: #fff;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+main.audition #audi_01 p {
+  font-size: 2.3rem;
+  line-height: 6rem;
+  font-weight: bold;
+  margin: 3rem 0 0;
+}
+
+main.audition #audi_02 {
+  padding: 10rem 0;
+  background: url(../img/admission/audition/audi_sec02_bk.png) #e6e6e6;
+  background-size: cover;
+}
+
+main.audition #audi_02 h2 {
+  border: 6px solid #fff;
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+main.audition #audi_02 .audi__entry {
+  margin-top: 4rem;
+  color: #fff;
+}
+
+main.audition #audi_02 .audi__entry dl {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 2.1rem;
+}
+
+main.audition #audi_02 .audi__entry dl dt {
+  width: 30%;
+  margin-bottom: 1.5rem;
+}
+
+main.audition #audi_02 .audi__entry dl dd {
+  width: 70%;
+}
+
+main.audition #audi_02 h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-top: 7.8rem;
+  color: #fff;
+}
+
+main.audition #audi_02 h3:before,
+main.audition #audi_02 h3:after {
+  content: "";
+  height: 6px;
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+main.audition #audi_02 h3:before {
+  margin-right: 3rem;
+}
+
+main.audition #audi_02 h3:after {
+  margin-left: 3rem;
+}
+
+main.audition #audi_02 h4 {
+  text-align: center;
+  margin: 5rem 0 0;
+  color: #fff;
+  font-size: 3.2rem;
+  line-height: 5.2rem;
+}
+
+main.audition #audi_02 p {
+  margin-top: 3rem;
+  color: #fff;
+  line-height: 3rem;
+}
+
+main.audition #audi_02 .audi__what {
+  padding-bottom: 6rem;
+  border-bottom: solid 6px #fff;
+}
+
+main.audition #audi_03,
+main.audition #audi_04,
+main.audition #audi_05,
+main.audition #audi_06,
+main.audition #audi_07,
+main.audition #audi_08,
+main.audition #audi_09,
+main.audition #audi_10 {
+  padding: 10rem 0;
+}
+
+main.audition #audi_03 h2,
+main.audition #audi_04 h2,
+main.audition #audi_05 h2,
+main.audition #audi_06 h2,
+main.audition #audi_07 h2,
+main.audition #audi_08 h2,
+main.audition #audi_09 h2,
+main.audition #audi_10 h2 {
+  border-top: 6px solid;
+  border-image: linear-gradient(to right, #fa3c5a 20%, #ffb94b 80%);
+  border-image-slice: 1;
+  padding-top: 3rem;
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-bottom: 6rem;
+}
+
+main.audition #audi_03 .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*main.audition #audi_03 .block01 {
+  margin-top: 6rem;
+}*/
+main.audition #audi_03 .box {
+  width: 28rem;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+  /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+}
+
+main.audition #audi_03 .box:before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../img/admission/audition/audi_sec03_mark.svg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+main.audition #audi_03 .box p {
+  text-align: center;
+}
+
+main.audition #audi_03 .box em {
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: block;
+  line-height: 3.0rem;
+}
+
+main.audition #audi_04,
+main.audition #audi_06,
+main.audition #audi_08,
+main.audition #audi_10 {
+  background: #f0f0f0;
+}
+
+main.audition #audi_04 h3 {
+  font-weight: bold;
+}
+
+main.audition #audi_04 h3,
+main.audition #audi_04 p {
+  line-height: 3erm;
+}
+
+main.audition a.rcorne {
+  border-radius: 3.5rem;
+  background: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  position: relative;
+}
+
+main.audition a.rcorne::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.audition #audi_05 h3 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+main.audition #audi_05 h3:before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../img/admission/audition/audi_sec05_h3.svg);
+  z-index: 2;
+}
+
+main.audition #audi_05 h3:nth-child(n+2) {
+  margin-top: 6rem;
+}
+
+main.audition #audi_05 h4:before {
+  content: "●";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  z-index: 2;
+}
+
+main.audition #audi_05 h4:nth-child(n+2) {
+  margin-top: 4rem;
+}
+
+main.audition #audi_06 h2 span {
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+main.audition #audi_06 .audi__schedule dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main.audition #audi_06 .audi__schedule dl dt {
+  width: 13%;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+main.audition #audi_06 .audi__schedule dl dd {
+  width: 87%;
+  margin-bottom: 1.5rem;
+}
+
+main.audition .flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main.audition .flex .l_box {
+  order: 1;
+  margin-right: 4rem;
+}
+
+main.audition .flex .r_box {
+  order: 2;
+}
+
+main.audition .flex .img {
+  width: 28rem;
+}
+
+main.audition .flex .img p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  line-height: 2.1rem;
+}
+
+main.audition .flex .text {
+  width: 56rem;
+}
+
+main.audition .flex .text h3 {
+  font-size: 2.1rem;
+  line-height: 3rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+main.audition #audi_10 {
+  margin-bottom: 0;
+}
+
+main.audition #audi_10 .forPage__blockInner {
+  padding-top: 0;
+  width: 100%;
+  margin: 0;
+}
+
+main.audition #audi_10 h2 {
+  background: none;
+  padding: 3rem 0 0;
+}
+
+main.audition #audi_10 dl dt {
+  padding: 3rem 4rem;
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+main.audition #audi_10 dl dt:hover {
+  cursor: pointer;
+}
+
+main.audition #audi_10 dl dt::before {
+  background-image: url(../img/admission/audition/audi_q.svg);
+  background-color: #f0f0f0;
+  content: '';
+  display: block;
+  width: 2rem;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: center center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+main.audition #audi_10 dl dt::after {
+  content: '';
+  display: block;
+  /*background: url(../img/admission/audition/plus.svg) no-repeat center center;*/
+  background-size: auto;
+  background-size: cover;
+  width: 1.3rem;
+  height: 0.9rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+main.audition #audi_10 dl {
+  /*margin-top: -1px;
+  border-top: 1px solid #c8c8c8;*/
+  margin-top: 0;
+  border-top: none;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+main.audition #audi_10 dl dd {
+  display: none;
+  background-color: #f0f0f0;
+  padding: 0 4rem 3rem;
+  position: relative;
+}
+
+main.audition #audi_10 dl dd::before {
+  background-image: url(../img/admission/audition/audi_a.svg);
+  background-color: #f0f0f0;
+  content: '';
+  display: block;
+  width: 2rem;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: top center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+main.audition .audi_bt {
+  width: 73.5rem;
+  margin: 9rem auto 0;
+  justify-content: space-between;
+}
+
+main.audition .audi_bt a {
+  border-radius: 4.1rem;
+  background: #fa3c5a;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #fa3c5a 20%, #ffb94b 80%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #fa3c5a 20%, #ffb94b 80%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #fa3c5a 20%, #ffb94b 80%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa3c5a', endColorstr='#ffb94b', GradientType=1);
+  /* IE6-9 */
+  font-size: 1.7rem;
+  font-weight: bold;
+  width: 35.6rem;
+  height: 8.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+main.audition .audi_bt a div.mask {
+  position: absolute;
+  text-shadow: 1px 1px 5px #000;
+  font-size: 2rem;
+  background: RGBa(0, 0, 0, 0.5);
+  width: 35.6rem;
+  height: 8.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 4.1rem;
+  z-index: 990;
+}
+
+main.audition .audi_bt a:hover {
+  opacity: 1;
+}
+
+main.audition .audi_bt a::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow_w.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.audition .audi_bt a span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: contents;
+}
+
+/*entry*/
+main.entry .h1Block {
+  padding: 4rem 0 4rem;
+  background: url(../img/admission/entry/entry_h1bk.jpg) #fff;
+  text-align: center;
+  background-size: cover;
+}
+
+main.entry .h1Block h1 {
+  color: #464646;
+  font-size: 3.0rem;
+  line-height: 5rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 4rem 0;
+  width: 42rem;
+  margin: 0 auto;
+}
+
+main.entry #entry_01 {
+  padding: 0 0 6rem;
+}
+
+
+main.entry .Ablock {
+  margin: 0 auto;
+  max-width: 88rem;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+
+main.entry #entry_01 h2 {
+  font-size: 2.3rem;
+  line-height: 3.4rem;
+  color: #464646;
+  font-weight: bold;
+  background: linear-gradient(transparent 60%, #ffe600 60%);
+  margin: 0 auto 3rem;
+  text-align: center;
+  width: 68rem;
+}
+
+main.entry #entry_01 .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main.entry #entry_01 .block_01 {
+  margin-bottom: 1rem;
+}
+
+main.entry #entry_01 .flex .box {
+  width: 41.5rem;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+}
+
+main.entry #entry_01 .flex .box .graybox {
+  background: #f0f0f0;
+  padding: 2rem;
+  height: 22rem;
+  font-size: 1.5rem;
+}
+
+main.entry #entry_01 .flex .box .tri {
+  background: url(../img/admission/entry/tri.svg) no-repeat;
+  margin: 1rem auto;
+  width: 3.6rem;
+  height: 1.8rem;
+}
+
+main.entry #entry_01 .flex .bluebox {
+  font-size: 2rem;
+  font-weight: bold;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  color: #fff;
+  background: #1580bd;
+  width: 41.5rem;
+  /*display: flex;*/
+  position: relative;
+  cursor: pointer;
+}
+
+main.entry #entry_01 .flex .bluebox.active {
+  height: 8rem;
+}
+
+main.entry #entry_01 .flex .bluebox.active:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-style: solid;
+  border-color: #1580bd transparent transparent transparent;
+  border-width: 20px 20px 0 20px;
+}
+
+main.entry #entry_01 .flex .pinkbox {
+  font-size: 2rem;
+  font-weight: bold;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  color: #fff;
+  background: #e45aa6;
+  width: 41.5rem;
+  /*display: flex;*/
+  position: relative;
+  cursor: pointer;
+}
+
+main.entry #entry_01 .flex .pinkbox.active {
+  height: 8rem;
+}
+
+main.entry #entry_01 .flex .pinkbox.active:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-style: solid;
+  border-color: #e45aa6 transparent transparent transparent;
+  border-width: 20px 20px 0 20px;
+}
+
+main.entry #entry_01 .entry__Singl {
+  background: #f0f0f0;
+  padding: 4rem 3.5rem 2rem;
+}
+
+main.entry #entry_01 .entry__Singl a {
+  border-radius: 5rem;
+  background: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 38rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #464646;
+  position: relative;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+main.entry #entry_01 .entry__Singl a div.mask {
+  position: absolute;
+  text-shadow: 1px 1px 5px #000;
+  font-size: 2rem;
+  background: RGBa(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 4.1rem;
+  z-index: 990;
+  width: 38rem;
+  height: 10rem;
+  border-radius: 5rem;
+}
+
+main.entry #entry_01 .entry__Singl a.nlink:hover {
+  opacity: 1;
+}
+
+main.entry #entry_01 .eng,
+main.entry #entry_01 .air {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main.entry #entry_01 .eng a em {
+  color: #1580bd;
+  font-weight: bold;
+  display: contents;
+  font-size: 1.7rem;
+}
+
+main.entry #entry_01 .air a em {
+  color: #e45aa6;
+  font-weight: bold;
+  display: contents;
+  font-size: 1.7rem;
+}
+
+main.entry #entry_01 .entry__Singl a::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.entry #entry_01 .entry__Singl a.pointerno {
+  opacity: 0.7;
+}
+
+main.entry #entry_01 p.anno {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+main.entry #entry_01 a.entry_bt {
+  border-radius: 3.5rem;
+  background: #f0f0f0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  position: relative;
+}
+
+main.entry #entry_01 a.entry_bt:after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.entry #entry_02 {
+  padding: 0 0 15rem;
+}
+
+main.entry #entry_02 .yellow_border {
+  border: 0.5rem solid #ffe600;
+  margin: 0 auto;
+  max-width: 88rem;
+  padding: 0 0 4rem;
+  width: 100%;
+}
+
+main.entry #entry_02 h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.5rem solid #ffe600;
+  font-size: 2.5rem;
+  padding: 2.5rem 0;
+  font-weight: bold;
+}
+
+main.entry #entry_02 h3 {
+  font-size: 2.3rem;
+  line-height: 3.4rem;
+  color: #464646;
+  font-weight: bold;
+  background: linear-gradient(transparent 60%, #ffe600 60%);
+  margin: 6rem auto 3rem;
+  text-align: center;
+  width: 48rem;
+}
+
+main.entry #entry_02 h3 span {
+  color: #ff0000;
+}
+
+main.entry #entry_02 a.entry_bt {
+  border-radius: 3.5rem;
+  background: #f0f0f0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  width: 80%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  position: relative;
+  text-align: center;
+}
+
+main.entry #entry_02 a.entry_bt:after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+/*scholarship*/
+main.scholarship .h1Block {
+  padding: 4rem 0 4rem;
+  background: url(../img/admission/entry/entry_h1bk.jpg) #fff;
+  text-align: center;
+  background-size: cover;
+}
+
+main.scholarship .h1Block h1 {
+  color: #fff;
+  font-size: 3.0rem;
+  line-height: 5rem;
+  font-weight: bold;
+  background: rgba(160, 70, 180, 1.0);
+  padding: 4rem 0;
+  width: 42rem;
+  margin: 0 auto;
+}
+
+main.scholarship #scholarship_01 {
+  padding: 0 0 10rem;
+}
+
+main.scholarship .Ablock {
+  margin: 0 auto;
+  max-width: 88rem;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+main.scholarship h2 {
+  font-size: 2.3rem;
+  color: #464646;
+  font-weight: bold;
+  margin: 0 auto 5rem;
+  text-align: center;
+  width: 100%;
+  border: 0.5rem solid #a046b4;
+  padding: 3rem 0;
+  background: #fff;
+}
+
+main.scholarship h3 {
+  font-size: 2.3rem;
+  line-height: 3.4rem;
+  color: #464646;
+  font-weight: bold;
+  background: linear-gradient(transparent 60%, #ffe600 60%);
+  margin: 0 auto 5rem;
+  text-align: center;
+  width: 74rem;
+}
+
+main.scholarship h4 {
+  font-size: 2.6rem;
+  color: #464646;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+main.scholarship .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main.scholarship #scholarship_01 .block_01 {
+  margin-bottom: 1rem;
+}
+
+main.scholarship #scholarship_01 .block_01 img.img_02 {
+  margin-top: -4.1rem;
+}
+
+main.scholarship #scholarship_01 .flex .box {
+  width: 41.5rem;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+}
+
+main.scholarship #scholarship_01 .scholarship__box .box1 {
+  width: 27.5rem;
+  padding-right: 2.5rem;
+  border-right: dashed 0.1rem #a046b4;
+}
+
+main.scholarship #scholarship_01 .scholarship__box .box1 a {
+  margin-top: 13.7rem;
+}
+
+main.scholarship #scholarship_01 .scholarship__box .box2 {
+  width: 49.0rem;
+}
+
+main.scholarship #scholarship_01 .scholarship__box .box2 p {
+  margin-top: 2rem;
+}
+
+main.scholarship .graybox {
+  background: #f0f0f0;
+  border-radius: 1.5rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+main.scholarship a.w_bt {
+  border-radius: 3.5rem;
+  background: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  position: relative;
+}
+
+main.scholarship a.w_bt::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.scholarship #scholarship_02 {
+  background: #f0f0f0;
+  padding: 10rem 0 15rem;
+}
+
+main.scholarship #scholarship_02 dl {
+  width: 41.5rem;
+  margin-bottom: 3.0rem;
+}
+
+main.scholarship #scholarship_02 dl:last-child {
+  margin-bottom: 0;
+}
+
+main.scholarship #scholarship_02 dl dt {
+  background: #a046b4;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 1.9rem 0;
+  text-align: center;
+}
+
+main.scholarship #scholarship_02 dl dd {
+  background: #fff;
+  padding: 1.9rem;
+}
+
+main.scholarship hr {
+  height: 1px;
+  border: none;
+  border-bottom: 0.1rem solid #c8c8c8;
+  margin: 5.8rem 0;
+}
+
+/*selection*/
+main.selection .h1Block {
+  padding: 8rem 0 8rem;
+  background: url(../img/admission/selection/selection_h1bk.png) #fff;
+  text-align: center;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+main.selection .h1Block h1 {
+  color: #fff;
+  font-size: 3.0rem;
+  line-height: 5rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+main.selection #selection_01 {
+  padding: 10rem 0 10rem;
+}
+
+main.selection #selection_02 {
+  padding: 10rem 0 15rem;
+  background: #f0f0f0;
+}
+
+main.selection .Ablock {
+  margin: 0 auto;
+  max-width: 88rem;
+  padding: 0;
+  width: 100%;
+}
+
+main.selection #selection_01 h2 {
+  font-size: 2.3rem;
+  line-height: 3.4rem;
+  color: #464646;
+  font-weight: bold;
+  background: linear-gradient(transparent 60%, #ffe600 60%);
+  margin: 0 auto 5rem;
+  text-align: center;
+  width: 38rem;
+}
+
+main.selection #selection_02 h2 {
+  font-size: 3.4rem;
+  color: #464646;
+  font-weight: bold;
+  margin: 0 auto 8rem;
+  text-align: center;
+  width: 100%;
+  border-top: 0.1rem solid #a046b4;
+  border-bottom: 0.1rem solid #a046b4;
+  padding: 3rem 0;
+}
+
+main.selection h3 {
+  font-size: 2.5rem;
+  color: #464646;
+  font-weight: bold;
+  margin: 0 auto 4rem;
+  position: relative;
+  padding-left: 2.8rem;
+}
+
+main.selection h3::before {
+  background: #a046b4;
+  content: "";
+  height: 2rem;
+  width: 2rem;
+  left: 0;
+  position: absolute;
+  top: 3px;
+}
+
+main.selection #selection_02 ul {
+  margin-left: -1.5rem;
+}
+
+main.selection #selection_02 ul li {
+  font-size: 1.6rem;
+  color: #464646;
+  font-weight: bold;
+  position: relative;
+  padding-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+main.selection #selection_02 ul li:before {
+  content: "";
+  position: absolute;
+  background: #464646;
+  left: 14px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  top: 0.4rem;
+}
+
+main.selection h4 {
+  font-size: 2.0rem;
+  color: #464646;
+  font-weight: bold;
+}
+
+main.selection h4 span {
+  font-size: 1.5rem;
+}
+
+main.selection .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main.selection #selection_01 .block_01 {
+  align-items: flex-end;
+}
+
+main.selection #selection_01 .block_01.w76 {
+  margin: 0 auto 4rem;
+  width: 76rem;
+}
+
+main.selection #selection_01 .block_01 img.img_02 {
+  margin-top: -4.1rem;
+}
+
+main.selection #selection_01 .flex .box {
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+}
+
+main.selection #selection_01 .flex .box p {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+main.selection #selection_01 .flex .twin {
+  width: 36.5rem;
+}
+
+main.selection #selection_01 .flex .triple {
+  width: 26.5rem;
+}
+
+main.selection #selection_01 .selection__box .box1 {
+  width: 27.5rem;
+  padding-right: 2.5rem;
+  border-right: dashed 0.1rem #a046b4;
+}
+
+main.selection #selection_01 .selection__box .box1 a {
+  margin-top: 13.7rem;
+}
+
+main.selection #selection_01 .selection__box .box2 {
+  width: 49.0rem;
+}
+
+main.selection #selection_01 .selection__box .box2 p {
+  margin-top: 2rem;
+}
+
+main.selection .graybox {
+  background: #f0f0f0;
+  border-radius: 1.5rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+main.selection a.w_bt {
+  border-radius: 3.5rem;
+  background: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+main.selection a.w_bt::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.selection a.g_bt {
+  border-radius: 3.5rem;
+  background: #f0f0f0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  position: relative;
+}
+
+main.selection a.g_bt div.mask {
+  position: absolute;
+  border-radius: 3.5rem;
+  font-weight: bold;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 5px #000;
+  font-size: 2rem;
+  background: RGBa(0, 0, 0, 0.5);
+  z-index: 990;
+  color: #fff;
+}
+
+main.selection a.nlink:hover {
+  opacity: 1;
+}
+
+main.selection a.g_bt::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.selection a.p_bt {
+  border-radius: 4rem;
+  font-size: 2.0rem;
+  font-weight: bold;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  position: relative;
+  border: 0.1rem solid #a046b4;
+}
+
+main.selection a.p_bt::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -0.5rem;
+  background: url(../img/admission/p_arrow.svg);
+  width: 1.6rem;
+  height: 1rem;
+}
+
+main.selection a.p_bt.active {
+  background: #a046b4;
+  color: #fff;
+}
+
+main.selection a.p_bt.active::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -0.5rem;
+  background: url(../img/admission/w_arrow.svg);
+  width: 1.6rem;
+  height: 1rem;
+}
+
+main.selection .active a.p_bt {
+  background: #a046b4;
+  color: #fff;
+}
+
+main.selection .active a.p_bt::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -0.5rem;
+  background: url(../img/admission/w_arrow.svg);
+  width: 1.6rem;
+  height: 1rem;
+}
+
+main.selection #selection_02 {
+  background: #f0f0f0;
+  padding: 10rem 0 15rem;
+}
+
+main.selection #selection_02 .w_block {
+  background: #fff;
+  padding: 3.5rem;
+  border-radius: 1rem;
+  position: relative;
+  margin-bottom: 5.8rem;
+}
+
+main.selection #selection_02 .w_block .mt25 {
+  margin-top: 2.5rem;
+}
+
+main.selection #selection_02 .w_block p {
+  margin-top: 2rem;
+}
+
+main.selection #selection_02 .w_block .box p.mt0 {
+  margin-top: 0;
+}
+
+main.selection #selection_02 .w_block.tri::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -3.8rem;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-style: solid;
+  border-color: #a046b4 transparent transparent transparent;
+  border-width: 18px 18px 0 18px;
+}
+
+main.selection #selection_02 .w_block .box {
+  width: 39rem;
+}
+
+main.selection #selection_02 dl {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+main.selection #selection_02 dl:last-child {
+  margin-bottom: 0;
+}
+
+main.selection #selection_02 dl dt {
+  background: #a046b4;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 0;
+  text-align: center;
+  width: 12.0rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border: 0.1rem solid#a046b4;
+  height: 7rem;
+  line-height: 7rem;
+}
+
+main.selection #selection_02 dl dd {
+  background: #fff;
+  padding: 0.9rem 1.6rem;
+  width: 69rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border: 0.1rem solid #a046b4;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+main.selection hr {
+  height: 1px;
+  border: none;
+  border-bottom: 0.1rem solid #c8c8c8;
+  margin: 5.8rem 0;
+}
+
+/*educational-loan*/
+main.educational-loan .h1Block {
+  padding: 9.4rem 0 9.6rem;
+  background: url(../img/admission/selection/selection_h1bk.png) #fff;
+  text-align: center;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+main.educational-loan p {
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+}
+
+main.educational-loan .h1Block h1 {
+  color: #fff;
+  font-size: 3.2rem;
+  line-height: 5rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+main.educational-loan #selection_01 {
+  padding: 10rem 0 0rem;
+}
+
+main.educational-loan #selection_02 {
+  padding: 10rem 0 15rem;
+  background: #f0f0f0;
+}
+
+main.educational-loan .Ablock {
+  margin: 0 auto 9.9rem;
+  max-width: 90.3rem;
+  padding: 0;
+  width: 100%;
+}
+
+main.educational-loan h2 {
+  font-size: 2.5rem;
+  color: #464646;
+  font-weight: bold;
+  margin: 0 auto 4.6rem;
+  text-align: center;
+  width: 100%;
+  border: 0.5rem solid #a046b4;
+  padding: 2.8rem 0 2.8rem;
+  background: #fff;
+}
+
+main.educational-loan h3 {
+  font-size: 2rem;
+  color: #a046b4;
+  font-weight: bold;
+  margin: 0 auto 1rem;
+  position: relative;
+  padding-left: 2.8rem;
+}
+
+main.educational-loan h3::before {
+  background: #a046b4;
+  content: "";
+  height: 1.5rem;
+  width: 1.5rem;
+  left: 0.4rem;
+  position: absolute;
+  top: 0.6rem;
+}
+
+main.educational-loan #selection_02 ul {
+  margin-left: -1.5rem;
+}
+
+main.educational-loan #selection_02 ul li {
+  font-size: 1.6rem;
+  color: #464646;
+  font-weight: bold;
+  position: relative;
+  padding-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+main.educational-loan #selection_02 ul li:before {
+  content: "";
+  position: absolute;
+  background: #464646;
+  left: 14px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  top: 0.4rem;
+}
+
+main.educational-loan h4 {
+  font-size: 2.0rem;
+  color: #464646;
+  font-weight: bold;
+}
+
+main.educational-loan h4 span {
+  font-size: 1.5rem;
+}
+
+main.educational-loan .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main.educational-loan #selection_01 .block_01 {
+  align-items: flex-end;
+  margin: 0 0 3.8rem 0;
+}
+
+main.educational-loan #selection_01 .block_01:nth-of-type(3) {
+  margin: 0 0 2.1rem 0;
+}
+
+main.educational-loan #selection_01 .block_01.w76 {
+  margin: 0 auto 4rem;
+  width: 76rem;
+}
+
+main.educational-loan #selection_01 .block_01 img.img_02 {
+  margin-top: -4.1rem;
+}
+
+main.educational-loan #selection_01 .flex .box {
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+}
+
+main.educational-loan #selection_01 .flex .box p {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+main.educational-loan #selection_01 .flex .twin {
+  width: 36.5rem;
+}
+
+main.educational-loan #selection_01 .flex .triple {
+  width: 26.5rem;
+}
+
+main.educational-loan #selection_01 .selection__box .box1 {
+  width: 27.5rem;
+  padding-right: 2.5rem;
+  border-right: dashed 0.1rem #a046b4;
+}
+
+main.educational-loan #selection_01 .selection__box .box1 a {
+  margin-top: 13.7rem;
+}
+
+main.educational-loan #selection_01 .selection__box .box2 {
+  width: 49.0rem;
+}
+
+main.educational-loan #selection_01 .selection__box .box2 p {
+  margin-top: 2rem;
+}
+
+main.educational-loan .graybox {
+  background: #f0f0f0;
+  border-radius: 1.5rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+main.educational-loan a.w_bt {
+  border-radius: 3.5rem;
+  background: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+main.educational-loan a.w_bt::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.educational-loan a.g_bt {
+  border-radius: 3.5rem;
+  background: #f0f0f0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  position: relative;
+}
+
+main.educational-loan a.g_bt::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.educational-loan a.p_bt {
+  border-radius: 4rem;
+  font-size: 2.0rem;
+  font-weight: bold;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  position: relative;
+  border: 0.1rem solid #a046b4;
+}
+
+main.educational-loan a.p_bt::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -0.5rem;
+  background: url(../img/admission/p_arrow.svg);
+  width: 1.6rem;
+  height: 1rem;
+}
+
+main.educational-loan a.p_bt.active {
+  background: #a046b4;
+  color: #fff;
+}
+
+main.educational-loan a.p_bt.active::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -0.5rem;
+  background: url(../img/admission/w_arrow.svg);
+  width: 1.6rem;
+  height: 1rem;
+}
+
+main.educational-loan .active a.p_bt {
+  background: #a046b4;
+  color: #fff;
+}
+
+main.educational-loan .active a.p_bt::after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -0.5rem;
+  background: url(../img/admission/w_arrow.svg);
+  width: 1.6rem;
+  height: 1rem;
+}
+
+main.educational-loan #selection_02 {
+  background: #fff;
+  padding: 0 0 8.3rem;
+}
+
+main.educational-loan #selection_02 .Ablock:first-of-type {
+  margin: 0 auto 4.8rem;
+}
+
+main.educational-loan #selection_02 .Ablock:nth-of-type(2),
+main.educational-loan #selection_02 .Ablock:nth-of-type(3) {
+  margin: 0 auto 5rem;
+}
+
+main.educational-loan #selection_02 .Ablock:last-of-type {
+  margin: 0 auto 0;
+}
+
+main.educational-loan #selection_02 .w_block {
+  background: #fff;
+  padding: 3.5rem;
+  border-radius: 1rem;
+  position: relative;
+  margin-bottom: 5.8rem;
+}
+
+main.educational-loan #selection_02 .w_block .mt25 {
+  margin-top: 2.5rem;
+}
+
+main.educational-loan #selection_02 .w_block p {
+  margin-top: 2rem;
+}
+
+main.educational-loan #selection_02 .w_block .box p.mt0 {
+  margin-top: 0;
+}
+
+main.educational-loan #selection_02 .w_block.tri::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -3.8rem;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-style: solid;
+  border-color: #a046b4 transparent transparent transparent;
+  border-width: 18px 18px 0 18px;
+}
+
+main.educational-loan #selection_02 .w_block .box {
+  width: 39rem;
+}
+
+main.educational-loan #selection_02 dl {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+main.educational-loan #selection_02 dl:last-child {
+  margin-bottom: 0;
+}
+
+main.educational-loan #selection_02 dl dt {
+  background: #a046b4;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 0;
+  text-align: center;
+  width: 12.0rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border: 0.1rem solid#a046b4;
+  height: 7rem;
+  line-height: 7rem;
+}
+
+main.educational-loan #selection_02 dl dd {
+  background: #fff;
+  padding: 0.9rem 1.6rem;
+  width: 69rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border: 0.1rem solid #a046b4;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+main.educational-loan #selection_02 .block_01 {
+  margin: 0 0 4.1rem 0;
+}
+
+main.educational-loan #selection_02 .block_01.topBlock {
+  margin: 0 0 1.7rem 0;
+}
+
+main.educational-loan #selection_02 .block_01:nth-of-type(2) {
+  margin: 0 0 1.6rem 0;
+}
+
+main.educational-loan #selection_02 .block_01 .orico {
+  width: 13.5rem;
+  margin: 0 0 0.7rem 0;
+}
+
+main.educational-loan #selection_02 .block_01 .cedyna {
+  width: 8.1rem;
+  margin: 0 0 1.3rem 0;
+}
+
+main.educational-loan #selection_02 .block_01 .jaccs {
+  width: 10.3rem;
+  margin: 0 0 1.3rem 0;
+}
+
+main.educational-loan #selection_02 .twoArea {
+  margin: 0 0 2.9rem 0;
+}
+
+main.educational-loan #selection_02 .twoArea a {
+  display: block;
+  width: 36.5rem;
+}
+
+main.educational-loan #selection_02 .twoArea a:hover {
+  opacity: 0.6;
+}
+
+main.educational-loan #selection_02 .twoArea h4 {
+  font-size: 1.5rem;
+  margin: 0 0 0.3rem 0;
+}
+
+main.educational-loan #selection_02 .twoArea__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+main.educational-loan #selection_02 .twoArea__flex .blueBtn {
+  width: auto;
+  background: #1580bd;
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: center;
+  position: relative;
+  padding: 1.2rem 5.7rem 1.2rem 5.4rem;
+  font-weight: bold;
+}
+
+main.educational-loan #selection_02 .twoArea__flex .pinkBtn {
+  width: auto;
+  background: #d55a97;
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: center;
+  position: relative;
+  padding: 1.2rem 4.7rem 1.2rem 2.6rem;
+  font-weight: bold;
+}
+
+main.educational-loan #selection_02 .twoArea__flex .blueBtn::after,
+main.educational-loan #selection_02 .twoArea__flex .pinkBtn::after {
+  content: "";
+  border-top: solid 0.3rem #fff;
+  border-right: solid 0.3rem #fff;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 0.3rem;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 1.5rem;
+  right: 1.8rem;
+}
+
+main.educational-loan #selection_02 .twoArea__flex .blueBtn:hover,
+main.educational-loan #selection_02 .twoArea__flex .pinkBtn:hover {
+  opacity: 0.6;
+}
+
+main.educational-loan #selection_02 .linkArea {
+  margin: 0 0 4rem 0;
+}
+
+main.educational-loan #selection_02 .linkArea .linkBtn {
+  margin: 0 0 1.6rem 0;
+}
+
+main.educational-loan hr {
+  height: 1px;
+  border: none;
+  border-bottom: 0.1rem solid #c8c8c8;
+  margin: 5.8rem 0;
+}
+
+main.educational-loan .attention {
+  margin: 0 0 1.1rem 0;
+}
+
+main.educational-loan table {
+  width: 100%;
+  margin: 0 0 1.8rem 0;
+}
+
+main.educational-loan table tr {
+  border-bottom: solid 0.1rem #646464;
+}
+
+main.educational-loan table tr:first-child {
+  border-top: solid 0.1rem #646464;
+}
+
+main.educational-loan table th {
+  background: #f0f0f0;
+  vertical-align: middle;
+  padding: 0 2rem 0 2rem;
+  text-align: left;
+  min-width: 15rem;
+}
+
+main.educational-loan table .wide {
+  min-width: 23rem;
+}
+
+main.educational-loan table td {
+  padding: 1.5rem 3rem 1.6rem 1.5rem;
+}
+
+main.educational-loan table .small {
+  font-size: 1.2rem;
+  font-weight: normal;
+  padding: 15px 23px 17px;
+}
+
+main.educational-loan table th,
+main.educational-loan table td {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main.educational-loan .linkArea {
+  margin: 0 0 4.6rem 0;
+}
+
+main.educational-loan .linkArea span {
+  font-size: 1.5rem;
+}
+
+main.educational-loan .linkBtn {
+  display: inline-block;
+  background: #ffffc8;
+  border: solid 0.1rem #464646;
+  color: #464646;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.1rem 5.6rem 1rem;
+  position: relative;
+}
+
+main.educational-loan .linkBtn::after {
+  content: "";
+  border-top: solid 0.1rem #464646;
+  border-right: solid 0.1rem #464646;
+  width: 1.7rem;
+  height: 1.7rem;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+}
+
+main.educational-loan .linkBtn:hover {
+  opacity: 0.6;
+}
+
+main.educational-loan .linkBtn.wide {
+  padding: 1.1rem 8.6rem 1rem 7.9rem;
+}
+
+main.educational-loan .memo {
+  font-size: 1.5rem;
+  margin: 0 0 0.9rem 0;
+}
+
+main.educational-loan .tel {
+  color: #a046b4;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 0 1rem;
+}
+
+/* study-abroad*/
+
+main.studyabroad .h1Block {
+  padding: 14.5rem 0;
+  background: url(../img/admission/study-abroad/studyabroad_h1bk.jpg) #fff;
+  text-align: center;
+  background-size: cover;
+}
+
+main.studyabroad .h1Block h1 {
+  color: #464646;
+  font-size: 3.0rem;
+  line-height: 5rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2.5rem 0;
+  width: 53rem;
+  margin: 0 auto;
+}
+
+main.studyabroad #studyabroad_01 {
+  padding: 0 0 6rem;
+}
+
+
+main.studyabroad .Ablock {
+  margin: 0 auto;
+  max-width: 91rem;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+
+main.studyabroad #studyabroad_01 h2 {
+  font-size: 2.3rem;
+  line-height: 3.4rem;
+  color: #464646;
+  font-weight: bold;
+  background: linear-gradient(transparent 60%, #ffe600 60%);
+  margin: 0 auto 3rem;
+  text-align: center;
+  width: 68rem;
+}
+
+main.studyabroad #studyabroad_01 .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main.studyabroad #studyabroad_01 .block_01 {
+  margin-bottom: 1rem;
+}
+
+main.studyabroad #studyabroad_01 .rcorne a {
+  border-radius: 5rem;
+  background: #f0f0f0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #464646;
+  position: relative;
+}
+
+main.studyabroad #studyabroad_01 .rcorne a:after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  /*font-family: FontAwesome;
+  content: "\f105";*/
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+main.studyabroad #studyabroad_01 .rcorne a.r1 span:before {
+  position: absolute;
+  content: url(../img/admission/ico_boshu.svg);
+  transform: scale(1);
+  /* left: 4rem; */
+  top: 50%;
+  margin-top: -2rem;
+  margin-left: -5rem;
+}
+
+main.studyabroad #studyabroad_01 .flex {
+  margin-top: 3rem;
+}
+
+main.studyabroad #studyabroad_01 .flex .blue {
+  display: flex;
+  color: #fff;
+  background: #1580bd;
+  width: 49%;
+  border-radius: 5rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main.studyabroad #studyabroad_01 .flex .pink {
+  display: flex;
+  color: #fff;
+  background: #e45aa6;
+  width: 49%;
+  border-radius: 5rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main.studyabroad #studyabroad_01 .flex a span {
+  margin-left: 4rem;
+}
+
+main.studyabroad #studyabroad_01 .flex a span em {
+  font-size: 2rem;
+}
+
+main.studyabroad #studyabroad_01 .flex a span:before {
+  position: absolute;
+  content: url(../img/admission/ico_monitor.svg);
+  transform: scale(1);
+  /* left: 4rem; */
+  top: 50%;
+  margin-top: -2.5rem;
+  margin-left: -7rem;
+}
+
+main.studyabroad #studyabroad_01 .flex a:after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+main.studyabroad #studyabroad_01 .flex .blue:after {
+  background: url(../img/admission/blue_arrow.svg);
+}
+
+main.studyabroad #studyabroad_01 .flex .pink:after {
+  background: url(../img/admission/pink_arrow.svg);
+}
+
+main.studyabroad #studyabroad_01 .coming {
+  color: #a046b4;
+  font-size: 3rem;
+  text-align: center;
+  margin: 7rem 0 7rem;
+  line-height: 1.3;
+}
+
+main.studyabroad #studyabroad_02 {
+  padding: 0 0 15rem;
+}
+
+main.studyabroad #studyabroad_02 .p_border {
+  border: 0.5rem solid #E2C6E8;
+  margin: 0 auto;
+  max-width: 88rem;
+  padding: 0 0 4rem;
+  width: 100%;
+}
+
+main.studyabroad #studyabroad_02 h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.5rem solid #E2C6E8;
+  font-size: 2.5rem;
+  padding: 2.7rem 0;
+  font-weight: bold;
+  color: #464646;
+}
+
+main.studyabroad #studyabroad_02 .block_01 {
+  padding: 5rem 0 1rem;
+}
+
+main.studyabroad #studyabroad_02 .rcorne {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto 3rem;
+  /*width: 76rem;*/
+  padding: 0 3vw;
+}
+
+main.studyabroad #studyabroad_02 .rcorne:last-child {
+  margin: 0 auto 0;
+}
+
+main.studyabroad #studyabroad_02 .rcorne a {
+  border-radius: 4rem;
+  background: #f0f0f0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 48.5%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #464646;
+  position: relative;
+  text-align: center;
+}
+
+main.studyabroad #studyabroad_02 .rcorne a:after {
+  position: absolute;
+  content: "";
+  right: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  background: url(../img/admission/arrow.svg);
+  width: 2rem;
+  height: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  main.studyabroad #studyabroad_01 .flex a span:before {
+    position: absolute;
+    content: url(../img/admission/ico_monitor.svg);
+    transform: scale(0.7);
+    /* left: 4rem; */
+    top: 50%;
+    margin-top: -2.5rem;
+    margin-left: -7rem;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .pink,
+  main.studyabroad #studyabroad_01 .flex .blue {
+    font-size: 1.6vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex a span em {
+    font-size: 2.4vw;
+  }
+
+  main.studyabroad #studyabroad_02 .rcorne a {
+    font-size: 2.1vw;
+  }
+}
+
+/***************
+sp
+***************/
+
+@media screen and (max-width: 768px) {
+  body.audi {
+    background: #fff;
+  }
+
+  body .pc {
+    display: none !important;
+  }
+
+  main.admission,
+  main.entry,
+  main.scholarship,
+  main.selection,
+  main.audition,
+  main.educational-loan,
+  main.studyabroad {
+    margin-left: 0;
+    padding-top: 4.5rem;
+  }
+
+  main.admission .Ablock,
+  main.entry .Ablock,
+  main.scholarship .Ablock,
+  main.selection .Ablock,
+  main.audition .Ablock,
+  main.educational-loan .Ablock,
+  main.studyabroad .Ablock {
+
+    width: 90%;
+    padding: 0;
+  }
+
+  /*admission*/
+  main.admission .Ablock2 {
+    width: 100%;
+    padding: 0 0 0 6vw;
+  }
+
+  main.admission .Ablock3 {
+    width: 82%;
+    padding: 0;
+  }
+
+  main.admission .h1Block_audi {
+    padding: 7vw 0 8.6vw;
+    background: url(../img/admission/admi_h1bk.jpg) #fff no-repeat center top;
+    text-align: center;
+    background-size: 120% auto;
+    border-bottom: 1px solid #c8c8c8;
+  }
+
+  main.admission .Ablock:first-child {
+    padding-bottom: 8vw;
+  }
+
+  main.admission .Ablock:last-child {
+    padding-top: 10vw;
+  }
+
+  main.admission .h1Block_audi h1 {
+    color: #464646;
+    font-size: 7vw;
+    padding-bottom: 1.8rem;
+  }
+
+  main.admission .h1Block_audi hr {
+    border-bottom: 1vw solid;
+    width: 28vw;
+    margin: 0 auto 15.8vw;
+  }
+
+  main.admission .h1Block_audi h1 span {
+    font-size: 2.4vw;
+    line-height: 2.6vw;
+  }
+
+  main.admission .h1Block_audi p {
+    font-size: 4.0vw;
+    line-height: 7.0vw;
+    text-align: justify;
+    padding: 0 5vw;
+  }
+
+  main.admission #audi_01 {
+    padding: 10vw 0;
+  }
+
+  main.admission #audi_01 .news__slider {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 100%;
+    position: relative;
+  }
+
+  main.admission #audi_01 .slider {
+    width: 768px;
+    margin: 30px auto 0;
+  }
+
+  main.admission #audi_01 .slider .slick-list {
+    padding: 0 30% 0 0 !important;
+  }
+
+  main.admission #audi_01 .slider li {
+    margin: 0 0.5%;
+  }
+
+  main.admission #audi_01 .slider li figcaption {
+    margin: 10px 0 0;
+  }
+
+  @media screen and (max-width:640px) {
+    main.admission #audi_01 .slider {
+      width: 100%;
+    }
+  }
+
+  main.admission #audi_01 .news__slider li {
+    width: 55.8vw;
+    margin: 0 2.66667vw;
+  }
+
+  main.admission #audi_01 .news__sliderImg {
+    /*  margin-bottom: 6.66667vw;*/
+    width: 100%;
+    /*  height: 68.8vw;*/
+  }
+
+  main.admission .news__slider h3 {
+    font-size: 3.2vw;
+    line-height: 4.8vw;
+    padding-left: 10.13333vw;
+    padding-right: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  main.admission #audi_01 .newsTtl {
+    margin: 0 0 3.6vw;
+  }
+
+  main.admission #audi_01 h2 {
+    font-size: 5.2vw;
+  }
+
+  main.admission #audi_01 .newsTtl a {
+    position: absolute;
+    right: 5vw;
+    bottom: 0;
+    color: #464646;
+    background: #f0f0f0;
+    border-radius: 20vw;
+    font-size: 3.2vw;
+    padding: 1.6vw 4.2vw;
+    line-height: 1;
+  }
+
+  main.admission #audi_01 .newsList {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    margin-right: 0;
+  }
+
+  main.admission #audi_01 .newsSingle {
+    display: block;
+    width: 23.4%;
+    position: relative;
+    background: #fff;
+    /*-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2rem;*/
+  }
+
+  main.admission #audi_01 .newsTxt {
+    padding: 2.5vw 0 0;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 3.3vw;
+    line-height: 5.1vw;
+  }
+
+  main.admission #audi_01 .newsImg {
+    overflow: hidden;
+    height: 33vw;
+  }
+
+  main.admission #audi_01 .newsSingle:hover .newsImg div {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+
+  main.admission #audi_01 .newsImg div {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+
+  main.admission #audi_02 {
+    padding: 7vw 0;
+    background: #f0f0f0;
+  }
+
+  main.admission #audi_02 .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.admission #audi_02 .box {
+    width: 100%;
+    background: no-repeat center/100% url(../img/admission/admi_block.png);
+    padding: 12vw 1vw 26vw 0;
+  }
+
+  main.admission #audi_02 .no img {
+    margin: -9vw auto 0;
+    width: 14.8vw;
+  }
+
+  main.admission #audi_02 img {
+    display: block;
+  }
+
+  main.admission #audi_02 h2 {
+    font-size: 7.2vw;
+    line-height: 9.8vw;
+    color: #464646;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3vw;
+    margin-top: 4.5vw;
+  }
+
+  main.admission #audi_02 p {
+    text-align: center;
+  }
+
+  main.admission #audi_02 em {
+    text-align: center;
+    background: #ffe600;
+  }
+
+  main.admission #audi_03 {
+    padding: 10vw 0 15vw;
+  }
+
+  main.admission #audi_03 ul li {
+    position: relative;
+    border-bottom: 1px solid #c8c8c8;
+    text-align: center;
+  }
+
+  main.admission #audi_03 ul li:first-child {
+    border-top: 1px solid #c8c8c8;
+  }
+
+  main.admission #audi_03 ul li a {
+    padding: 3vw 0;
+    display: block;
+    color: #464646;
+    font-size: 4.2vw;
+    font-weight: bold;
+    /*letter-spacing: -0.05em;*/
+  }
+
+  main.admission #audi_03 ul li:after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.admission #audi_03 .rcorne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3vw auto 0;
+    width: 100%;
+  }
+
+  main.admission #audi_03 .rcorne2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 6vw auto 0;
+    width: 100%;
+  }
+
+  main.admission #audi_03 .rcorne a {
+    border-radius: 9vw;
+    background: #f0f0f0;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin-bottom: 3vw;
+    line-height: 5.5vw;
+  }
+
+  main.admission #audi_03 .rcorne2 a {
+    border-radius: 9vw;
+    background: #f0f0f0;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  main.admission a:hover {
+    opacity: 0.7;
+  }
+
+  main.admission #audi_03 .rcorne a:after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.admission #audi_03 .rcorne2 a:after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.admission #audi_03 .rcorne a.r1:before {
+    position: absolute;
+    content: "";
+    left: 6vw;
+    top: 50%;
+    margin-top: -4.4vw;
+    background: url(../img/admission/ico_entry.svg) no-repeat;
+    width: 9.2vw;
+    height: 8.8vw;
+    background-size: contain;
+  }
+
+  main.admission #audi_03 .rcorne a.r2:before {
+    position: absolute;
+    content: "";
+    left: 6.5vw;
+    top: 50%;
+    margin-top: -5.4vw;
+    background: url(../img/admission/ico_dormitory.svg) no-repeat;
+    width: 9.09vw;
+    height: 10.8vw;
+    background-size: contain;
+  }
+
+  main.admission #audi_03 .rcorne a.r3:before {
+    position: absolute;
+    content: "";
+    left: 7.5vw;
+    top: 50%;
+    margin-top: -4.6vw;
+    background: url(../img/admission/ico_boshu.svg) no-repeat;
+    width: 9.2vw;
+    height: 9.2vw;
+    background-size: contain;
+  }
+
+  main.admission #audi_03 .rcorne a.r4:before {
+    position: absolute;
+    content: "";
+    left: 6vw;
+    top: 50%;
+    margin-top: -3.4vw;
+    background: url(../img/admission/ico_loan.svg) no-repeat;
+    width: 10.2vw;
+    height: 8.8vw;
+    background-size: contain;
+  }
+
+  main.admission #audi_03 .rcorne2 a.r3:before {
+    position: absolute;
+    content: "";
+    left: 7.5vw;
+    top: 50%;
+    margin-top: -4.6vw;
+    background: url(../img/admission/ico_boshu.svg) no-repeat;
+    width: 9.2vw;
+    height: 9.2vw;
+    background-size: contain;
+  }
+
+  main.admission #audi_03 .rcorne:last-child {
+    margin: 0 auto;
+  }
+
+  /* audition */
+  main.audition img.mv {
+    object-fit: cover;
+    height: 31rem;
+    max-width: none;
+  }
+
+  main.audition .h1Block_audi {
+    padding: 8.5vw 0;
+    background-size: cover;
+  }
+
+  main.audition .h1Block_audi h1 {
+    font-size: 7vw;
+    line-height: 9vw;
+  }
+
+  main.audition .h1Block_audi h1 span {
+    font-size: 4vw;
+    line-height: 6vw;
+    display: block;
+  }
+
+  main.audition #audi_01 {
+    padding: 12vw 0;
+  }
+
+  main.audition #audi_01 h2 {
+    font-size: 8.8vw;
+    line-height: 17vw;
+    padding: 1rem;
+  }
+
+  main.audition #audi_01 p {
+    font-size: 4.3vw;
+    line-height: 11.5vw;
+    font-weight: bold;
+    margin: 5vw 0 0;
+  }
+
+  main.audition #audi_02 {
+    padding: 10vw 0;
+    background-size: auto 50%;
+  }
+
+  main.audition #audi_02 h2 {
+    border: 1vw solid #fff;
+    padding: 4vw 0;
+    font-size: 5.5vw;
+  }
+
+  main.audition #audi_02 .audi__entry {
+    margin-top: 5vw;
+  }
+
+  main.audition #audi_02 .audi__entry dl {
+    display: block;
+    font-size: 4.1vw;
+  }
+
+  main.audition #audi_02 .audi__entry dl dt {
+    width: 100%;
+    margin-bottom: 1.5vw;
+  }
+
+  main.audition #audi_02 .audi__entry dl dd {
+    width: 100%;
+  }
+
+  main.audition #audi_02 p {
+    margin-top: 3vw;
+    line-height: 7vw;
+    font-size: 4.1vw;
+  }
+
+  main.audition #audi_02 p.annotation {
+    font-size: 3.1vw;
+    line-height: 5.4vw;
+  }
+
+  main.audition #audi_02 h3 {
+    margin-top: 7.8vw;
+    font-size: 5.2vw;
+  }
+
+  main.audition #audi_02 h3::before,
+  main.audition #audi_02 h3::after {
+    height: 1vw;
+  }
+
+  main.audition #audi_02 h3::before {
+    margin-right: 3vw;
+  }
+
+  main.audition #audi_02 h3::after {
+    margin-left: 3vw;
+  }
+
+  main.audition #audi_02 h4 {
+    margin: 5vw 0 0;
+    font-size: 5.5vw;
+    line-height: 8.2vw;
+  }
+
+  main.audition #audi_02 .audi__what {
+    padding-bottom: 6vw;
+    border-bottom: solid 1vw #fff;
+  }
+
+  main.audition #audi_03,
+  main.audition #audi_04,
+  main.audition #audi_05,
+  main.audition #audi_06,
+  main.audition #audi_07,
+  main.audition #audi_08,
+  main.audition #audi_09,
+  main.audition #audi_10 {
+    padding: 11vw 0;
+  }
+
+  main.audition #audi_03 h2,
+  main.audition #audi_04 h2,
+  main.audition #audi_05 h2,
+  main.audition #audi_06 h2,
+  main.audition #audi_07 h2,
+  main.audition #audi_08 h2,
+  main.audition #audi_09 h2,
+  main.audition #audi_10 h2 {
+    border-top: 1.5vw solid;
+    padding-top: 3vw;
+    font-size: 4.8vw;
+    margin-bottom: 6vw;
+  }
+
+  main.audition #audi_03 .box {
+    width: 100%;
+    padding: 5vw;
+    margin-bottom: 3vw;
+  }
+
+  main.audition #audi_04 h3,
+  main.audition #audi_04 p {
+    line-height: 6.2vw;
+    font-size: 3.4vw;
+  }
+
+  main.audition a.rcorne {
+    border-radius: 7vw;
+    font-size: 3.7vw;
+    height: 14vw;
+    margin-top: 7vw;
+    position: relative;
+  }
+
+  main.audition a.rcorne::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.audition #audi_05 h3:nth-child(n+2) {
+    margin-top: 6vw;
+  }
+
+  main.audition #audi_05 h3 {
+    font-size: 4.4vw;
+    font-weight: bold;
+    margin-bottom: 2.5vw;
+  }
+
+  main.audition #audi_08 p,
+  main.audition #audi_09 p,
+  main.audition #audi_05 p,
+  main.audition #audi_05 h4 {
+    line-height: 6.2vw;
+    font-size: 3.4vw;
+  }
+
+  main.audition #audi_05 h4:nth-child(n+2) {
+    margin-top: 4vw;
+  }
+
+  main.audition #audi_06 .audi__schedule dl dt {
+    width: 23%;
+    margin-bottom: 1.5vw;
+    font-weight: bold;
+    font-size: 3.4vw;
+    line-height: 6.2vw;
+  }
+
+  main.audition #audi_06 .audi__schedule dl dd {
+    width: 77%;
+    margin-bottom: 1.5vw;
+    font-size: 3.4vw;
+    line-height: 6.2vw;
+  }
+
+  main.audition #audi_06 h2 span {
+
+    font-weight: normal;
+    font-size: 3.6vw;
+    display: block;
+
+  }
+
+  main.audition .flex {
+    display: block;
+    flex-wrap: wrap;
+  }
+
+  main.audition .flex .img {
+    width: 100%;
+  }
+
+  main.audition .flex .l_box {
+    order: 1;
+    margin-right: 0;
+  }
+
+  main.audition .flex .text {
+    width: 100%;
+    font-size: 3.4vw;
+    line-height: 6.2vw;
+  }
+
+  main.audition .flex .r_box {
+    margin-top: 4vw;
+  }
+
+  main.audition .flex .text h3 {
+    font-size: 4.3vw;
+    line-height: 7vw;
+    margin-bottom: 2.5vw;
+  }
+
+  main.audition #audi_10 dl dt {
+    padding: 4vw 10vw;
+    position: relative;
+    font-size: 3.1vw;
+    font-weight: bold;
+  }
+
+  main.audition #audi_10 p {
+    font-size: 2.9vw;
+    line-height: 5.4vw;
+  }
+
+  main.audition .audi_bt a {
+    border-radius: 12vw;
+    font-size: 4.2vw;
+    height: 24vw;
+    text-align: center;
+    line-height: 6vw;
+    margin-bottom: 5vw;
+    width: 100%;
+  }
+
+  main.audition .audi_bt a div.mask {
+    position: absolute;
+    text-shadow: 1px 1px 5px #000;
+    font-size: 5.2vw;
+    width: 100%;
+    height: 24vw;
+    line-height: 6vw;
+    border-radius: 12vw;
+  }
+
+  main.audition .audi_bt a::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow_w.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.audition .audi_bt {
+    margin-top: 13vw;
+    width: 100%;
+  }
+
+  main.audition #audi_10 dl dd {
+    padding: 0 10vw 4vw;
+  }
+
+  /*entry*/
+  main.entry .h1Block {
+    padding: 7vw 0 7vw;
+    background: url(../img/admission/entry/entry_h1bk.jpg) #fff center;
+    text-align: center;
+    background-size: cover;
+  }
+
+  main.entry .h1Block h1 {
+    color: #464646;
+    font-size: 4.5vw;
+    line-height: 7vw;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 4vw 0;
+    width: 66vw;
+    margin: 0 auto;
+  }
+
+  main.entry #entry_01 {
+    padding: 0 0 11vw;
+  }
+
+  main.entry .Ablock {
+    margin: 0 auto;
+    max-width: 88rem;
+    padding: 0 1.5rem;
+    width: 100%;
+  }
+
+  main.entry #entry_01 h2 {
+    font-size: 4.3vw;
+    line-height: 4.4vw;
+    color: #464646;
+    font-weight: bold;
+    background: linear-gradient(transparent 40%, #ffe600 40%);
+    margin: 0 auto 8vw;
+    text-align: left;
+    width: 100%;
+    display: inline;
+  }
+
+  main.entry #entry_01 .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.entry #entry_01 .block_01 {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  main.entry #entry_01 .block_02 {
+    margin-top: 3vw;
+  }
+
+  main.entry #entry_01 .flex .box {
+    width: 45.0vw;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+  }
+
+  main.entry #entry_01 .flex .box .graybox {
+    background: #f0f0f0;
+    padding: 3.5vw;
+    height: 115vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  main.entry #entry_01 .flex .box .tri {
+    background: url(../img/admission/entry/tri.svg) no-repeat;
+    margin: 1vw auto;
+    width: 3.6rem;
+    height: 1.8rem;
+  }
+
+  main.entry #entry_01 .flex .bluebox {
+    font-size: 4.6vw;
+    font-weight: bold;
+    padding: 7vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    color: #fff;
+    background: #1580bd;
+    width: 45.0vw;
+    display: flex;
+    position: relative;
+    text-align: center;
+    line-height: 5.8vw;
+    height: 30vw;
+  }
+
+  main.entry #entry_01 .flex .bluebox.active {
+    height: 33vw;
+  }
+
+  main.entry #entry_01 .flex .bluebox.active:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #1580bd transparent transparent transparent;
+    border-width: 20px 20px 0 20px;
+  }
+
+  main.entry #entry_01 .flex .pinkbox {
+    font-size: 4.6vw;
+    font-weight: bold;
+    padding: 7vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    color: #fff;
+    background: #e45aa6;
+    width: 45.0vw;
+    display: flex;
+    position: relative;
+    text-align: center;
+    line-height: 5.8vw;
+    height: 30vw;
+  }
+
+  main.entry #entry_01 .flex .pinkbox.active {
+    height: 33vw;
+  }
+
+  main.entry #entry_01 .flex .pinkbox.active:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #e45aa6 transparent transparent transparent;
+    border-width: 20px 20px 0 20px;
+  }
+
+  main.entry #entry_01 .entry__Singl {
+    padding: 8vw 3.5vw 4vw;
+  }
+
+  main.entry #entry_01 .entry__Singl a {
+    border-radius: 5rem;
+    background: #fff;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 87vw;
+    height: 18.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin: 0 auto 4vw;
+    text-align: center;
+    line-height: 5.6vw;
+  }
+
+  main.entry #entry_01 .entry__Singl a div.mask {
+    font-size: 3.8vw;
+    line-height: 5.6vw;
+    border-radius: 5rem;
+    width: 87vw;
+    height: 18.5vw;
+  }
+
+  main.entry #entry_01 .eng,
+  main.entry #entry_01 .air {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.entry #entry_01 .eng a em {
+    color: #1580bd;
+    font-weight: bold;
+    display: contents;
+    font-size: 3.9vw;
+    letter-spacing: -0.4vw;
+  }
+
+  main.entry #entry_01 .air a em {
+    color: #e45aa6;
+    font-weight: bold;
+    display: contents;
+    font-size: 3.9vw;
+    letter-spacing: -0.4vw;
+  }
+
+  main.entry #entry_01 .entry__Singl a::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.entry #entry_01 a.entry_bt {
+    border-radius: 9vw;
+    background: #f0f0f0;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin-bottom: 3vw;
+    text-align: center;
+    line-height: 5vw;
+  }
+
+  main.entry #entry_01 a.entry_bt:after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.entry #entry_02 {
+    padding: 0 0 22vw;
+  }
+
+  main.entry #entry_02 .yellow_border {
+    border: 0.5vw solid #ffe600;
+    margin: 0 auto;
+    padding: 0 0 4vw;
+    width: 90%;
+  }
+
+  main.entry #entry_02 h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.5vw solid #ffe600;
+    font-size: 4.6vw;
+    line-height: 6vw;
+    padding: 2.5vw 0;
+    font-weight: bold;
+  }
+
+  main.entry #entry_02 h3 {
+    font-size: 4.1vw;
+    line-height: 4.4vw;
+    color: #464646;
+    font-weight: bold;
+    background: linear-gradient(transparent 60%, #ffe600 60%);
+    margin: 8vw auto 3vw;
+    text-align: center;
+    width: 90%;
+  }
+
+  main.entry #entry_02 h3 span {
+    color: #ff0000;
+  }
+
+  main.entry #entry_02 a.entry_bt {
+    border-radius: 9vw;
+    background: #f0f0f0;
+    font-size: 3.6vw;
+    font-weight: bold;
+    width: 90%;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin-bottom: 3vw;
+    text-align: center;
+    line-height: 5vw;
+  }
+
+  main.entry #entry_02 a.entry_bt:after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  /*scholarship*/
+  main.scholarship .h1Block {
+    padding: 7vw 0 7vw;
+    background-size: cover;
+  }
+
+  main.scholarship .h1Block h1 {
+    font-size: 4.5vw;
+    line-height: 7vw;
+    padding: 4vw 0;
+    width: 66vw;
+  }
+
+  main.scholarship .block_02 {
+    margin-top: 4.5vw;
+  }
+
+  main.scholarship #scholarship_01 {
+    padding: 7vw 0 11vw;
+  }
+
+  main.scholarship h2 {
+    font-size: 4.6vw;
+    color: #464646;
+    font-weight: bold;
+    margin: 0 auto 6vw;
+    text-align: center;
+    width: 100%;
+    border: 1.2vw solid #a046b4;
+    padding: 3vw 0;
+    background: #fff;
+    line-height: 6.5vw;
+  }
+
+  main.scholarship h3 {
+    font-size: 4.3vw;
+    line-height: 4.4vw;
+    color: #464646;
+    font-weight: bold;
+    background: linear-gradient(transparent 40%, #ffe600 40%);
+    margin: 0 auto 8vw;
+    text-align: left;
+    width: 100%;
+    display: inline;
+  }
+
+  main.scholarship #scholarship_01 .flex {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.scholarship #scholarship_01 .block_01 {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  main.scholarship #scholarship_01 .block_02 {
+    margin-top: 3vw;
+  }
+
+  main.scholarship #scholarship_01 .flex .box {
+    width: 45.0vw;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+  }
+
+  main.scholarship #scholarship_01 .flex .box .graybox {
+    background: #f0f0f0;
+    padding: 3.5vw;
+    height: 115vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  main.scholarship h4 {
+    font-size: 5.5vw;
+    color: #464646;
+    font-weight: bold;
+  }
+
+  main.scholarship .flex {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.scholarship #scholarship_01 .block_01 {
+    margin-bottom: 1rem;
+  }
+
+  main.scholarship #scholarship_01 .block_01 img.img_02 {
+    margin-top: -6.1vw;
+  }
+
+  main.scholarship #scholarship_01 .flex .box {
+    width: 100%;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+  }
+
+  main.scholarship #scholarship_01 .scholarship__box .box1 {
+    width: 100%;
+    padding-right: 0;
+    border-right: none;
+  }
+
+  main.scholarship #scholarship_01 .scholarship__box .box1 a {
+    margin-top: 5.7vw;
+  }
+
+  main.scholarship #scholarship_01 .scholarship__box .box2 {
+    width: 100%;
+  }
+
+  main.scholarship .graybox {
+    background: #f0f0f0;
+    border-radius: 1.5rem;
+    text-align: center;
+    padding: 3.2vw 5.6vw;
+    margin-bottom: 5vw;
+  }
+
+  main.scholarship a.w_bt {
+    border-radius: 7.5vw;
+    background: #fff;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin: 5.7vw 0 3vw;
+    text-align: center;
+    line-height: 5vw;
+  }
+
+  main.scholarship a.w_bt::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.scholarship #scholarship_02 {
+    padding: 15vw 0 28vw;
+  }
+
+  main.scholarship #scholarship_02 dl {
+    width: 100%;
+    margin-bottom: 5.2vw;
+  }
+
+  main.scholarship #scholarship_02 dl:last-child {
+    margin-bottom: 0;
+  }
+
+  main.scholarship #scholarship_02 dl dt {
+    font-size: 4.4vw;
+    padding: 3.8vw 0;
+  }
+
+  main.scholarship #scholarship_02 dl dd {
+    padding: 3.8vw;
+    font-size: 3.7vw;
+    line-height: 6.5vw;
+  }
+
+  main.scholarship hr {
+    margin: 8.5vw 0;
+  }
+
+  /*selection*/
+  main.selection .h1Block {
+    padding: 12vw 0;
+    background-size: cover;
+  }
+
+  main.selection .h1Block h1 {
+    font-size: 4.5vw;
+    line-height: 7vw;
+    padding: 0;
+  }
+
+  main.selection .block_02 {
+    margin-top: 4.5vw;
+  }
+
+  main.selection #selection_01 {
+    padding: 7vw 0 5vw;
+  }
+
+  main.selection #selection_01 .spline {
+    text-align: center;
+    line-height: 10vw;
+    margin-bottom: 7vw;
+  }
+
+  main.selection #selection_01 h2 {
+    font-size: 6.3vw;
+    line-height: 4.4vw;
+    color: #464646;
+    font-weight: bold;
+    background: linear-gradient(transparent 40%, #ffe600 40%);
+    margin: 0 auto 8vw;
+    text-align: center;
+    width: 100%;
+    display: inline;
+  }
+
+  main.selection #selection_02 h2 {
+    font-size: 6.4vw;
+    color: #464646;
+    font-weight: bold;
+    margin: 0 auto 10vw;
+    text-align: center;
+    width: 100%;
+    border-top: 3px solid #a046b4;
+    border-bottom: 3px solid #a046b4;
+    padding: 4.6vw 0;
+  }
+
+  main.selection h3 {
+    font-size: 4.5vw;
+    color: #464646;
+    font-weight: bold;
+    margin: 0 auto 4vw;
+    position: relative;
+    padding-left: 7.8vw;
+  }
+
+  main.selection h3::before {
+    background: #a046b4;
+    content: "";
+    height: 5vw;
+    width: 5vw;
+    left: 0;
+    position: absolute;
+    top: 1.5vw;
+  }
+
+  main.selection #selection_01 .flex {
+    display: block;
+  }
+
+  main.selection #selection_01 .block_01 {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  main.selection #selection_01 .block_02 {
+    margin-top: 3vw;
+  }
+
+  main.selection #selection_01 .block_01.w76 {
+    margin: 0;
+    width: 100%;
+  }
+
+  main.selection #selection_01 .flex .box {
+    width: 100%;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+  }
+
+  main.selection a.p_bt {
+    border-radius: 8vw;
+    font-size: 5vw;
+    font-weight: bold;
+    width: 100%;
+    height: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vw;
+    position: relative;
+    border: 0.1rem solid #a046b4;
+  }
+
+  main.selection #selection_01 .flex .box .graybox {
+    background: #f0f0f0;
+    padding: 3.5vw;
+    height: 115vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  main.selection h4 {
+    font-size: 4.5vw;
+    color: #464646;
+    font-weight: bold;
+  }
+
+  main.selection h4 span {
+    font-size: 3.5vw;
+  }
+
+  main.selection .flex {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.selection #selection_01 .block_01 {
+    margin-bottom: 1rem;
+  }
+
+  main.selection #selection_01 .block_01 img.img_02 {
+    margin-top: -6.1vw;
+  }
+
+  main.selection #selection_01 .flex .box {
+    width: 100%;
+    margin-bottom: 8vw;
+  }
+
+  main.selection #selection_01 .selection__box .box1 {
+    width: 100%;
+    padding-right: 0;
+    border-right: none;
+  }
+
+  main.selection #selection_01 .selection__box .box1 a {
+    margin-top: 5.7vw;
+  }
+
+  main.selection #selection_01 .selection__box .box2 {
+    width: 100%;
+  }
+
+  main.selection #selection_02 .w_block {
+    background: #fff;
+    padding: 3.5vw;
+    border-radius: 3vw;
+    position: relative;
+    margin-bottom: 9.8vw;
+  }
+
+
+  main.selection a.w_bt {
+    border-radius: 7.5vw;
+    background: #fff;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin: 5.7vw 0 9vw;
+    text-align: center;
+    line-height: 5vw;
+  }
+
+  main.selection a.w_bt::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.selection #selection_02 {
+    padding: 15vw 0 28vw;
+  }
+
+  main.selection #selection_02 ul li {
+    font-size: 3.6vw;
+    color: #464646;
+    font-weight: bold;
+    position: relative;
+    padding-left: 4rem;
+    margin-bottom: 1vw;
+    line-height: 6.7vw;
+  }
+
+  main.selection #selection_02 ul li::before {
+    content: "";
+    position: absolute;
+    background: #464646;
+    top: 0;
+    left: 4.2vw;
+    ;
+    margin-top: 1.5vw;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    line-height: 5vw;
+  }
+
+  main.selection #selection_02 .w_block {
+    background: #fff;
+    padding: 4.5vw;
+    border-radius: 3vw;
+    position: relative;
+    margin-bottom: 9.8vw;
+  }
+
+  main.selection #selection_02 .w_block .box {
+    width: 100%;
+    margin-bottom: 2.5vw;
+  }
+
+  main.selection #selection_02 .w_block p {
+    margin-top: 0vw;
+    font-size: 3.6vw;
+    line-height: 5.6vw;
+  }
+
+  main.selection #selection_02 .w_block.tri::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -7.3vw;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #a046b4 transparent transparent transparent;
+    border-width: 15px 15px 0 15px;
+  }
+
+  main.selection #selection_02 dl {
+    width: 100%;
+    margin-top: 4.5vw;
+  }
+
+  main.selection #selection_02 dl:last-child {
+    margin-bottom: 0;
+  }
+
+  main.selection #selection_02 dl dt {
+    background: #a046b4;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3.8vw;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    border-top-left-radius: 2.5vw;
+    border-top-right-radius: 2.5vw;
+    border-bottom-left-radius: 0;
+    border: 1px solid#a046b4;
+    height: 8vw;
+    line-height: 8vw;
+  }
+
+  main.selection #selection_02 dl dd {
+    background: #fff;
+    padding: 3vw 3.5vw;
+    width: 100%;
+    border-bottom-left-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+    border-top-right-radius: 0;
+    border: 0.1rem solid #a046b4;
+    font-size: 3.7vw;
+    line-height: 5.9vw;
+  }
+
+  main.selection #selection_02 dl:last-child {
+    margin-bottom: 0;
+  }
+
+  main.selection hr {
+    margin: 8.5vw 0;
+  }
+
+  main.selection a.g_bt {
+    border-radius: 7.5vw;
+    background: #f0f0f0;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.2vw;
+    position: relative;
+  }
+
+  main.selection a.g_bt::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg);
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+
+
+  /*selection*/
+  main.selection .h1Block {
+    padding: 12vw 0;
+    background-size: cover;
+  }
+
+  main.selection .h1Block h1 {
+    font-size: 4.5vw;
+    line-height: 7vw;
+    padding: 0;
+  }
+
+  main.selection .block_02 {
+    margin-top: 4.5vw;
+  }
+
+  main.selection #selection_01 {
+    padding: 7vw 0 5vw;
+  }
+
+  main.selection #selection_01 .spline {
+    text-align: center;
+    line-height: 10vw;
+    margin-bottom: 7vw;
+  }
+
+  main.selection #selection_01 h2 {
+    font-size: 6.3vw;
+    line-height: 4.4vw;
+    color: #464646;
+    font-weight: bold;
+    background: linear-gradient(transparent 40%, #ffe600 40%);
+    margin: 0 auto 8vw;
+    text-align: center;
+    width: 100%;
+    display: inline;
+  }
+
+  main.selection #selection_02 h2 {
+    font-size: 6.4vw;
+    color: #464646;
+    font-weight: bold;
+    margin: 0 auto 10vw;
+    text-align: center;
+    width: 100%;
+    border-top: 3px solid #a046b4;
+    border-bottom: 3px solid #a046b4;
+    padding: 4.6vw 0;
+  }
+
+  main.selection h3 {
+    font-size: 4.5vw;
+    color: #464646;
+    font-weight: bold;
+    margin: 0 auto 4vw;
+    position: relative;
+    padding-left: 7.8vw;
+  }
+
+  main.selection h3::before {
+    background: #a046b4;
+    content: "";
+    height: 5vw;
+    width: 5vw;
+    left: 0;
+    position: absolute;
+    top: 1.5vw;
+  }
+
+  main.selection #selection_01 .flex {
+    display: block;
+  }
+
+  main.selection #selection_01 .block_01 {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  main.selection #selection_01 .block_02 {
+    margin-top: 3vw;
+  }
+
+  main.selection #selection_01 .block_01.w76 {
+    margin: 0;
+    width: 100%;
+  }
+
+  main.selection #selection_01 .flex .box {
+    width: 100%;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+  }
+
+  main.selection a.p_bt {
+    border-radius: 8vw;
+    font-size: 5vw;
+    font-weight: bold;
+    width: 100%;
+    height: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vw;
+    position: relative;
+    border: 0.1rem solid #a046b4;
+  }
+
+  main.selection #selection_01 .flex .box .graybox {
+    background: #f0f0f0;
+    padding: 3.5vw;
+    height: 115vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  main.selection h4 {
+    font-size: 4.5vw;
+    color: #464646;
+    font-weight: bold;
+  }
+
+  main.selection h4 span {
+    font-size: 3.5vw;
+  }
+
+  main.selection .flex {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.selection #selection_01 .block_01 {
+    margin-bottom: 1rem;
+  }
+
+  main.selection #selection_01 .block_01 img.img_02 {
+    margin-top: -6.1vw;
+  }
+
+  main.selection #selection_01 .flex .box {
+    width: 100%;
+    margin-bottom: 8vw;
+  }
+
+  main.selection #selection_01 .selection__box .box1 {
+    width: 100%;
+    padding-right: 0;
+    border-right: none;
+  }
+
+  main.selection #selection_01 .selection__box .box1 a {
+    margin-top: 5.7vw;
+  }
+
+  main.selection #selection_01 .selection__box .box2 {
+    width: 100%;
+  }
+
+  main.selection #selection_02 .w_block {
+    background: #fff;
+    padding: 3.5vw;
+    border-radius: 3vw;
+    position: relative;
+    margin-bottom: 9.8vw;
+  }
+
+
+  main.selection a.w_bt {
+    border-radius: 7.5vw;
+    background: #fff;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin: 5.7vw 0 9vw;
+    text-align: center;
+    line-height: 5vw;
+  }
+
+  main.selection a.w_bt::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.selection #selection_02 {
+    padding: 15vw 0 28vw;
+  }
+
+  main.selection #selection_02 ul li {
+    font-size: 3.6vw;
+    color: #464646;
+    font-weight: bold;
+    position: relative;
+    padding-left: 4rem;
+    margin-bottom: 1vw;
+    line-height: 6.7vw;
+  }
+
+  main.selection #selection_02 ul li::before {
+    content: "";
+    position: absolute;
+    background: #464646;
+    top: 0;
+    left: 4.2vw;
+    ;
+    margin-top: 1.5vw;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    line-height: 5vw;
+  }
+
+  main.selection #selection_02 .w_block {
+    background: #fff;
+    padding: 4.5vw;
+    border-radius: 3vw;
+    position: relative;
+    margin-bottom: 9.8vw;
+  }
+
+  main.selection #selection_02 .w_block .box {
+    width: 100%;
+    margin-bottom: 2.5vw;
+  }
+
+  main.selection #selection_02 .w_block p {
+    margin-top: 0vw;
+    font-size: 3.6vw;
+    line-height: 5.6vw;
+  }
+
+  main.selection #selection_02 .w_block.tri::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -7.3vw;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #a046b4 transparent transparent transparent;
+    border-width: 15px 15px 0 15px;
+  }
+
+  main.selection #selection_02 dl {
+    width: 100%;
+    margin-top: 4.5vw;
+  }
+
+  main.selection #selection_02 dl:last-child {
+    margin-bottom: 0;
+  }
+
+  main.selection #selection_02 dl dt {
+    background: #a046b4;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3.8vw;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    border-top-left-radius: 2.5vw;
+    border-top-right-radius: 2.5vw;
+    border-bottom-left-radius: 0;
+    border: 1px solid#a046b4;
+    height: 8vw;
+    line-height: 8vw;
+  }
+
+  main.selection #selection_02 dl dd {
+    background: #fff;
+    padding: 3vw 3.5vw;
+    width: 100%;
+    border-bottom-left-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+    border-top-right-radius: 0;
+    border: 0.1rem solid #a046b4;
+    font-size: 3.7vw;
+    line-height: 5.9vw;
+  }
+
+  main.selection #selection_02 dl:last-child {
+    margin-bottom: 0;
+  }
+
+  main.selection hr {
+    margin: 8.5vw 0;
+  }
+
+  main.selection a.g_bt {
+    border-radius: 7.5vw;
+    background: #f0f0f0;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.2vw;
+    position: relative;
+  }
+
+  main.selection a.g_bt div.mask {
+    border-radius: 7.5vw;
+    height: 15vw;
+    font-size: 4.8vw;
+  }
+
+  main.selection a.g_bt::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg);
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  /*educational-loan*/
+  main.educational-loan .h1Block {
+    padding: 16vw 0;
+    background-size: cover;
+  }
+
+  main.educational-loan .h1Block h1 {
+    font-size: 5.1vw;
+    line-height: 7vw;
+    padding: 0;
+    letter-spacing: 0.62vw;
+  }
+
+  main.educational-loan .block_02 {
+    margin-top: 4.5vw;
+  }
+
+  main.educational-loan #selection_01 {
+    padding: 13vw 0 5vw;
+  }
+
+  main.educational-loan #selection_01 .spline {
+    text-align: center;
+    line-height: 10vw;
+    margin-bottom: 7vw;
+  }
+
+  main.educational-loan h2 {
+    font-size: 4.6vw;
+    color: #464646;
+    font-weight: bold;
+    margin: 0 auto 8vw;
+    text-align: center;
+    width: 100%;
+    border: 0.35rem solid #a046b4;
+    padding: 5vw 0;
+    background: #fff;
+    line-height: 6.5vw;
+  }
+
+  main.educational-loan h3 {
+    font-size: 4.3vw;
+    color: #464646;
+    font-weight: bold;
+    margin: 0 auto 1vw;
+    position: relative;
+    padding-left: 6vw;
+    color: #a046b4;
+  }
+
+  main.educational-loan h3::before {
+    background: #a046b4;
+    content: "";
+    height: 3.2vw;
+    width: 3.2vw;
+    left: 1vw;
+    position: absolute;
+    top: 2.2vw;
+  }
+
+  main.educational-loan #selection_01 .flex {
+    display: block;
+  }
+
+  main.educational-loan #selection_01 .block_01:nth-of-type(3) {
+    margin: 0 0 4vw 0;
+  }
+
+  main.educational-loan #selection_01 .block_01 {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  main.educational-loan #selection_01 .block_02 {
+    margin-top: 3vw;
+  }
+
+  main.educational-loan #selection_01 .block_01.w76 {
+    margin: 0;
+    width: 100%;
+  }
+
+  main.educational-loan #selection_01 .flex .box {
+    width: 100%;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+  }
+
+  main.educational-loan a.p_bt {
+    border-radius: 8vw;
+    font-size: 5vw;
+    font-weight: bold;
+    width: 100%;
+    height: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vw;
+    position: relative;
+    border: 0.1rem solid #a046b4;
+  }
+
+  main.educational-loan #selection_01 .flex .box .graybox {
+    background: #f0f0f0;
+    padding: 3.5vw;
+    height: 115vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  main.educational-loan h4 {
+    font-size: 4.5vw;
+    color: #464646;
+    font-weight: bold;
+  }
+
+  main.educational-loan h4 span {
+    font-size: 3.5vw;
+  }
+
+  main.educational-loan .flex {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.educational-loan #selection_01 .block_01 {
+    margin-bottom: 2rem;
+  }
+
+  main.educational-loan #selection_01 .block_01 img.img_02 {
+    margin-top: -6.1vw;
+  }
+
+  main.educational-loan #selection_01 .flex .box {
+    width: 100%;
+    margin-bottom: 8vw;
+  }
+
+  main.educational-loan #selection_01 .selection__box .box1 {
+    width: 100%;
+    padding-right: 0;
+    border-right: none;
+  }
+
+  main.educational-loan #selection_01 .selection__box .box1 a {
+    margin-top: 5.7vw;
+  }
+
+  main.educational-loan #selection_01 .selection__box .box2 {
+    width: 100%;
+  }
+
+  main.educational-loan #selection_02 .w_block {
+    background: #fff;
+    padding: 3.5vw;
+    border-radius: 3vw;
+    position: relative;
+    margin-bottom: 9.8vw;
+  }
+
+
+  main.educational-loan a.w_bt {
+    border-radius: 7.5vw;
+    background: #fff;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin: 5.7vw 0 9vw;
+    text-align: center;
+    line-height: 5vw;
+  }
+
+  main.educational-loan a.w_bt::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.educational-loan #selection_02 {
+    padding: 6vw 0 8vw;
+  }
+
+  main.educational-loan #selection_02 ul li {
+    font-size: 3.6vw;
+    color: #464646;
+    font-weight: bold;
+    position: relative;
+    padding-left: 4rem;
+    margin-bottom: 1vw;
+    line-height: 6.7vw;
+  }
+
+  main.educational-loan #selection_02 ul li::before {
+    content: "";
+    position: absolute;
+    background: #464646;
+    top: 0;
+    left: 4.2vw;
+    ;
+    margin-top: 1.5vw;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    line-height: 5vw;
+  }
+
+  main.educational-loan #selection_02 .w_block {
+    background: #fff;
+    padding: 4.5vw;
+    border-radius: 3vw;
+    position: relative;
+    margin-bottom: 9.8vw;
+  }
+
+  main.educational-loan #selection_02 .w_block .box {
+    width: 100%;
+    margin-bottom: 2.5vw;
+  }
+
+  main.educational-loan #selection_02 .w_block p {
+    margin-top: 0vw;
+    font-size: 3.6vw;
+    line-height: 5.6vw;
+  }
+
+  main.educational-loan #selection_02 .w_block.tri::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -7.3vw;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #a046b4 transparent transparent transparent;
+    border-width: 15px 15px 0 15px;
+  }
+
+  main.educational-loan #selection_02 dl {
+    width: 100%;
+    margin-top: 4.5vw;
+  }
+
+  main.educational-loan #selection_02 dl:last-child {
+    margin-bottom: 0;
+  }
+
+  main.educational-loan #selection_02 dl dt {
+    background: #a046b4;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3.8vw;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    border-top-left-radius: 2.5vw;
+    border-top-right-radius: 2.5vw;
+    border-bottom-left-radius: 0;
+    border: 1px solid#a046b4;
+    height: 8vw;
+    line-height: 8vw;
+  }
+
+  main.educational-loan #selection_02 dl dd {
+    background: #fff;
+    padding: 3vw 3.5vw;
+    width: 100%;
+    border-bottom-left-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+    border-top-right-radius: 0;
+    border: 0.1rem solid #a046b4;
+    font-size: 3.7vw;
+    line-height: 5.9vw;
+  }
+
+  main.educational-loan #selection_02 dl:last-child {
+    margin-bottom: 0;
+  }
+
+  main.educational-loan hr {
+    margin: 8.5vw 0;
+  }
+
+  main.educational-loan a.g_bt {
+    border-radius: 7.5vw;
+    background: #f0f0f0;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.2vw;
+    position: relative;
+  }
+
+  main.educational-loan p {
+    font-size: 3.4vw;
+    letter-spacing: 0.28vw;
+    line-height: 6vw;
+  }
+
+  main.educational-loan .attention {
+    margin: 0 0 3vw 0;
+  }
+
+  main.educational-loan .memo {
+    font-size: 3.5vw;
+    margin: 0 0 0.9rem 0;
+    letter-spacing: -0.13vw;
+  }
+
+  main.educational-loan a.g_bt::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg);
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.educational-loan table,
+  main.educational-loan tbody,
+  main.educational-loan tr,
+  main.educational-loan th,
+  main.educational-loan td {
+    display: block;
+    color: #464646;
+    font-size: 4vw;
+  }
+
+  main.educational-loan table th {
+    text-align: center;
+    border-bottom: solid 0.1rem #646464;
+    padding: 1.5vw 2vw;
+  }
+
+  main.educational-loan table td {
+    padding: 2vw 0;
+  }
+
+  main.educational-loan .linkBtn {
+    display: inline-block;
+    background: #ffffc8;
+    border: solid 0.1rem #464646;
+    color: #464646;
+    font-size: 4.4vw;
+    text-align: center;
+    padding: 3vw 5vw 3vw 2vw;
+    width: 100%;
+    position: relative;
+  }
+
+  main.educational-loan .linkBtn.wide {
+    padding: 3vw 5vw 3vw 2vw;
+  }
+
+  main.educational-loan .linkBtn::after {
+    width: 3.7vw;
+    height: 3.7vw;
+    top: 39%;
+    right: 4vw;
+  }
+
+  main.educational-loan .linkArea {
+    margin: 0 0 8vw 0;
+  }
+
+  main.educational-loan #selection_01 .block_01 {
+    margin-bottom: 7.8vw;
+  }
+
+  main.educational-loan .Ablock {
+    margin: 0 auto;
+  }
+
+  main.educational-loan #selection_02 .Ablock:nth-of-type(2),
+  main.educational-loan #selection_02 .Ablock:nth-of-type(3) {
+    margin: 0 auto 0;
+  }
+
+  main.educational-loan #selection_02 .linkArea .linkBtn {
+    margin: 0 0 4vw 0;
+  }
+
+  main.educational-loan #selection_02 .linkArea {
+    margin: 0 0 4vw 0;
+  }
+
+  main.educational-loan #selection_02 .block_01 {
+    margin: 0 0 4vw 0;
+  }
+
+  main.educational-loan .Ablock:first-of-type {
+    margin: 0 auto 10vw;
+  }
+
+  main.educational-loan #selection_02 .twoArea h4 {
+    font-size: 3.6vw;
+    margin: 0 0 2vw 0;
+    letter-spacing: -0.17vw;
+  }
+
+  main.educational-loan #selection_02 .twoArea__flex {
+    flex-direction: column;
+  }
+
+  main.educational-loan #selection_02 .twoArea__flex .blueBtn::after,
+  main.educational-loan #selection_02 .twoArea__flex .pinkBtn::after {
+    border-top: solid 0.2rem #fff;
+    border-right: solid 0.2rem #fff;
+    width: 3.4vw;
+    height: 3.4vw;
+    border-radius: 0.3vw;
+    top: 41%;
+    right: 4.4vw;
+  }
+
+  main.educational-loan .tel {
+    margin: 0 0 0 0;
+  }
+
+  main.educational-loan #selection_02 .twoArea__flex .blueBtn {
+    width: 100%;
+    font-size: 4.3vw;
+    padding: 4vw 4vw 4vw 0;
+    margin: 0 0 3.4vw 0;
+  }
+
+  main.educational-loan #selection_02 .twoArea__flex .pinkBtn {
+    width: 100%;
+    font-size: 4vw;
+    padding: 3vw 9vw 3vw 2vw;
+    line-height: 7vw;
+  }
+
+  main.educational-loan table .small {
+    font-size: 3.6vw;
+    font-weight: normal;
+    line-height: 7vw;
+    padding: 2.5vw 0 3.7vw;
+  }
+
+  main.educational-loan table tr:last-child {
+    border-bottom: none;
+  }
+
+  main.educational-loan #selection_02 .block_01.topBlock {
+    margin: 0 0 2vw 0;
+  }
+
+  main.educational-loan #selection_02 .twoArea a {
+    width: 100%;
+  }
+
+  main.educational-loan #selection_01 .Ablock:first-of-type {
+    margin: 0 auto 1vw;
+  }
+
+  /*studyabroad*/
+  main.studyabroad .h1Block {
+    padding: 15.5vw 0;
+    background: url(../img/admission/study-abroad/studyabroad_h1bk_sp.jpg) #fff center;
+    text-align: center;
+    background-size: cover;
+    margin-bottom: 11vw;
+  }
+
+  main.studyabroad .h1Block h1 {
+    color: #464646;
+    font-size: 4.5vw;
+    line-height: 7vw;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 4vw 0;
+    width: 66vw;
+    margin: 0 auto;
+  }
+
+  main.studyabroad #studyabroad_01 {
+    padding: 0 0 11vw;
+  }
+
+  main.studyabroad .Ablock {
+    margin: 0 auto;
+    max-width: 88rem;
+    padding: 0 1.5rem;
+    width: 100%;
+  }
+
+  main.studyabroad #studyabroad_01 .coming {
+    color: #a046b4;
+    font-size: 4.5vw;
+    text-align: center;
+    margin: 7vw 0 7vw;
+    line-height: 1.3;
+  }
+
+  main.studyabroad #studyabroad_01 h2 {
+    font-size: 4.3vw;
+    line-height: 4.4vw;
+    color: #464646;
+    font-weight: bold;
+    background: linear-gradient(transparent 40%, #ffe600 40%);
+    margin: 0 auto 8vw;
+    text-align: left;
+    width: 100%;
+    display: inline;
+  }
+
+  main.studyabroad #studyabroad_01 .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.studyabroad #studyabroad_01 .block_01 {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  main.studyabroad #studyabroad_01 .block_02 {
+    margin-top: 3vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .box {
+    width: 45.0vw;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*background-image: linear-gradient(45deg, #f00 10px, transparent 0),*/
+  }
+
+  main.studyabroad #studyabroad_01 .flex .box .graybox {
+    background: #f0f0f0;
+    padding: 3.5vw;
+    height: 115vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .box .tri {
+    background: url(../img/admission/studyabroad/tri.html) no-repeat;
+    margin: 1vw auto;
+    width: 3.6rem;
+    height: 1.8rem;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .bluebox {
+    font-size: 4.6vw;
+    font-weight: bold;
+    padding: 7vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    color: #fff;
+    background: #1580bd;
+    width: 45.0vw;
+    display: flex;
+    position: relative;
+    text-align: center;
+    line-height: 5.8vw;
+    height: 30vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .bluebox.active {
+    height: 33vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .bluebox.active:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #1580bd transparent transparent transparent;
+    border-width: 20px 20px 0 20px;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .pinkbox {
+    font-size: 4.6vw;
+    font-weight: bold;
+    padding: 7vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    color: #fff;
+    background: #e45aa6;
+    width: 45.0vw;
+    display: flex;
+    position: relative;
+    text-align: center;
+    line-height: 5.8vw;
+    height: 30vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .pinkbox.active {
+    height: 33vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .pinkbox.active:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #e45aa6 transparent transparent transparent;
+    border-width: 20px 20px 0 20px;
+  }
+
+  main.studyabroad #studyabroad_01 .studyabroad__Singl {
+    padding: 8vw 3.5vw 4vw;
+  }
+
+  main.studyabroad #studyabroad_01 .studyabroad__Singl a {
+    border-radius: 5rem;
+    background: #fff;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 87vw;
+    height: 18.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin: 0 auto 4vw;
+    text-align: center;
+    line-height: 5.6vw;
+  }
+
+  main.studyabroad #studyabroad_01 .studyabroad__Singl a div.mask {
+    font-size: 3.8vw;
+    line-height: 5.6vw;
+    border-radius: 5rem;
+    width: 87vw;
+    height: 18.5vw;
+  }
+
+  main.studyabroad #studyabroad_01 .eng,
+  main.studyabroad #studyabroad_01 .air {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main.studyabroad #studyabroad_01 .eng a em {
+    color: #1580bd;
+    font-weight: bold;
+    display: contents;
+    font-size: 3.9vw;
+    letter-spacing: -0.4vw;
+  }
+
+  main.studyabroad #studyabroad_01 .air a em {
+    color: #e45aa6;
+    font-weight: bold;
+    display: contents;
+    font-size: 3.9vw;
+    letter-spacing: -0.4vw;
+  }
+
+  main.studyabroad #studyabroad_01 .studyabroad__Singl a::after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.studyabroad #studyabroad_01 a.studyabroad_bt {
+    border-radius: 9vw;
+    background: #f0f0f0;
+    font-size: 3.8vw;
+    font-weight: bold;
+    width: 100%;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin-bottom: 3vw;
+    text-align: center;
+    line-height: 5vw;
+  }
+
+  main.studyabroad #studyabroad_01 a.studyabroad_bt:after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.studyabroad #studyabroad_02 {
+    padding: 0 0 22vw;
+  }
+
+  main.studyabroad #studyabroad_02 .yellow_border {
+    border: 0.5vw solid #ffe600;
+    margin: 0 auto;
+    padding: 0 0 4vw;
+    width: 90%;
+  }
+
+  main.studyabroad #studyabroad_02 h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.5vw solid #ffe600;
+    font-size: 4.6vw;
+    line-height: 6vw;
+    padding: 2.5vw 0;
+    font-weight: bold;
+  }
+
+  main.studyabroad #studyabroad_02 h3 {
+    font-size: 4.1vw;
+    line-height: 4.4vw;
+    color: #464646;
+    font-weight: bold;
+    background: linear-gradient(transparent 60%, #ffe600 60%);
+    margin: 8vw auto 3vw;
+    text-align: center;
+    width: 90%;
+  }
+
+  main.studyabroad #studyabroad_02 h3 span {
+    color: #ff0000;
+  }
+
+  main.studyabroad #studyabroad_02 a.studyabroad_bt {
+    border-radius: 9vw;
+    background: #f0f0f0;
+    font-size: 3.6vw;
+    font-weight: bold;
+    width: 90%;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    margin-bottom: 3vw;
+    text-align: center;
+    line-height: 5vw;
+  }
+
+  main.studyabroad #studyabroad_02 a.studyabroad_bt:after {
+    position: absolute;
+    content: "";
+    right: 5vw;
+    top: 50%;
+    margin-top: -2.3vw;
+    background: url(../img/admission/arrow.svg) no-repeat;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-size: contain;
+  }
+
+  main.studyabroad #studyabroad_01 .flex {
+    display: block;
+  }
+
+  main.studyabroad #studyabroad_01 .block_01 {
+    margin-bottom: 1rem;
+  }
+
+  main.studyabroad #studyabroad_01 .rcorne a {
+    border-radius: 11vw;
+    background: #f0f0f0;
+    font-size: 4.5vw;
+    line-height: 6.5vw;
+    font-weight: bold;
+    width: 100%;
+    height: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+  }
+
+  main.studyabroad #studyabroad_01 .rcorne a:after {
+    position: absolute;
+    content: "";
+    right: 2rem;
+    top: 50%;
+    margin-top: -1rem;
+    /*font-family: FontAwesome;
+  content: "\f105";*/
+    background: url(../img/admission/arrow.svg);
+    width: 2rem;
+    height: 2rem;
+  }
+
+  main.studyabroad #studyabroad_01 .rcorne a.r1 span:before {
+    position: absolute;
+    content: url(../img/admission/ico_boshu.svg);
+    transform: scale(1);
+    /* left: 4rem; */
+    top: 50%;
+    margin-top: -2rem;
+    margin-left: -5rem;
+  }
+
+  main.studyabroad #studyabroad_01 .flex {
+    margin-top: 5vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .blue {
+    display: flex;
+    color: #fff;
+    background: #1580bd;
+    width: 100%;
+    border-radius: 11vw;
+    font-size: 3.7vw;
+    line-height: 5.2vw;
+    font-weight: bold;
+    height: 22vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .pink {
+    display: flex;
+    color: #fff;
+    background: #e45aa6;
+    width: 100%;
+    border-radius: 11vw;
+    font-size: 3.7vw;
+    line-height: 5.2vw;
+    font-weight: bold;
+    height: 22vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  main.studyabroad #studyabroad_01 .flex a span {
+    margin-left: 5vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex a span em {
+    font-size: 4.5vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex a span:before {
+    position: absolute;
+    content: url(../img/admission/ico_monitor.svg);
+    transform: scale(0.7);
+    /* left: 4rem; */
+    top: 50%;
+    margin-top: -6.5vw;
+    margin-left: -16.5vw;
+  }
+
+  main.studyabroad #studyabroad_01 .flex a:after {
+    position: absolute;
+    content: "";
+    right: 2rem;
+    top: 50%;
+    margin-top: -1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  main.studyabroad #studyabroad_01 .flex .blue:after {
+    background: url(../img/admission/blue_arrow.svg);
+  }
+
+  main.studyabroad #studyabroad_01 .flex .pink:after {
+    background: url(../img/admission/pink_arrow.svg);
+  }
+
+  main.studyabroad #studyabroad_02 {
+    padding: 0 0 15vw;
+  }
+
+  main.studyabroad #studyabroad_02 .p_border {
+    border: 1.5vw solid #E2C6E8;
+    margin: 0 auto;
+    padding: 0 0 3vw;
+    width: 100%;
+  }
+
+  main.studyabroad #studyabroad_02 h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1.5vw solid #E2C6E8;
+    font-size: 4.7vw;
+    line-height: 7vw;
+    padding: 4.7vw 0;
+    font-weight: bold;
+    color: #464646;
+  }
+
+  main.studyabroad #studyabroad_02 .block_01 {
+    padding: 7vw 0 1vw;
+  }
+
+  main.studyabroad #studyabroad_02 .rcorne {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 5vw;
+    /* width: 76rem; */
+    padding: 0 4vw;
+  }
+
+  main.studyabroad #studyabroad_02 .rcorne:last-child {
+    margin: 0 auto 0;
+  }
+
+  main.studyabroad #studyabroad_02 .rcorne a {
+    border-radius: 8.5vw;
+    background: #f0f0f0;
+    font-size: 4.5vw;
+    line-height: 5.5vw;
+    font-weight: bold;
+    width: 100%;
+    height: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    position: relative;
+    text-align: center;
+    margin-bottom: 5vw;
+  }
+
+  main.studyabroad #studyabroad_02 .rcorne a:after {
+    position: absolute;
+    content: "";
+    right: 2rem;
+    top: 50%;
+    margin-top: -1rem;
+    background: url(../img/admission/arrow.svg);
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 68.7rem) {}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1250px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1230px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1180px) {}
